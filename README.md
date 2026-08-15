@@ -43,4 +43,8 @@ The primary-CV reference runner requires a sample-by-gene preprocessed developme
 
 ## License
 
-No software license is asserted in this bundle because the authors have not specified one in the supplied materials. Choose and add an appropriate license before making the repository public; see `LICENSE_DECISION_REQUIRED.txt`.
+## License
+
+The software and code in this repository are released under the MIT License. See the [`LICENSE`](LICENSE) file for details.
+
+Copyright © 2026 Dian Yuliati, Mohammad Isa Irawan, and Muhammad Syifa’ul Mufid.
