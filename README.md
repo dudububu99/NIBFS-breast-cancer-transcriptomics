@@ -35,7 +35,7 @@ A successful verification ends with `ARCHIVED RESULT AUDIT PASSED`.
 
 ## Full analysis prerequisites
 
-The primary-CV reference runner requires a sample-by-gene preprocessed development matrix and the fixed STRING-derived structural ranking. These large/input-dependent objects are not fabricated or reconstructed in this release. See `docs/FULL_RERUN_INPUT_REQUIREMENTS.md`.
+The primary-CV reference runner requires a sample-by-gene preprocessed development matrix and the fixed STRING-derived structural ranking. These input-dependent objects are not redistributed or reconstructed in this release; they should be obtained or generated according to the documented provenance and preprocessing requirements. See `docs/FULL_RERUN_INPUT_REQUIREMENTS.md`.
 
 ## Citation and archival metadata
 
