@@ -6,7 +6,6 @@
 
 **Version:** 1.0.0 (paper-facing release, 2026-08-14)
 
-**Final submission synchronization:** Figure 5 uses the four original ROC panels at compact manuscript display size; the final text adds only descriptive effect-size contrasts derived directly from the already reported repeated Jaccard means. No new experiment or unverified result is introduced.
 
 ## Purpose
 
