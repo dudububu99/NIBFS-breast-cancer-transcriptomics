@@ -1,3 +1,3 @@
-"""NIBFS paper-facing reproducibility package."""
+"""NIBFS reproducibility package."""
 
 __version__ = "1.0.0"

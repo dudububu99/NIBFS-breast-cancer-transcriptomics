@@ -11,7 +11,7 @@ Recommended Colab use:
     %run -i "/path/to/plot_Figure9_S9_S10_from_run_outputs.py"
 
 Optional before running:
-    PUBLICATION_PROJECT_DIR = "/content/.../NIBFS_REVIEWER_STYLE_FINAL_K20_COMPLETE"
+    PUBLICATION_PROJECT_DIR = "/content/.../NIBFS_REPRODUCIBILITY_PACKAGE"
 """
 
 from __future__ import annotations

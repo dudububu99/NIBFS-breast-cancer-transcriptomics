@@ -1,0 +1,11 @@
+NIBFS public-cleanup patch
+
+1. Copy every file/folder from this patch into the ROOT of your local GitHub repository.
+2. Choose Replace/Overwrite when Windows asks.
+3. Delete the OLD root file: NIBFS_REVIEWER_STYLE_FINAL_K20_COMPLETE.marker
+4. Confirm the NEW root file exists: NIBFS_REPRODUCIBILITY_PACKAGE.marker
+5. In GitHub Desktop, review the changes and commit them with:
+   Public repository cleanup for v1.0.0
+6. Push origin.
+
+Do not delete the hidden .git folder.

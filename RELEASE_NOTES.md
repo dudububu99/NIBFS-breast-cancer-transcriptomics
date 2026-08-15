@@ -1,4 +1,4 @@
-# Release notes — v1.0.0 paper-facing
+# Release notes — v1.0.0
 
 Date: 2026-08-15
 
@@ -7,8 +7,8 @@ This release is the curated repository intended to accompany the manuscript *Sta
 Curation actions:
 
 - normalized duplicate filenames and kept one canonical copy of each source module;
-- retained the final paper-facing source for repeated CV, transfer-safe LOCO, RWR-DEG, 1,000-permutation topology control, degree-preserving rewiring, GSE70947, and TCGA-BRCA;
-- converted the main, fold-fitted, and TCGA notebooks into repository-relative paper-facing copies and removed historical failed-resume output cells;
+- retained the analysis source for repeated CV, transfer-safe LOCO, RWR-DEG, 1,000-permutation topology control, degree-preserving rewiring, GSE70947, and TCGA-BRCA;
+- converted the main, fold-fitted, and TCGA notebooks into repository-relative analysis copies and removed obsolete recovery output cells;
 - retained exact primary fold assignments and machine-readable supplementary tables;
 - retained compact executed-output verification tables while excluding public raw downloads, backup archives, checkpoints, and the large TCGA full processed TPM matrix;
 - normalized repository release metadata to v1.0.0 without changing the scientific configuration parameters;

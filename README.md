@@ -2,34 +2,34 @@
 
 **Manuscript:** *Stability-aware feature selection with fixed-rank fusion for reproducible breast cancer gene prioritization*  
 **Authors:** Dian Yuliati, Mohammad Isa Irawan, Muhammad Syifa'ul Mufid  
-**Repository release:** 1.0.0 (paper-facing, 2026-08-15)
+**Repository release:** 1.0.0 (2026-08-15)
 
 ## Purpose
 
-This repository is the paper-facing implementation and verification archive for Network-Informed Borda Feature Selection (NIBFS). It is organized to let reviewers inspect the exact feature-selection logic, preprocessing and evaluation design, auxiliary robustness analyses, machine-readable supplementary tables, and compact archived outputs used in the manuscript.
+This repository provides the reference implementation and verification archive for Network-Informed Borda Feature Selection (NIBFS). It contains the feature-selection logic, preprocessing and evaluation workflow, robustness analyses, machine-readable supplementary tables, and compact verification outputs supporting the accompanying manuscript.
 
-The repository does **not** claim that the frozen top-20 panel is a clinically validated diagnostic or prognostic signature. It also does not claim predictive superiority over every comparator. The paper's main methodological focus is panel reproducibility under resampling and the behavior of fixed-rank fusion.
+The frozen top-20 panel is presented as a computationally prioritized candidate panel, not as a clinically validated diagnostic or prognostic signature. The study does not assert predictive superiority over all comparator methods; its primary methodological emphasis is panel reproducibility under resampling and the behavior of fixed-rank fusion.
 
 ## What is included
 
 - modular core implementation in `src/`;
-- cleaned paper-facing notebooks in `notebooks/`;
+- analysis notebooks in `notebooks/`;
 - locked analysis configuration in `config.yaml`;
-- discovery/external accession manifest in `data_accession_list.csv`;
+- discovery and external accession manifest in `data_accession_list.csv`;
 - exact 608-sample primary fold assignments and machine-readable supplementary tables in `supplementary_data/`;
 - compact verification outputs for fold-fitted preprocessing, degree-preserving rewiring, and TCGA-BRCA in `results/verification/`;
-- the manual KM Plotter RFS input used for post-selection survival context in `manual_inputs/`;
-- environment helpers, tests, archive-verification script, and a paper-to-code map.
+- the KM Plotter RFS input used for post-selection survival context in `manual_inputs/`;
+- environment helpers, tests, an archive-verification script, and a manuscript-to-code map.
 
 Raw GEO, STRING, HGNC, and GDC files are not committed. The supplied code downloads public resources or reconstructs them from public identifiers.
 
 ## Frozen top-20 panel
 
-The paper-facing frozen panel is, in rank order:
+The frozen top-20 NIBFS panel used in the manuscript is, in rank order:
 
 `CDK1, EGFR, CCNB1, BUB1B, FN1, CDC20, EZH2, STAT1, TOP2A, CAV1, RRM2, GNAI1, KIT, PPARG, CCNA2, UBE2C, FGF2, CCNB2, MAD2L1, FOXO1`.
 
-The archive verification script checks that the expected panel, TCGA analysis, and KM Plotter input agree exactly.
+The archive-verification script checks that the expected panel, TCGA analysis, and KM Plotter input agree exactly.
 
 ## Recommended environment
 
@@ -45,14 +45,14 @@ For a local Python environment:
 python -m pip install -r requirements.txt
 ```
 
-R and Bioconductor `limma` are required for fold-local differential-expression ranking. `install_environment_colab.py` installs/checks them on Colab-compatible Linux environments.
+R and Bioconductor `limma` are required for fold-local differential-expression ranking. `install_environment_colab.py` installs or checks them on Colab-compatible Linux environments.
 
 ## Core analysis
 
-The primary paper-facing path is:
+Recommended execution path:
 
-1. place/extract this repository as a single folder in Google Drive;
-2. keep `NIBFS_REVIEWER_STYLE_FINAL_K20_COMPLETE.marker` at the repository root;
+1. place or extract this repository as a single folder in Google Drive;
+2. keep `NIBFS_REPRODUCIBILITY_PACKAGE.marker` at the repository root;
 3. open `notebooks/01_main_NIBFS_core.ipynb` in Colab and run it from top to bottom.
 
 The notebook creates a timestamped `runs/NIBFS_RAW_RUN_*` directory and performs discovery ingestion, probe-to-HGNC mapping, common-gene intersection, joint quantile normalization, ComBat harmonization with class preservation, variance filtering, primary five-fold feature-selection evaluation, stability analysis, full-development frozen-panel construction, post-harmonization held-out evaluation, rank-weight sensitivity, GSE15852 evaluation, enrichment/network context, RFS integration, and frozen KAN bridge export.
@@ -63,7 +63,7 @@ The modular alternative is:
 python scripts/run_core_pipeline.py
 ```
 
-## Additional analyses reported in the paper
+## Additional analyses reported in the manuscript
 
 Run these after a completed core run. In Colab, the standalone repeated/LOCO scripts are easiest to run with `%run -i` so they can reuse active notebook objects when needed.
 
@@ -101,7 +101,7 @@ RWR_FORCE_RERUN = False
 
 ### Gene-label/topology permutation control
 
-The archived paper result uses 1,000 permutations. `permuted_topology_control_100x_V1.py` creates the initial 100-permutation run, and `permuted_topology_control_extend_100_to_1000_V3.py` extends/reuses it to 1,000.
+The archived analysis uses 1,000 permutations. `permuted_topology_control_100x_V1.py` creates the initial 100-permutation run, and `permuted_topology_control_extend_100_to_1000_V3.py` extends or reuses it to 1,000.
 
 ### Degree-preserving rewiring audit
 
@@ -122,13 +122,13 @@ GSE70947_FORCE_RERUN = False
 %run -i str(PACKAGE_DIR / "src" / "external_validation_GSE70947_V5.py")
 ```
 
-The script evaluates the frozen panel/models without feature reselection, model refitting, hyperparameter tuning, or external threshold optimization.
+The script evaluates the frozen panel and models without feature reselection, model refitting, hyperparameter tuning, or external threshold optimization.
 
 ### TCGA-BRCA RNA-seq
 
-Run `notebooks/03_TCGA_BRCA_RNAseq_external_validation.ipynb`. The reusable analysis engine is `src/tcga_brca_rnaseq_external_validation.py`. The analysis uses participant-matched primary-tumor/solid-tissue-normal STAR-Counts, converts both development microarray and TCGA RNA-seq expression to within-sample percentile rank over the shared gene universe, and evaluates the frozen panel in cross-technology rank space. External labels are not used for feature selection or model fitting.
+Run `notebooks/03_TCGA_BRCA_RNAseq_external_validation.ipynb`. The reusable analysis engine is `src/tcga_brca_rnaseq_external_validation.py`. The analysis uses participant-matched primary-tumor/solid-tissue-normal STAR-Counts, converts both development microarray and TCGA RNA-seq expression to within-sample percentile ranks over the shared gene universe, and evaluates the frozen panel in cross-technology rank space. External labels are not used for feature selection or model fitting.
 
-## Paper-facing verification
+## Verification
 
 Run:
 
@@ -136,15 +136,17 @@ Run:
 python scripts/verify_paper_archive.py
 ```
 
-The script checks frozen-panel identity, exact primary fold-assignment dimensions, fold-fitted stability values, the 100-replicate degree-preserving audit, the B=1000 topology-permutation summary, RWR-DEG reference values, external-dataset coverage, TCGA pair counts/panel coverage, and the KM Plotter panel input.
+The script checks frozen-panel identity, exact primary fold-assignment dimensions, fold-fitted stability values, the 100-replicate degree-preserving audit, the B=1000 topology-permutation summary, RWR-DEG reference values, external-dataset coverage, TCGA pair counts and panel coverage, and the KM Plotter panel input.
 
 ## Key archived values
 
-The compact verification archive includes the manuscript-facing fold-fitted mean Jaccard values: NIBFS 0.8883, DEG-only 0.7120, mRMR 0.2225, and LASSO 0.1879. It also records the 100-replicate degree-preserving audit and the paired TCGA-BRCA analysis (113 pairs / 226 samples, 20/20 frozen genes available and direction-concordant). See `results/verification/` rather than manually transcribing values from this README.
+The compact verification archive includes the manuscript-reported fold-fitted mean Jaccard values: NIBFS 0.8883, DEG-only 0.7120, mRMR 0.2225, and LASSO 0.1879. It also records the 100-replicate degree-preserving audit and the paired TCGA-BRCA analysis (113 pairs / 226 samples, with all 20 frozen genes available and direction-concordant).
+
+Machine-readable values are provided in `results/verification/`.
 
 ## Repository map
 
-See `docs/PAPER_TO_CODE_MAP.md` for a claim/analysis-to-source mapping and `docs/REPOSITORY_AUDIT.md` for the curation decisions used to build this paper-facing archive.
+See `docs/PAPER_TO_CODE_MAP.md` for a manuscript-analysis-to-source mapping and `docs/REPOSITORY_AUDIT.md` for the curation decisions used to assemble this reproducibility archive.
 
 ## Tests
 
@@ -161,4 +163,4 @@ The GEO accessions are listed in `data_accession_list.csv`. Independent microarr
 
 ## License / reuse
 
-This archive is supplied for paper review and reproducibility inspection. See `LICENSE` for the current rights notice. The authors can replace that notice with an open-source license later if they choose to permit broader reuse.
+See `LICENSE` for terms of use and redistribution.

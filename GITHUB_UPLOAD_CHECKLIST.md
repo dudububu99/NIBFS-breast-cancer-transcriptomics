@@ -9,7 +9,7 @@ Use this checklist when replacing the current GitHub repository contents.
 5. The repository root should directly contain `README.md`, `config.yaml`, `src/`, `notebooks/`, `supplementary_data/`, `results/`, `scripts/`, and `tests/`. There should not be an extra `NIBFS-reproducibility/NIBFS-reproducibility/` nesting level.
 6. Do not upload the outer ZIP file to the repository.
 7. In GitHub Desktop, review the Changes tab. Confirm that `src/` and `notebooks/` are visible.
-8. Commit with a message such as `Paper-facing NIBFS reproducibility release v1.0.0`.
+8. Commit with a message such as `NIBFS reproducibility release v1.0.0`.
 9. Click **Push origin**.
 10. Open the GitHub website and verify that `README.md`, `src/`, `notebooks/`, and `supplementary_data/` are visible at the top level.
 

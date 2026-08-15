@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify paper-facing machine-readable results and frozen-panel consistency."""
+"""Verify machine-readable manuscript results and frozen-panel consistency."""
 
 from __future__ import annotations
 

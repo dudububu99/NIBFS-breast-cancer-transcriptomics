@@ -67,7 +67,7 @@ def download_if_missing(url: str, destination: str | Path, timeout: int = 180) -
     if destination.exists() and destination.stat().st_size > 0:
         return destination
     tmp = destination.with_suffix(destination.suffix + ".part")
-    req = urllib.request.Request(url, headers={"User-Agent": "NIBFS-CBC-reviewer-package/1.0"})
+    req = urllib.request.Request(url, headers={"User-Agent": "NIBFS-reproducibility/1.0"})
     try:
         with urllib.request.urlopen(req, timeout=timeout) as response, tmp.open("wb") as handle:
             shutil.copyfileobj(response, handle)

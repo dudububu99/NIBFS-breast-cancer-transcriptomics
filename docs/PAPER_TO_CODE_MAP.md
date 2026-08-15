@@ -1,11 +1,11 @@
 # Paper-to-code map
 
-| Manuscript component | Paper-facing implementation | Compact verification data |
+| Manuscript component | Implementation | Compact verification data |
 |---|---|---|
 | Discovery preprocessing and QC | `notebooks/01_main_NIBFS_core.ipynb`, `src/preprocessing.py`, `src/quality_control.py`, `src/workflow.py` | `supplementary_data/` |
 | NIBFS / DEG-only / mRMR / LASSO | `src/feature_selection.py`, `src/modeling.py` | `supplementary_data/`, fold-fitted verification tables |
 | Primary 5-fold evaluation | `notebooks/01_main_NIBFS_core.ipynb` | `supplementary_data/Supplementary_Data_File_D1_Fold_Assignments_608.csv` |
-| Repeated 10×5 CV | `src/repeated_10x5_k20_lr_V2.py` | manuscript-facing supplementary summaries |
+| Repeated 10×5 CV | `src/repeated_10x5_k20_lr_V2.py` | supplementary summaries |
 | Training-fold-fitted preprocessing | `notebooks/02_fold_fitted_all_comparators_1x5.ipynb` | `results/verification/fold_fitted/` |
 | Transfer-safe LOCO | `src/full_transfer_safe_loco_GENELEVEL_V2.py` | `supplementary_data/Table_S4_LOCO_Eligibility.csv` and manuscript tables |
 | RWR-DEG baseline | `src/rwr_deg_network_baseline_10x5_V1.py` | `supplementary_data/Table_S2A_RWR_Comparison.csv` |
