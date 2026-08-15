@@ -1,1 +1,0 @@
-No license was specified in the supplied manuscript/package. To avoid fabricating or imposing legal terms, this release does not assign a license. Before public release, the authors should choose an appropriate software/data license and add the corresponding LICENSE file and Zenodo metadata.
