@@ -1,0 +1,106 @@
+project:
+  analysis_scope: raw_nibfs_plus_frozen_kan_bridge
+  package_version: 1.0.0-paper-facing
+  random_state: 42
+  final_k: 20
+  sensitivity_k:
+  - 10
+  - 20
+  - 30
+  - 50
+  test_size: 0.2
+  cv_folds: 5
+preprocessing:
+  mode: post_harmonization_split
+  log2_rule: max_gt_100
+  log2_threshold: 100.0
+  probe_rule: highest_variance_probe_per_gene_per_cohort
+  common_gene_rule: intersection
+  quantile_normalization: joint_discovery
+  batch_correction: neuroCombat
+  combat_preserve_class: true
+  variance_bottom_fraction: 0.1
+  split_stratify_by: Label
+quality_control:
+  robust_z_threshold: 3.5
+  correlation_heatmap_max_samples: 800
+  save_correlation_matrix: true
+  remove_flagged_samples: false
+ppi:
+  string_version: '12.0'
+  species: 9606
+  required_score: 700
+  chunk_size: 1000000
+feature_selection:
+  methods:
+  - NIBFS
+  - DEG-only
+  - mRMR
+  - LASSO
+  mrmr_candidate_size: 1000
+  lasso_C: 1.0
+  lasso_solver: saga
+  lasso_max_iter: 10000
+models:
+  methods:
+  - LR
+  - RF
+  - LightGBM
+  default_decision_threshold: 0.5
+  transfer_threshold_rule: youden_from_discovery_oof
+  rf_n_estimators: 500
+  rf_max_features: sqrt
+  lgbm_n_estimators: 500
+  lgbm_learning_rate: 0.03
+  lgbm_num_leaves: 31
+  lgbm_subsample: 0.9
+  lgbm_colsample_bytree: 0.9
+external_validation:
+  enabled: true
+  gse: GSE15852
+  platform: GPL96
+  probe_rule: highest_variance_probe_per_gene
+  normalization: external_only_quantile_normalization
+  require_complete_frozen_panel: true
+  bootstrap_iterations: 2000
+biological_interpretation:
+  enrichment_enabled: true
+  enrichment_required: true
+  enrichment_sources:
+  - GO:BP
+  - GO:MF
+  - GO:CC
+  - KEGG
+  - REAC
+  top_terms_per_source: 10
+  kmplotter_csv: manual_inputs/KMPlotter_RFS_final_k20.csv
+rank_weight_sensitivity:
+  statistical_weights:
+  - 0.25
+  - 0.5
+  - 0.75
+optional_analyses:
+  repeated_stability:
+    enabled: false
+    repeats: 10
+    folds: 5
+  repeated_prediction:
+    enabled: false
+    repeats: 10
+    classifiers:
+    - LR
+  loco:
+    enabled: false
+    mode: eligibility_preflight_only
+    note: The core run never performs LOCO and never uses the jointly harmonized matrix
+      as a LOCO test input.
+outputs:
+  save_png: true
+  save_pdf: true
+  dpi: 600
+  save_models: true
+  compact_heatmap_max_per_cohort_class: 6
+  save_full_expression_matrices: true
+  export_kan_bridge: true
+  create_evidence_zip: true
+  evidence_zip_include_raw_downloads: false

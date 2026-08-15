@@ -1,0 +1,13 @@
+{
+  "analysis": "TCGA_BRCA_RNAseq_from_archived_harmonized_matrix",
+  "development_samples": 608,
+  "external_pairs": 113,
+  "external_samples": 226,
+  "shared_gene_universe": 15619,
+  "complete_panel_coverage": true,
+  "direction_concordant_genes": 20,
+  "significant_genes_FDR_0.05": 20,
+  "bootstrap_replicates": 2000,
+  "external_labels_used_for_fitting": false,
+  "old_notebook_rerun": false
+}

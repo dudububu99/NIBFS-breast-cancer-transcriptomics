@@ -1,0 +1,21 @@
+Gene,KM_gene,Probe,HR,CI_low,CI_high,p,direction,p_numeric_for_BH,BH_q_value,Nominal_significant,BH_significant
+CDK1,CDC2,203213_at,1.68,1.52,1.86,<1e-16,Poor prognosis,1e-16,2.4444444444444443e-16,True,True
+EGFR,EGFR,1565483_at,0.89,0.77,1.04,0.14,Not significant,0.14,0.15555555555555556,False,False
+CCNB1,CCNB1,228729_at,1.53,1.31,1.78,3.8e-08,Poor prognosis,3.8e-08,6.909090909090909e-08,True,True
+BUB1B,SSK1,203755_at,1.77,1.6,1.97,<1e-16,Poor prognosis,1e-16,2.4444444444444443e-16,True,True
+FN1,FN1,212464_s_at,1.09,0.98,1.21,0.096,Not significant,0.096,0.11294117647058824,False,False
+CDC20,CDC20,202870_s_at,1.9,1.71,2.11,<1e-16,Poor prognosis,1e-16,2.4444444444444443e-16,True,True
+EZH2,EZH2,203358_s_at,1.44,1.3,1.6,1.1e-12,Poor prognosis,1.1e-12,2.2e-12,True,True
+STAT1,STAT1,209969_s_at,1.01,0.91,1.12,0.83,Not significant,0.83,0.83,False,False
+TOP2A,TOP2A,201292_at,1.53,1.39,1.7,1.1e-16,Poor prognosis,1.1e-16,2.4444444444444443e-16,True,True
+CAV1,CAV1,212097_at,0.88,0.79,0.97,0.0099,Favorable prognosis,0.0099,0.012375,True,True
+RRM2,RRM2,201890_at,1.83,1.65,2.03,<1e-16,Poor prognosis,1e-16,2.4444444444444443e-16,True,True
+GNAI1,GNAI1,227692_at,0.97,0.83,1.13,0.69,Not significant,0.69,0.7263157894736841,False,False
+KIT,PBT,205051_s_at,0.78,0.71,0.87,2.5e-06,Favorable prognosis,2.5e-06,3.846153846153846e-06,True,True
+PPARG,PPARG,208510_s_at,0.84,0.76,0.93,0.00082,Favorable prognosis,0.00082,0.0010933333333333333,True,True
+CCNA2,CCNA,213226_at,1.77,1.59,1.96,<1e-16,Poor prognosis,1e-16,2.4444444444444443e-16,True,True
+UBE2C,UBE2C,202954_at,1.73,1.56,1.92,<1e-16,Poor prognosis,1e-16,2.4444444444444443e-16,True,True
+FGF2,FGF2,204422_s_at,0.75,0.68,0.83,4.2e-08,Favorable prognosis,4.2e-08,7e-08,True,True
+CCNB2,CCNB2,202705_at,1.97,1.78,2.19,<1e-16,Poor prognosis,1e-16,2.4444444444444443e-16,True,True
+MAD2L1,MAD2L1,203362_s_at,1.75,1.58,1.94,<1e-16,Poor prognosis,1e-16,2.4444444444444443e-16,True,True
+FOXO1,FOXO1,202724_s_at,0.8,0.72,0.88,9.6e-06,Favorable prognosis,9.6e-06,1.3714285714285714e-05,True,True

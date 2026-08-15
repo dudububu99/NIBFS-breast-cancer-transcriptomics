@@ -1,0 +1,21 @@
+Gene,Probe,HR,CI_low,CI_high,BH_q_value,direction,BH_significant
+CDK1,203213_at,1.68,1.52,1.86,2.4444444444444443e-16,Poor prognosis,True
+EGFR,1565483_at,0.89,0.77,1.04,0.1555555555555555,Not significant,False
+CCNB1,228729_at,1.53,1.31,1.78,6.90909090909091e-08,Poor prognosis,True
+BUB1B,203755_at,1.77,1.6,1.97,2.4444444444444443e-16,Poor prognosis,True
+FN1,212464_s_at,1.09,0.98,1.21,0.1129411764705882,Not significant,False
+CDC20,202870_s_at,1.9,1.71,2.11,2.4444444444444443e-16,Poor prognosis,True
+EZH2,203358_s_at,1.44,1.3,1.6,2.2e-12,Poor prognosis,True
+STAT1,209969_s_at,1.01,0.91,1.12,0.83,Not significant,False
+TOP2A,201292_at,1.53,1.39,1.7,2.4444444444444443e-16,Poor prognosis,True
+CAV1,212097_at,0.88,0.79,0.97,0.012375,Favorable prognosis,True
+RRM2,201890_at,1.83,1.65,2.03,2.4444444444444443e-16,Poor prognosis,True
+GNAI1,227692_at,0.97,0.83,1.13,0.7263157894736841,Not significant,False
+KIT,205051_s_at,0.78,0.71,0.87,3.846153846153846e-06,Favorable prognosis,True
+PPARG,208510_s_at,0.84,0.76,0.93,0.0010933333333333,Favorable prognosis,True
+CCNA2,213226_at,1.77,1.59,1.96,2.4444444444444443e-16,Poor prognosis,True
+UBE2C,202954_at,1.73,1.56,1.92,2.4444444444444443e-16,Poor prognosis,True
+FGF2,204422_s_at,0.75,0.68,0.83,7e-08,Favorable prognosis,True
+CCNB2,202705_at,1.97,1.78,2.19,2.4444444444444443e-16,Poor prognosis,True
+MAD2L1,203362_s_at,1.75,1.58,1.94,2.4444444444444443e-16,Poor prognosis,True
+FOXO1,202724_s_at,0.8,0.72,0.88,1.3714285714285714e-05,Favorable prognosis,True

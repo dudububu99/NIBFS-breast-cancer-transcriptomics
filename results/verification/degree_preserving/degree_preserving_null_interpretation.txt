@@ -1,0 +1,26 @@
+DEGREE-PRESERVING NULL — INTERPRETATION
+
+Observed graph
+- Positive-degree nodes: 13684
+- Edges: 188626
+
+Executed nulls
+- Replicates: 100
+- Requested swaps per replicate: 100000
+- Minimum completed swaps: 100000
+- All node degrees preserved exactly: True
+- All topology ranks preserved exactly: True
+- Mean sampled neighbor-change fraction: 0.956320
+
+Scientific interpretation
+NIBFS uses raw or normalized node degree as its topology score. A degree-preserving
+edge rewiring changes adjacency while leaving every node degree unchanged. Therefore,
+the complete topology rank, Borda topology points, final NIBFS ranking, selected panel,
+and predictions are identical by construction when the statistical ranking is fixed.
+
+This control is useful as a formal invariance/sanity check, but it cannot provide a
+non-degenerate null distribution for NIBFS stability or ROC-AUC. The existing
+permutation that reassigns observed degree values among gene labels is the relevant
+null for testing gene-specific degree assignment. Degree-preserving rewiring becomes
+informative for adjacency-dependent methods such as RWR-DEG, shortest-path scores,
+or diffusion-based selectors.

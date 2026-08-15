@@ -1,50 +1,164 @@
 # NIBFS reproducibility repository
 
-**Manuscript:** Stability-aware feature selection with fixed-rank fusion for reproducible breast cancer gene prioritization
-
-**Authors:** Dian Yuliati, Mohammad Isa Irawan, Muhammad Syifa’ul Mufid
-
-**Version:** 1.0.0 (paper-facing release, 2026-08-14)
-
+**Manuscript:** *Stability-aware feature selection with fixed-rank fusion for reproducible breast cancer gene prioritization*  
+**Authors:** Dian Yuliati, Mohammad Isa Irawan, Muhammad Syifa'ul Mufid  
+**Repository release:** 1.0.0 (paper-facing, 2026-08-15)
 
 ## Purpose
 
-This repository is a paper-facing, auditable implementation of Network-Informed Borda Feature Selection (NIBFS) and a verification archive for the machine-readable results reported with the manuscript. It intentionally does **not** claim a cold-start reproduction from redistributed raw GEO, STRING, or TCGA data. Raw/public source data should be obtained from their original repositories using the accession identifiers documented in `docs/DATA_PROVENANCE.md`.
+This repository is the paper-facing implementation and verification archive for Network-Informed Borda Feature Selection (NIBFS). It is organized to let reviewers inspect the exact feature-selection logic, preprocessing and evaluation design, auxiliary robustness analyses, machine-readable supplementary tables, and compact archived outputs used in the manuscript.
+
+The repository does **not** claim that the frozen top-20 panel is a clinically validated diagnostic or prognostic signature. It also does not claim predictive superiority over every comparator. The paper's main methodological focus is panel reproducibility under resampling and the behavior of fixed-rank fusion.
 
 ## What is included
 
-- core NIBFS rank-fusion implementation;
-- R/limma fold-local statistical ranking script;
-- classifier configurations matching the manuscript;
-- a primary-CV reference runner that accepts a supplied preprocessed development matrix and fixed STRING ranking;
-- exact sample-level five-fold assignments for the 608 development samples;
-- machine-readable Supplementary Tables S1-S7 and Data Files D1-D2;
-- an archived-result audit that checks the headline values against those files;
-- manuscript and Supplementary Material PDFs;
-- exact LaTeX source archives for both the main manuscript and Supplementary Material.
+- modular core implementation in `src/`;
+- cleaned paper-facing notebooks in `notebooks/`;
+- locked analysis configuration in `config.yaml`;
+- discovery/external accession manifest in `data_accession_list.csv`;
+- exact 608-sample primary fold assignments and machine-readable supplementary tables in `supplementary_data/`;
+- compact verification outputs for fold-fitted preprocessing, degree-preserving rewiring, and TCGA-BRCA in `results/verification/`;
+- the manual KM Plotter RFS input used for post-selection survival context in `manual_inputs/`;
+- environment helpers, tests, archive-verification script, and a paper-to-code map.
 
-## Quick verification
+Raw GEO, STRING, HGNC, and GDC files are not committed. The supplied code downloads public resources or reconstructs them from public identifiers.
+
+## Frozen top-20 panel
+
+The paper-facing frozen panel is, in rank order:
+
+`CDK1, EGFR, CCNB1, BUB1B, FN1, CDC20, EZH2, STAT1, TOP2A, CAV1, RRM2, GNAI1, KIT, PPARG, CCNA2, UBE2C, FGF2, CCNB2, MAD2L1, FOXO1`.
+
+The archive verification script checks that the expected panel, TCGA analysis, and KM Plotter input agree exactly.
+
+## Recommended environment
+
+Google Colab is the most direct environment because the original analyses used Colab, R/limma, and Python. For the core dependencies:
+
+```bash
+python install_environment_colab.py
+```
+
+For a local Python environment:
 
 ```bash
 python -m pip install -r requirements.txt
-python scripts/01_audit_archived_results.py
-python -m pytest -q
 ```
 
-A successful verification ends with `ARCHIVED RESULT AUDIT PASSED`.
+R and Bioconductor `limma` are required for fold-local differential-expression ranking. `install_environment_colab.py` installs/checks them on Colab-compatible Linux environments.
 
-## Full analysis prerequisites
+## Core analysis
 
-The primary-CV reference runner requires a sample-by-gene preprocessed development matrix and the fixed STRING-derived structural ranking. These input-dependent objects are not redistributed or reconstructed in this release; they should be obtained or generated according to the documented provenance and preprocessing requirements. See `docs/FULL_RERUN_INPUT_REQUIREMENTS.md`.
+The primary paper-facing path is:
 
-## Citation and archival metadata
+1. place/extract this repository as a single folder in Google Drive;
+2. keep `NIBFS_REVIEWER_STYLE_FINAL_K20_COMPLETE.marker` at the repository root;
+3. open `notebooks/01_main_NIBFS_core.ipynb` in Colab and run it from top to bottom.
 
-`CITATION.cff` is provided for GitHub. `.zenodo.json` is provided for Zenodo. The Zenodo DOI and GitHub URL are intentionally absent until they are actually created.
+The notebook creates a timestamped `runs/NIBFS_RAW_RUN_*` directory and performs discovery ingestion, probe-to-HGNC mapping, common-gene intersection, joint quantile normalization, ComBat harmonization with class preservation, variance filtering, primary five-fold feature-selection evaluation, stability analysis, full-development frozen-panel construction, post-harmonization held-out evaluation, rank-weight sensitivity, GSE15852 evaluation, enrichment/network context, RFS integration, and frozen KAN bridge export.
 
-## License
+The modular alternative is:
 
-## License
+```bash
+python scripts/run_core_pipeline.py
+```
 
-The software and code in this repository are released under the MIT License. See the [`LICENSE`](LICENSE) file for details.
+## Additional analyses reported in the paper
 
-Copyright © 2026 Dian Yuliati, Mohammad Isa Irawan, and Muhammad Syifa’ul Mufid.
+Run these after a completed core run. In Colab, the standalone repeated/LOCO scripts are easiest to run with `%run -i` so they can reuse active notebook objects when needed.
+
+### Repeated 10×5 CV
+
+```python
+REPEATED_PROJECT_DIR = str(PACKAGE_DIR)
+REPEATED_MAX_NEW_FOLDS = None
+REPEATED_FORCE_RERUN = False
+%run -i str(PACKAGE_DIR / "src" / "repeated_10x5_k20_lr_V2.py")
+```
+
+### Training-fold-fitted preprocessing
+
+Run `notebooks/02_fold_fitted_all_comparators_1x5.ipynb`. It uses the latest completed core run and compares NIBFS, DEG-only, mRMR, and LASSO under fold-fitted quantile normalization, label-free ComBat transfer, variance filtering, feature selection, and model fitting.
+
+### Transfer-safe LOCO
+
+The LOCO script requires the active raw cohort objects created by notebook 01 (`all_expression`, `all_metadata`, `probe_map`, `string_edges`). It excludes the held-out cohort from representative-probe selection and all training-fitted steps and does not apply ordinary ComBat to the unseen cohort.
+
+```python
+%run -i str(PACKAGE_DIR / "src" / "full_transfer_safe_loco_GENELEVEL_V2.py")
+```
+
+### RWR-DEG network baseline
+
+Complete repeated 10×5 first so the exact repeated fold assignments exist, then run:
+
+```python
+RWR_PROJECT_DIR = str(PACKAGE_DIR)
+RWR_MAX_NEW_FOLDS = None
+RWR_FORCE_RERUN = False
+%run -i str(PACKAGE_DIR / "src" / "rwr_deg_network_baseline_10x5_V1.py")
+```
+
+### Gene-label/topology permutation control
+
+The archived paper result uses 1,000 permutations. `permuted_topology_control_100x_V1.py` creates the initial 100-permutation run, and `permuted_topology_control_extend_100_to_1000_V3.py` extends/reuses it to 1,000.
+
+### Degree-preserving rewiring audit
+
+```bash
+python scripts/run_degree_preserving_null.py \
+  --edge-file <STRING_gene_edges_eligible_genes.csv> \
+  --output-dir results/DEGREE_PRESERVING_NULL_100 \
+  --project-dir .
+```
+
+This audit is adjacency-sensitive but degree-preserving. Because NIBFS uses degree rank as its structural component, exact invariance of the topology rank and NIBFS panel under degree-preserving rewiring is expected by construction; the informative check is that adjacency changes while degree is preserved.
+
+### GSE70947
+
+```python
+GSE70947_PROJECT_DIR = str(PACKAGE_DIR)
+GSE70947_FORCE_RERUN = False
+%run -i str(PACKAGE_DIR / "src" / "external_validation_GSE70947_V5.py")
+```
+
+The script evaluates the frozen panel/models without feature reselection, model refitting, hyperparameter tuning, or external threshold optimization.
+
+### TCGA-BRCA RNA-seq
+
+Run `notebooks/03_TCGA_BRCA_RNAseq_external_validation.ipynb`. The reusable analysis engine is `src/tcga_brca_rnaseq_external_validation.py`. The analysis uses participant-matched primary-tumor/solid-tissue-normal STAR-Counts, converts both development microarray and TCGA RNA-seq expression to within-sample percentile rank over the shared gene universe, and evaluates the frozen panel in cross-technology rank space. External labels are not used for feature selection or model fitting.
+
+## Paper-facing verification
+
+Run:
+
+```bash
+python scripts/verify_paper_archive.py
+```
+
+The script checks frozen-panel identity, exact primary fold-assignment dimensions, fold-fitted stability values, the 100-replicate degree-preserving audit, the B=1000 topology-permutation summary, RWR-DEG reference values, external-dataset coverage, TCGA pair counts/panel coverage, and the KM Plotter panel input.
+
+## Key archived values
+
+The compact verification archive includes the manuscript-facing fold-fitted mean Jaccard values: NIBFS 0.8883, DEG-only 0.7120, mRMR 0.2225, and LASSO 0.1879. It also records the 100-replicate degree-preserving audit and the paired TCGA-BRCA analysis (113 pairs / 226 samples, 20/20 frozen genes available and direction-concordant). See `results/verification/` rather than manually transcribing values from this README.
+
+## Repository map
+
+See `docs/PAPER_TO_CODE_MAP.md` for a claim/analysis-to-source mapping and `docs/REPOSITORY_AUDIT.md` for the curation decisions used to build this paper-facing archive.
+
+## Tests
+
+TCGA helper smoke tests are included under `tests/`:
+
+```bash
+python -m pip install -r requirements-dev.txt
+pytest -q
+```
+
+## Data availability
+
+The GEO accessions are listed in `data_accession_list.csv`. Independent microarray evaluation uses GSE15852 and GSE70947; cross-technology evaluation uses public TCGA-BRCA RNA-seq data. Protein-protein interaction information is obtained from STRING v12.0. Public raw data are intentionally not vendored into this repository.
+
+## License / reuse
+
+This archive is supplied for paper review and reproducibility inspection. See `LICENSE` for the current rights notice. The authors can replace that notice with an open-source license later if they choose to permit broader reuse.

@@ -1,0 +1,38 @@
+{
+  "created_with": {
+    "python": "3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]",
+    "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+    "numpy": "2.0.2",
+    "pandas": "2.2.2",
+    "networkx": "3.6.1"
+  },
+  "configuration": {
+    "n_nulls": 100,
+    "swaps_per_null": 100000,
+    "max_tries_multiplier": 30,
+    "random_state": 42,
+    "sampled_nodes": 1000,
+    "save_first_n_edge_lists": 0
+  },
+  "input": {
+    "edge_file": "/content/NIBFS_degree_null_input/STRING_gene_edges_eligible_genes.csv",
+    "edge_file_sha256": "4ae43f9ab5790e9d4245d5251d078e86ae38f4382456270ab1c6b786fe626559",
+    "raw_rows": 188626,
+    "canonical_rows_before_deduplication": 188626,
+    "duplicate_undirected_rows_removed": 0,
+    "nodes_with_positive_degree": 13684,
+    "simple_undirected_edges": 188626,
+    "self_loops": 0
+  },
+  "outputs": [
+    "Figure_degree_preserving_null_audit.pdf",
+    "Figure_degree_preserving_null_audit.png",
+    "degree_preserving_null_audit_by_replicate.csv",
+    "degree_preserving_null_interpretation.txt",
+    "degree_preserving_null_summary.csv",
+    "degree_preserving_null_summary.json",
+    "manuscript_text_degree_preserving_null.txt",
+    "observed_degree_and_rank.csv",
+    "observed_edges_canonical.csv.gz"
+  ]
+}

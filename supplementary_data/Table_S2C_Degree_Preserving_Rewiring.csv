@@ -1,0 +1,2 @@
+n_nulls,swaps_per_null,random_state,sampled_nodes,n_nulls_completed,minimum_completed_swaps,maximum_completed_swaps,all_edge_counts_preserved,all_degrees_preserved_exactly,all_topology_ranks_identical,all_nibfs_panels_invariant_by_construction,mean_sampled_neighbor_change_fraction,sd_sampled_neighbor_change_fraction,scientific_status
+100,100000,42,1000,100,100000,100000,True,True,True,True,0.9563199999999996,0.0054696222608849,Adjacency changed while node degree and topology rank were preserved; NIBFS rankings were invariant by construction.

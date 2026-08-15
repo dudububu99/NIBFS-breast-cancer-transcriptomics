@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Downloaded public data and references
+runs/*/data/raw/
+runs/*/data/reference/
+data/raw/
+data/reference/
+*.part
+
+# Runtime-heavy artifacts
+runs/
+results/REPEATED_10X5_K20_LR/checkpoints/
+results/PERMUTED_TOPOLOGY_CONTROL_*/checkpoints/
+results/RWR_DEG_NETWORK_BASELINE_*/checkpoints/
+results/LOCO_FULL_TRANSFER_SAFE_GENELEVEL_V2/checkpoints/
+results/TCGA_BRCA_RNASEQ_EXTERNAL_VALIDATION/raw/
+results/TCGA_BRCA_RNASEQ_EXTERNAL_VALIDATION/reference/
+results/archives/
+
+# Large matrices/models generated during reruns
+**/harmonized_expression_matrix.csv
+**/harmonized_expression_matrix.csv.gz
+**/*paired_log2_TPM_full.csv.gz
+**/*.joblib
+
+# Temporary extracted archives
+*_UNPACK/
+*_EXTRACTED/

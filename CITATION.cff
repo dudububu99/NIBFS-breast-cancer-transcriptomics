@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility archive, please cite the accompanying manuscript."
+title: "NIBFS reproducibility repository"
+type: software
+authors:
+  - family-names: Yuliati
+    given-names: Dian
+  - family-names: Irawan
+    given-names: Mohammad Isa
+  - family-names: Mufid
+    given-names: "Muhammad Syifa'ul"
+version: 1.0.0
+date-released: 2026-08-15
+abstract: "Paper-facing implementation and verification archive for stability-aware feature selection with fixed-rank fusion for reproducible breast cancer gene prioritization."
+keywords:
+  - NIBFS
+  - breast cancer
+  - transcriptomics
+  - feature selection
+  - reproducibility
+license: other

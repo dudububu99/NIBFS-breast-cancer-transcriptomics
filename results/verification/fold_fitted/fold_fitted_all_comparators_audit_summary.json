@@ -1,0 +1,34 @@
+{
+  "completed_utc": "2026-08-02T13:06:31.323087+00:00",
+  "status": "PASS",
+  "analysis": "1x5 fold-fitted harmonization with NIBFS, DEG-only, mRMR, and LASSO",
+  "methods": [
+    "NIBFS",
+    "DEG-only",
+    "mRMR",
+    "LASSO"
+  ],
+  "classifiers": [
+    "LR",
+    "LightGBM",
+    "RF"
+  ],
+  "development_samples": 608,
+  "development_cancer": 309,
+  "development_normal": 299,
+  "common_genes_before_fold_preprocessing": 19134,
+  "external_geo_excluded": [
+    "GSE15852",
+    "GSE70947"
+  ],
+  "external_rnaseq_excluded": [
+    "TCGA-BRCA"
+  ],
+  "stability_friedman_p": 5.392610714536594e-06,
+  "best_stability_method": "NIBFS",
+  "best_stability_mean_jaccard": 0.8883116883116884,
+  "best_auc_method": "mRMR",
+  "best_auc_classifier": "RF",
+  "best_auc_mean": 0.9652848536182391,
+  "scientific_scope": "Direct comparator sensitivity under identical fold-fitted preprocessing."
+}

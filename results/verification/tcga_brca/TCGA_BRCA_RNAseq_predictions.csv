@@ -1,0 +1,905 @@
+sample_id,Pair_ID,case_id,case_submitter_id,sample_type,Label,Model,Score,Threshold,Representation,External_labels_used_for_fitting
+139c8065-f56a-45f6-bc7e-7841f85a31ae,TCGA-A7-A0CE,9d95a65b-e41d-4f93-92d4-99dce29ff40d,TCGA-A7-A0CE,Solid Tissue Normal,0,FrozenSignedPanelScore,0.05582943850438567,0.0,within-sample percentile rank,False
+9dc315ce-3b76-4754-b103-2c2580cde4ab,TCGA-A7-A0CE,9d95a65b-e41d-4f93-92d4-99dce29ff40d,TCGA-A7-A0CE,Primary Tumor,1,FrozenSignedPanelScore,0.35438888533196744,0.0,within-sample percentile rank,False
+60ee931b-d315-4c37-b913-fa46a5f206b4,TCGA-A7-A0CH,9de678e5-67ed-4453-a98b-7ac351d5d0f1,TCGA-A7-A0CH,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.0026250080030731705,0.0,within-sample percentile rank,False
+1a9f7284-9770-4936-9fa4-500698184680,TCGA-A7-A0CH,9de678e5-67ed-4453-a98b-7ac351d5d0f1,TCGA-A7-A0CH,Primary Tumor,1,FrozenSignedPanelScore,0.2631890646008067,0.0,within-sample percentile rank,False
+caca6c83-8d5f-4d85-a6a9-4ded98b71214,TCGA-A7-A0D9,17baef7c-d97d-4b98-ab53-503ef856523d,TCGA-A7-A0D9,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.04894039311095461,0.0,within-sample percentile rank,False
+c144ae50-ed29-4e27-bbee-fa81e79ac7db,TCGA-A7-A0D9,17baef7c-d97d-4b98-ab53-503ef856523d,TCGA-A7-A0D9,Primary Tumor,1,FrozenSignedPanelScore,0.22212689672834368,0.0,within-sample percentile rank,False
+e2566ada-c2bf-4c25-bcd0-9f49f2d0b4a2,TCGA-A7-A0DB,f130f376-5801-40f9-975d-a7e2f7b5670d,TCGA-A7-A0DB,Solid Tissue Normal,0,FrozenSignedPanelScore,0.08557526090018566,0.0,within-sample percentile rank,False
+e8cb34ed-67cb-48b7-83cd-621a1224e781,TCGA-A7-A0DB,f130f376-5801-40f9-975d-a7e2f7b5670d,TCGA-A7-A0DB,Primary Tumor,1,FrozenSignedPanelScore,0.2546113707663743,0.0,within-sample percentile rank,False
+5bfd69f5-406a-4b28-b4f4-a6655e03e4db,TCGA-A7-A0DC,cb9f5e50-f49d-4899-8895-9367afcc1015,TCGA-A7-A0DC,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.018879249631858625,0.0,within-sample percentile rank,False
+36cafcfc-cc5e-4203-b018-c2c949e24c12,TCGA-A7-A0DC,cb9f5e50-f49d-4899-8895-9367afcc1015,TCGA-A7-A0DC,Primary Tumor,1,FrozenSignedPanelScore,0.15394551507778986,0.0,within-sample percentile rank,False
+238e4064-4aac-4c75-a506-b19bc7f3fc3c,TCGA-A7-A13E,8c7e74e0-71ef-49b8-9217-94b8ef740ef9,TCGA-A7-A13E,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.04394967667584351,0.0,within-sample percentile rank,False
+8a790c78-8ad4-4e0b-9728-0e24cadc1f98,TCGA-A7-A13E,8c7e74e0-71ef-49b8-9217-94b8ef740ef9,TCGA-A7-A13E,Primary Tumor,1,FrozenSignedPanelScore,0.3468820026890326,0.0,within-sample percentile rank,False
+f4aaedfd-36df-4173-ae28-0a1065c39b6f,TCGA-A7-A13F,2cf68894-168b-458b-af4f-53cad72989a8,TCGA-A7-A13F,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.06329790639605608,0.0,within-sample percentile rank,False
+b36c8878-bab6-4f61-9a4e-4dcfca21391e,TCGA-A7-A13F,2cf68894-168b-458b-af4f-53cad72989a8,TCGA-A7-A13F,Primary Tumor,1,FrozenSignedPanelScore,0.39379921890005765,0.0,within-sample percentile rank,False
+2086f4ed-61fd-450c-b9de-aa7e049d154d,TCGA-A7-A13G,6cd9baf5-bbe0-4c1e-a87f-c53b3af22890,TCGA-A7-A13G,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.08657724566233435,0.0,within-sample percentile rank,False
+6a1c2fdb-18ce-40ec-af79-191b489f39a7,TCGA-A7-A13G,6cd9baf5-bbe0-4c1e-a87f-c53b3af22890,TCGA-A7-A13G,Primary Tumor,1,FrozenSignedPanelScore,0.13430757410845767,0.0,within-sample percentile rank,False
+7df59ca8-7e51-4581-9d7f-8bba0395ce17,TCGA-AC-A23H,7dcf550c-90ce-4f63-aecd-0e46897e2a3e,TCGA-AC-A23H,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.0224198092067354,0.0,within-sample percentile rank,False
+d7e3b628-d5fd-4e79-9c4a-6409330fb8a7,TCGA-AC-A23H,7dcf550c-90ce-4f63-aecd-0e46897e2a3e,TCGA-AC-A23H,Primary Tumor,1,FrozenSignedPanelScore,0.41284973429797034,0.0,within-sample percentile rank,False
+2c9b563c-6f22-4a54-a232-ce7974b30458,TCGA-AC-A2FB,02bbb632-0f7f-439d-b8f0-c86a06237424,TCGA-AC-A2FB,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.031194378641398297,0.0,within-sample percentile rank,False
+7e2ed541-38ee-473f-ac5d-3cae6f5d9a56,TCGA-AC-A2FB,02bbb632-0f7f-439d-b8f0-c86a06237424,TCGA-AC-A2FB,Primary Tumor,1,FrozenSignedPanelScore,0.2099942377873103,0.0,within-sample percentile rank,False
+25bb566a-15fd-4725-90dc-1c5f464796ac,TCGA-AC-A2FF,3ca67cd0-81da-4f68-a9fa-f1a8c013c28d,TCGA-AC-A2FF,Solid Tissue Normal,0,FrozenSignedPanelScore,0.14982233177540177,0.0,within-sample percentile rank,False
+62d4d442-98a0-4540-b22a-4acf1fbfc40b,TCGA-AC-A2FF,3ca67cd0-81da-4f68-a9fa-f1a8c013c28d,TCGA-AC-A2FF,Primary Tumor,1,FrozenSignedPanelScore,0.1927940329086369,0.0,within-sample percentile rank,False
+028490aa-d6f3-4366-821a-7cb2c604eff1,TCGA-AC-A2FM,b6b1dc9a-91f4-4b0a-afd5-62c9a90c0d5e,TCGA-AC-A2FM,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.019669953262052647,0.0,within-sample percentile rank,False
+8e391bec-541c-49dc-a0a8-5ece5f268f1f,TCGA-AC-A2FM,b6b1dc9a-91f4-4b0a-afd5-62c9a90c0d5e,TCGA-AC-A2FM,Primary Tumor,1,FrozenSignedPanelScore,0.325235290351495,0.0,within-sample percentile rank,False
+86c64ef3-451c-471e-8ad3-58985d943190,TCGA-BH-A0AU,360d1d6d-cf3e-4c78-b36f-ef5e3160aa6b,TCGA-BH-A0AU,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.030645367821243365,0.0,within-sample percentile rank,False
+9df5fb66-44da-4d92-899a-99c07cd23fff,TCGA-BH-A0AU,360d1d6d-cf3e-4c78-b36f-ef5e3160aa6b,TCGA-BH-A0AU,Primary Tumor,1,FrozenSignedPanelScore,0.323418592739612,0.0,within-sample percentile rank,False
+7242979b-b467-47f4-b351-cdebbfff32e0,TCGA-BH-A0AY,93ed6066-b567-4e1c-ab81-23370f9d3452,TCGA-BH-A0AY,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.0328638197067674,0.0,within-sample percentile rank,False
+7f00169e-2572-4158-a453-ccec33cd2159,TCGA-BH-A0AY,93ed6066-b567-4e1c-ab81-23370f9d3452,TCGA-BH-A0AY,Primary Tumor,1,FrozenSignedPanelScore,0.2947371790767655,0.0,within-sample percentile rank,False
+6731ddd7-054f-4faa-9cfb-d8ec938c5f7d,TCGA-BH-A0AZ,518f231c-f5f9-4a39-a97b-7fd5666d3e50,TCGA-BH-A0AZ,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.023919585120686336,0.0,within-sample percentile rank,False
+aafc7bc4-1e57-4df9-9bad-a04a4d9edebd,TCGA-BH-A0AZ,518f231c-f5f9-4a39-a97b-7fd5666d3e50,TCGA-BH-A0AZ,Primary Tumor,1,FrozenSignedPanelScore,0.2004609770151738,0.0,within-sample percentile rank,False
+9a81af95-30f8-45b1-bbda-ca5c7a91c5c5,TCGA-BH-A0B3,18eb4dfc-556f-4bf3-a411-4780209ed1e0,TCGA-BH-A0B3,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.016380690185031077,0.0,within-sample percentile rank,False
+fc1f0ad4-8412-4143-8ebf-fa6592f396e9,TCGA-BH-A0B3,18eb4dfc-556f-4bf3-a411-4780209ed1e0,TCGA-BH-A0B3,Primary Tumor,1,FrozenSignedPanelScore,0.4089394327421729,0.0,within-sample percentile rank,False
+499a5bbb-9c48-4a4a-8472-d6fa35b6a308,TCGA-BH-A0B5,9da462b0-93c2-4305-89f6-7199a30399a7,TCGA-BH-A0B5,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.0769303412510404,0.0,within-sample percentile rank,False
+a0de3018-8916-4e06-8ba1-beb1d218e30e,TCGA-BH-A0B5,9da462b0-93c2-4305-89f6-7199a30399a7,TCGA-BH-A0B5,Primary Tumor,1,FrozenSignedPanelScore,0.37199564632819004,0.0,within-sample percentile rank,False
+ab96b212-ab38-4e27-8c61-5eef673a0798,TCGA-BH-A0B7,214a4507-d974-4b3e-8525-7408fccc6a0f,TCGA-BH-A0B7,Solid Tissue Normal,0,FrozenSignedPanelScore,0.033542480312440004,0.0,within-sample percentile rank,False
+45c79141-a125-4305-b1b7-c838de1af8a3,TCGA-BH-A0B7,214a4507-d974-4b3e-8525-7408fccc6a0f,TCGA-BH-A0B7,Primary Tumor,1,FrozenSignedPanelScore,0.3125696267366669,0.0,within-sample percentile rank,False
+f62006a0-500c-46dc-ab01-27550680494e,TCGA-BH-A0B8,d3a75976-67d3-40fa-9f6f-cf2a3d7b773c,TCGA-BH-A0B8,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.07199724694282605,0.0,within-sample percentile rank,False
+3f6f1066-37f9-464d-872a-f1390eb36f6e,TCGA-BH-A0B8,d3a75976-67d3-40fa-9f6f-cf2a3d7b773c,TCGA-BH-A0B8,Primary Tumor,1,FrozenSignedPanelScore,0.2967587553620591,0.0,within-sample percentile rank,False
+866a5298-c51c-44a6-b2c0-511e63629829,TCGA-BH-A0BA,49dc3e68-6206-4f16-969f-a758cc7be8ed,TCGA-BH-A0BA,Solid Tissue Normal,0,FrozenSignedPanelScore,0.02312087841731227,0.0,within-sample percentile rank,False
+992d3519-cd51-4f48-880c-81fef52be1bf,TCGA-BH-A0BA,49dc3e68-6206-4f16-969f-a758cc7be8ed,TCGA-BH-A0BA,Primary Tumor,1,FrozenSignedPanelScore,0.23814584800563415,0.0,within-sample percentile rank,False
+09733af3-d6fc-44a4-907e-16581fc48611,TCGA-BH-A0BC,327a2395-85c8-42e1-9638-8e037a1723ed,TCGA-BH-A0BC,Solid Tissue Normal,0,FrozenSignedPanelScore,0.01664319098533834,0.0,within-sample percentile rank,False
+e586a2b3-1132-45db-9283-dc318653a09f,TCGA-BH-A0BC,327a2395-85c8-42e1-9638-8e037a1723ed,TCGA-BH-A0BC,Primary Tumor,1,FrozenSignedPanelScore,0.31472085280747797,0.0,within-sample percentile rank,False
+c585bd29-35d3-4b6e-8142-f16479f89ab9,TCGA-BH-A0BJ,d6f911b5-e895-43f8-8f86-0ac2f1bc6fae,TCGA-BH-A0BJ,Solid Tissue Normal,0,FrozenSignedPanelScore,0.04441705614956144,0.0,within-sample percentile rank,False
+d1991ebd-1cd1-4c2d-ac99-2a6ecd3f90f1,TCGA-BH-A0BJ,d6f911b5-e895-43f8-8f86-0ac2f1bc6fae,TCGA-BH-A0BJ,Primary Tumor,1,FrozenSignedPanelScore,0.2117004929893079,0.0,within-sample percentile rank,False
+bca287af-e08b-4c8f-8076-e7e641b9d2fb,TCGA-BH-A0BM,c2aeee6c-ba10-4cf9-b560-c739580f7bf3,TCGA-BH-A0BM,Solid Tissue Normal,0,FrozenSignedPanelScore,0.030475702669825223,0.0,within-sample percentile rank,False
+5423b7f8-d2bb-47c8-9af8-3d3e1276888c,TCGA-BH-A0BM,c2aeee6c-ba10-4cf9-b560-c739580f7bf3,TCGA-BH-A0BM,Primary Tumor,1,FrozenSignedPanelScore,0.03815865292272234,0.0,within-sample percentile rank,False
+ced0af4b-e977-4399-b3bc-0a98b1c9817f,TCGA-BH-A0BQ,b3bb8fd6-ee54-4813-b042-2bbe70115382,TCGA-BH-A0BQ,Solid Tissue Normal,0,FrozenSignedPanelScore,0.03459568474294127,0.0,within-sample percentile rank,False
+18dddb4e-11d6-4fe7-b44a-48342374a5b1,TCGA-BH-A0BQ,b3bb8fd6-ee54-4813-b042-2bbe70115382,TCGA-BH-A0BQ,Primary Tumor,1,FrozenSignedPanelScore,0.20041615980536526,0.0,within-sample percentile rank,False
+a6ab4a8e-82f5-49a1-8264-36d415366424,TCGA-BH-A0BS,2b22db1d-54a1-4b9e-a86e-a174cf51d95c,TCGA-BH-A0BS,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.013281900249695893,0.0,within-sample percentile rank,False
+2f125802-32af-40b6-b4c8-4018740ccee9,TCGA-BH-A0BS,2b22db1d-54a1-4b9e-a86e-a174cf51d95c,TCGA-BH-A0BS,Primary Tumor,1,FrozenSignedPanelScore,0.3095108521672322,0.0,within-sample percentile rank,False
+ac1e8a8e-b6e8-48f3-ba5b-1baa4272a6c7,TCGA-BH-A0BT,a32cb96a-78bf-456e-a6ab-2d47b2c67ad4,TCGA-BH-A0BT,Solid Tissue Normal,0,FrozenSignedPanelScore,0.011937383955438896,0.0,within-sample percentile rank,False
+7f7d8229-3daf-48be-bd16-ffe4314528b1,TCGA-BH-A0BT,a32cb96a-78bf-456e-a6ab-2d47b2c67ad4,TCGA-BH-A0BT,Primary Tumor,1,FrozenSignedPanelScore,0.23878769447467824,0.0,within-sample percentile rank,False
+21b88cba-4c07-4a15-9794-a981d2875415,TCGA-BH-A0BV,87f03d04-e651-4a6e-aea6-1c946aa46202,TCGA-BH-A0BV,Solid Tissue Normal,0,FrozenSignedPanelScore,0.05296433830590945,0.0,within-sample percentile rank,False
+ce3c01d9-e8c7-4bd6-84f9-741f38b07267,TCGA-BH-A0BV,87f03d04-e651-4a6e-aea6-1c946aa46202,TCGA-BH-A0BV,Primary Tumor,1,FrozenSignedPanelScore,0.31840226647032455,0.0,within-sample percentile rank,False
+d03b3d7b-3629-4fde-a47a-3184f67236eb,TCGA-BH-A0BW,5d1d00c6-fcae-479e-ae1e-de76efd41d98,TCGA-BH-A0BW,Solid Tissue Normal,0,FrozenSignedPanelScore,0.19282764581599332,0.0,within-sample percentile rank,False
+dbeeddc1-d149-46f7-91ff-d057f8c6bffb,TCGA-BH-A0BW,5d1d00c6-fcae-479e-ae1e-de76efd41d98,TCGA-BH-A0BW,Primary Tumor,1,FrozenSignedPanelScore,0.33510468019719575,0.0,within-sample percentile rank,False
+e995932f-9ba3-459d-ae09-1f2f0b04aad4,TCGA-BH-A0BZ,4a032bad-e726-48f2-8f39-e3acc109cc91,TCGA-BH-A0BZ,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.05471861194698764,0.0,within-sample percentile rank,False
+55906ee0-a385-4ec9-8515-90ab613eca35,TCGA-BH-A0BZ,4a032bad-e726-48f2-8f39-e3acc109cc91,TCGA-BH-A0BZ,Primary Tumor,1,FrozenSignedPanelScore,0.38463890133811385,0.0,within-sample percentile rank,False
+d84a5349-7473-4f6f-afae-5d0062328491,TCGA-BH-A0C0,7875018b-91dc-4ab1-83b0-ee3883e2816e,TCGA-BH-A0C0,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.021821179332863806,0.0,within-sample percentile rank,False
+c1898b32-a9c5-410b-a197-572b2a6a2d7a,TCGA-BH-A0C0,7875018b-91dc-4ab1-83b0-ee3883e2816e,TCGA-BH-A0C0,Primary Tumor,1,FrozenSignedPanelScore,0.3844900441769639,0.0,within-sample percentile rank,False
+82e6dc7b-fe63-4fc6-af9f-68dc76c2cb88,TCGA-BH-A0C3,7bcf6d42-eb8f-4aa2-825b-38671d4f9e3a,TCGA-BH-A0C3,Solid Tissue Normal,0,FrozenSignedPanelScore,0.009313976567001725,0.0,within-sample percentile rank,False
+21ba28ff-89f6-4f02-a135-821efc4f42f8,TCGA-BH-A0C3,7bcf6d42-eb8f-4aa2-825b-38671d4f9e3a,TCGA-BH-A0C3,Primary Tumor,1,FrozenSignedPanelScore,0.24981112747294962,0.0,within-sample percentile rank,False
+bd6038ff-9634-45d5-80d8-97a3f1ea2d04,TCGA-BH-A0DD,dba9beec-5e51-48c0-9229-0ee286a02a1a,TCGA-BH-A0DD,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.017393879249631875,0.0,within-sample percentile rank,False
+b5d03f26-66ec-4861-9635-e0ee4a6e41c9,TCGA-BH-A0DD,dba9beec-5e51-48c0-9229-0ee286a02a1a,TCGA-BH-A0DD,Primary Tumor,1,FrozenSignedPanelScore,0.4501888725270504,0.0,within-sample percentile rank,False
+a3d00f8e-39c2-4e35-bc2f-df9184b35670,TCGA-BH-A0DG,0bc5744c-5fa3-45bb-87d0-70a02068b392,TCGA-BH-A0DG,Solid Tissue Normal,0,FrozenSignedPanelScore,0.04036269927652218,0.0,within-sample percentile rank,False
+3f104cf7-8de8-4e77-8baa-bad1bbb493ac,TCGA-BH-A0DG,0bc5744c-5fa3-45bb-87d0-70a02068b392,TCGA-BH-A0DG,Primary Tumor,1,FrozenSignedPanelScore,0.28092387476791086,0.0,within-sample percentile rank,False
+6d8a829d-2f0f-4cb7-ab88-9e99b98c4556,TCGA-BH-A0DH,491b6364-1223-474f-816f-e248c8c841e2,TCGA-BH-A0DH,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.012936167488315498,0.0,within-sample percentile rank,False
+700477dc-5eb4-4efb-a301-12172a7469f7,TCGA-BH-A0DH,491b6364-1223-474f-816f-e248c8c841e2,TCGA-BH-A0DH,Primary Tumor,1,FrozenSignedPanelScore,0.32059350790703633,0.0,within-sample percentile rank,False
+834ee4b2-bd0c-47ab-9158-c10534e272ea,TCGA-BH-A0DK,f2bbfa9d-9a9d-4f46-9fde-378e4c44e2ad,TCGA-BH-A0DK,Solid Tissue Normal,0,FrozenSignedPanelScore,0.06450797106088738,0.0,within-sample percentile rank,False
+1acae6e0-3100-4de8-a436-e15cdbe1322b,TCGA-BH-A0DK,f2bbfa9d-9a9d-4f46-9fde-378e4c44e2ad,TCGA-BH-A0DK,Primary Tumor,1,FrozenSignedPanelScore,0.30838081823420194,0.0,within-sample percentile rank,False
+471df7ad-c811-4411-9ade-277233a1053f,TCGA-BH-A0DL,ba39bfbc-5cac-4f6c-b55c-4eee3466ee93,TCGA-BH-A0DL,Solid Tissue Normal,0,FrozenSignedPanelScore,0.0014501568602343306,0.0,within-sample percentile rank,False
+20308c88-18f2-4373-9e93-1f1d589d97e2,TCGA-BH-A0DL,ba39bfbc-5cac-4f6c-b55c-4eee3466ee93,TCGA-BH-A0DL,Primary Tumor,1,FrozenSignedPanelScore,0.39121742749215704,0.0,within-sample percentile rank,False
+9db89883-6f94-48f8-aefb-b0aaf6344924,TCGA-BH-A0DO,d3d4d709-ab34-4617-aa8c-51a3d0a3efe6,TCGA-BH-A0DO,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.011445995262180675,0.0,within-sample percentile rank,False
+8b5d38fb-e9ad-445c-b5d5-f054a5eafeb1,TCGA-BH-A0DO,d3d4d709-ab34-4617-aa8c-51a3d0a3efe6,TCGA-BH-A0DO,Primary Tumor,1,FrozenSignedPanelScore,0.09530379665791665,0.0,within-sample percentile rank,False
+e3afa9dd-7494-4ced-adcc-267e91b971df,TCGA-BH-A0DP,14267783-5624-4fe5-ba81-9d67f1017474,TCGA-BH-A0DP,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.03438760484025867,0.0,within-sample percentile rank,False
+ffb838b0-db61-4dc9-aadc-41562f677f54,TCGA-BH-A0DP,14267783-5624-4fe5-ba81-9d67f1017474,TCGA-BH-A0DP,Primary Tumor,1,FrozenSignedPanelScore,0.18789455150777898,0.0,within-sample percentile rank,False
+907ca5f2-0442-403f-9ac6-e158e371091e,TCGA-BH-A0DQ,a851ca14-7bbf-455b-a054-ec03979a4247,TCGA-BH-A0DQ,Solid Tissue Normal,0,FrozenSignedPanelScore,0.03276458159933414,0.0,within-sample percentile rank,False
+10285a0d-d8cc-4c20-a8a2-8891d9807599,TCGA-BH-A0DQ,a851ca14-7bbf-455b-a054-ec03979a4247,TCGA-BH-A0DQ,Primary Tumor,1,FrozenSignedPanelScore,0.28770407836609263,0.0,within-sample percentile rank,False
+a9ce148b-ad26-4257-8f5c-295fd2dcb1d7,TCGA-BH-A0DT,74f31744-0aed-4633-beec-4e203315f0b7,TCGA-BH-A0DT,Solid Tissue Normal,0,FrozenSignedPanelScore,0.004321659517254622,0.0,within-sample percentile rank,False
+eb11d414-2f0e-44a1-843c-ecacc7212e91,TCGA-BH-A0DT,74f31744-0aed-4633-beec-4e203315f0b7,TCGA-BH-A0DT,Primary Tumor,1,FrozenSignedPanelScore,0.20615596389013374,0.0,within-sample percentile rank,False
+95792e53-593b-40ea-80e2-2fbb4e572513,TCGA-BH-A0DV,96b9c7db-1be1-4b60-b47c-26b654c3d64c,TCGA-BH-A0DV,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.04103975926755874,0.0,within-sample percentile rank,False
+b4c19f4e-c5bf-4c4f-bad8-9c18128c112d,TCGA-BH-A0DV,96b9c7db-1be1-4b60-b47c-26b654c3d64c,TCGA-BH-A0DV,Primary Tumor,1,FrozenSignedPanelScore,0.095888021000064,0.0,within-sample percentile rank,False
+d306052f-67ae-4bee-a38a-3fc2e8bf3f41,TCGA-BH-A0DZ,478eb8aa-50b8-4ce5-98e4-d518ede4b174,TCGA-BH-A0DZ,Solid Tissue Normal,0,FrozenSignedPanelScore,0.10740124207695753,0.0,within-sample percentile rank,False
+6093f268-1c3f-4fec-bde7-fc3721ecaf8e,TCGA-BH-A0DZ,478eb8aa-50b8-4ce5-98e4-d518ede4b174,TCGA-BH-A0DZ,Primary Tumor,1,FrozenSignedPanelScore,0.39200012804917095,0.0,within-sample percentile rank,False
+90fb06a9-35be-44b0-9f5b-eb270898aabe,TCGA-BH-A0E0,20e8106b-1290-4735-abe4-7621e08e3dc8,TCGA-BH-A0E0,Solid Tissue Normal,0,FrozenSignedPanelScore,0.05711953390101798,0.0,within-sample percentile rank,False
+662cc11c-da31-4e31-8e77-46011b38ea96,TCGA-BH-A0E0,20e8106b-1290-4735-abe4-7621e08e3dc8,TCGA-BH-A0E0,Primary Tumor,1,FrozenSignedPanelScore,0.361863755682182,0.0,within-sample percentile rank,False
+e4ee648d-3a2a-4ec7-a888-d6888ddf0171,TCGA-BH-A0E1,606fbc6a-b41b-441d-9401-51e54912bf5e,TCGA-BH-A0E1,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.003979127985146319,0.0,within-sample percentile rank,False
+dcf7829e-abaa-435f-b41d-a2bcfde5d66a,TCGA-BH-A0E1,606fbc6a-b41b-441d-9401-51e54912bf5e,TCGA-BH-A0E1,Primary Tumor,1,FrozenSignedPanelScore,0.38698060055061145,0.0,within-sample percentile rank,False
+dec6391b-6fe8-487e-a80e-aff0bc7bc136,TCGA-BH-A0H5,cab38ea8-4555-413c-b81e-4621aac4ef85,TCGA-BH-A0H5,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.032745374223701884,0.0,within-sample percentile rank,False
+8cc4fd25-dd8b-4983-ac21-24f3cf3e51cd,TCGA-BH-A0H5,cab38ea8-4555-413c-b81e-4621aac4ef85,TCGA-BH-A0H5,Primary Tumor,1,FrozenSignedPanelScore,0.21545233369613923,0.0,within-sample percentile rank,False
+876a2145-5b7b-466b-b13f-81fcf028c9fd,TCGA-BH-A0H7,2021ed1f-dc75-4701-b8b8-1386466e4802,TCGA-BH-A0H7,Solid Tissue Normal,0,FrozenSignedPanelScore,0.12627568986490814,0.0,within-sample percentile rank,False
+69bfa6ce-ed46-4321-a107-347c49d68951,TCGA-BH-A0H7,2021ed1f-dc75-4701-b8b8-1386466e4802,TCGA-BH-A0H7,Primary Tumor,1,FrozenSignedPanelScore,0.318832831807414,0.0,within-sample percentile rank,False
+6fe74906-b3c0-49dc-95d8-ef19326b2b35,TCGA-BH-A0H9,0f64edec-0f1f-4025-8a53-75f9534f7828,TCGA-BH-A0H9,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.05732121134515653,0.0,within-sample percentile rank,False
+4a7c76a9-c3a2-4b57-a57a-de055152dcf8,TCGA-BH-A0H9,0f64edec-0f1f-4025-8a53-75f9534f7828,TCGA-BH-A0H9,Primary Tumor,1,FrozenSignedPanelScore,0.3323516230232409,0.0,within-sample percentile rank,False
+0cf5f314-5cc8-4c4c-853a-e4bcbc749acc,TCGA-BH-A0HA,e666081b-caaf-4e8b-9446-807be71201a5,TCGA-BH-A0HA,Solid Tissue Normal,0,FrozenSignedPanelScore,0.010727319290607596,0.0,within-sample percentile rank,False
+63baef92-6733-4791-b897-0abe9131a5f5,TCGA-BH-A0HA,e666081b-caaf-4e8b-9446-807be71201a5,TCGA-BH-A0HA,Primary Tumor,1,FrozenSignedPanelScore,0.2675139253473333,0.0,within-sample percentile rank,False
+aaeda2ea-cf26-445f-a367-85735fe80a27,TCGA-BH-A0HK,24334ac1-28a3-4b61-b590-3f51e375b247,TCGA-BH-A0HK,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.0012468788014597665,0.0,within-sample percentile rank,False
+8835b20e-9343-4266-a356-e0343c657130,TCGA-BH-A0HK,24334ac1-28a3-4b61-b590-3f51e375b247,TCGA-BH-A0HK,Primary Tumor,1,FrozenSignedPanelScore,0.19271400217683593,0.0,within-sample percentile rank,False
+531e4ba7-04b1-4ec0-84e8-4b8de97ad3d7,TCGA-BH-A18J,cc074b7f-d3b2-4880-902e-bf10e667b665,TCGA-BH-A18J,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.017821243357449244,0.0,within-sample percentile rank,False
+044f9b74-9a16-432e-acac-78c399c001bc,TCGA-BH-A18J,cc074b7f-d3b2-4880-902e-bf10e667b665,TCGA-BH-A18J,Primary Tumor,1,FrozenSignedPanelScore,0.33165055381266406,0.0,within-sample percentile rank,False
+a456d499-cba4-49a6-a296-998ed018947a,TCGA-BH-A18K,50619f8c-10aa-464a-a227-90a7aa6ffd43,TCGA-BH-A18K,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.06450156860234328,0.0,within-sample percentile rank,False
+db1c378a-1974-4b79-a027-928cba385e40,TCGA-BH-A18K,50619f8c-10aa-464a-a227-90a7aa6ffd43,TCGA-BH-A18K,Primary Tumor,1,FrozenSignedPanelScore,0.3273577053588578,0.0,within-sample percentile rank,False
+67f32715-fea8-4b4e-9815-aa0c67253ad3,TCGA-BH-A18L,9ddc3e7b-8b54-4a83-8335-8053940f56c1,TCGA-BH-A18L,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.048953198028042766,0.0,within-sample percentile rank,False
+796e565c-3841-425a-bdfb-569776d7c9ac,TCGA-BH-A18L,9ddc3e7b-8b54-4a83-8335-8053940f56c1,TCGA-BH-A18L,Primary Tumor,1,FrozenSignedPanelScore,0.41266086177092004,0.0,within-sample percentile rank,False
+9a793dbd-24a5-4e0c-aa00-efee41902a5d,TCGA-BH-A18M,f63722c1-a0bb-4bf9-8a10-1d76a8e1a0ba,TCGA-BH-A18M,Solid Tissue Normal,0,FrozenSignedPanelScore,0.004816249439784881,0.0,within-sample percentile rank,False
+6a914b5f-5bc2-4152-b80e-fcc864a415b0,TCGA-BH-A18M,f63722c1-a0bb-4bf9-8a10-1d76a8e1a0ba,TCGA-BH-A18M,Primary Tumor,1,FrozenSignedPanelScore,0.2528314872911198,0.0,within-sample percentile rank,False
+2ed1ed4a-12e1-4306-b290-6c31933d054e,TCGA-BH-A18N,665dd3d3-779c-4abd-b5d7-13342340451d,TCGA-BH-A18N,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.06792208207951853,0.0,within-sample percentile rank,False
+dba36215-670e-400f-864e-a46702d49240,TCGA-BH-A18N,665dd3d3-779c-4abd-b5d7-13342340451d,TCGA-BH-A18N,Primary Tumor,1,FrozenSignedPanelScore,0.2518599142070555,0.0,within-sample percentile rank,False
+9563ff43-853c-4d6a-910c-de6fbc638d57,TCGA-BH-A18P,557cb0a3-6f1b-4faf-8296-0a15c24158f9,TCGA-BH-A18P,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.09761988603623792,0.0,within-sample percentile rank,False
+0d0546ad-8a51-4802-a173-96fbe5ebb124,TCGA-BH-A18P,557cb0a3-6f1b-4faf-8296-0a15c24158f9,TCGA-BH-A18P,Primary Tumor,1,FrozenSignedPanelScore,0.408147128497343,0.0,within-sample percentile rank,False
+93eb97b3-918f-42b8-8d3d-34715d09e491,TCGA-BH-A18Q,db4bc6aa-2e7d-4bcb-8519-a455f624d33b,TCGA-BH-A18Q,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.027610602471349,0.0,within-sample percentile rank,False
+f225775e-e46f-4d1d-8b13-042e9776dd72,TCGA-BH-A18Q,db4bc6aa-2e7d-4bcb-8519-a455f624d33b,TCGA-BH-A18Q,Primary Tumor,1,FrozenSignedPanelScore,0.3489115820475062,0.0,within-sample percentile rank,False
+3196c5f3-9227-4a9d-b87a-3e1f680a768c,TCGA-BH-A18R,f6e1ec78-5ad9-4879-9b7e-262d17b166ad,TCGA-BH-A18R,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.06826141238235481,0.0,within-sample percentile rank,False
+518be2c7-fba5-47b1-8c8b-fef812fa74a4,TCGA-BH-A18R,f6e1ec78-5ad9-4879-9b7e-262d17b166ad,TCGA-BH-A18R,Primary Tumor,1,FrozenSignedPanelScore,0.4163294705166784,0.0,within-sample percentile rank,False
+4e786a4a-cf47-41ea-a0b0-4349dcd500f5,TCGA-BH-A18S,433427a1-bacf-4381-91ba-5fec8a0953f9,TCGA-BH-A18S,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.034752544977271274,0.0,within-sample percentile rank,False
+ce3a4469-8d19-4661-9c48-1baf6e84f49c,TCGA-BH-A18S,433427a1-bacf-4381-91ba-5fec8a0953f9,TCGA-BH-A18S,Primary Tumor,1,FrozenSignedPanelScore,0.18857161149881557,0.0,within-sample percentile rank,False
+0b290880-d67c-42b4-aa57-afd3c3d09518,TCGA-BH-A18U,233b02f3-c4f0-4a67-9db5-e68d5cdaccb6,TCGA-BH-A18U,Solid Tissue Normal,0,FrozenSignedPanelScore,0.07160189512772905,0.0,within-sample percentile rank,False
+79763193-268d-49e7-b94c-5cb95f7271b6,TCGA-BH-A18U,233b02f3-c4f0-4a67-9db5-e68d5cdaccb6,TCGA-BH-A18U,Primary Tumor,1,FrozenSignedPanelScore,0.40919393046930025,0.0,within-sample percentile rank,False
+e85b2b0f-993f-4c37-8ed5-53d384ac18e1,TCGA-BH-A18V,6b960b58-28e1-41c6-bd6e-7e669c6aa4ef,TCGA-BH-A18V,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.034440425123247326,0.0,within-sample percentile rank,False
+2923c735-34a1-4db6-a248-1c5de2241dd4,TCGA-BH-A18V,6b960b58-28e1-41c6-bd6e-7e669c6aa4ef,TCGA-BH-A18V,Primary Tumor,1,FrozenSignedPanelScore,0.3837217491516743,0.0,within-sample percentile rank,False
+ae5214a0-7fbe-410d-aedf-0a119c8b7f5a,TCGA-BH-A1EN,858652b8-c4c2-41d8-be32-fdc88e1a7bb0,TCGA-BH-A1EN,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.05755169985274346,0.0,within-sample percentile rank,False
+bea52276-596c-479e-981d-ca9132742098,TCGA-BH-A1EN,858652b8-c4c2-41d8-be32-fdc88e1a7bb0,TCGA-BH-A1EN,Primary Tumor,1,FrozenSignedPanelScore,0.3108297586273129,0.0,within-sample percentile rank,False
+fff3e5a3-4b84-4afa-bdb5-1c6b2a6626bc,TCGA-BH-A1EO,4510295e-8aa7-4ef1-b2b7-91cc902f8200,TCGA-BH-A1EO,Solid Tissue Normal,0,FrozenSignedPanelScore,0.0035917792432294147,0.0,within-sample percentile rank,False
+9d501ca9-f50d-45fc-bcc3-fee15f9771cd,TCGA-BH-A1EO,4510295e-8aa7-4ef1-b2b7-91cc902f8200,TCGA-BH-A1EO,Primary Tumor,1,FrozenSignedPanelScore,0.23015077789871308,0.0,within-sample percentile rank,False
+6ca1ada8-2473-4d1a-ae02-b57aae168243,TCGA-BH-A1ET,8986a141-eae7-4157-b695-02cc6fc3b071,TCGA-BH-A1ET,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.06867277034381203,0.0,within-sample percentile rank,False
+2190d984-3941-41d4-b6de-d0aa76f3570d,TCGA-BH-A1ET,8986a141-eae7-4157-b695-02cc6fc3b071,TCGA-BH-A1ET,Primary Tumor,1,FrozenSignedPanelScore,0.1650585824956783,0.0,within-sample percentile rank,False
+dadbd2f7-ea44-428c-bfcf-e27f2b978ff1,TCGA-BH-A1EU,a1093598-d3a8-4ffe-83fc-bc7d1faff7e5,TCGA-BH-A1EU,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.05612555221204942,0.0,within-sample percentile rank,False
+73af0f78-cc37-43ff-8f46-524a9ba80eda,TCGA-BH-A1EU,a1093598-d3a8-4ffe-83fc-bc7d1faff7e5,TCGA-BH-A1EU,Primary Tumor,1,FrozenSignedPanelScore,0.1183174338946155,0.0,within-sample percentile rank,False
+1b3867a3-80db-417d-8e5c-f6f602c14760,TCGA-BH-A1EV,417dea5f-f68e-4dab-940e-43ae8c67e5e6,TCGA-BH-A1EV,Solid Tissue Normal,0,FrozenSignedPanelScore,0.09880274025225685,0.0,within-sample percentile rank,False
+29ac24fb-0065-47f8-b044-f4a66fad2394,TCGA-BH-A1EV,417dea5f-f68e-4dab-940e-43ae8c67e5e6,TCGA-BH-A1EV,Primary Tumor,1,FrozenSignedPanelScore,0.3313976567001729,0.0,within-sample percentile rank,False
+b35ce058-b4ac-45b2-9103-a14b7d8a30f7,TCGA-BH-A1EW,9d166970-07c8-4ca3-9cfa-ed0049df9ecc,TCGA-BH-A1EW,Solid Tissue Normal,0,FrozenSignedPanelScore,0.11390613995774379,0.0,within-sample percentile rank,False
+50463a25-4292-4bc7-926a-341493e68242,TCGA-BH-A1EW,9d166970-07c8-4ca3-9cfa-ed0049df9ecc,TCGA-BH-A1EW,Primary Tumor,1,FrozenSignedPanelScore,0.3184230744605928,0.0,within-sample percentile rank,False
+6c6c1c35-5e1b-4e9f-ab19-550d1ba4cc43,TCGA-BH-A1F0,21ef1730-e5a7-47ce-b419-d000bb59ae15,TCGA-BH-A1F0,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.07832767782828606,0.0,within-sample percentile rank,False
+f754aa5f-49c8-4e8b-a1fe-f370f807499a,TCGA-BH-A1F0,21ef1730-e5a7-47ce-b419-d000bb59ae15,TCGA-BH-A1F0,Primary Tumor,1,FrozenSignedPanelScore,0.28571611498815547,0.0,within-sample percentile rank,False
+159c3664-3ab2-4f87-91a0-b6e25833fb27,TCGA-BH-A1F2,6a2972e3-cca9-47e5-aac0-b770f2399eeb,TCGA-BH-A1F2,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.07076157244381842,0.0,within-sample percentile rank,False
+e5c171ac-f700-439c-9e44-6cfed2c9cea7,TCGA-BH-A1F2,6a2972e3-cca9-47e5-aac0-b770f2399eeb,TCGA-BH-A1F2,Primary Tumor,1,FrozenSignedPanelScore,0.3137700877136821,0.0,within-sample percentile rank,False
+84f25e50-b0bb-4f2a-bb94-14019bc7fa95,TCGA-BH-A1F6,ad18820b-a804-49c0-ba8a-86c09fa6bce2,TCGA-BH-A1F6,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.06129873871566681,0.0,within-sample percentile rank,False
+e5a9fa79-2d0f-4cda-9fea-baab86f78b8e,TCGA-BH-A1F6,ad18820b-a804-49c0-ba8a-86c09fa6bce2,TCGA-BH-A1F6,Primary Tumor,1,FrozenSignedPanelScore,0.37562584032268387,0.0,within-sample percentile rank,False
+f9e5d9cc-d80e-409d-9b6a-c4de9dc55611,TCGA-BH-A1F8,ee554215-bea2-4268-aaf9-784e68cdb969,TCGA-BH-A1F8,Solid Tissue Normal,0,FrozenSignedPanelScore,0.03287502400921953,0.0,within-sample percentile rank,False
+7e598a8a-9fb8-4c2d-94e7-ae1921addcd1,TCGA-BH-A1F8,ee554215-bea2-4268-aaf9-784e68cdb969,TCGA-BH-A1F8,Primary Tumor,1,FrozenSignedPanelScore,0.3923682694154555,0.0,within-sample percentile rank,False
+97ae0904-411d-4406-9389-5a49bd939667,TCGA-BH-A1FB,ecab16bc-28d5-4c3a-8735-3c785bd047c4,TCGA-BH-A1FB,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.049865548370574296,0.0,within-sample percentile rank,False
+1fc22273-7e02-4193-9fbb-476e0eab6afb,TCGA-BH-A1FB,ecab16bc-28d5-4c3a-8735-3c785bd047c4,TCGA-BH-A1FB,Primary Tumor,1,FrozenSignedPanelScore,0.1206031115948524,0.0,within-sample percentile rank,False
+a6916373-70f1-434c-910a-407609815556,TCGA-BH-A1FC,b97bf89a-7a85-4eef-ae7e-f787aead1f0a,TCGA-BH-A1FC,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.038586017030539745,0.0,within-sample percentile rank,False
+3ad0093a-e57a-450a-b0ef-942c9b67a586,TCGA-BH-A1FC,b97bf89a-7a85-4eef-ae7e-f787aead1f0a,TCGA-BH-A1FC,Primary Tumor,1,FrozenSignedPanelScore,0.4377713041808054,0.0,within-sample percentile rank,False
+d6e315fd-c662-494c-98de-02c87b833473,TCGA-BH-A1FD,3c8b5af9-c34d-43c2-b8c9-39ea11e44fa6,TCGA-BH-A1FD,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.08889493565529163,0.0,within-sample percentile rank,False
+a0e467f8-79c1-499e-b881-669b4bd55b8c,TCGA-BH-A1FD,3c8b5af9-c34d-43c2-b8c9-39ea11e44fa6,TCGA-BH-A1FD,Primary Tumor,1,FrozenSignedPanelScore,0.3900409757346821,0.0,within-sample percentile rank,False
+f6813172-e95b-4654-a1c7-06e1181fcd93,TCGA-BH-A1FE,4aa68586-6331-4795-b40c-859386640df6,TCGA-BH-A1FE,Solid Tissue Normal,0,FrozenSignedPanelScore,0.032356424867148986,0.0,within-sample percentile rank,False
+3de73049-e6e7-4ed7-be98-bf174fd37c89,TCGA-BH-A1FE,4aa68586-6331-4795-b40c-859386640df6,TCGA-BH-A1FE,Primary Tumor,1,FrozenSignedPanelScore,0.321278570971253,0.0,within-sample percentile rank,False
+86fa46b0-7118-49e9-a693-c44f46b86e55,TCGA-BH-A1FG,d4e7426c-9739-4585-9114-e564b13c7c02,TCGA-BH-A1FG,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.024942377873103265,0.0,within-sample percentile rank,False
+33f49b4e-924e-4590-8afa-e17403602137,TCGA-BH-A1FG,d4e7426c-9739-4585-9114-e564b13c7c02,TCGA-BH-A1FG,Primary Tumor,1,FrozenSignedPanelScore,0.2667648376976759,0.0,within-sample percentile rank,False
+c75bc2c7-cf1f-482c-b615-f60b56983124,TCGA-BH-A1FH,1783cac1-253a-40af-a9ac-48dfb20e1ab8,TCGA-BH-A1FH,Solid Tissue Normal,0,FrozenSignedPanelScore,0.00735482425251296,0.0,within-sample percentile rank,False
+f0785dc2-a43e-4b59-a21c-ab55c490d441,TCGA-BH-A1FH,1783cac1-253a-40af-a9ac-48dfb20e1ab8,TCGA-BH-A1FH,Primary Tumor,1,FrozenSignedPanelScore,0.06799731096741149,0.0,within-sample percentile rank,False
+6921f528-54eb-429f-a9e9-ceb7e6b33ba9,TCGA-BH-A1FJ,f6581eee-61b9-43d4-ab0d-ce5ce3ba1c74,TCGA-BH-A1FJ,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.02102567385876177,0.0,within-sample percentile rank,False
+72367269-4151-4e1f-8636-ff91396ba46c,TCGA-BH-A1FJ,f6581eee-61b9-43d4-ab0d-ce5ce3ba1c74,TCGA-BH-A1FJ,Primary Tumor,1,FrozenSignedPanelScore,0.4411934182726168,0.0,within-sample percentile rank,False
+6e6a7a6c-4630-4506-8b57-a0df12ffff4c,TCGA-BH-A1FM,7eb18190-5a41-4637-9783-f81bbde499e4,TCGA-BH-A1FM,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.03684614892118572,0.0,within-sample percentile rank,False
+cf2b65de-c6a1-4ebc-a62a-c652ce17d2d0,TCGA-BH-A1FM,7eb18190-5a41-4637-9783-f81bbde499e4,TCGA-BH-A1FM,Primary Tumor,1,FrozenSignedPanelScore,0.393429476919137,0.0,within-sample percentile rank,False
+408b3378-5f8e-49df-8bd2-1e0a55288252,TCGA-BH-A1FN,6dd0dd7b-62ff-4fd1-a99a-b265f1a91dca,TCGA-BH-A1FN,Solid Tissue Normal,0,FrozenSignedPanelScore,0.039171841987323125,0.0,within-sample percentile rank,False
+ae08dbd6-548a-469c-ba12-b6a87515bce7,TCGA-BH-A1FN,6dd0dd7b-62ff-4fd1-a99a-b265f1a91dca,TCGA-BH-A1FN,Primary Tumor,1,FrozenSignedPanelScore,0.41208464050195265,0.0,within-sample percentile rank,False
+0729326e-9b85-44f5-8134-28cb10805bf4,TCGA-BH-A1FR,bf3b1481-ae31-4406-b084-b6cc1d7163e3,TCGA-BH-A1FR,Solid Tissue Normal,0,FrozenSignedPanelScore,0.009496446635508027,0.0,within-sample percentile rank,False
+0fc347ae-7ad9-4987-887a-d37fe871d6c2,TCGA-BH-A1FR,bf3b1481-ae31-4406-b084-b6cc1d7163e3,TCGA-BH-A1FR,Primary Tumor,1,FrozenSignedPanelScore,0.3199420577501761,0.0,within-sample percentile rank,False
+08693317-d839-477c-b145-477a3521e03a,TCGA-BH-A1FU,c348a9b3-c901-4384-a222-144387bac0c5,TCGA-BH-A1FU,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.029505730200396946,0.0,within-sample percentile rank,False
+438152c8-2d26-4b35-9f68-a4b6c473916e,TCGA-BH-A1FU,c348a9b3-c901-4384-a222-144387bac0c5,TCGA-BH-A1FU,Primary Tumor,1,FrozenSignedPanelScore,0.3228855880658173,0.0,within-sample percentile rank,False
+a16194b7-162f-4282-a552-1fa1915ea589,TCGA-BH-A203,b3264748-947a-43aa-b227-b294fbcc8447,TCGA-BH-A203,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.04062039823292145,0.0,within-sample percentile rank,False
+002997ef-3b93-443a-80a3-bae63e129d99,TCGA-BH-A203,b3264748-947a-43aa-b227-b294fbcc8447,TCGA-BH-A203,Primary Tumor,1,FrozenSignedPanelScore,0.39342787630450093,0.0,within-sample percentile rank,False
+8511971e-372e-4dc1-96a9-3fea2298393b,TCGA-BH-A204,05135396-df5c-49db-b34e-f4add5b65a2b,TCGA-BH-A204,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.07491036558038285,0.0,within-sample percentile rank,False
+a28d9c46-4774-4167-8c1e-ee95436c7b2e,TCGA-BH-A204,05135396-df5c-49db-b34e-f4add5b65a2b,TCGA-BH-A204,Primary Tumor,1,FrozenSignedPanelScore,0.40640726038798897,0.0,within-sample percentile rank,False
+0b755cf4-785f-466e-a235-ea697b9a6423,TCGA-BH-A208,ddcbdac6-9e43-4146-a611-d033125eba14,TCGA-BH-A208,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.030983097509443624,0.0,within-sample percentile rank,False
+723e0934-327e-46f2-94f0-20a65da1ea0e,TCGA-BH-A208,ddcbdac6-9e43-4146-a611-d033125eba14,TCGA-BH-A208,Primary Tumor,1,FrozenSignedPanelScore,0.1819994878033165,0.0,within-sample percentile rank,False
+cd390244-133c-4f09-a076-9dddd986df04,TCGA-BH-A209,5258294f-ef5b-4091-9183-6bcc545d54b2,TCGA-BH-A209,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.02573148088866124,0.0,within-sample percentile rank,False
+fbf64fdd-6787-4647-b0cd-860acc8abce6,TCGA-BH-A209,5258294f-ef5b-4091-9183-6bcc545d54b2,TCGA-BH-A209,Primary Tumor,1,FrozenSignedPanelScore,0.4259715730840642,0.0,within-sample percentile rank,False
+f6ad04eb-19cf-461c-b274-8cf0b640ad34,TCGA-E2-A153,be9bf36a-12e1-4386-addf-1686dc8b49de,TCGA-E2-A153,Solid Tissue Normal,0,FrozenSignedPanelScore,0.028164415135412003,0.0,within-sample percentile rank,False
+6526e884-ca7a-4f10-9cb8-fe8fa90f1dbb,TCGA-E2-A153,be9bf36a-12e1-4386-addf-1686dc8b49de,TCGA-E2-A153,Primary Tumor,1,FrozenSignedPanelScore,0.199603047570267,0.0,within-sample percentile rank,False
+e94c165f-210d-47d7-b7e7-c5747ee7f451,TCGA-E2-A158,a6edb6ca-ae9f-4da7-8ebe-92d83d2987fb,TCGA-E2-A158,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.02950092835648891,0.0,within-sample percentile rank,False
+5ce91cce-a4ac-45e1-bc3e-737494a67769,TCGA-E2-A158,a6edb6ca-ae9f-4da7-8ebe-92d83d2987fb,TCGA-E2-A158,Primary Tumor,1,FrozenSignedPanelScore,0.3909437223893975,0.0,within-sample percentile rank,False
+e3368a46-4101-4dd5-a447-255f59bfa9da,TCGA-E2-A15I,64089c20-939f-48b4-ae8b-904ad0597145,TCGA-E2-A15I,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.10051699852743452,0.0,within-sample percentile rank,False
+c2f00c0c-9ad9-4c1d-912c-52eacedcba12,TCGA-E2-A15I,64089c20-939f-48b4-ae8b-904ad0597145,TCGA-E2-A15I,Primary Tumor,1,FrozenSignedPanelScore,0.1731320827197644,0.0,within-sample percentile rank,False
+1eb11f10-2aca-4ca1-b6fc-bbc97cc485fd,TCGA-E2-A15K,17c1d42c-cb84-4655-a4cd-b54bae17ecaf,TCGA-E2-A15K,Solid Tissue Normal,0,FrozenSignedPanelScore,0.018687175875536217,0.0,within-sample percentile rank,False
+3a36b403-ea38-49f9-9c28-710c5d141164,TCGA-E2-A15K,17c1d42c-cb84-4655-a4cd-b54bae17ecaf,TCGA-E2-A15K,Primary Tumor,1,FrozenSignedPanelScore,0.4002576989563992,0.0,within-sample percentile rank,False
+97269c0f-b638-473d-9d44-8ccc770a0039,TCGA-E2-A15M,59be60a3-e0f6-4d63-b98c-574ef92428c4,TCGA-E2-A15M,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.050124847941609596,0.0,within-sample percentile rank,False
+0177791d-d02d-4433-81ae-458a93fdd60f,TCGA-E2-A15M,59be60a3-e0f6-4d63-b98c-574ef92428c4,TCGA-E2-A15M,Primary Tumor,1,FrozenSignedPanelScore,0.32260067866060566,0.0,within-sample percentile rank,False
+d221f2c8-5852-4392-b166-92b709000e78,TCGA-E2-A1BC,d8492ebd-3d94-4a4b-8de7-386526691cc2,TCGA-E2-A1BC,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.08191785645687943,0.0,within-sample percentile rank,False
+83ec5738-3a27-4100-83f2-8b30ae3b2fb7,TCGA-E2-A1BC,d8492ebd-3d94-4a4b-8de7-386526691cc2,TCGA-E2-A1BC,Primary Tumor,1,FrozenSignedPanelScore,0.06481528907100327,0.0,within-sample percentile rank,False
+86e64e26-2be4-463d-8129-c0374cd4d5aa,TCGA-E2-A1IG,bc0bc70f-c6cf-4dbc-9dc3-8b7bc5f381a4,TCGA-E2-A1IG,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.04279403290863691,0.0,within-sample percentile rank,False
+5e429dd7-787c-4e7d-b672-b000b7b57929,TCGA-E2-A1IG,bc0bc70f-c6cf-4dbc-9dc3-8b7bc5f381a4,TCGA-E2-A1IG,Primary Tumor,1,FrozenSignedPanelScore,0.2838225878737435,0.0,within-sample percentile rank,False
+3b56098e-35ec-4fd3-b14d-c3cc777a94c9,TCGA-E2-A1L7,791c5768-f0f5-4ab6-86eb-998e5c4b49e3,TCGA-E2-A1L7,Solid Tissue Normal,0,FrozenSignedPanelScore,0.035993021320186946,0.0,within-sample percentile rank,False
+09b414c4-a314-43c5-823a-d91442b6b02b,TCGA-E2-A1L7,791c5768-f0f5-4ab6-86eb-998e5c4b49e3,TCGA-E2-A1L7,Primary Tumor,1,FrozenSignedPanelScore,0.43598821947627886,0.0,within-sample percentile rank,False
+4a429750-5cdd-44bc-8b2f-9921c3d1102e,TCGA-E2-A1LB,fa176764-a76f-44c7-b97a-cd6d21e052be,TCGA-E2-A1LB,Solid Tissue Normal,0,FrozenSignedPanelScore,0.08357769383443242,0.0,within-sample percentile rank,False
+26f9a1ab-fa60-47f3-ac29-96acaa68fb4a,TCGA-E2-A1LB,fa176764-a76f-44c7-b97a-cd6d21e052be,TCGA-E2-A1LB,Primary Tumor,1,FrozenSignedPanelScore,0.30187271912414365,0.0,within-sample percentile rank,False
+d78f95cd-3823-42ba-9c08-b5a70e41fd63,TCGA-E2-A1LH,d8ecba6a-9fff-4993-a799-9a8d2aea524e,TCGA-E2-A1LH,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.016190217043344637,0.0,within-sample percentile rank,False
+c236908e-4814-409b-9fcc-2bedf60aa168,TCGA-E2-A1LH,d8ecba6a-9fff-4993-a799-9a8d2aea524e,TCGA-E2-A1LH,Primary Tumor,1,FrozenSignedPanelScore,0.3543440681221589,0.0,within-sample percentile rank,False
+072ae9bc-16a5-4c63-8ec6-7b0a4d3835a7,TCGA-E2-A1LS,91a2f2af-e4b1-4a0b-ab20-6a36ce63c533,TCGA-E2-A1LS,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.060989820090914915,0.0,within-sample percentile rank,False
+529056f9-7bdf-4675-bff7-a82abddf5734,TCGA-E2-A1LS,91a2f2af-e4b1-4a0b-ab20-6a36ce63c533,TCGA-E2-A1LS,Primary Tumor,1,FrozenSignedPanelScore,0.2354055957487676,0.0,within-sample percentile rank,False
+d49b5007-2fc8-46e0-ae99-d65cd446e436,TCGA-E9-A1N4,69a68fbc-e43d-4652-85ee-693211bded47,TCGA-E9-A1N4,Solid Tissue Normal,0,FrozenSignedPanelScore,0.04102375312119855,0.0,within-sample percentile rank,False
+8d122839-4167-48b2-9f3a-7ff7c3f134d8,TCGA-E9-A1N4,69a68fbc-e43d-4652-85ee-693211bded47,TCGA-E9-A1N4,Primary Tumor,1,FrozenSignedPanelScore,0.31839906524105255,0.0,within-sample percentile rank,False
+ef5eaeb4-c3eb-43d2-b5a8-79f498e9e24a,TCGA-E9-A1N5,f954de05-1b44-4087-8933-6cc72d81028d,TCGA-E9-A1N5,Solid Tissue Normal,0,FrozenSignedPanelScore,0.24854023945194959,0.0,within-sample percentile rank,False
+cc07e1f1-e1e7-4335-ab8b-b7bebef1669f,TCGA-E9-A1N5,f954de05-1b44-4087-8933-6cc72d81028d,TCGA-E9-A1N5,Primary Tumor,1,FrozenSignedPanelScore,0.336157884627697,0.0,within-sample percentile rank,False
+a82b9ff4-83b1-451d-be31-4e0626b03339,TCGA-E9-A1N6,955d4263-61f7-42e8-8a6e-772a0d6c209d,TCGA-E9-A1N6,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.02045585504833857,0.0,within-sample percentile rank,False
+50a70e24-2ce8-43fd-87d7-eab2c1fa9a86,TCGA-E9-A1N6,955d4263-61f7-42e8-8a6e-772a0d6c209d,TCGA-E9-A1N6,Primary Tumor,1,FrozenSignedPanelScore,0.3852647416607978,0.0,within-sample percentile rank,False
+2e532402-4279-4441-a7e5-0ed2b793a134,TCGA-E9-A1N9,994ca1f5-ad10-44ec-aa21-71fc2940653b,TCGA-E9-A1N9,Solid Tissue Normal,0,FrozenSignedPanelScore,0.006897048466611178,0.0,within-sample percentile rank,False
+3c2bed9f-2ab5-4623-b631-99e394d7723d,TCGA-E9-A1N9,994ca1f5-ad10-44ec-aa21-71fc2940653b,TCGA-E9-A1N9,Primary Tumor,1,FrozenSignedPanelScore,0.3732121134515654,0.0,within-sample percentile rank,False
+73c4bc21-7732-4562-af5a-1b229fbd5ea7,TCGA-E9-A1NA,af577366-0258-49e7-b6af-e70056c081a4,TCGA-E9-A1NA,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.056019911646072104,0.0,within-sample percentile rank,False
+e2ef6df2-c375-4c59-ae1b-c8cca22a8387,TCGA-E9-A1NA,af577366-0258-49e7-b6af-e70056c081a4,TCGA-E9-A1NA,Primary Tumor,1,FrozenSignedPanelScore,0.3580526922338178,0.0,within-sample percentile rank,False
+41615c91-a592-40ed-8bc1-3dda5f2c8625,TCGA-E9-A1ND,f06f09f3-8133-4a92-ac86-fbe64295e0d8,TCGA-E9-A1ND,Solid Tissue Normal,0,FrozenSignedPanelScore,0.07843171777962736,0.0,within-sample percentile rank,False
+b41b1f04-226e-466c-b5e1-f61e45ad3210,TCGA-E9-A1ND,f06f09f3-8133-4a92-ac86-fbe64295e0d8,TCGA-E9-A1ND,Primary Tumor,1,FrozenSignedPanelScore,0.35096997246942824,0.0,within-sample percentile rank,False
+5b799218-c5f2-4213-86a3-d67ed776bb28,TCGA-E9-A1NF,a8b1f6e7-2bcf-460d-b1c6-1792a9801119,TCGA-E9-A1NF,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.04024105256418465,0.0,within-sample percentile rank,False
+0c30cd0e-a2d2-42b0-9ca9-8297de64e4a8,TCGA-E9-A1NF,a8b1f6e7-2bcf-460d-b1c6-1792a9801119,TCGA-E9-A1NF,Primary Tumor,1,FrozenSignedPanelScore,0.2669985274345349,0.0,within-sample percentile rank,False
+ec92d7b1-ad80-4f3d-a8e8-3160941c24ac,TCGA-E9-A1NG,659b0170-e914-45ff-aa55-fcb8d3dc7b8a,TCGA-E9-A1NG,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.05355976695050899,0.0,within-sample percentile rank,False
+7adf414b-c3f7-4e2c-aa80-81d3edd9764e,TCGA-E9-A1NG,659b0170-e914-45ff-aa55-fcb8d3dc7b8a,TCGA-E9-A1NG,Primary Tumor,1,FrozenSignedPanelScore,0.21669120942441897,0.0,within-sample percentile rank,False
+d8015844-0615-42f1-a81c-ae707dbe1693,TCGA-E9-A1R7,2680da86-c977-4611-b75f-df015283c023,TCGA-E9-A1R7,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.07792112171073692,0.0,within-sample percentile rank,False
+8d9f2037-1c1f-4c73-a993-dc4c2aa67d30,TCGA-E9-A1R7,2680da86-c977-4611-b75f-df015283c023,TCGA-E9-A1R7,Primary Tumor,1,FrozenSignedPanelScore,0.3862667264229464,0.0,within-sample percentile rank,False
+8813ace1-aacf-4a54-b9e1-5379d52778da,TCGA-E9-A1RB,94b95984-b2fb-4e42-8887-45e7086c3179,TCGA-E9-A1RB,Solid Tissue Normal,0,FrozenSignedPanelScore,0.02823164095012486,0.0,within-sample percentile rank,False
+43993e01-588a-40de-80ec-72c1a66fe70b,TCGA-E9-A1RB,94b95984-b2fb-4e42-8887-45e7086c3179,TCGA-E9-A1RB,Primary Tumor,1,FrozenSignedPanelScore,0.3873071259363596,0.0,within-sample percentile rank,False
+5174c897-271a-4306-b0b6-48715cffc278,TCGA-E9-A1RC,5cdae21d-eee5-478f-932a-0f51fcf5f031,TCGA-E9-A1RC,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.04516294256994685,0.0,within-sample percentile rank,False
+9eaa7f15-8a97-4a49-9e93-b5790a1fade0,TCGA-E9-A1RC,5cdae21d-eee5-478f-932a-0f51fcf5f031,TCGA-E9-A1RC,Primary Tumor,1,FrozenSignedPanelScore,0.3211281131954671,0.0,within-sample percentile rank,False
+5f6e9271-967d-4f56-ac38-1d32f9aebd12,TCGA-E9-A1RD,5fe3c51f-65e2-4da6-8924-a6fae17c022d,TCGA-E9-A1RD,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.05081951469364234,0.0,within-sample percentile rank,False
+d19fe184-84a8-4a49-a4d4-75891670da4d,TCGA-E9-A1RD,5fe3c51f-65e2-4da6-8924-a6fae17c022d,TCGA-E9-A1RD,Primary Tumor,1,FrozenSignedPanelScore,0.294064920929637,0.0,within-sample percentile rank,False
+9b8be955-8c21-449d-a951-c715a6dd1cab,TCGA-E9-A1RF,c694615c-b1c6-499c-8058-995633ebf948,TCGA-E9-A1RF,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.06927460144695562,0.0,within-sample percentile rank,False
+ca0d78dc-c860-4835-ad07-052f176804a4,TCGA-E9-A1RF,c694615c-b1c6-499c-8058-995633ebf948,TCGA-E9-A1RF,Primary Tumor,1,FrozenSignedPanelScore,0.3183942633971445,0.0,within-sample percentile rank,False
+a081f522-7603-4134-90c0-89e70fa43688,TCGA-E9-A1RH,408cb583-6dc3-4698-8bd2-e284042bd5ef,TCGA-E9-A1RH,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.06412702477751457,0.0,within-sample percentile rank,False
+6b1bb382-0103-4207-a0e8-871aa6aae81c,TCGA-E9-A1RH,408cb583-6dc3-4698-8bd2-e284042bd5ef,TCGA-E9-A1RH,Primary Tumor,1,FrozenSignedPanelScore,0.4008323196107305,0.0,within-sample percentile rank,False
+10fcee9d-db94-4fb9-a585-893c9d1bdc3d,TCGA-E9-A1RI,dd3bfb26-b534-4917-9c4d-9fe7b6477762,TCGA-E9-A1RI,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.07153146808374415,0.0,within-sample percentile rank,False
+7423f6fa-4f31-46b1-a391-b5fc45833c2b,TCGA-E9-A1RI,dd3bfb26-b534-4917-9c4d-9fe7b6477762,TCGA-E9-A1RI,Primary Tumor,1,FrozenSignedPanelScore,0.20065145015686028,0.0,within-sample percentile rank,False
+2a679581-38ad-4742-8d7b-89015df11e7d,TCGA-GI-A2C8,33fe5833-d7a0-43d7-a03d-56985ea448a6,TCGA-GI-A2C8,Solid Tissue Normal,0,FrozenSignedPanelScore,0.04359914207055509,0.0,within-sample percentile rank,False
+4a21e922-a294-43f0-89cb-862dabed4f8c,TCGA-GI-A2C8,33fe5833-d7a0-43d7-a03d-56985ea448a6,TCGA-GI-A2C8,Primary Tumor,1,FrozenSignedPanelScore,0.10421281772200523,0.0,within-sample percentile rank,False
+93b78420-ed0e-45d3-93f5-f60ce671a812,TCGA-GI-A2C9,9f6be944-83de-42ab-8738-f0022f475e61,TCGA-GI-A2C9,Solid Tissue Normal,0,FrozenSignedPanelScore,-0.00951085216723221,0.0,within-sample percentile rank,False
+143fc27d-e119-48ff-a5ea-bd6aafc0404e,TCGA-GI-A2C9,9f6be944-83de-42ab-8738-f0022f475e61,TCGA-GI-A2C9,Primary Tumor,1,FrozenSignedPanelScore,0.3360138293104552,0.0,within-sample percentile rank,False
+139c8065-f56a-45f6-bc7e-7841f85a31ae,TCGA-A7-A0CE,9d95a65b-e41d-4f93-92d4-99dce29ff40d,TCGA-A7-A0CE,Solid Tissue Normal,0,LR,0.47876275655313194,0.5,within-sample percentile rank,False
+9dc315ce-3b76-4754-b103-2c2580cde4ab,TCGA-A7-A0CE,9d95a65b-e41d-4f93-92d4-99dce29ff40d,TCGA-A7-A0CE,Primary Tumor,1,LR,0.9874977871677704,0.5,within-sample percentile rank,False
+60ee931b-d315-4c37-b913-fa46a5f206b4,TCGA-A7-A0CH,9de678e5-67ed-4453-a98b-7ac351d5d0f1,TCGA-A7-A0CH,Solid Tissue Normal,0,LR,0.20014143649557786,0.5,within-sample percentile rank,False
+1a9f7284-9770-4936-9fa4-500698184680,TCGA-A7-A0CH,9de678e5-67ed-4453-a98b-7ac351d5d0f1,TCGA-A7-A0CH,Primary Tumor,1,LR,0.9999180470669476,0.5,within-sample percentile rank,False
+caca6c83-8d5f-4d85-a6a9-4ded98b71214,TCGA-A7-A0D9,17baef7c-d97d-4b98-ab53-503ef856523d,TCGA-A7-A0D9,Solid Tissue Normal,0,LR,0.09885582486379192,0.5,within-sample percentile rank,False
+c144ae50-ed29-4e27-bbee-fa81e79ac7db,TCGA-A7-A0D9,17baef7c-d97d-4b98-ab53-503ef856523d,TCGA-A7-A0D9,Primary Tumor,1,LR,0.999729930207192,0.5,within-sample percentile rank,False
+e2566ada-c2bf-4c25-bcd0-9f49f2d0b4a2,TCGA-A7-A0DB,f130f376-5801-40f9-975d-a7e2f7b5670d,TCGA-A7-A0DB,Solid Tissue Normal,0,LR,0.6601098684114297,0.5,within-sample percentile rank,False
+e8cb34ed-67cb-48b7-83cd-621a1224e781,TCGA-A7-A0DB,f130f376-5801-40f9-975d-a7e2f7b5670d,TCGA-A7-A0DB,Primary Tumor,1,LR,0.9976985921896813,0.5,within-sample percentile rank,False
+5bfd69f5-406a-4b28-b4f4-a6655e03e4db,TCGA-A7-A0DC,cb9f5e50-f49d-4899-8895-9367afcc1015,TCGA-A7-A0DC,Solid Tissue Normal,0,LR,0.18054566790195278,0.5,within-sample percentile rank,False
+36cafcfc-cc5e-4203-b018-c2c949e24c12,TCGA-A7-A0DC,cb9f5e50-f49d-4899-8895-9367afcc1015,TCGA-A7-A0DC,Primary Tumor,1,LR,0.997664361067366,0.5,within-sample percentile rank,False
+238e4064-4aac-4c75-a506-b19bc7f3fc3c,TCGA-A7-A13E,8c7e74e0-71ef-49b8-9217-94b8ef740ef9,TCGA-A7-A13E,Solid Tissue Normal,0,LR,0.09644094284964577,0.5,within-sample percentile rank,False
+8a790c78-8ad4-4e0b-9728-0e24cadc1f98,TCGA-A7-A13E,8c7e74e0-71ef-49b8-9217-94b8ef740ef9,TCGA-A7-A13E,Primary Tumor,1,LR,0.9995307130878097,0.5,within-sample percentile rank,False
+f4aaedfd-36df-4173-ae28-0a1065c39b6f,TCGA-A7-A13F,2cf68894-168b-458b-af4f-53cad72989a8,TCGA-A7-A13F,Solid Tissue Normal,0,LR,0.02688454609868881,0.5,within-sample percentile rank,False
+b36c8878-bab6-4f61-9a4e-4dcfca21391e,TCGA-A7-A13F,2cf68894-168b-458b-af4f-53cad72989a8,TCGA-A7-A13F,Primary Tumor,1,LR,0.9994812113648217,0.5,within-sample percentile rank,False
+2086f4ed-61fd-450c-b9de-aa7e049d154d,TCGA-A7-A13G,6cd9baf5-bbe0-4c1e-a87f-c53b3af22890,TCGA-A7-A13G,Solid Tissue Normal,0,LR,0.0619228622568284,0.5,within-sample percentile rank,False
+6a1c2fdb-18ce-40ec-af79-191b489f39a7,TCGA-A7-A13G,6cd9baf5-bbe0-4c1e-a87f-c53b3af22890,TCGA-A7-A13G,Primary Tumor,1,LR,0.9989177375740498,0.5,within-sample percentile rank,False
+7df59ca8-7e51-4581-9d7f-8bba0395ce17,TCGA-AC-A23H,7dcf550c-90ce-4f63-aecd-0e46897e2a3e,TCGA-AC-A23H,Solid Tissue Normal,0,LR,0.10391472402393165,0.5,within-sample percentile rank,False
+d7e3b628-d5fd-4e79-9c4a-6409330fb8a7,TCGA-AC-A23H,7dcf550c-90ce-4f63-aecd-0e46897e2a3e,TCGA-AC-A23H,Primary Tumor,1,LR,0.9999848255578208,0.5,within-sample percentile rank,False
+2c9b563c-6f22-4a54-a232-ce7974b30458,TCGA-AC-A2FB,02bbb632-0f7f-439d-b8f0-c86a06237424,TCGA-AC-A2FB,Solid Tissue Normal,0,LR,0.13318179291489643,0.5,within-sample percentile rank,False
+7e2ed541-38ee-473f-ac5d-3cae6f5d9a56,TCGA-AC-A2FB,02bbb632-0f7f-439d-b8f0-c86a06237424,TCGA-AC-A2FB,Primary Tumor,1,LR,0.9950831669787522,0.5,within-sample percentile rank,False
+25bb566a-15fd-4725-90dc-1c5f464796ac,TCGA-AC-A2FF,3ca67cd0-81da-4f68-a9fa-f1a8c013c28d,TCGA-AC-A2FF,Solid Tissue Normal,0,LR,0.8876443438426472,0.5,within-sample percentile rank,False
+62d4d442-98a0-4540-b22a-4acf1fbfc40b,TCGA-AC-A2FF,3ca67cd0-81da-4f68-a9fa-f1a8c013c28d,TCGA-AC-A2FF,Primary Tumor,1,LR,0.9673560928470026,0.5,within-sample percentile rank,False
+028490aa-d6f3-4366-821a-7cb2c604eff1,TCGA-AC-A2FM,b6b1dc9a-91f4-4b0a-afd5-62c9a90c0d5e,TCGA-AC-A2FM,Solid Tissue Normal,0,LR,0.031046377783272225,0.5,within-sample percentile rank,False
+8e391bec-541c-49dc-a0a8-5ece5f268f1f,TCGA-AC-A2FM,b6b1dc9a-91f4-4b0a-afd5-62c9a90c0d5e,TCGA-AC-A2FM,Primary Tumor,1,LR,0.998845830562395,0.5,within-sample percentile rank,False
+86c64ef3-451c-471e-8ad3-58985d943190,TCGA-BH-A0AU,360d1d6d-cf3e-4c78-b36f-ef5e3160aa6b,TCGA-BH-A0AU,Solid Tissue Normal,0,LR,0.008248007182040775,0.5,within-sample percentile rank,False
+9df5fb66-44da-4d92-899a-99c07cd23fff,TCGA-BH-A0AU,360d1d6d-cf3e-4c78-b36f-ef5e3160aa6b,TCGA-BH-A0AU,Primary Tumor,1,LR,0.9998442207027349,0.5,within-sample percentile rank,False
+7242979b-b467-47f4-b351-cdebbfff32e0,TCGA-BH-A0AY,93ed6066-b567-4e1c-ab81-23370f9d3452,TCGA-BH-A0AY,Solid Tissue Normal,0,LR,0.11494092122978003,0.5,within-sample percentile rank,False
+7f00169e-2572-4158-a453-ccec33cd2159,TCGA-BH-A0AY,93ed6066-b567-4e1c-ab81-23370f9d3452,TCGA-BH-A0AY,Primary Tumor,1,LR,0.9928597018954473,0.5,within-sample percentile rank,False
+6731ddd7-054f-4faa-9cfb-d8ec938c5f7d,TCGA-BH-A0AZ,518f231c-f5f9-4a39-a97b-7fd5666d3e50,TCGA-BH-A0AZ,Solid Tissue Normal,0,LR,0.4332384009821805,0.5,within-sample percentile rank,False
+aafc7bc4-1e57-4df9-9bad-a04a4d9edebd,TCGA-BH-A0AZ,518f231c-f5f9-4a39-a97b-7fd5666d3e50,TCGA-BH-A0AZ,Primary Tumor,1,LR,0.9796970611119284,0.5,within-sample percentile rank,False
+9a81af95-30f8-45b1-bbda-ca5c7a91c5c5,TCGA-BH-A0B3,18eb4dfc-556f-4bf3-a411-4780209ed1e0,TCGA-BH-A0B3,Solid Tissue Normal,0,LR,0.08256501521269997,0.5,within-sample percentile rank,False
+fc1f0ad4-8412-4143-8ebf-fa6592f396e9,TCGA-BH-A0B3,18eb4dfc-556f-4bf3-a411-4780209ed1e0,TCGA-BH-A0B3,Primary Tumor,1,LR,0.9989620425351777,0.5,within-sample percentile rank,False
+499a5bbb-9c48-4a4a-8472-d6fa35b6a308,TCGA-BH-A0B5,9da462b0-93c2-4305-89f6-7199a30399a7,TCGA-BH-A0B5,Solid Tissue Normal,0,LR,0.07284648065435823,0.5,within-sample percentile rank,False
+a0de3018-8916-4e06-8ba1-beb1d218e30e,TCGA-BH-A0B5,9da462b0-93c2-4305-89f6-7199a30399a7,TCGA-BH-A0B5,Primary Tumor,1,LR,0.9997319047427952,0.5,within-sample percentile rank,False
+ab96b212-ab38-4e27-8c61-5eef673a0798,TCGA-BH-A0B7,214a4507-d974-4b3e-8525-7408fccc6a0f,TCGA-BH-A0B7,Solid Tissue Normal,0,LR,0.1595834932427246,0.5,within-sample percentile rank,False
+45c79141-a125-4305-b1b7-c838de1af8a3,TCGA-BH-A0B7,214a4507-d974-4b3e-8525-7408fccc6a0f,TCGA-BH-A0B7,Primary Tumor,1,LR,0.996493920729983,0.5,within-sample percentile rank,False
+f62006a0-500c-46dc-ab01-27550680494e,TCGA-BH-A0B8,d3a75976-67d3-40fa-9f6f-cf2a3d7b773c,TCGA-BH-A0B8,Solid Tissue Normal,0,LR,0.08642537763216344,0.5,within-sample percentile rank,False
+3f6f1066-37f9-464d-872a-f1390eb36f6e,TCGA-BH-A0B8,d3a75976-67d3-40fa-9f6f-cf2a3d7b773c,TCGA-BH-A0B8,Primary Tumor,1,LR,0.9998730258975775,0.5,within-sample percentile rank,False
+866a5298-c51c-44a6-b2c0-511e63629829,TCGA-BH-A0BA,49dc3e68-6206-4f16-969f-a758cc7be8ed,TCGA-BH-A0BA,Solid Tissue Normal,0,LR,0.27206602821654824,0.5,within-sample percentile rank,False
+992d3519-cd51-4f48-880c-81fef52be1bf,TCGA-BH-A0BA,49dc3e68-6206-4f16-969f-a758cc7be8ed,TCGA-BH-A0BA,Primary Tumor,1,LR,0.9970757266063164,0.5,within-sample percentile rank,False
+09733af3-d6fc-44a4-907e-16581fc48611,TCGA-BH-A0BC,327a2395-85c8-42e1-9638-8e037a1723ed,TCGA-BH-A0BC,Solid Tissue Normal,0,LR,0.23125513695140362,0.5,within-sample percentile rank,False
+e586a2b3-1132-45db-9283-dc318653a09f,TCGA-BH-A0BC,327a2395-85c8-42e1-9638-8e037a1723ed,TCGA-BH-A0BC,Primary Tumor,1,LR,0.9980636056948099,0.5,within-sample percentile rank,False
+c585bd29-35d3-4b6e-8142-f16479f89ab9,TCGA-BH-A0BJ,d6f911b5-e895-43f8-8f86-0ac2f1bc6fae,TCGA-BH-A0BJ,Solid Tissue Normal,0,LR,0.6324475867026487,0.5,within-sample percentile rank,False
+d1991ebd-1cd1-4c2d-ac99-2a6ecd3f90f1,TCGA-BH-A0BJ,d6f911b5-e895-43f8-8f86-0ac2f1bc6fae,TCGA-BH-A0BJ,Primary Tumor,1,LR,0.9952715979899553,0.5,within-sample percentile rank,False
+bca287af-e08b-4c8f-8076-e7e641b9d2fb,TCGA-BH-A0BM,c2aeee6c-ba10-4cf9-b560-c739580f7bf3,TCGA-BH-A0BM,Solid Tissue Normal,0,LR,0.001505092929870922,0.5,within-sample percentile rank,False
+5423b7f8-d2bb-47c8-9af8-3d3e1276888c,TCGA-BH-A0BM,c2aeee6c-ba10-4cf9-b560-c739580f7bf3,TCGA-BH-A0BM,Primary Tumor,1,LR,0.813041496365255,0.5,within-sample percentile rank,False
+ced0af4b-e977-4399-b3bc-0a98b1c9817f,TCGA-BH-A0BQ,b3bb8fd6-ee54-4813-b042-2bbe70115382,TCGA-BH-A0BQ,Solid Tissue Normal,0,LR,0.13221284083064697,0.5,within-sample percentile rank,False
+18dddb4e-11d6-4fe7-b44a-48342374a5b1,TCGA-BH-A0BQ,b3bb8fd6-ee54-4813-b042-2bbe70115382,TCGA-BH-A0BQ,Primary Tumor,1,LR,0.9957075432098333,0.5,within-sample percentile rank,False
+a6ab4a8e-82f5-49a1-8264-36d415366424,TCGA-BH-A0BS,2b22db1d-54a1-4b9e-a86e-a174cf51d95c,TCGA-BH-A0BS,Solid Tissue Normal,0,LR,0.0010381449688676174,0.5,within-sample percentile rank,False
+2f125802-32af-40b6-b4c8-4018740ccee9,TCGA-BH-A0BS,2b22db1d-54a1-4b9e-a86e-a174cf51d95c,TCGA-BH-A0BS,Primary Tumor,1,LR,0.9997689654427773,0.5,within-sample percentile rank,False
+ac1e8a8e-b6e8-48f3-ba5b-1baa4272a6c7,TCGA-BH-A0BT,a32cb96a-78bf-456e-a6ab-2d47b2c67ad4,TCGA-BH-A0BT,Solid Tissue Normal,0,LR,0.11400917614666928,0.5,within-sample percentile rank,False
+7f7d8229-3daf-48be-bd16-ffe4314528b1,TCGA-BH-A0BT,a32cb96a-78bf-456e-a6ab-2d47b2c67ad4,TCGA-BH-A0BT,Primary Tumor,1,LR,0.9994968585173394,0.5,within-sample percentile rank,False
+21b88cba-4c07-4a15-9794-a981d2875415,TCGA-BH-A0BV,87f03d04-e651-4a6e-aea6-1c946aa46202,TCGA-BH-A0BV,Solid Tissue Normal,0,LR,0.5119188320265937,0.5,within-sample percentile rank,False
+ce3c01d9-e8c7-4bd6-84f9-741f38b07267,TCGA-BH-A0BV,87f03d04-e651-4a6e-aea6-1c946aa46202,TCGA-BH-A0BV,Primary Tumor,1,LR,0.9997363264429323,0.5,within-sample percentile rank,False
+d03b3d7b-3629-4fde-a47a-3184f67236eb,TCGA-BH-A0BW,5d1d00c6-fcae-479e-ae1e-de76efd41d98,TCGA-BH-A0BW,Solid Tissue Normal,0,LR,0.8941580309652036,0.5,within-sample percentile rank,False
+dbeeddc1-d149-46f7-91ff-d057f8c6bffb,TCGA-BH-A0BW,5d1d00c6-fcae-479e-ae1e-de76efd41d98,TCGA-BH-A0BW,Primary Tumor,1,LR,0.9988192634204645,0.5,within-sample percentile rank,False
+e995932f-9ba3-459d-ae09-1f2f0b04aad4,TCGA-BH-A0BZ,4a032bad-e726-48f2-8f39-e3acc109cc91,TCGA-BH-A0BZ,Solid Tissue Normal,0,LR,0.14376143474592515,0.5,within-sample percentile rank,False
+55906ee0-a385-4ec9-8515-90ab613eca35,TCGA-BH-A0BZ,4a032bad-e726-48f2-8f39-e3acc109cc91,TCGA-BH-A0BZ,Primary Tumor,1,LR,0.9999064014998749,0.5,within-sample percentile rank,False
+d84a5349-7473-4f6f-afae-5d0062328491,TCGA-BH-A0C0,7875018b-91dc-4ab1-83b0-ee3883e2816e,TCGA-BH-A0C0,Solid Tissue Normal,0,LR,0.08733572827004527,0.5,within-sample percentile rank,False
+c1898b32-a9c5-410b-a197-572b2a6a2d7a,TCGA-BH-A0C0,7875018b-91dc-4ab1-83b0-ee3883e2816e,TCGA-BH-A0C0,Primary Tumor,1,LR,0.999876382575622,0.5,within-sample percentile rank,False
+82e6dc7b-fe63-4fc6-af9f-68dc76c2cb88,TCGA-BH-A0C3,7bcf6d42-eb8f-4aa2-825b-38671d4f9e3a,TCGA-BH-A0C3,Solid Tissue Normal,0,LR,0.17399117603856903,0.5,within-sample percentile rank,False
+21ba28ff-89f6-4f02-a135-821efc4f42f8,TCGA-BH-A0C3,7bcf6d42-eb8f-4aa2-825b-38671d4f9e3a,TCGA-BH-A0C3,Primary Tumor,1,LR,0.9794056345906423,0.5,within-sample percentile rank,False
+bd6038ff-9634-45d5-80d8-97a3f1ea2d04,TCGA-BH-A0DD,dba9beec-5e51-48c0-9229-0ee286a02a1a,TCGA-BH-A0DD,Solid Tissue Normal,0,LR,0.40266858503672437,0.5,within-sample percentile rank,False
+b5d03f26-66ec-4861-9635-e0ee4a6e41c9,TCGA-BH-A0DD,dba9beec-5e51-48c0-9229-0ee286a02a1a,TCGA-BH-A0DD,Primary Tumor,1,LR,0.9999613046758989,0.5,within-sample percentile rank,False
+a3d00f8e-39c2-4e35-bc2f-df9184b35670,TCGA-BH-A0DG,0bc5744c-5fa3-45bb-87d0-70a02068b392,TCGA-BH-A0DG,Solid Tissue Normal,0,LR,0.2466351256000795,0.5,within-sample percentile rank,False
+3f104cf7-8de8-4e77-8baa-bad1bbb493ac,TCGA-BH-A0DG,0bc5744c-5fa3-45bb-87d0-70a02068b392,TCGA-BH-A0DG,Primary Tumor,1,LR,0.9945358315606105,0.5,within-sample percentile rank,False
+6d8a829d-2f0f-4cb7-ab88-9e99b98c4556,TCGA-BH-A0DH,491b6364-1223-474f-816f-e248c8c841e2,TCGA-BH-A0DH,Solid Tissue Normal,0,LR,0.14413566799516586,0.5,within-sample percentile rank,False
+700477dc-5eb4-4efb-a301-12172a7469f7,TCGA-BH-A0DH,491b6364-1223-474f-816f-e248c8c841e2,TCGA-BH-A0DH,Primary Tumor,1,LR,0.999480723779589,0.5,within-sample percentile rank,False
+834ee4b2-bd0c-47ab-9158-c10534e272ea,TCGA-BH-A0DK,f2bbfa9d-9a9d-4f46-9fde-378e4c44e2ad,TCGA-BH-A0DK,Solid Tissue Normal,0,LR,0.7373279070541505,0.5,within-sample percentile rank,False
+1acae6e0-3100-4de8-a436-e15cdbe1322b,TCGA-BH-A0DK,f2bbfa9d-9a9d-4f46-9fde-378e4c44e2ad,TCGA-BH-A0DK,Primary Tumor,1,LR,0.9864376036048195,0.5,within-sample percentile rank,False
+471df7ad-c811-4411-9ade-277233a1053f,TCGA-BH-A0DL,ba39bfbc-5cac-4f6c-b55c-4eee3466ee93,TCGA-BH-A0DL,Solid Tissue Normal,0,LR,0.2657485793034102,0.5,within-sample percentile rank,False
+20308c88-18f2-4373-9e93-1f1d589d97e2,TCGA-BH-A0DL,ba39bfbc-5cac-4f6c-b55c-4eee3466ee93,TCGA-BH-A0DL,Primary Tumor,1,LR,0.9992126724492375,0.5,within-sample percentile rank,False
+9db89883-6f94-48f8-aefb-b0aaf6344924,TCGA-BH-A0DO,d3d4d709-ab34-4617-aa8c-51a3d0a3efe6,TCGA-BH-A0DO,Solid Tissue Normal,0,LR,0.042099381253451244,0.5,within-sample percentile rank,False
+8b5d38fb-e9ad-445c-b5d5-f054a5eafeb1,TCGA-BH-A0DO,d3d4d709-ab34-4617-aa8c-51a3d0a3efe6,TCGA-BH-A0DO,Primary Tumor,1,LR,0.9725385926657252,0.5,within-sample percentile rank,False
+e3afa9dd-7494-4ced-adcc-267e91b971df,TCGA-BH-A0DP,14267783-5624-4fe5-ba81-9d67f1017474,TCGA-BH-A0DP,Solid Tissue Normal,0,LR,0.0780904132436815,0.5,within-sample percentile rank,False
+ffb838b0-db61-4dc9-aadc-41562f677f54,TCGA-BH-A0DP,14267783-5624-4fe5-ba81-9d67f1017474,TCGA-BH-A0DP,Primary Tumor,1,LR,0.9965267329522919,0.5,within-sample percentile rank,False
+907ca5f2-0442-403f-9ac6-e158e371091e,TCGA-BH-A0DQ,a851ca14-7bbf-455b-a054-ec03979a4247,TCGA-BH-A0DQ,Solid Tissue Normal,0,LR,0.6799936128731586,0.5,within-sample percentile rank,False
+10285a0d-d8cc-4c20-a8a2-8891d9807599,TCGA-BH-A0DQ,a851ca14-7bbf-455b-a054-ec03979a4247,TCGA-BH-A0DQ,Primary Tumor,1,LR,0.9931566520514454,0.5,within-sample percentile rank,False
+a9ce148b-ad26-4257-8f5c-295fd2dcb1d7,TCGA-BH-A0DT,74f31744-0aed-4633-beec-4e203315f0b7,TCGA-BH-A0DT,Solid Tissue Normal,0,LR,0.23307254638920305,0.5,within-sample percentile rank,False
+eb11d414-2f0e-44a1-843c-ecacc7212e91,TCGA-BH-A0DT,74f31744-0aed-4633-beec-4e203315f0b7,TCGA-BH-A0DT,Primary Tumor,1,LR,0.9961127111932649,0.5,within-sample percentile rank,False
+95792e53-593b-40ea-80e2-2fbb4e572513,TCGA-BH-A0DV,96b9c7db-1be1-4b60-b47c-26b654c3d64c,TCGA-BH-A0DV,Solid Tissue Normal,0,LR,0.04636841929210843,0.5,within-sample percentile rank,False
+b4c19f4e-c5bf-4c4f-bad8-9c18128c112d,TCGA-BH-A0DV,96b9c7db-1be1-4b60-b47c-26b654c3d64c,TCGA-BH-A0DV,Primary Tumor,1,LR,0.9103010920472245,0.5,within-sample percentile rank,False
+d306052f-67ae-4bee-a38a-3fc2e8bf3f41,TCGA-BH-A0DZ,478eb8aa-50b8-4ce5-98e4-d518ede4b174,TCGA-BH-A0DZ,Solid Tissue Normal,0,LR,0.3790719761014146,0.5,within-sample percentile rank,False
+6093f268-1c3f-4fec-bde7-fc3721ecaf8e,TCGA-BH-A0DZ,478eb8aa-50b8-4ce5-98e4-d518ede4b174,TCGA-BH-A0DZ,Primary Tumor,1,LR,0.9989487254431326,0.5,within-sample percentile rank,False
+90fb06a9-35be-44b0-9f5b-eb270898aabe,TCGA-BH-A0E0,20e8106b-1290-4735-abe4-7621e08e3dc8,TCGA-BH-A0E0,Solid Tissue Normal,0,LR,0.19829043198216587,0.5,within-sample percentile rank,False
+662cc11c-da31-4e31-8e77-46011b38ea96,TCGA-BH-A0E0,20e8106b-1290-4735-abe4-7621e08e3dc8,TCGA-BH-A0E0,Primary Tumor,1,LR,0.995287956771698,0.5,within-sample percentile rank,False
+e4ee648d-3a2a-4ec7-a888-d6888ddf0171,TCGA-BH-A0E1,606fbc6a-b41b-441d-9401-51e54912bf5e,TCGA-BH-A0E1,Solid Tissue Normal,0,LR,0.0031451335049975495,0.5,within-sample percentile rank,False
+dcf7829e-abaa-435f-b41d-a2bcfde5d66a,TCGA-BH-A0E1,606fbc6a-b41b-441d-9401-51e54912bf5e,TCGA-BH-A0E1,Primary Tumor,1,LR,0.9990473354275078,0.5,within-sample percentile rank,False
+dec6391b-6fe8-487e-a80e-aff0bc7bc136,TCGA-BH-A0H5,cab38ea8-4555-413c-b81e-4621aac4ef85,TCGA-BH-A0H5,Solid Tissue Normal,0,LR,0.03229454869154492,0.5,within-sample percentile rank,False
+8cc4fd25-dd8b-4983-ac21-24f3cf3e51cd,TCGA-BH-A0H5,cab38ea8-4555-413c-b81e-4621aac4ef85,TCGA-BH-A0H5,Primary Tumor,1,LR,0.993363149143605,0.5,within-sample percentile rank,False
+876a2145-5b7b-466b-b13f-81fcf028c9fd,TCGA-BH-A0H7,2021ed1f-dc75-4701-b8b8-1386466e4802,TCGA-BH-A0H7,Solid Tissue Normal,0,LR,0.6383355927339731,0.5,within-sample percentile rank,False
+69bfa6ce-ed46-4321-a107-347c49d68951,TCGA-BH-A0H7,2021ed1f-dc75-4701-b8b8-1386466e4802,TCGA-BH-A0H7,Primary Tumor,1,LR,0.9996860281659808,0.5,within-sample percentile rank,False
+6fe74906-b3c0-49dc-95d8-ef19326b2b35,TCGA-BH-A0H9,0f64edec-0f1f-4025-8a53-75f9534f7828,TCGA-BH-A0H9,Solid Tissue Normal,0,LR,0.1538060117418007,0.5,within-sample percentile rank,False
+4a7c76a9-c3a2-4b57-a57a-de055152dcf8,TCGA-BH-A0H9,0f64edec-0f1f-4025-8a53-75f9534f7828,TCGA-BH-A0H9,Primary Tumor,1,LR,0.9996833783301056,0.5,within-sample percentile rank,False
+0cf5f314-5cc8-4c4c-853a-e4bcbc749acc,TCGA-BH-A0HA,e666081b-caaf-4e8b-9446-807be71201a5,TCGA-BH-A0HA,Solid Tissue Normal,0,LR,0.0011679521320532647,0.5,within-sample percentile rank,False
+63baef92-6733-4791-b897-0abe9131a5f5,TCGA-BH-A0HA,e666081b-caaf-4e8b-9446-807be71201a5,TCGA-BH-A0HA,Primary Tumor,1,LR,0.9979669360766271,0.5,within-sample percentile rank,False
+aaeda2ea-cf26-445f-a367-85735fe80a27,TCGA-BH-A0HK,24334ac1-28a3-4b61-b590-3f51e375b247,TCGA-BH-A0HK,Solid Tissue Normal,0,LR,0.295664233206241,0.5,within-sample percentile rank,False
+8835b20e-9343-4266-a356-e0343c657130,TCGA-BH-A0HK,24334ac1-28a3-4b61-b590-3f51e375b247,TCGA-BH-A0HK,Primary Tumor,1,LR,0.9479803694472524,0.5,within-sample percentile rank,False
+531e4ba7-04b1-4ec0-84e8-4b8de97ad3d7,TCGA-BH-A18J,cc074b7f-d3b2-4880-902e-bf10e667b665,TCGA-BH-A18J,Solid Tissue Normal,0,LR,0.053420968833536434,0.5,within-sample percentile rank,False
+044f9b74-9a16-432e-acac-78c399c001bc,TCGA-BH-A18J,cc074b7f-d3b2-4880-902e-bf10e667b665,TCGA-BH-A18J,Primary Tumor,1,LR,0.9999654247872029,0.5,within-sample percentile rank,False
+a456d499-cba4-49a6-a296-998ed018947a,TCGA-BH-A18K,50619f8c-10aa-464a-a227-90a7aa6ffd43,TCGA-BH-A18K,Solid Tissue Normal,0,LR,0.010410810213627516,0.5,within-sample percentile rank,False
+db1c378a-1974-4b79-a027-928cba385e40,TCGA-BH-A18K,50619f8c-10aa-464a-a227-90a7aa6ffd43,TCGA-BH-A18K,Primary Tumor,1,LR,0.9997265672088301,0.5,within-sample percentile rank,False
+67f32715-fea8-4b4e-9815-aa0c67253ad3,TCGA-BH-A18L,9ddc3e7b-8b54-4a83-8335-8053940f56c1,TCGA-BH-A18L,Solid Tissue Normal,0,LR,0.13468502829473536,0.5,within-sample percentile rank,False
+796e565c-3841-425a-bdfb-569776d7c9ac,TCGA-BH-A18L,9ddc3e7b-8b54-4a83-8335-8053940f56c1,TCGA-BH-A18L,Primary Tumor,1,LR,0.9997791191358234,0.5,within-sample percentile rank,False
+9a793dbd-24a5-4e0c-aa00-efee41902a5d,TCGA-BH-A18M,f63722c1-a0bb-4bf9-8a10-1d76a8e1a0ba,TCGA-BH-A18M,Solid Tissue Normal,0,LR,0.36778522465423785,0.5,within-sample percentile rank,False
+6a914b5f-5bc2-4152-b80e-fcc864a415b0,TCGA-BH-A18M,f63722c1-a0bb-4bf9-8a10-1d76a8e1a0ba,TCGA-BH-A18M,Primary Tumor,1,LR,0.9976577077704415,0.5,within-sample percentile rank,False
+2ed1ed4a-12e1-4306-b290-6c31933d054e,TCGA-BH-A18N,665dd3d3-779c-4abd-b5d7-13342340451d,TCGA-BH-A18N,Solid Tissue Normal,0,LR,0.06394652138196663,0.5,within-sample percentile rank,False
+dba36215-670e-400f-864e-a46702d49240,TCGA-BH-A18N,665dd3d3-779c-4abd-b5d7-13342340451d,TCGA-BH-A18N,Primary Tumor,1,LR,0.9993979823488498,0.5,within-sample percentile rank,False
+9563ff43-853c-4d6a-910c-de6fbc638d57,TCGA-BH-A18P,557cb0a3-6f1b-4faf-8296-0a15c24158f9,TCGA-BH-A18P,Solid Tissue Normal,0,LR,0.003887951316609893,0.5,within-sample percentile rank,False
+0d0546ad-8a51-4802-a173-96fbe5ebb124,TCGA-BH-A18P,557cb0a3-6f1b-4faf-8296-0a15c24158f9,TCGA-BH-A18P,Primary Tumor,1,LR,0.999970632681231,0.5,within-sample percentile rank,False
+93eb97b3-918f-42b8-8d3d-34715d09e491,TCGA-BH-A18Q,db4bc6aa-2e7d-4bcb-8519-a455f624d33b,TCGA-BH-A18Q,Solid Tissue Normal,0,LR,0.08601731766864595,0.5,within-sample percentile rank,False
+f225775e-e46f-4d1d-8b13-042e9776dd72,TCGA-BH-A18Q,db4bc6aa-2e7d-4bcb-8519-a455f624d33b,TCGA-BH-A18Q,Primary Tumor,1,LR,0.9972151487664158,0.5,within-sample percentile rank,False
+3196c5f3-9227-4a9d-b87a-3e1f680a768c,TCGA-BH-A18R,f6e1ec78-5ad9-4879-9b7e-262d17b166ad,TCGA-BH-A18R,Solid Tissue Normal,0,LR,0.02781574661035954,0.5,within-sample percentile rank,False
+518be2c7-fba5-47b1-8c8b-fef812fa74a4,TCGA-BH-A18R,f6e1ec78-5ad9-4879-9b7e-262d17b166ad,TCGA-BH-A18R,Primary Tumor,1,LR,0.9995079513171399,0.5,within-sample percentile rank,False
+4e786a4a-cf47-41ea-a0b0-4349dcd500f5,TCGA-BH-A18S,433427a1-bacf-4381-91ba-5fec8a0953f9,TCGA-BH-A18S,Solid Tissue Normal,0,LR,0.05084068550384904,0.5,within-sample percentile rank,False
+ce3a4469-8d19-4661-9c48-1baf6e84f49c,TCGA-BH-A18S,433427a1-bacf-4381-91ba-5fec8a0953f9,TCGA-BH-A18S,Primary Tumor,1,LR,0.9999617353541526,0.5,within-sample percentile rank,False
+0b290880-d67c-42b4-aa57-afd3c3d09518,TCGA-BH-A18U,233b02f3-c4f0-4a67-9db5-e68d5cdaccb6,TCGA-BH-A18U,Solid Tissue Normal,0,LR,0.45684463028237793,0.5,within-sample percentile rank,False
+79763193-268d-49e7-b94c-5cb95f7271b6,TCGA-BH-A18U,233b02f3-c4f0-4a67-9db5-e68d5cdaccb6,TCGA-BH-A18U,Primary Tumor,1,LR,0.9998334389994867,0.5,within-sample percentile rank,False
+e85b2b0f-993f-4c37-8ed5-53d384ac18e1,TCGA-BH-A18V,6b960b58-28e1-41c6-bd6e-7e669c6aa4ef,TCGA-BH-A18V,Solid Tissue Normal,0,LR,0.043190977903203774,0.5,within-sample percentile rank,False
+2923c735-34a1-4db6-a248-1c5de2241dd4,TCGA-BH-A18V,6b960b58-28e1-41c6-bd6e-7e669c6aa4ef,TCGA-BH-A18V,Primary Tumor,1,LR,0.9950620556644842,0.5,within-sample percentile rank,False
+ae5214a0-7fbe-410d-aedf-0a119c8b7f5a,TCGA-BH-A1EN,858652b8-c4c2-41d8-be32-fdc88e1a7bb0,TCGA-BH-A1EN,Solid Tissue Normal,0,LR,0.09690100035551186,0.5,within-sample percentile rank,False
+bea52276-596c-479e-981d-ca9132742098,TCGA-BH-A1EN,858652b8-c4c2-41d8-be32-fdc88e1a7bb0,TCGA-BH-A1EN,Primary Tumor,1,LR,0.9998259118612355,0.5,within-sample percentile rank,False
+fff3e5a3-4b84-4afa-bdb5-1c6b2a6626bc,TCGA-BH-A1EO,4510295e-8aa7-4ef1-b2b7-91cc902f8200,TCGA-BH-A1EO,Solid Tissue Normal,0,LR,0.39902427503907595,0.5,within-sample percentile rank,False
+9d501ca9-f50d-45fc-bcc3-fee15f9771cd,TCGA-BH-A1EO,4510295e-8aa7-4ef1-b2b7-91cc902f8200,TCGA-BH-A1EO,Primary Tumor,1,LR,0.9970490240127271,0.5,within-sample percentile rank,False
+6ca1ada8-2473-4d1a-ae02-b57aae168243,TCGA-BH-A1ET,8986a141-eae7-4157-b695-02cc6fc3b071,TCGA-BH-A1ET,Solid Tissue Normal,0,LR,0.07006473857852669,0.5,within-sample percentile rank,False
+2190d984-3941-41d4-b6de-d0aa76f3570d,TCGA-BH-A1ET,8986a141-eae7-4157-b695-02cc6fc3b071,TCGA-BH-A1ET,Primary Tumor,1,LR,0.9979114305849881,0.5,within-sample percentile rank,False
+dadbd2f7-ea44-428c-bfcf-e27f2b978ff1,TCGA-BH-A1EU,a1093598-d3a8-4ffe-83fc-bc7d1faff7e5,TCGA-BH-A1EU,Solid Tissue Normal,0,LR,0.06315618380945853,0.5,within-sample percentile rank,False
+73af0f78-cc37-43ff-8f46-524a9ba80eda,TCGA-BH-A1EU,a1093598-d3a8-4ffe-83fc-bc7d1faff7e5,TCGA-BH-A1EU,Primary Tumor,1,LR,0.9504789926827889,0.5,within-sample percentile rank,False
+1b3867a3-80db-417d-8e5c-f6f602c14760,TCGA-BH-A1EV,417dea5f-f68e-4dab-940e-43ae8c67e5e6,TCGA-BH-A1EV,Solid Tissue Normal,0,LR,0.732115998843323,0.5,within-sample percentile rank,False
+29ac24fb-0065-47f8-b044-f4a66fad2394,TCGA-BH-A1EV,417dea5f-f68e-4dab-940e-43ae8c67e5e6,TCGA-BH-A1EV,Primary Tumor,1,LR,0.9999653495292206,0.5,within-sample percentile rank,False
+b35ce058-b4ac-45b2-9103-a14b7d8a30f7,TCGA-BH-A1EW,9d166970-07c8-4ca3-9cfa-ed0049df9ecc,TCGA-BH-A1EW,Solid Tissue Normal,0,LR,0.8999806281272937,0.5,within-sample percentile rank,False
+50463a25-4292-4bc7-926a-341493e68242,TCGA-BH-A1EW,9d166970-07c8-4ca3-9cfa-ed0049df9ecc,TCGA-BH-A1EW,Primary Tumor,1,LR,0.9995899276873761,0.5,within-sample percentile rank,False
+6c6c1c35-5e1b-4e9f-ab19-550d1ba4cc43,TCGA-BH-A1F0,21ef1730-e5a7-47ce-b419-d000bb59ae15,TCGA-BH-A1F0,Solid Tissue Normal,0,LR,0.043974348026616775,0.5,within-sample percentile rank,False
+f754aa5f-49c8-4e8b-a1fe-f370f807499a,TCGA-BH-A1F0,21ef1730-e5a7-47ce-b419-d000bb59ae15,TCGA-BH-A1F0,Primary Tumor,1,LR,0.9611972919154166,0.5,within-sample percentile rank,False
+159c3664-3ab2-4f87-91a0-b6e25833fb27,TCGA-BH-A1F2,6a2972e3-cca9-47e5-aac0-b770f2399eeb,TCGA-BH-A1F2,Solid Tissue Normal,0,LR,0.0361667347227616,0.5,within-sample percentile rank,False
+e5c171ac-f700-439c-9e44-6cfed2c9cea7,TCGA-BH-A1F2,6a2972e3-cca9-47e5-aac0-b770f2399eeb,TCGA-BH-A1F2,Primary Tumor,1,LR,0.9886562355115573,0.5,within-sample percentile rank,False
+84f25e50-b0bb-4f2a-bb94-14019bc7fa95,TCGA-BH-A1F6,ad18820b-a804-49c0-ba8a-86c09fa6bce2,TCGA-BH-A1F6,Solid Tissue Normal,0,LR,0.09220790778653344,0.5,within-sample percentile rank,False
+e5a9fa79-2d0f-4cda-9fea-baab86f78b8e,TCGA-BH-A1F6,ad18820b-a804-49c0-ba8a-86c09fa6bce2,TCGA-BH-A1F6,Primary Tumor,1,LR,0.9995817502394447,0.5,within-sample percentile rank,False
+f9e5d9cc-d80e-409d-9b6a-c4de9dc55611,TCGA-BH-A1F8,ee554215-bea2-4268-aaf9-784e68cdb969,TCGA-BH-A1F8,Solid Tissue Normal,0,LR,0.3228122892140607,0.5,within-sample percentile rank,False
+7e598a8a-9fb8-4c2d-94e7-ae1921addcd1,TCGA-BH-A1F8,ee554215-bea2-4268-aaf9-784e68cdb969,TCGA-BH-A1F8,Primary Tumor,1,LR,0.9999683247326752,0.5,within-sample percentile rank,False
+97ae0904-411d-4406-9389-5a49bd939667,TCGA-BH-A1FB,ecab16bc-28d5-4c3a-8735-3c785bd047c4,TCGA-BH-A1FB,Solid Tissue Normal,0,LR,0.03448609612052133,0.5,within-sample percentile rank,False
+1fc22273-7e02-4193-9fbb-476e0eab6afb,TCGA-BH-A1FB,ecab16bc-28d5-4c3a-8735-3c785bd047c4,TCGA-BH-A1FB,Primary Tumor,1,LR,0.9667071896779851,0.5,within-sample percentile rank,False
+a6916373-70f1-434c-910a-407609815556,TCGA-BH-A1FC,b97bf89a-7a85-4eef-ae7e-f787aead1f0a,TCGA-BH-A1FC,Solid Tissue Normal,0,LR,0.27851194251292316,0.5,within-sample percentile rank,False
+3ad0093a-e57a-450a-b0ef-942c9b67a586,TCGA-BH-A1FC,b97bf89a-7a85-4eef-ae7e-f787aead1f0a,TCGA-BH-A1FC,Primary Tumor,1,LR,0.9996990241535623,0.5,within-sample percentile rank,False
+d6e315fd-c662-494c-98de-02c87b833473,TCGA-BH-A1FD,3c8b5af9-c34d-43c2-b8c9-39ea11e44fa6,TCGA-BH-A1FD,Solid Tissue Normal,0,LR,0.021649145446991105,0.5,within-sample percentile rank,False
+a0e467f8-79c1-499e-b881-669b4bd55b8c,TCGA-BH-A1FD,3c8b5af9-c34d-43c2-b8c9-39ea11e44fa6,TCGA-BH-A1FD,Primary Tumor,1,LR,0.999870569163301,0.5,within-sample percentile rank,False
+f6813172-e95b-4654-a1c7-06e1181fcd93,TCGA-BH-A1FE,4aa68586-6331-4795-b40c-859386640df6,TCGA-BH-A1FE,Solid Tissue Normal,0,LR,0.06243684334900976,0.5,within-sample percentile rank,False
+3de73049-e6e7-4ed7-be98-bf174fd37c89,TCGA-BH-A1FE,4aa68586-6331-4795-b40c-859386640df6,TCGA-BH-A1FE,Primary Tumor,1,LR,0.996274226269158,0.5,within-sample percentile rank,False
+86fa46b0-7118-49e9-a693-c44f46b86e55,TCGA-BH-A1FG,d4e7426c-9739-4585-9114-e564b13c7c02,TCGA-BH-A1FG,Solid Tissue Normal,0,LR,0.04071879448902139,0.5,within-sample percentile rank,False
+33f49b4e-924e-4590-8afa-e17403602137,TCGA-BH-A1FG,d4e7426c-9739-4585-9114-e564b13c7c02,TCGA-BH-A1FG,Primary Tumor,1,LR,0.998923719425282,0.5,within-sample percentile rank,False
+c75bc2c7-cf1f-482c-b615-f60b56983124,TCGA-BH-A1FH,1783cac1-253a-40af-a9ac-48dfb20e1ab8,TCGA-BH-A1FH,Solid Tissue Normal,0,LR,0.13399262529591194,0.5,within-sample percentile rank,False
+f0785dc2-a43e-4b59-a21c-ab55c490d441,TCGA-BH-A1FH,1783cac1-253a-40af-a9ac-48dfb20e1ab8,TCGA-BH-A1FH,Primary Tumor,1,LR,0.7175891897803426,0.5,within-sample percentile rank,False
+6921f528-54eb-429f-a9e9-ceb7e6b33ba9,TCGA-BH-A1FJ,f6581eee-61b9-43d4-ab0d-ce5ce3ba1c74,TCGA-BH-A1FJ,Solid Tissue Normal,0,LR,0.15116059421839179,0.5,within-sample percentile rank,False
+72367269-4151-4e1f-8636-ff91396ba46c,TCGA-BH-A1FJ,f6581eee-61b9-43d4-ab0d-ce5ce3ba1c74,TCGA-BH-A1FJ,Primary Tumor,1,LR,0.9999890578270236,0.5,within-sample percentile rank,False
+6e6a7a6c-4630-4506-8b57-a0df12ffff4c,TCGA-BH-A1FM,7eb18190-5a41-4637-9783-f81bbde499e4,TCGA-BH-A1FM,Solid Tissue Normal,0,LR,0.08074161306361899,0.5,within-sample percentile rank,False
+cf2b65de-c6a1-4ebc-a62a-c652ce17d2d0,TCGA-BH-A1FM,7eb18190-5a41-4637-9783-f81bbde499e4,TCGA-BH-A1FM,Primary Tumor,1,LR,0.9985704304645743,0.5,within-sample percentile rank,False
+408b3378-5f8e-49df-8bd2-1e0a55288252,TCGA-BH-A1FN,6dd0dd7b-62ff-4fd1-a99a-b265f1a91dca,TCGA-BH-A1FN,Solid Tissue Normal,0,LR,0.3022949355074051,0.5,within-sample percentile rank,False
+ae08dbd6-548a-469c-ba12-b6a87515bce7,TCGA-BH-A1FN,6dd0dd7b-62ff-4fd1-a99a-b265f1a91dca,TCGA-BH-A1FN,Primary Tumor,1,LR,0.9999104790789822,0.5,within-sample percentile rank,False
+0729326e-9b85-44f5-8134-28cb10805bf4,TCGA-BH-A1FR,bf3b1481-ae31-4406-b084-b6cc1d7163e3,TCGA-BH-A1FR,Solid Tissue Normal,0,LR,0.5713041878575894,0.5,within-sample percentile rank,False
+0fc347ae-7ad9-4987-887a-d37fe871d6c2,TCGA-BH-A1FR,bf3b1481-ae31-4406-b084-b6cc1d7163e3,TCGA-BH-A1FR,Primary Tumor,1,LR,0.9999589323721079,0.5,within-sample percentile rank,False
+08693317-d839-477c-b145-477a3521e03a,TCGA-BH-A1FU,c348a9b3-c901-4384-a222-144387bac0c5,TCGA-BH-A1FU,Solid Tissue Normal,0,LR,0.1520712367383564,0.5,within-sample percentile rank,False
+438152c8-2d26-4b35-9f68-a4b6c473916e,TCGA-BH-A1FU,c348a9b3-c901-4384-a222-144387bac0c5,TCGA-BH-A1FU,Primary Tumor,1,LR,0.9852941685342385,0.5,within-sample percentile rank,False
+a16194b7-162f-4282-a552-1fa1915ea589,TCGA-BH-A203,b3264748-947a-43aa-b227-b294fbcc8447,TCGA-BH-A203,Solid Tissue Normal,0,LR,0.01573067314729226,0.5,within-sample percentile rank,False
+002997ef-3b93-443a-80a3-bae63e129d99,TCGA-BH-A203,b3264748-947a-43aa-b227-b294fbcc8447,TCGA-BH-A203,Primary Tumor,1,LR,0.999709674141192,0.5,within-sample percentile rank,False
+8511971e-372e-4dc1-96a9-3fea2298393b,TCGA-BH-A204,05135396-df5c-49db-b34e-f4add5b65a2b,TCGA-BH-A204,Solid Tissue Normal,0,LR,0.06467704406014424,0.5,within-sample percentile rank,False
+a28d9c46-4774-4167-8c1e-ee95436c7b2e,TCGA-BH-A204,05135396-df5c-49db-b34e-f4add5b65a2b,TCGA-BH-A204,Primary Tumor,1,LR,0.9999017156437919,0.5,within-sample percentile rank,False
+0b755cf4-785f-466e-a235-ea697b9a6423,TCGA-BH-A208,ddcbdac6-9e43-4146-a611-d033125eba14,TCGA-BH-A208,Solid Tissue Normal,0,LR,0.03864568394852878,0.5,within-sample percentile rank,False
+723e0934-327e-46f2-94f0-20a65da1ea0e,TCGA-BH-A208,ddcbdac6-9e43-4146-a611-d033125eba14,TCGA-BH-A208,Primary Tumor,1,LR,0.9650223910028255,0.5,within-sample percentile rank,False
+cd390244-133c-4f09-a076-9dddd986df04,TCGA-BH-A209,5258294f-ef5b-4091-9183-6bcc545d54b2,TCGA-BH-A209,Solid Tissue Normal,0,LR,0.19022498925992157,0.5,within-sample percentile rank,False
+fbf64fdd-6787-4647-b0cd-860acc8abce6,TCGA-BH-A209,5258294f-ef5b-4091-9183-6bcc545d54b2,TCGA-BH-A209,Primary Tumor,1,LR,0.9997931446104433,0.5,within-sample percentile rank,False
+f6ad04eb-19cf-461c-b274-8cf0b640ad34,TCGA-E2-A153,be9bf36a-12e1-4386-addf-1686dc8b49de,TCGA-E2-A153,Solid Tissue Normal,0,LR,0.6273665987286876,0.5,within-sample percentile rank,False
+6526e884-ca7a-4f10-9cb8-fe8fa90f1dbb,TCGA-E2-A153,be9bf36a-12e1-4386-addf-1686dc8b49de,TCGA-E2-A153,Primary Tumor,1,LR,0.997944246085541,0.5,within-sample percentile rank,False
+e94c165f-210d-47d7-b7e7-c5747ee7f451,TCGA-E2-A158,a6edb6ca-ae9f-4da7-8ebe-92d83d2987fb,TCGA-E2-A158,Solid Tissue Normal,0,LR,0.1462966567433757,0.5,within-sample percentile rank,False
+5ce91cce-a4ac-45e1-bc3e-737494a67769,TCGA-E2-A158,a6edb6ca-ae9f-4da7-8ebe-92d83d2987fb,TCGA-E2-A158,Primary Tumor,1,LR,0.9999951266317125,0.5,within-sample percentile rank,False
+e3368a46-4101-4dd5-a447-255f59bfa9da,TCGA-E2-A15I,64089c20-939f-48b4-ae8b-904ad0597145,TCGA-E2-A15I,Solid Tissue Normal,0,LR,0.031045852592494167,0.5,within-sample percentile rank,False
+c2f00c0c-9ad9-4c1d-912c-52eacedcba12,TCGA-E2-A15I,64089c20-939f-48b4-ae8b-904ad0597145,TCGA-E2-A15I,Primary Tumor,1,LR,0.9993150617147974,0.5,within-sample percentile rank,False
+1eb11f10-2aca-4ca1-b6fc-bbc97cc485fd,TCGA-E2-A15K,17c1d42c-cb84-4655-a4cd-b54bae17ecaf,TCGA-E2-A15K,Solid Tissue Normal,0,LR,0.18496654084127084,0.5,within-sample percentile rank,False
+3a36b403-ea38-49f9-9c28-710c5d141164,TCGA-E2-A15K,17c1d42c-cb84-4655-a4cd-b54bae17ecaf,TCGA-E2-A15K,Primary Tumor,1,LR,0.9999716279721335,0.5,within-sample percentile rank,False
+97269c0f-b638-473d-9d44-8ccc770a0039,TCGA-E2-A15M,59be60a3-e0f6-4d63-b98c-574ef92428c4,TCGA-E2-A15M,Solid Tissue Normal,0,LR,0.13400899126428725,0.5,within-sample percentile rank,False
+0177791d-d02d-4433-81ae-458a93fdd60f,TCGA-E2-A15M,59be60a3-e0f6-4d63-b98c-574ef92428c4,TCGA-E2-A15M,Primary Tumor,1,LR,0.9914970406790015,0.5,within-sample percentile rank,False
+d221f2c8-5852-4392-b166-92b709000e78,TCGA-E2-A1BC,d8492ebd-3d94-4a4b-8de7-386526691cc2,TCGA-E2-A1BC,Solid Tissue Normal,0,LR,0.026897397309282842,0.5,within-sample percentile rank,False
+83ec5738-3a27-4100-83f2-8b30ae3b2fb7,TCGA-E2-A1BC,d8492ebd-3d94-4a4b-8de7-386526691cc2,TCGA-E2-A1BC,Primary Tumor,1,LR,0.9420859579970072,0.5,within-sample percentile rank,False
+86e64e26-2be4-463d-8129-c0374cd4d5aa,TCGA-E2-A1IG,bc0bc70f-c6cf-4dbc-9dc3-8b7bc5f381a4,TCGA-E2-A1IG,Solid Tissue Normal,0,LR,0.030242026070811875,0.5,within-sample percentile rank,False
+5e429dd7-787c-4e7d-b672-b000b7b57929,TCGA-E2-A1IG,bc0bc70f-c6cf-4dbc-9dc3-8b7bc5f381a4,TCGA-E2-A1IG,Primary Tumor,1,LR,0.9992967902241532,0.5,within-sample percentile rank,False
+3b56098e-35ec-4fd3-b14d-c3cc777a94c9,TCGA-E2-A1L7,791c5768-f0f5-4ab6-86eb-998e5c4b49e3,TCGA-E2-A1L7,Solid Tissue Normal,0,LR,0.5241489243328609,0.5,within-sample percentile rank,False
+09b414c4-a314-43c5-823a-d91442b6b02b,TCGA-E2-A1L7,791c5768-f0f5-4ab6-86eb-998e5c4b49e3,TCGA-E2-A1L7,Primary Tumor,1,LR,0.9999266680619073,0.5,within-sample percentile rank,False
+4a429750-5cdd-44bc-8b2f-9921c3d1102e,TCGA-E2-A1LB,fa176764-a76f-44c7-b97a-cd6d21e052be,TCGA-E2-A1LB,Solid Tissue Normal,0,LR,0.1669447111570263,0.5,within-sample percentile rank,False
+26f9a1ab-fa60-47f3-ac29-96acaa68fb4a,TCGA-E2-A1LB,fa176764-a76f-44c7-b97a-cd6d21e052be,TCGA-E2-A1LB,Primary Tumor,1,LR,0.9996539742421143,0.5,within-sample percentile rank,False
+d78f95cd-3823-42ba-9c08-b5a70e41fd63,TCGA-E2-A1LH,d8ecba6a-9fff-4993-a799-9a8d2aea524e,TCGA-E2-A1LH,Solid Tissue Normal,0,LR,0.0052876429812042675,0.5,within-sample percentile rank,False
+c236908e-4814-409b-9fcc-2bedf60aa168,TCGA-E2-A1LH,d8ecba6a-9fff-4993-a799-9a8d2aea524e,TCGA-E2-A1LH,Primary Tumor,1,LR,0.9997784812195544,0.5,within-sample percentile rank,False
+072ae9bc-16a5-4c63-8ec6-7b0a4d3835a7,TCGA-E2-A1LS,91a2f2af-e4b1-4a0b-ab20-6a36ce63c533,TCGA-E2-A1LS,Solid Tissue Normal,0,LR,0.06424002656936459,0.5,within-sample percentile rank,False
+529056f9-7bdf-4675-bff7-a82abddf5734,TCGA-E2-A1LS,91a2f2af-e4b1-4a0b-ab20-6a36ce63c533,TCGA-E2-A1LS,Primary Tumor,1,LR,0.8534464468248224,0.5,within-sample percentile rank,False
+d49b5007-2fc8-46e0-ae99-d65cd446e436,TCGA-E9-A1N4,69a68fbc-e43d-4652-85ee-693211bded47,TCGA-E9-A1N4,Solid Tissue Normal,0,LR,0.07369315612131709,0.5,within-sample percentile rank,False
+8d122839-4167-48b2-9f3a-7ff7c3f134d8,TCGA-E9-A1N4,69a68fbc-e43d-4652-85ee-693211bded47,TCGA-E9-A1N4,Primary Tumor,1,LR,0.9996448636234389,0.5,within-sample percentile rank,False
+ef5eaeb4-c3eb-43d2-b5a8-79f498e9e24a,TCGA-E9-A1N5,f954de05-1b44-4087-8933-6cc72d81028d,TCGA-E9-A1N5,Solid Tissue Normal,0,LR,0.9421441744463578,0.5,within-sample percentile rank,False
+cc07e1f1-e1e7-4335-ab8b-b7bebef1669f,TCGA-E9-A1N5,f954de05-1b44-4087-8933-6cc72d81028d,TCGA-E9-A1N5,Primary Tumor,1,LR,0.9997360991880695,0.5,within-sample percentile rank,False
+a82b9ff4-83b1-451d-be31-4e0626b03339,TCGA-E9-A1N6,955d4263-61f7-42e8-8a6e-772a0d6c209d,TCGA-E9-A1N6,Solid Tissue Normal,0,LR,0.0894026158259336,0.5,within-sample percentile rank,False
+50a70e24-2ce8-43fd-87d7-eab2c1fa9a86,TCGA-E9-A1N6,955d4263-61f7-42e8-8a6e-772a0d6c209d,TCGA-E9-A1N6,Primary Tumor,1,LR,0.9997294716796798,0.5,within-sample percentile rank,False
+2e532402-4279-4441-a7e5-0ed2b793a134,TCGA-E9-A1N9,994ca1f5-ad10-44ec-aa21-71fc2940653b,TCGA-E9-A1N9,Solid Tissue Normal,0,LR,0.19287625566311867,0.5,within-sample percentile rank,False
+3c2bed9f-2ab5-4623-b631-99e394d7723d,TCGA-E9-A1N9,994ca1f5-ad10-44ec-aa21-71fc2940653b,TCGA-E9-A1N9,Primary Tumor,1,LR,0.9992322950927125,0.5,within-sample percentile rank,False
+73c4bc21-7732-4562-af5a-1b229fbd5ea7,TCGA-E9-A1NA,af577366-0258-49e7-b6af-e70056c081a4,TCGA-E9-A1NA,Solid Tissue Normal,0,LR,0.11658389783177715,0.5,within-sample percentile rank,False
+e2ef6df2-c375-4c59-ae1b-c8cca22a8387,TCGA-E9-A1NA,af577366-0258-49e7-b6af-e70056c081a4,TCGA-E9-A1NA,Primary Tumor,1,LR,0.9998105540228862,0.5,within-sample percentile rank,False
+41615c91-a592-40ed-8bc1-3dda5f2c8625,TCGA-E9-A1ND,f06f09f3-8133-4a92-ac86-fbe64295e0d8,TCGA-E9-A1ND,Solid Tissue Normal,0,LR,0.37639641480462277,0.5,within-sample percentile rank,False
+b41b1f04-226e-466c-b5e1-f61e45ad3210,TCGA-E9-A1ND,f06f09f3-8133-4a92-ac86-fbe64295e0d8,TCGA-E9-A1ND,Primary Tumor,1,LR,0.9990698905598363,0.5,within-sample percentile rank,False
+5b799218-c5f2-4213-86a3-d67ed776bb28,TCGA-E9-A1NF,a8b1f6e7-2bcf-460d-b1c6-1792a9801119,TCGA-E9-A1NF,Solid Tissue Normal,0,LR,0.14660556327043536,0.5,within-sample percentile rank,False
+0c30cd0e-a2d2-42b0-9ca9-8297de64e4a8,TCGA-E9-A1NF,a8b1f6e7-2bcf-460d-b1c6-1792a9801119,TCGA-E9-A1NF,Primary Tumor,1,LR,0.9973389383614115,0.5,within-sample percentile rank,False
+ec92d7b1-ad80-4f3d-a8e8-3160941c24ac,TCGA-E9-A1NG,659b0170-e914-45ff-aa55-fcb8d3dc7b8a,TCGA-E9-A1NG,Solid Tissue Normal,0,LR,0.09819903727236956,0.5,within-sample percentile rank,False
+7adf414b-c3f7-4e2c-aa80-81d3edd9764e,TCGA-E9-A1NG,659b0170-e914-45ff-aa55-fcb8d3dc7b8a,TCGA-E9-A1NG,Primary Tumor,1,LR,0.9965684819894628,0.5,within-sample percentile rank,False
+d8015844-0615-42f1-a81c-ae707dbe1693,TCGA-E9-A1R7,2680da86-c977-4611-b75f-df015283c023,TCGA-E9-A1R7,Solid Tissue Normal,0,LR,0.06497734624296404,0.5,within-sample percentile rank,False
+8d9f2037-1c1f-4c73-a993-dc4c2aa67d30,TCGA-E9-A1R7,2680da86-c977-4611-b75f-df015283c023,TCGA-E9-A1R7,Primary Tumor,1,LR,0.9999368827248863,0.5,within-sample percentile rank,False
+8813ace1-aacf-4a54-b9e1-5379d52778da,TCGA-E9-A1RB,94b95984-b2fb-4e42-8887-45e7086c3179,TCGA-E9-A1RB,Solid Tissue Normal,0,LR,0.2590321344560813,0.5,within-sample percentile rank,False
+43993e01-588a-40de-80ec-72c1a66fe70b,TCGA-E9-A1RB,94b95984-b2fb-4e42-8887-45e7086c3179,TCGA-E9-A1RB,Primary Tumor,1,LR,0.9996645044652163,0.5,within-sample percentile rank,False
+5174c897-271a-4306-b0b6-48715cffc278,TCGA-E9-A1RC,5cdae21d-eee5-478f-932a-0f51fcf5f031,TCGA-E9-A1RC,Solid Tissue Normal,0,LR,0.16612004502672117,0.5,within-sample percentile rank,False
+9eaa7f15-8a97-4a49-9e93-b5790a1fade0,TCGA-E9-A1RC,5cdae21d-eee5-478f-932a-0f51fcf5f031,TCGA-E9-A1RC,Primary Tumor,1,LR,0.9999620336423237,0.5,within-sample percentile rank,False
+5f6e9271-967d-4f56-ac38-1d32f9aebd12,TCGA-E9-A1RD,5fe3c51f-65e2-4da6-8924-a6fae17c022d,TCGA-E9-A1RD,Solid Tissue Normal,0,LR,0.09433020178623881,0.5,within-sample percentile rank,False
+d19fe184-84a8-4a49-a4d4-75891670da4d,TCGA-E9-A1RD,5fe3c51f-65e2-4da6-8924-a6fae17c022d,TCGA-E9-A1RD,Primary Tumor,1,LR,0.9999689093372373,0.5,within-sample percentile rank,False
+9b8be955-8c21-449d-a951-c715a6dd1cab,TCGA-E9-A1RF,c694615c-b1c6-499c-8058-995633ebf948,TCGA-E9-A1RF,Solid Tissue Normal,0,LR,0.10323693894378363,0.5,within-sample percentile rank,False
+ca0d78dc-c860-4835-ad07-052f176804a4,TCGA-E9-A1RF,c694615c-b1c6-499c-8058-995633ebf948,TCGA-E9-A1RF,Primary Tumor,1,LR,0.9998307234408634,0.5,within-sample percentile rank,False
+a081f522-7603-4134-90c0-89e70fa43688,TCGA-E9-A1RH,408cb583-6dc3-4698-8bd2-e284042bd5ef,TCGA-E9-A1RH,Solid Tissue Normal,0,LR,0.06538472802327501,0.5,within-sample percentile rank,False
+6b1bb382-0103-4207-a0e8-871aa6aae81c,TCGA-E9-A1RH,408cb583-6dc3-4698-8bd2-e284042bd5ef,TCGA-E9-A1RH,Primary Tumor,1,LR,0.9990562318171511,0.5,within-sample percentile rank,False
+10fcee9d-db94-4fb9-a585-893c9d1bdc3d,TCGA-E9-A1RI,dd3bfb26-b534-4917-9c4d-9fe7b6477762,TCGA-E9-A1RI,Solid Tissue Normal,0,LR,0.04885665830452265,0.5,within-sample percentile rank,False
+7423f6fa-4f31-46b1-a391-b5fc45833c2b,TCGA-E9-A1RI,dd3bfb26-b534-4917-9c4d-9fe7b6477762,TCGA-E9-A1RI,Primary Tumor,1,LR,0.9988869826602516,0.5,within-sample percentile rank,False
+2a679581-38ad-4742-8d7b-89015df11e7d,TCGA-GI-A2C8,33fe5833-d7a0-43d7-a03d-56985ea448a6,TCGA-GI-A2C8,Solid Tissue Normal,0,LR,0.8055211305090625,0.5,within-sample percentile rank,False
+4a21e922-a294-43f0-89cb-862dabed4f8c,TCGA-GI-A2C8,33fe5833-d7a0-43d7-a03d-56985ea448a6,TCGA-GI-A2C8,Primary Tumor,1,LR,0.9952189508111575,0.5,within-sample percentile rank,False
+93b78420-ed0e-45d3-93f5-f60ce671a812,TCGA-GI-A2C9,9f6be944-83de-42ab-8738-f0022f475e61,TCGA-GI-A2C9,Solid Tissue Normal,0,LR,0.28016046942100575,0.5,within-sample percentile rank,False
+143fc27d-e119-48ff-a5ea-bd6aafc0404e,TCGA-GI-A2C9,9f6be944-83de-42ab-8738-f0022f475e61,TCGA-GI-A2C9,Primary Tumor,1,LR,0.9996790220993337,0.5,within-sample percentile rank,False
+139c8065-f56a-45f6-bc7e-7841f85a31ae,TCGA-A7-A0CE,9d95a65b-e41d-4f93-92d4-99dce29ff40d,TCGA-A7-A0CE,Solid Tissue Normal,0,RF,0.262,0.5,within-sample percentile rank,False
+9dc315ce-3b76-4754-b103-2c2580cde4ab,TCGA-A7-A0CE,9d95a65b-e41d-4f93-92d4-99dce29ff40d,TCGA-A7-A0CE,Primary Tumor,1,RF,0.904,0.5,within-sample percentile rank,False
+60ee931b-d315-4c37-b913-fa46a5f206b4,TCGA-A7-A0CH,9de678e5-67ed-4453-a98b-7ac351d5d0f1,TCGA-A7-A0CH,Solid Tissue Normal,0,RF,0.228,0.5,within-sample percentile rank,False
+1a9f7284-9770-4936-9fa4-500698184680,TCGA-A7-A0CH,9de678e5-67ed-4453-a98b-7ac351d5d0f1,TCGA-A7-A0CH,Primary Tumor,1,RF,0.89,0.5,within-sample percentile rank,False
+caca6c83-8d5f-4d85-a6a9-4ded98b71214,TCGA-A7-A0D9,17baef7c-d97d-4b98-ab53-503ef856523d,TCGA-A7-A0D9,Solid Tissue Normal,0,RF,0.128,0.5,within-sample percentile rank,False
+c144ae50-ed29-4e27-bbee-fa81e79ac7db,TCGA-A7-A0D9,17baef7c-d97d-4b98-ab53-503ef856523d,TCGA-A7-A0D9,Primary Tumor,1,RF,0.858,0.5,within-sample percentile rank,False
+e2566ada-c2bf-4c25-bcd0-9f49f2d0b4a2,TCGA-A7-A0DB,f130f376-5801-40f9-975d-a7e2f7b5670d,TCGA-A7-A0DB,Solid Tissue Normal,0,RF,0.368,0.5,within-sample percentile rank,False
+e8cb34ed-67cb-48b7-83cd-621a1224e781,TCGA-A7-A0DB,f130f376-5801-40f9-975d-a7e2f7b5670d,TCGA-A7-A0DB,Primary Tumor,1,RF,0.924,0.5,within-sample percentile rank,False
+5bfd69f5-406a-4b28-b4f4-a6655e03e4db,TCGA-A7-A0DC,cb9f5e50-f49d-4899-8895-9367afcc1015,TCGA-A7-A0DC,Solid Tissue Normal,0,RF,0.242,0.5,within-sample percentile rank,False
+36cafcfc-cc5e-4203-b018-c2c949e24c12,TCGA-A7-A0DC,cb9f5e50-f49d-4899-8895-9367afcc1015,TCGA-A7-A0DC,Primary Tumor,1,RF,0.68,0.5,within-sample percentile rank,False
+238e4064-4aac-4c75-a506-b19bc7f3fc3c,TCGA-A7-A13E,8c7e74e0-71ef-49b8-9217-94b8ef740ef9,TCGA-A7-A13E,Solid Tissue Normal,0,RF,0.224,0.5,within-sample percentile rank,False
+8a790c78-8ad4-4e0b-9728-0e24cadc1f98,TCGA-A7-A13E,8c7e74e0-71ef-49b8-9217-94b8ef740ef9,TCGA-A7-A13E,Primary Tumor,1,RF,0.908,0.5,within-sample percentile rank,False
+f4aaedfd-36df-4173-ae28-0a1065c39b6f,TCGA-A7-A13F,2cf68894-168b-458b-af4f-53cad72989a8,TCGA-A7-A13F,Solid Tissue Normal,0,RF,0.156,0.5,within-sample percentile rank,False
+b36c8878-bab6-4f61-9a4e-4dcfca21391e,TCGA-A7-A13F,2cf68894-168b-458b-af4f-53cad72989a8,TCGA-A7-A13F,Primary Tumor,1,RF,0.988,0.5,within-sample percentile rank,False
+2086f4ed-61fd-450c-b9de-aa7e049d154d,TCGA-A7-A13G,6cd9baf5-bbe0-4c1e-a87f-c53b3af22890,TCGA-A7-A13G,Solid Tissue Normal,0,RF,0.146,0.5,within-sample percentile rank,False
+6a1c2fdb-18ce-40ec-af79-191b489f39a7,TCGA-A7-A13G,6cd9baf5-bbe0-4c1e-a87f-c53b3af22890,TCGA-A7-A13G,Primary Tumor,1,RF,0.59,0.5,within-sample percentile rank,False
+7df59ca8-7e51-4581-9d7f-8bba0395ce17,TCGA-AC-A23H,7dcf550c-90ce-4f63-aecd-0e46897e2a3e,TCGA-AC-A23H,Solid Tissue Normal,0,RF,0.248,0.5,within-sample percentile rank,False
+d7e3b628-d5fd-4e79-9c4a-6409330fb8a7,TCGA-AC-A23H,7dcf550c-90ce-4f63-aecd-0e46897e2a3e,TCGA-AC-A23H,Primary Tumor,1,RF,1.0,0.5,within-sample percentile rank,False
+2c9b563c-6f22-4a54-a232-ce7974b30458,TCGA-AC-A2FB,02bbb632-0f7f-439d-b8f0-c86a06237424,TCGA-AC-A2FB,Solid Tissue Normal,0,RF,0.224,0.5,within-sample percentile rank,False
+7e2ed541-38ee-473f-ac5d-3cae6f5d9a56,TCGA-AC-A2FB,02bbb632-0f7f-439d-b8f0-c86a06237424,TCGA-AC-A2FB,Primary Tumor,1,RF,0.822,0.5,within-sample percentile rank,False
+25bb566a-15fd-4725-90dc-1c5f464796ac,TCGA-AC-A2FF,3ca67cd0-81da-4f68-a9fa-f1a8c013c28d,TCGA-AC-A2FF,Solid Tissue Normal,0,RF,0.498,0.5,within-sample percentile rank,False
+62d4d442-98a0-4540-b22a-4acf1fbfc40b,TCGA-AC-A2FF,3ca67cd0-81da-4f68-a9fa-f1a8c013c28d,TCGA-AC-A2FF,Primary Tumor,1,RF,0.698,0.5,within-sample percentile rank,False
+028490aa-d6f3-4366-821a-7cb2c604eff1,TCGA-AC-A2FM,b6b1dc9a-91f4-4b0a-afd5-62c9a90c0d5e,TCGA-AC-A2FM,Solid Tissue Normal,0,RF,0.238,0.5,within-sample percentile rank,False
+8e391bec-541c-49dc-a0a8-5ece5f268f1f,TCGA-AC-A2FM,b6b1dc9a-91f4-4b0a-afd5-62c9a90c0d5e,TCGA-AC-A2FM,Primary Tumor,1,RF,0.942,0.5,within-sample percentile rank,False
+86c64ef3-451c-471e-8ad3-58985d943190,TCGA-BH-A0AU,360d1d6d-cf3e-4c78-b36f-ef5e3160aa6b,TCGA-BH-A0AU,Solid Tissue Normal,0,RF,0.178,0.5,within-sample percentile rank,False
+9df5fb66-44da-4d92-899a-99c07cd23fff,TCGA-BH-A0AU,360d1d6d-cf3e-4c78-b36f-ef5e3160aa6b,TCGA-BH-A0AU,Primary Tumor,1,RF,0.98,0.5,within-sample percentile rank,False
+7242979b-b467-47f4-b351-cdebbfff32e0,TCGA-BH-A0AY,93ed6066-b567-4e1c-ab81-23370f9d3452,TCGA-BH-A0AY,Solid Tissue Normal,0,RF,0.198,0.5,within-sample percentile rank,False
+7f00169e-2572-4158-a453-ccec33cd2159,TCGA-BH-A0AY,93ed6066-b567-4e1c-ab81-23370f9d3452,TCGA-BH-A0AY,Primary Tumor,1,RF,0.974,0.5,within-sample percentile rank,False
+6731ddd7-054f-4faa-9cfb-d8ec938c5f7d,TCGA-BH-A0AZ,518f231c-f5f9-4a39-a97b-7fd5666d3e50,TCGA-BH-A0AZ,Solid Tissue Normal,0,RF,0.284,0.5,within-sample percentile rank,False
+aafc7bc4-1e57-4df9-9bad-a04a4d9edebd,TCGA-BH-A0AZ,518f231c-f5f9-4a39-a97b-7fd5666d3e50,TCGA-BH-A0AZ,Primary Tumor,1,RF,0.866,0.5,within-sample percentile rank,False
+9a81af95-30f8-45b1-bbda-ca5c7a91c5c5,TCGA-BH-A0B3,18eb4dfc-556f-4bf3-a411-4780209ed1e0,TCGA-BH-A0B3,Solid Tissue Normal,0,RF,0.246,0.5,within-sample percentile rank,False
+fc1f0ad4-8412-4143-8ebf-fa6592f396e9,TCGA-BH-A0B3,18eb4dfc-556f-4bf3-a411-4780209ed1e0,TCGA-BH-A0B3,Primary Tumor,1,RF,0.97,0.5,within-sample percentile rank,False
+499a5bbb-9c48-4a4a-8472-d6fa35b6a308,TCGA-BH-A0B5,9da462b0-93c2-4305-89f6-7199a30399a7,TCGA-BH-A0B5,Solid Tissue Normal,0,RF,0.098,0.5,within-sample percentile rank,False
+a0de3018-8916-4e06-8ba1-beb1d218e30e,TCGA-BH-A0B5,9da462b0-93c2-4305-89f6-7199a30399a7,TCGA-BH-A0B5,Primary Tumor,1,RF,0.996,0.5,within-sample percentile rank,False
+ab96b212-ab38-4e27-8c61-5eef673a0798,TCGA-BH-A0B7,214a4507-d974-4b3e-8525-7408fccc6a0f,TCGA-BH-A0B7,Solid Tissue Normal,0,RF,0.204,0.5,within-sample percentile rank,False
+45c79141-a125-4305-b1b7-c838de1af8a3,TCGA-BH-A0B7,214a4507-d974-4b3e-8525-7408fccc6a0f,TCGA-BH-A0B7,Primary Tumor,1,RF,0.994,0.5,within-sample percentile rank,False
+f62006a0-500c-46dc-ab01-27550680494e,TCGA-BH-A0B8,d3a75976-67d3-40fa-9f6f-cf2a3d7b773c,TCGA-BH-A0B8,Solid Tissue Normal,0,RF,0.068,0.5,within-sample percentile rank,False
+3f6f1066-37f9-464d-872a-f1390eb36f6e,TCGA-BH-A0B8,d3a75976-67d3-40fa-9f6f-cf2a3d7b773c,TCGA-BH-A0B8,Primary Tumor,1,RF,0.988,0.5,within-sample percentile rank,False
+866a5298-c51c-44a6-b2c0-511e63629829,TCGA-BH-A0BA,49dc3e68-6206-4f16-969f-a758cc7be8ed,TCGA-BH-A0BA,Solid Tissue Normal,0,RF,0.278,0.5,within-sample percentile rank,False
+992d3519-cd51-4f48-880c-81fef52be1bf,TCGA-BH-A0BA,49dc3e68-6206-4f16-969f-a758cc7be8ed,TCGA-BH-A0BA,Primary Tumor,1,RF,0.924,0.5,within-sample percentile rank,False
+09733af3-d6fc-44a4-907e-16581fc48611,TCGA-BH-A0BC,327a2395-85c8-42e1-9638-8e037a1723ed,TCGA-BH-A0BC,Solid Tissue Normal,0,RF,0.262,0.5,within-sample percentile rank,False
+e586a2b3-1132-45db-9283-dc318653a09f,TCGA-BH-A0BC,327a2395-85c8-42e1-9638-8e037a1723ed,TCGA-BH-A0BC,Primary Tumor,1,RF,0.992,0.5,within-sample percentile rank,False
+c585bd29-35d3-4b6e-8142-f16479f89ab9,TCGA-BH-A0BJ,d6f911b5-e895-43f8-8f86-0ac2f1bc6fae,TCGA-BH-A0BJ,Solid Tissue Normal,0,RF,0.358,0.5,within-sample percentile rank,False
+d1991ebd-1cd1-4c2d-ac99-2a6ecd3f90f1,TCGA-BH-A0BJ,d6f911b5-e895-43f8-8f86-0ac2f1bc6fae,TCGA-BH-A0BJ,Primary Tumor,1,RF,0.85,0.5,within-sample percentile rank,False
+bca287af-e08b-4c8f-8076-e7e641b9d2fb,TCGA-BH-A0BM,c2aeee6c-ba10-4cf9-b560-c739580f7bf3,TCGA-BH-A0BM,Solid Tissue Normal,0,RF,0.194,0.5,within-sample percentile rank,False
+5423b7f8-d2bb-47c8-9af8-3d3e1276888c,TCGA-BH-A0BM,c2aeee6c-ba10-4cf9-b560-c739580f7bf3,TCGA-BH-A0BM,Primary Tumor,1,RF,0.44,0.5,within-sample percentile rank,False
+ced0af4b-e977-4399-b3bc-0a98b1c9817f,TCGA-BH-A0BQ,b3bb8fd6-ee54-4813-b042-2bbe70115382,TCGA-BH-A0BQ,Solid Tissue Normal,0,RF,0.212,0.5,within-sample percentile rank,False
+18dddb4e-11d6-4fe7-b44a-48342374a5b1,TCGA-BH-A0BQ,b3bb8fd6-ee54-4813-b042-2bbe70115382,TCGA-BH-A0BQ,Primary Tumor,1,RF,0.856,0.5,within-sample percentile rank,False
+a6ab4a8e-82f5-49a1-8264-36d415366424,TCGA-BH-A0BS,2b22db1d-54a1-4b9e-a86e-a174cf51d95c,TCGA-BH-A0BS,Solid Tissue Normal,0,RF,0.15,0.5,within-sample percentile rank,False
+2f125802-32af-40b6-b4c8-4018740ccee9,TCGA-BH-A0BS,2b22db1d-54a1-4b9e-a86e-a174cf51d95c,TCGA-BH-A0BS,Primary Tumor,1,RF,0.978,0.5,within-sample percentile rank,False
+ac1e8a8e-b6e8-48f3-ba5b-1baa4272a6c7,TCGA-BH-A0BT,a32cb96a-78bf-456e-a6ab-2d47b2c67ad4,TCGA-BH-A0BT,Solid Tissue Normal,0,RF,0.194,0.5,within-sample percentile rank,False
+7f7d8229-3daf-48be-bd16-ffe4314528b1,TCGA-BH-A0BT,a32cb96a-78bf-456e-a6ab-2d47b2c67ad4,TCGA-BH-A0BT,Primary Tumor,1,RF,0.892,0.5,within-sample percentile rank,False
+21b88cba-4c07-4a15-9794-a981d2875415,TCGA-BH-A0BV,87f03d04-e651-4a6e-aea6-1c946aa46202,TCGA-BH-A0BV,Solid Tissue Normal,0,RF,0.322,0.5,within-sample percentile rank,False
+ce3c01d9-e8c7-4bd6-84f9-741f38b07267,TCGA-BH-A0BV,87f03d04-e651-4a6e-aea6-1c946aa46202,TCGA-BH-A0BV,Primary Tumor,1,RF,0.926,0.5,within-sample percentile rank,False
+d03b3d7b-3629-4fde-a47a-3184f67236eb,TCGA-BH-A0BW,5d1d00c6-fcae-479e-ae1e-de76efd41d98,TCGA-BH-A0BW,Solid Tissue Normal,0,RF,0.6,0.5,within-sample percentile rank,False
+dbeeddc1-d149-46f7-91ff-d057f8c6bffb,TCGA-BH-A0BW,5d1d00c6-fcae-479e-ae1e-de76efd41d98,TCGA-BH-A0BW,Primary Tumor,1,RF,0.966,0.5,within-sample percentile rank,False
+e995932f-9ba3-459d-ae09-1f2f0b04aad4,TCGA-BH-A0BZ,4a032bad-e726-48f2-8f39-e3acc109cc91,TCGA-BH-A0BZ,Solid Tissue Normal,0,RF,0.166,0.5,within-sample percentile rank,False
+55906ee0-a385-4ec9-8515-90ab613eca35,TCGA-BH-A0BZ,4a032bad-e726-48f2-8f39-e3acc109cc91,TCGA-BH-A0BZ,Primary Tumor,1,RF,0.998,0.5,within-sample percentile rank,False
+d84a5349-7473-4f6f-afae-5d0062328491,TCGA-BH-A0C0,7875018b-91dc-4ab1-83b0-ee3883e2816e,TCGA-BH-A0C0,Solid Tissue Normal,0,RF,0.2,0.5,within-sample percentile rank,False
+c1898b32-a9c5-410b-a197-572b2a6a2d7a,TCGA-BH-A0C0,7875018b-91dc-4ab1-83b0-ee3883e2816e,TCGA-BH-A0C0,Primary Tumor,1,RF,1.0,0.5,within-sample percentile rank,False
+82e6dc7b-fe63-4fc6-af9f-68dc76c2cb88,TCGA-BH-A0C3,7bcf6d42-eb8f-4aa2-825b-38671d4f9e3a,TCGA-BH-A0C3,Solid Tissue Normal,0,RF,0.262,0.5,within-sample percentile rank,False
+21ba28ff-89f6-4f02-a135-821efc4f42f8,TCGA-BH-A0C3,7bcf6d42-eb8f-4aa2-825b-38671d4f9e3a,TCGA-BH-A0C3,Primary Tumor,1,RF,0.726,0.5,within-sample percentile rank,False
+bd6038ff-9634-45d5-80d8-97a3f1ea2d04,TCGA-BH-A0DD,dba9beec-5e51-48c0-9229-0ee286a02a1a,TCGA-BH-A0DD,Solid Tissue Normal,0,RF,0.272,0.5,within-sample percentile rank,False
+b5d03f26-66ec-4861-9635-e0ee4a6e41c9,TCGA-BH-A0DD,dba9beec-5e51-48c0-9229-0ee286a02a1a,TCGA-BH-A0DD,Primary Tumor,1,RF,0.99,0.5,within-sample percentile rank,False
+a3d00f8e-39c2-4e35-bc2f-df9184b35670,TCGA-BH-A0DG,0bc5744c-5fa3-45bb-87d0-70a02068b392,TCGA-BH-A0DG,Solid Tissue Normal,0,RF,0.25,0.5,within-sample percentile rank,False
+3f104cf7-8de8-4e77-8baa-bad1bbb493ac,TCGA-BH-A0DG,0bc5744c-5fa3-45bb-87d0-70a02068b392,TCGA-BH-A0DG,Primary Tumor,1,RF,0.974,0.5,within-sample percentile rank,False
+6d8a829d-2f0f-4cb7-ab88-9e99b98c4556,TCGA-BH-A0DH,491b6364-1223-474f-816f-e248c8c841e2,TCGA-BH-A0DH,Solid Tissue Normal,0,RF,0.146,0.5,within-sample percentile rank,False
+700477dc-5eb4-4efb-a301-12172a7469f7,TCGA-BH-A0DH,491b6364-1223-474f-816f-e248c8c841e2,TCGA-BH-A0DH,Primary Tumor,1,RF,0.97,0.5,within-sample percentile rank,False
+834ee4b2-bd0c-47ab-9158-c10534e272ea,TCGA-BH-A0DK,f2bbfa9d-9a9d-4f46-9fde-378e4c44e2ad,TCGA-BH-A0DK,Solid Tissue Normal,0,RF,0.284,0.5,within-sample percentile rank,False
+1acae6e0-3100-4de8-a436-e15cdbe1322b,TCGA-BH-A0DK,f2bbfa9d-9a9d-4f46-9fde-378e4c44e2ad,TCGA-BH-A0DK,Primary Tumor,1,RF,0.992,0.5,within-sample percentile rank,False
+471df7ad-c811-4411-9ade-277233a1053f,TCGA-BH-A0DL,ba39bfbc-5cac-4f6c-b55c-4eee3466ee93,TCGA-BH-A0DL,Solid Tissue Normal,0,RF,0.372,0.5,within-sample percentile rank,False
+20308c88-18f2-4373-9e93-1f1d589d97e2,TCGA-BH-A0DL,ba39bfbc-5cac-4f6c-b55c-4eee3466ee93,TCGA-BH-A0DL,Primary Tumor,1,RF,0.972,0.5,within-sample percentile rank,False
+9db89883-6f94-48f8-aefb-b0aaf6344924,TCGA-BH-A0DO,d3d4d709-ab34-4617-aa8c-51a3d0a3efe6,TCGA-BH-A0DO,Solid Tissue Normal,0,RF,0.184,0.5,within-sample percentile rank,False
+8b5d38fb-e9ad-445c-b5d5-f054a5eafeb1,TCGA-BH-A0DO,d3d4d709-ab34-4617-aa8c-51a3d0a3efe6,TCGA-BH-A0DO,Primary Tumor,1,RF,0.602,0.5,within-sample percentile rank,False
+e3afa9dd-7494-4ced-adcc-267e91b971df,TCGA-BH-A0DP,14267783-5624-4fe5-ba81-9d67f1017474,TCGA-BH-A0DP,Solid Tissue Normal,0,RF,0.184,0.5,within-sample percentile rank,False
+ffb838b0-db61-4dc9-aadc-41562f677f54,TCGA-BH-A0DP,14267783-5624-4fe5-ba81-9d67f1017474,TCGA-BH-A0DP,Primary Tumor,1,RF,0.838,0.5,within-sample percentile rank,False
+907ca5f2-0442-403f-9ac6-e158e371091e,TCGA-BH-A0DQ,a851ca14-7bbf-455b-a054-ec03979a4247,TCGA-BH-A0DQ,Solid Tissue Normal,0,RF,0.32,0.5,within-sample percentile rank,False
+10285a0d-d8cc-4c20-a8a2-8891d9807599,TCGA-BH-A0DQ,a851ca14-7bbf-455b-a054-ec03979a4247,TCGA-BH-A0DQ,Primary Tumor,1,RF,0.884,0.5,within-sample percentile rank,False
+a9ce148b-ad26-4257-8f5c-295fd2dcb1d7,TCGA-BH-A0DT,74f31744-0aed-4633-beec-4e203315f0b7,TCGA-BH-A0DT,Solid Tissue Normal,0,RF,0.252,0.5,within-sample percentile rank,False
+eb11d414-2f0e-44a1-843c-ecacc7212e91,TCGA-BH-A0DT,74f31744-0aed-4633-beec-4e203315f0b7,TCGA-BH-A0DT,Primary Tumor,1,RF,0.872,0.5,within-sample percentile rank,False
+95792e53-593b-40ea-80e2-2fbb4e572513,TCGA-BH-A0DV,96b9c7db-1be1-4b60-b47c-26b654c3d64c,TCGA-BH-A0DV,Solid Tissue Normal,0,RF,0.172,0.5,within-sample percentile rank,False
+b4c19f4e-c5bf-4c4f-bad8-9c18128c112d,TCGA-BH-A0DV,96b9c7db-1be1-4b60-b47c-26b654c3d64c,TCGA-BH-A0DV,Primary Tumor,1,RF,0.492,0.5,within-sample percentile rank,False
+d306052f-67ae-4bee-a38a-3fc2e8bf3f41,TCGA-BH-A0DZ,478eb8aa-50b8-4ce5-98e4-d518ede4b174,TCGA-BH-A0DZ,Solid Tissue Normal,0,RF,0.368,0.5,within-sample percentile rank,False
+6093f268-1c3f-4fec-bde7-fc3721ecaf8e,TCGA-BH-A0DZ,478eb8aa-50b8-4ce5-98e4-d518ede4b174,TCGA-BH-A0DZ,Primary Tumor,1,RF,0.998,0.5,within-sample percentile rank,False
+90fb06a9-35be-44b0-9f5b-eb270898aabe,TCGA-BH-A0E0,20e8106b-1290-4735-abe4-7621e08e3dc8,TCGA-BH-A0E0,Solid Tissue Normal,0,RF,0.288,0.5,within-sample percentile rank,False
+662cc11c-da31-4e31-8e77-46011b38ea96,TCGA-BH-A0E0,20e8106b-1290-4735-abe4-7621e08e3dc8,TCGA-BH-A0E0,Primary Tumor,1,RF,0.906,0.5,within-sample percentile rank,False
+e4ee648d-3a2a-4ec7-a888-d6888ddf0171,TCGA-BH-A0E1,606fbc6a-b41b-441d-9401-51e54912bf5e,TCGA-BH-A0E1,Solid Tissue Normal,0,RF,0.152,0.5,within-sample percentile rank,False
+dcf7829e-abaa-435f-b41d-a2bcfde5d66a,TCGA-BH-A0E1,606fbc6a-b41b-441d-9401-51e54912bf5e,TCGA-BH-A0E1,Primary Tumor,1,RF,0.998,0.5,within-sample percentile rank,False
+dec6391b-6fe8-487e-a80e-aff0bc7bc136,TCGA-BH-A0H5,cab38ea8-4555-413c-b81e-4621aac4ef85,TCGA-BH-A0H5,Solid Tissue Normal,0,RF,0.178,0.5,within-sample percentile rank,False
+8cc4fd25-dd8b-4983-ac21-24f3cf3e51cd,TCGA-BH-A0H5,cab38ea8-4555-413c-b81e-4621aac4ef85,TCGA-BH-A0H5,Primary Tumor,1,RF,0.902,0.5,within-sample percentile rank,False
+876a2145-5b7b-466b-b13f-81fcf028c9fd,TCGA-BH-A0H7,2021ed1f-dc75-4701-b8b8-1386466e4802,TCGA-BH-A0H7,Solid Tissue Normal,0,RF,0.354,0.5,within-sample percentile rank,False
+69bfa6ce-ed46-4321-a107-347c49d68951,TCGA-BH-A0H7,2021ed1f-dc75-4701-b8b8-1386466e4802,TCGA-BH-A0H7,Primary Tumor,1,RF,0.95,0.5,within-sample percentile rank,False
+6fe74906-b3c0-49dc-95d8-ef19326b2b35,TCGA-BH-A0H9,0f64edec-0f1f-4025-8a53-75f9534f7828,TCGA-BH-A0H9,Solid Tissue Normal,0,RF,0.148,0.5,within-sample percentile rank,False
+4a7c76a9-c3a2-4b57-a57a-de055152dcf8,TCGA-BH-A0H9,0f64edec-0f1f-4025-8a53-75f9534f7828,TCGA-BH-A0H9,Primary Tumor,1,RF,0.946,0.5,within-sample percentile rank,False
+0cf5f314-5cc8-4c4c-853a-e4bcbc749acc,TCGA-BH-A0HA,e666081b-caaf-4e8b-9446-807be71201a5,TCGA-BH-A0HA,Solid Tissue Normal,0,RF,0.188,0.5,within-sample percentile rank,False
+63baef92-6733-4791-b897-0abe9131a5f5,TCGA-BH-A0HA,e666081b-caaf-4e8b-9446-807be71201a5,TCGA-BH-A0HA,Primary Tumor,1,RF,0.934,0.5,within-sample percentile rank,False
+aaeda2ea-cf26-445f-a367-85735fe80a27,TCGA-BH-A0HK,24334ac1-28a3-4b61-b590-3f51e375b247,TCGA-BH-A0HK,Solid Tissue Normal,0,RF,0.268,0.5,within-sample percentile rank,False
+8835b20e-9343-4266-a356-e0343c657130,TCGA-BH-A0HK,24334ac1-28a3-4b61-b590-3f51e375b247,TCGA-BH-A0HK,Primary Tumor,1,RF,0.764,0.5,within-sample percentile rank,False
+531e4ba7-04b1-4ec0-84e8-4b8de97ad3d7,TCGA-BH-A18J,cc074b7f-d3b2-4880-902e-bf10e667b665,TCGA-BH-A18J,Solid Tissue Normal,0,RF,0.228,0.5,within-sample percentile rank,False
+044f9b74-9a16-432e-acac-78c399c001bc,TCGA-BH-A18J,cc074b7f-d3b2-4880-902e-bf10e667b665,TCGA-BH-A18J,Primary Tumor,1,RF,0.98,0.5,within-sample percentile rank,False
+a456d499-cba4-49a6-a296-998ed018947a,TCGA-BH-A18K,50619f8c-10aa-464a-a227-90a7aa6ffd43,TCGA-BH-A18K,Solid Tissue Normal,0,RF,0.164,0.5,within-sample percentile rank,False
+db1c378a-1974-4b79-a027-928cba385e40,TCGA-BH-A18K,50619f8c-10aa-464a-a227-90a7aa6ffd43,TCGA-BH-A18K,Primary Tumor,1,RF,0.95,0.5,within-sample percentile rank,False
+67f32715-fea8-4b4e-9815-aa0c67253ad3,TCGA-BH-A18L,9ddc3e7b-8b54-4a83-8335-8053940f56c1,TCGA-BH-A18L,Solid Tissue Normal,0,RF,0.25,0.5,within-sample percentile rank,False
+796e565c-3841-425a-bdfb-569776d7c9ac,TCGA-BH-A18L,9ddc3e7b-8b54-4a83-8335-8053940f56c1,TCGA-BH-A18L,Primary Tumor,1,RF,0.998,0.5,within-sample percentile rank,False
+9a793dbd-24a5-4e0c-aa00-efee41902a5d,TCGA-BH-A18M,f63722c1-a0bb-4bf9-8a10-1d76a8e1a0ba,TCGA-BH-A18M,Solid Tissue Normal,0,RF,0.308,0.5,within-sample percentile rank,False
+6a914b5f-5bc2-4152-b80e-fcc864a415b0,TCGA-BH-A18M,f63722c1-a0bb-4bf9-8a10-1d76a8e1a0ba,TCGA-BH-A18M,Primary Tumor,1,RF,0.896,0.5,within-sample percentile rank,False
+2ed1ed4a-12e1-4306-b290-6c31933d054e,TCGA-BH-A18N,665dd3d3-779c-4abd-b5d7-13342340451d,TCGA-BH-A18N,Solid Tissue Normal,0,RF,0.174,0.5,within-sample percentile rank,False
+dba36215-670e-400f-864e-a46702d49240,TCGA-BH-A18N,665dd3d3-779c-4abd-b5d7-13342340451d,TCGA-BH-A18N,Primary Tumor,1,RF,0.882,0.5,within-sample percentile rank,False
+9563ff43-853c-4d6a-910c-de6fbc638d57,TCGA-BH-A18P,557cb0a3-6f1b-4faf-8296-0a15c24158f9,TCGA-BH-A18P,Solid Tissue Normal,0,RF,0.05,0.5,within-sample percentile rank,False
+0d0546ad-8a51-4802-a173-96fbe5ebb124,TCGA-BH-A18P,557cb0a3-6f1b-4faf-8296-0a15c24158f9,TCGA-BH-A18P,Primary Tumor,1,RF,0.996,0.5,within-sample percentile rank,False
+93eb97b3-918f-42b8-8d3d-34715d09e491,TCGA-BH-A18Q,db4bc6aa-2e7d-4bcb-8519-a455f624d33b,TCGA-BH-A18Q,Solid Tissue Normal,0,RF,0.192,0.5,within-sample percentile rank,False
+f225775e-e46f-4d1d-8b13-042e9776dd72,TCGA-BH-A18Q,db4bc6aa-2e7d-4bcb-8519-a455f624d33b,TCGA-BH-A18Q,Primary Tumor,1,RF,0.974,0.5,within-sample percentile rank,False
+3196c5f3-9227-4a9d-b87a-3e1f680a768c,TCGA-BH-A18R,f6e1ec78-5ad9-4879-9b7e-262d17b166ad,TCGA-BH-A18R,Solid Tissue Normal,0,RF,0.142,0.5,within-sample percentile rank,False
+518be2c7-fba5-47b1-8c8b-fef812fa74a4,TCGA-BH-A18R,f6e1ec78-5ad9-4879-9b7e-262d17b166ad,TCGA-BH-A18R,Primary Tumor,1,RF,0.992,0.5,within-sample percentile rank,False
+4e786a4a-cf47-41ea-a0b0-4349dcd500f5,TCGA-BH-A18S,433427a1-bacf-4381-91ba-5fec8a0953f9,TCGA-BH-A18S,Solid Tissue Normal,0,RF,0.18,0.5,within-sample percentile rank,False
+ce3a4469-8d19-4661-9c48-1baf6e84f49c,TCGA-BH-A18S,433427a1-bacf-4381-91ba-5fec8a0953f9,TCGA-BH-A18S,Primary Tumor,1,RF,0.732,0.5,within-sample percentile rank,False
+0b290880-d67c-42b4-aa57-afd3c3d09518,TCGA-BH-A18U,233b02f3-c4f0-4a67-9db5-e68d5cdaccb6,TCGA-BH-A18U,Solid Tissue Normal,0,RF,0.254,0.5,within-sample percentile rank,False
+79763193-268d-49e7-b94c-5cb95f7271b6,TCGA-BH-A18U,233b02f3-c4f0-4a67-9db5-e68d5cdaccb6,TCGA-BH-A18U,Primary Tumor,1,RF,0.994,0.5,within-sample percentile rank,False
+e85b2b0f-993f-4c37-8ed5-53d384ac18e1,TCGA-BH-A18V,6b960b58-28e1-41c6-bd6e-7e669c6aa4ef,TCGA-BH-A18V,Solid Tissue Normal,0,RF,0.142,0.5,within-sample percentile rank,False
+2923c735-34a1-4db6-a248-1c5de2241dd4,TCGA-BH-A18V,6b960b58-28e1-41c6-bd6e-7e669c6aa4ef,TCGA-BH-A18V,Primary Tumor,1,RF,0.928,0.5,within-sample percentile rank,False
+ae5214a0-7fbe-410d-aedf-0a119c8b7f5a,TCGA-BH-A1EN,858652b8-c4c2-41d8-be32-fdc88e1a7bb0,TCGA-BH-A1EN,Solid Tissue Normal,0,RF,0.168,0.5,within-sample percentile rank,False
+bea52276-596c-479e-981d-ca9132742098,TCGA-BH-A1EN,858652b8-c4c2-41d8-be32-fdc88e1a7bb0,TCGA-BH-A1EN,Primary Tumor,1,RF,1.0,0.5,within-sample percentile rank,False
+fff3e5a3-4b84-4afa-bdb5-1c6b2a6626bc,TCGA-BH-A1EO,4510295e-8aa7-4ef1-b2b7-91cc902f8200,TCGA-BH-A1EO,Solid Tissue Normal,0,RF,0.272,0.5,within-sample percentile rank,False
+9d501ca9-f50d-45fc-bcc3-fee15f9771cd,TCGA-BH-A1EO,4510295e-8aa7-4ef1-b2b7-91cc902f8200,TCGA-BH-A1EO,Primary Tumor,1,RF,0.872,0.5,within-sample percentile rank,False
+6ca1ada8-2473-4d1a-ae02-b57aae168243,TCGA-BH-A1ET,8986a141-eae7-4157-b695-02cc6fc3b071,TCGA-BH-A1ET,Solid Tissue Normal,0,RF,0.198,0.5,within-sample percentile rank,False
+2190d984-3941-41d4-b6de-d0aa76f3570d,TCGA-BH-A1ET,8986a141-eae7-4157-b695-02cc6fc3b071,TCGA-BH-A1ET,Primary Tumor,1,RF,0.77,0.5,within-sample percentile rank,False
+dadbd2f7-ea44-428c-bfcf-e27f2b978ff1,TCGA-BH-A1EU,a1093598-d3a8-4ffe-83fc-bc7d1faff7e5,TCGA-BH-A1EU,Solid Tissue Normal,0,RF,0.21,0.5,within-sample percentile rank,False
+73af0f78-cc37-43ff-8f46-524a9ba80eda,TCGA-BH-A1EU,a1093598-d3a8-4ffe-83fc-bc7d1faff7e5,TCGA-BH-A1EU,Primary Tumor,1,RF,0.586,0.5,within-sample percentile rank,False
+1b3867a3-80db-417d-8e5c-f6f602c14760,TCGA-BH-A1EV,417dea5f-f68e-4dab-940e-43ae8c67e5e6,TCGA-BH-A1EV,Solid Tissue Normal,0,RF,0.348,0.5,within-sample percentile rank,False
+29ac24fb-0065-47f8-b044-f4a66fad2394,TCGA-BH-A1EV,417dea5f-f68e-4dab-940e-43ae8c67e5e6,TCGA-BH-A1EV,Primary Tumor,1,RF,0.96,0.5,within-sample percentile rank,False
+b35ce058-b4ac-45b2-9103-a14b7d8a30f7,TCGA-BH-A1EW,9d166970-07c8-4ca3-9cfa-ed0049df9ecc,TCGA-BH-A1EW,Solid Tissue Normal,0,RF,0.458,0.5,within-sample percentile rank,False
+50463a25-4292-4bc7-926a-341493e68242,TCGA-BH-A1EW,9d166970-07c8-4ca3-9cfa-ed0049df9ecc,TCGA-BH-A1EW,Primary Tumor,1,RF,0.972,0.5,within-sample percentile rank,False
+6c6c1c35-5e1b-4e9f-ab19-550d1ba4cc43,TCGA-BH-A1F0,21ef1730-e5a7-47ce-b419-d000bb59ae15,TCGA-BH-A1F0,Solid Tissue Normal,0,RF,0.106,0.5,within-sample percentile rank,False
+f754aa5f-49c8-4e8b-a1fe-f370f807499a,TCGA-BH-A1F0,21ef1730-e5a7-47ce-b419-d000bb59ae15,TCGA-BH-A1F0,Primary Tumor,1,RF,0.85,0.5,within-sample percentile rank,False
+159c3664-3ab2-4f87-91a0-b6e25833fb27,TCGA-BH-A1F2,6a2972e3-cca9-47e5-aac0-b770f2399eeb,TCGA-BH-A1F2,Solid Tissue Normal,0,RF,0.08,0.5,within-sample percentile rank,False
+e5c171ac-f700-439c-9e44-6cfed2c9cea7,TCGA-BH-A1F2,6a2972e3-cca9-47e5-aac0-b770f2399eeb,TCGA-BH-A1F2,Primary Tumor,1,RF,0.768,0.5,within-sample percentile rank,False
+84f25e50-b0bb-4f2a-bb94-14019bc7fa95,TCGA-BH-A1F6,ad18820b-a804-49c0-ba8a-86c09fa6bce2,TCGA-BH-A1F6,Solid Tissue Normal,0,RF,0.208,0.5,within-sample percentile rank,False
+e5a9fa79-2d0f-4cda-9fea-baab86f78b8e,TCGA-BH-A1F6,ad18820b-a804-49c0-ba8a-86c09fa6bce2,TCGA-BH-A1F6,Primary Tumor,1,RF,0.998,0.5,within-sample percentile rank,False
+f9e5d9cc-d80e-409d-9b6a-c4de9dc55611,TCGA-BH-A1F8,ee554215-bea2-4268-aaf9-784e68cdb969,TCGA-BH-A1F8,Solid Tissue Normal,0,RF,0.304,0.5,within-sample percentile rank,False
+7e598a8a-9fb8-4c2d-94e7-ae1921addcd1,TCGA-BH-A1F8,ee554215-bea2-4268-aaf9-784e68cdb969,TCGA-BH-A1F8,Primary Tumor,1,RF,1.0,0.5,within-sample percentile rank,False
+97ae0904-411d-4406-9389-5a49bd939667,TCGA-BH-A1FB,ecab16bc-28d5-4c3a-8735-3c785bd047c4,TCGA-BH-A1FB,Solid Tissue Normal,0,RF,0.162,0.5,within-sample percentile rank,False
+1fc22273-7e02-4193-9fbb-476e0eab6afb,TCGA-BH-A1FB,ecab16bc-28d5-4c3a-8735-3c785bd047c4,TCGA-BH-A1FB,Primary Tumor,1,RF,0.586,0.5,within-sample percentile rank,False
+a6916373-70f1-434c-910a-407609815556,TCGA-BH-A1FC,b97bf89a-7a85-4eef-ae7e-f787aead1f0a,TCGA-BH-A1FC,Solid Tissue Normal,0,RF,0.278,0.5,within-sample percentile rank,False
+3ad0093a-e57a-450a-b0ef-942c9b67a586,TCGA-BH-A1FC,b97bf89a-7a85-4eef-ae7e-f787aead1f0a,TCGA-BH-A1FC,Primary Tumor,1,RF,0.934,0.5,within-sample percentile rank,False
+d6e315fd-c662-494c-98de-02c87b833473,TCGA-BH-A1FD,3c8b5af9-c34d-43c2-b8c9-39ea11e44fa6,TCGA-BH-A1FD,Solid Tissue Normal,0,RF,0.056,0.5,within-sample percentile rank,False
+a0e467f8-79c1-499e-b881-669b4bd55b8c,TCGA-BH-A1FD,3c8b5af9-c34d-43c2-b8c9-39ea11e44fa6,TCGA-BH-A1FD,Primary Tumor,1,RF,0.992,0.5,within-sample percentile rank,False
+f6813172-e95b-4654-a1c7-06e1181fcd93,TCGA-BH-A1FE,4aa68586-6331-4795-b40c-859386640df6,TCGA-BH-A1FE,Solid Tissue Normal,0,RF,0.224,0.5,within-sample percentile rank,False
+3de73049-e6e7-4ed7-be98-bf174fd37c89,TCGA-BH-A1FE,4aa68586-6331-4795-b40c-859386640df6,TCGA-BH-A1FE,Primary Tumor,1,RF,0.99,0.5,within-sample percentile rank,False
+86fa46b0-7118-49e9-a693-c44f46b86e55,TCGA-BH-A1FG,d4e7426c-9739-4585-9114-e564b13c7c02,TCGA-BH-A1FG,Solid Tissue Normal,0,RF,0.056,0.5,within-sample percentile rank,False
+33f49b4e-924e-4590-8afa-e17403602137,TCGA-BH-A1FG,d4e7426c-9739-4585-9114-e564b13c7c02,TCGA-BH-A1FG,Primary Tumor,1,RF,0.926,0.5,within-sample percentile rank,False
+c75bc2c7-cf1f-482c-b615-f60b56983124,TCGA-BH-A1FH,1783cac1-253a-40af-a9ac-48dfb20e1ab8,TCGA-BH-A1FH,Solid Tissue Normal,0,RF,0.25,0.5,within-sample percentile rank,False
+f0785dc2-a43e-4b59-a21c-ab55c490d441,TCGA-BH-A1FH,1783cac1-253a-40af-a9ac-48dfb20e1ab8,TCGA-BH-A1FH,Primary Tumor,1,RF,0.394,0.5,within-sample percentile rank,False
+6921f528-54eb-429f-a9e9-ceb7e6b33ba9,TCGA-BH-A1FJ,f6581eee-61b9-43d4-ab0d-ce5ce3ba1c74,TCGA-BH-A1FJ,Solid Tissue Normal,0,RF,0.244,0.5,within-sample percentile rank,False
+72367269-4151-4e1f-8636-ff91396ba46c,TCGA-BH-A1FJ,f6581eee-61b9-43d4-ab0d-ce5ce3ba1c74,TCGA-BH-A1FJ,Primary Tumor,1,RF,1.0,0.5,within-sample percentile rank,False
+6e6a7a6c-4630-4506-8b57-a0df12ffff4c,TCGA-BH-A1FM,7eb18190-5a41-4637-9783-f81bbde499e4,TCGA-BH-A1FM,Solid Tissue Normal,0,RF,0.198,0.5,within-sample percentile rank,False
+cf2b65de-c6a1-4ebc-a62a-c652ce17d2d0,TCGA-BH-A1FM,7eb18190-5a41-4637-9783-f81bbde499e4,TCGA-BH-A1FM,Primary Tumor,1,RF,0.998,0.5,within-sample percentile rank,False
+408b3378-5f8e-49df-8bd2-1e0a55288252,TCGA-BH-A1FN,6dd0dd7b-62ff-4fd1-a99a-b265f1a91dca,TCGA-BH-A1FN,Solid Tissue Normal,0,RF,0.238,0.5,within-sample percentile rank,False
+ae08dbd6-548a-469c-ba12-b6a87515bce7,TCGA-BH-A1FN,6dd0dd7b-62ff-4fd1-a99a-b265f1a91dca,TCGA-BH-A1FN,Primary Tumor,1,RF,0.992,0.5,within-sample percentile rank,False
+0729326e-9b85-44f5-8134-28cb10805bf4,TCGA-BH-A1FR,bf3b1481-ae31-4406-b084-b6cc1d7163e3,TCGA-BH-A1FR,Solid Tissue Normal,0,RF,0.314,0.5,within-sample percentile rank,False
+0fc347ae-7ad9-4987-887a-d37fe871d6c2,TCGA-BH-A1FR,bf3b1481-ae31-4406-b084-b6cc1d7163e3,TCGA-BH-A1FR,Primary Tumor,1,RF,0.93,0.5,within-sample percentile rank,False
+08693317-d839-477c-b145-477a3521e03a,TCGA-BH-A1FU,c348a9b3-c901-4384-a222-144387bac0c5,TCGA-BH-A1FU,Solid Tissue Normal,0,RF,0.186,0.5,within-sample percentile rank,False
+438152c8-2d26-4b35-9f68-a4b6c473916e,TCGA-BH-A1FU,c348a9b3-c901-4384-a222-144387bac0c5,TCGA-BH-A1FU,Primary Tumor,1,RF,0.992,0.5,within-sample percentile rank,False
+a16194b7-162f-4282-a552-1fa1915ea589,TCGA-BH-A203,b3264748-947a-43aa-b227-b294fbcc8447,TCGA-BH-A203,Solid Tissue Normal,0,RF,0.134,0.5,within-sample percentile rank,False
+002997ef-3b93-443a-80a3-bae63e129d99,TCGA-BH-A203,b3264748-947a-43aa-b227-b294fbcc8447,TCGA-BH-A203,Primary Tumor,1,RF,0.998,0.5,within-sample percentile rank,False
+8511971e-372e-4dc1-96a9-3fea2298393b,TCGA-BH-A204,05135396-df5c-49db-b34e-f4add5b65a2b,TCGA-BH-A204,Solid Tissue Normal,0,RF,0.118,0.5,within-sample percentile rank,False
+a28d9c46-4774-4167-8c1e-ee95436c7b2e,TCGA-BH-A204,05135396-df5c-49db-b34e-f4add5b65a2b,TCGA-BH-A204,Primary Tumor,1,RF,1.0,0.5,within-sample percentile rank,False
+0b755cf4-785f-466e-a235-ea697b9a6423,TCGA-BH-A208,ddcbdac6-9e43-4146-a611-d033125eba14,TCGA-BH-A208,Solid Tissue Normal,0,RF,0.174,0.5,within-sample percentile rank,False
+723e0934-327e-46f2-94f0-20a65da1ea0e,TCGA-BH-A208,ddcbdac6-9e43-4146-a611-d033125eba14,TCGA-BH-A208,Primary Tumor,1,RF,0.748,0.5,within-sample percentile rank,False
+cd390244-133c-4f09-a076-9dddd986df04,TCGA-BH-A209,5258294f-ef5b-4091-9183-6bcc545d54b2,TCGA-BH-A209,Solid Tissue Normal,0,RF,0.352,0.5,within-sample percentile rank,False
+fbf64fdd-6787-4647-b0cd-860acc8abce6,TCGA-BH-A209,5258294f-ef5b-4091-9183-6bcc545d54b2,TCGA-BH-A209,Primary Tumor,1,RF,0.97,0.5,within-sample percentile rank,False
+f6ad04eb-19cf-461c-b274-8cf0b640ad34,TCGA-E2-A153,be9bf36a-12e1-4386-addf-1686dc8b49de,TCGA-E2-A153,Solid Tissue Normal,0,RF,0.334,0.5,within-sample percentile rank,False
+6526e884-ca7a-4f10-9cb8-fe8fa90f1dbb,TCGA-E2-A153,be9bf36a-12e1-4386-addf-1686dc8b49de,TCGA-E2-A153,Primary Tumor,1,RF,0.782,0.5,within-sample percentile rank,False
+e94c165f-210d-47d7-b7e7-c5747ee7f451,TCGA-E2-A158,a6edb6ca-ae9f-4da7-8ebe-92d83d2987fb,TCGA-E2-A158,Solid Tissue Normal,0,RF,0.198,0.5,within-sample percentile rank,False
+5ce91cce-a4ac-45e1-bc3e-737494a67769,TCGA-E2-A158,a6edb6ca-ae9f-4da7-8ebe-92d83d2987fb,TCGA-E2-A158,Primary Tumor,1,RF,0.978,0.5,within-sample percentile rank,False
+e3368a46-4101-4dd5-a447-255f59bfa9da,TCGA-E2-A15I,64089c20-939f-48b4-ae8b-904ad0597145,TCGA-E2-A15I,Solid Tissue Normal,0,RF,0.056,0.5,within-sample percentile rank,False
+c2f00c0c-9ad9-4c1d-912c-52eacedcba12,TCGA-E2-A15I,64089c20-939f-48b4-ae8b-904ad0597145,TCGA-E2-A15I,Primary Tumor,1,RF,0.798,0.5,within-sample percentile rank,False
+1eb11f10-2aca-4ca1-b6fc-bbc97cc485fd,TCGA-E2-A15K,17c1d42c-cb84-4655-a4cd-b54bae17ecaf,TCGA-E2-A15K,Solid Tissue Normal,0,RF,0.214,0.5,within-sample percentile rank,False
+3a36b403-ea38-49f9-9c28-710c5d141164,TCGA-E2-A15K,17c1d42c-cb84-4655-a4cd-b54bae17ecaf,TCGA-E2-A15K,Primary Tumor,1,RF,0.996,0.5,within-sample percentile rank,False
+97269c0f-b638-473d-9d44-8ccc770a0039,TCGA-E2-A15M,59be60a3-e0f6-4d63-b98c-574ef92428c4,TCGA-E2-A15M,Solid Tissue Normal,0,RF,0.252,0.5,within-sample percentile rank,False
+0177791d-d02d-4433-81ae-458a93fdd60f,TCGA-E2-A15M,59be60a3-e0f6-4d63-b98c-574ef92428c4,TCGA-E2-A15M,Primary Tumor,1,RF,0.836,0.5,within-sample percentile rank,False
+d221f2c8-5852-4392-b166-92b709000e78,TCGA-E2-A1BC,d8492ebd-3d94-4a4b-8de7-386526691cc2,TCGA-E2-A1BC,Solid Tissue Normal,0,RF,0.086,0.5,within-sample percentile rank,False
+83ec5738-3a27-4100-83f2-8b30ae3b2fb7,TCGA-E2-A1BC,d8492ebd-3d94-4a4b-8de7-386526691cc2,TCGA-E2-A1BC,Primary Tumor,1,RF,0.46,0.5,within-sample percentile rank,False
+86e64e26-2be4-463d-8129-c0374cd4d5aa,TCGA-E2-A1IG,bc0bc70f-c6cf-4dbc-9dc3-8b7bc5f381a4,TCGA-E2-A1IG,Solid Tissue Normal,0,RF,0.124,0.5,within-sample percentile rank,False
+5e429dd7-787c-4e7d-b672-b000b7b57929,TCGA-E2-A1IG,bc0bc70f-c6cf-4dbc-9dc3-8b7bc5f381a4,TCGA-E2-A1IG,Primary Tumor,1,RF,0.94,0.5,within-sample percentile rank,False
+3b56098e-35ec-4fd3-b14d-c3cc777a94c9,TCGA-E2-A1L7,791c5768-f0f5-4ab6-86eb-998e5c4b49e3,TCGA-E2-A1L7,Solid Tissue Normal,0,RF,0.392,0.5,within-sample percentile rank,False
+09b414c4-a314-43c5-823a-d91442b6b02b,TCGA-E2-A1L7,791c5768-f0f5-4ab6-86eb-998e5c4b49e3,TCGA-E2-A1L7,Primary Tumor,1,RF,0.982,0.5,within-sample percentile rank,False
+4a429750-5cdd-44bc-8b2f-9921c3d1102e,TCGA-E2-A1LB,fa176764-a76f-44c7-b97a-cd6d21e052be,TCGA-E2-A1LB,Solid Tissue Normal,0,RF,0.26,0.5,within-sample percentile rank,False
+26f9a1ab-fa60-47f3-ac29-96acaa68fb4a,TCGA-E2-A1LB,fa176764-a76f-44c7-b97a-cd6d21e052be,TCGA-E2-A1LB,Primary Tumor,1,RF,0.988,0.5,within-sample percentile rank,False
+d78f95cd-3823-42ba-9c08-b5a70e41fd63,TCGA-E2-A1LH,d8ecba6a-9fff-4993-a799-9a8d2aea524e,TCGA-E2-A1LH,Solid Tissue Normal,0,RF,0.228,0.5,within-sample percentile rank,False
+c236908e-4814-409b-9fcc-2bedf60aa168,TCGA-E2-A1LH,d8ecba6a-9fff-4993-a799-9a8d2aea524e,TCGA-E2-A1LH,Primary Tumor,1,RF,0.986,0.5,within-sample percentile rank,False
+072ae9bc-16a5-4c63-8ec6-7b0a4d3835a7,TCGA-E2-A1LS,91a2f2af-e4b1-4a0b-ab20-6a36ce63c533,TCGA-E2-A1LS,Solid Tissue Normal,0,RF,0.12,0.5,within-sample percentile rank,False
+529056f9-7bdf-4675-bff7-a82abddf5734,TCGA-E2-A1LS,91a2f2af-e4b1-4a0b-ab20-6a36ce63c533,TCGA-E2-A1LS,Primary Tumor,1,RF,0.796,0.5,within-sample percentile rank,False
+d49b5007-2fc8-46e0-ae99-d65cd446e436,TCGA-E9-A1N4,69a68fbc-e43d-4652-85ee-693211bded47,TCGA-E9-A1N4,Solid Tissue Normal,0,RF,0.208,0.5,within-sample percentile rank,False
+8d122839-4167-48b2-9f3a-7ff7c3f134d8,TCGA-E9-A1N4,69a68fbc-e43d-4652-85ee-693211bded47,TCGA-E9-A1N4,Primary Tumor,1,RF,0.982,0.5,within-sample percentile rank,False
+ef5eaeb4-c3eb-43d2-b5a8-79f498e9e24a,TCGA-E9-A1N5,f954de05-1b44-4087-8933-6cc72d81028d,TCGA-E9-A1N5,Solid Tissue Normal,0,RF,0.7,0.5,within-sample percentile rank,False
+cc07e1f1-e1e7-4335-ab8b-b7bebef1669f,TCGA-E9-A1N5,f954de05-1b44-4087-8933-6cc72d81028d,TCGA-E9-A1N5,Primary Tumor,1,RF,0.988,0.5,within-sample percentile rank,False
+a82b9ff4-83b1-451d-be31-4e0626b03339,TCGA-E9-A1N6,955d4263-61f7-42e8-8a6e-772a0d6c209d,TCGA-E9-A1N6,Solid Tissue Normal,0,RF,0.186,0.5,within-sample percentile rank,False
+50a70e24-2ce8-43fd-87d7-eab2c1fa9a86,TCGA-E9-A1N6,955d4263-61f7-42e8-8a6e-772a0d6c209d,TCGA-E9-A1N6,Primary Tumor,1,RF,0.986,0.5,within-sample percentile rank,False
+2e532402-4279-4441-a7e5-0ed2b793a134,TCGA-E9-A1N9,994ca1f5-ad10-44ec-aa21-71fc2940653b,TCGA-E9-A1N9,Solid Tissue Normal,0,RF,0.254,0.5,within-sample percentile rank,False
+3c2bed9f-2ab5-4623-b631-99e394d7723d,TCGA-E9-A1N9,994ca1f5-ad10-44ec-aa21-71fc2940653b,TCGA-E9-A1N9,Primary Tumor,1,RF,0.994,0.5,within-sample percentile rank,False
+73c4bc21-7732-4562-af5a-1b229fbd5ea7,TCGA-E9-A1NA,af577366-0258-49e7-b6af-e70056c081a4,TCGA-E9-A1NA,Solid Tissue Normal,0,RF,0.192,0.5,within-sample percentile rank,False
+e2ef6df2-c375-4c59-ae1b-c8cca22a8387,TCGA-E9-A1NA,af577366-0258-49e7-b6af-e70056c081a4,TCGA-E9-A1NA,Primary Tumor,1,RF,0.986,0.5,within-sample percentile rank,False
+41615c91-a592-40ed-8bc1-3dda5f2c8625,TCGA-E9-A1ND,f06f09f3-8133-4a92-ac86-fbe64295e0d8,TCGA-E9-A1ND,Solid Tissue Normal,0,RF,0.354,0.5,within-sample percentile rank,False
+b41b1f04-226e-466c-b5e1-f61e45ad3210,TCGA-E9-A1ND,f06f09f3-8133-4a92-ac86-fbe64295e0d8,TCGA-E9-A1ND,Primary Tumor,1,RF,0.974,0.5,within-sample percentile rank,False
+5b799218-c5f2-4213-86a3-d67ed776bb28,TCGA-E9-A1NF,a8b1f6e7-2bcf-460d-b1c6-1792a9801119,TCGA-E9-A1NF,Solid Tissue Normal,0,RF,0.17,0.5,within-sample percentile rank,False
+0c30cd0e-a2d2-42b0-9ca9-8297de64e4a8,TCGA-E9-A1NF,a8b1f6e7-2bcf-460d-b1c6-1792a9801119,TCGA-E9-A1NF,Primary Tumor,1,RF,0.902,0.5,within-sample percentile rank,False
+ec92d7b1-ad80-4f3d-a8e8-3160941c24ac,TCGA-E9-A1NG,659b0170-e914-45ff-aa55-fcb8d3dc7b8a,TCGA-E9-A1NG,Solid Tissue Normal,0,RF,0.192,0.5,within-sample percentile rank,False
+7adf414b-c3f7-4e2c-aa80-81d3edd9764e,TCGA-E9-A1NG,659b0170-e914-45ff-aa55-fcb8d3dc7b8a,TCGA-E9-A1NG,Primary Tumor,1,RF,0.852,0.5,within-sample percentile rank,False
+d8015844-0615-42f1-a81c-ae707dbe1693,TCGA-E9-A1R7,2680da86-c977-4611-b75f-df015283c023,TCGA-E9-A1R7,Solid Tissue Normal,0,RF,0.13,0.5,within-sample percentile rank,False
+8d9f2037-1c1f-4c73-a993-dc4c2aa67d30,TCGA-E9-A1R7,2680da86-c977-4611-b75f-df015283c023,TCGA-E9-A1R7,Primary Tumor,1,RF,0.994,0.5,within-sample percentile rank,False
+8813ace1-aacf-4a54-b9e1-5379d52778da,TCGA-E9-A1RB,94b95984-b2fb-4e42-8887-45e7086c3179,TCGA-E9-A1RB,Solid Tissue Normal,0,RF,0.314,0.5,within-sample percentile rank,False
+43993e01-588a-40de-80ec-72c1a66fe70b,TCGA-E9-A1RB,94b95984-b2fb-4e42-8887-45e7086c3179,TCGA-E9-A1RB,Primary Tumor,1,RF,0.984,0.5,within-sample percentile rank,False
+5174c897-271a-4306-b0b6-48715cffc278,TCGA-E9-A1RC,5cdae21d-eee5-478f-932a-0f51fcf5f031,TCGA-E9-A1RC,Solid Tissue Normal,0,RF,0.24,0.5,within-sample percentile rank,False
+9eaa7f15-8a97-4a49-9e93-b5790a1fade0,TCGA-E9-A1RC,5cdae21d-eee5-478f-932a-0f51fcf5f031,TCGA-E9-A1RC,Primary Tumor,1,RF,0.962,0.5,within-sample percentile rank,False
+5f6e9271-967d-4f56-ac38-1d32f9aebd12,TCGA-E9-A1RD,5fe3c51f-65e2-4da6-8924-a6fae17c022d,TCGA-E9-A1RD,Solid Tissue Normal,0,RF,0.174,0.5,within-sample percentile rank,False
+d19fe184-84a8-4a49-a4d4-75891670da4d,TCGA-E9-A1RD,5fe3c51f-65e2-4da6-8924-a6fae17c022d,TCGA-E9-A1RD,Primary Tumor,1,RF,0.958,0.5,within-sample percentile rank,False
+9b8be955-8c21-449d-a951-c715a6dd1cab,TCGA-E9-A1RF,c694615c-b1c6-499c-8058-995633ebf948,TCGA-E9-A1RF,Solid Tissue Normal,0,RF,0.156,0.5,within-sample percentile rank,False
+ca0d78dc-c860-4835-ad07-052f176804a4,TCGA-E9-A1RF,c694615c-b1c6-499c-8058-995633ebf948,TCGA-E9-A1RF,Primary Tumor,1,RF,0.996,0.5,within-sample percentile rank,False
+a081f522-7603-4134-90c0-89e70fa43688,TCGA-E9-A1RH,408cb583-6dc3-4698-8bd2-e284042bd5ef,TCGA-E9-A1RH,Solid Tissue Normal,0,RF,0.11,0.5,within-sample percentile rank,False
+6b1bb382-0103-4207-a0e8-871aa6aae81c,TCGA-E9-A1RH,408cb583-6dc3-4698-8bd2-e284042bd5ef,TCGA-E9-A1RH,Primary Tumor,1,RF,0.92,0.5,within-sample percentile rank,False
+10fcee9d-db94-4fb9-a585-893c9d1bdc3d,TCGA-E9-A1RI,dd3bfb26-b534-4917-9c4d-9fe7b6477762,TCGA-E9-A1RI,Solid Tissue Normal,0,RF,0.072,0.5,within-sample percentile rank,False
+7423f6fa-4f31-46b1-a391-b5fc45833c2b,TCGA-E9-A1RI,dd3bfb26-b534-4917-9c4d-9fe7b6477762,TCGA-E9-A1RI,Primary Tumor,1,RF,0.89,0.5,within-sample percentile rank,False
+2a679581-38ad-4742-8d7b-89015df11e7d,TCGA-GI-A2C8,33fe5833-d7a0-43d7-a03d-56985ea448a6,TCGA-GI-A2C8,Solid Tissue Normal,0,RF,0.286,0.5,within-sample percentile rank,False
+4a21e922-a294-43f0-89cb-862dabed4f8c,TCGA-GI-A2C8,33fe5833-d7a0-43d7-a03d-56985ea448a6,TCGA-GI-A2C8,Primary Tumor,1,RF,0.672,0.5,within-sample percentile rank,False
+93b78420-ed0e-45d3-93f5-f60ce671a812,TCGA-GI-A2C9,9f6be944-83de-42ab-8738-f0022f475e61,TCGA-GI-A2C9,Solid Tissue Normal,0,RF,0.256,0.5,within-sample percentile rank,False
+143fc27d-e119-48ff-a5ea-bd6aafc0404e,TCGA-GI-A2C9,9f6be944-83de-42ab-8738-f0022f475e61,TCGA-GI-A2C9,Primary Tumor,1,RF,0.93,0.5,within-sample percentile rank,False
+139c8065-f56a-45f6-bc7e-7841f85a31ae,TCGA-A7-A0CE,9d95a65b-e41d-4f93-92d4-99dce29ff40d,TCGA-A7-A0CE,Solid Tissue Normal,0,LightGBM,0.0009382212580012998,0.5,within-sample percentile rank,False
+9dc315ce-3b76-4754-b103-2c2580cde4ab,TCGA-A7-A0CE,9d95a65b-e41d-4f93-92d4-99dce29ff40d,TCGA-A7-A0CE,Primary Tumor,1,LightGBM,0.9999742572974856,0.5,within-sample percentile rank,False
+60ee931b-d315-4c37-b913-fa46a5f206b4,TCGA-A7-A0CH,9de678e5-67ed-4453-a98b-7ac351d5d0f1,TCGA-A7-A0CH,Solid Tissue Normal,0,LightGBM,0.0005953860462932427,0.5,within-sample percentile rank,False
+1a9f7284-9770-4936-9fa4-500698184680,TCGA-A7-A0CH,9de678e5-67ed-4453-a98b-7ac351d5d0f1,TCGA-A7-A0CH,Primary Tumor,1,LightGBM,0.9999967988475902,0.5,within-sample percentile rank,False
+caca6c83-8d5f-4d85-a6a9-4ded98b71214,TCGA-A7-A0D9,17baef7c-d97d-4b98-ab53-503ef856523d,TCGA-A7-A0D9,Solid Tissue Normal,0,LightGBM,0.00017039564898252787,0.5,within-sample percentile rank,False
+c144ae50-ed29-4e27-bbee-fa81e79ac7db,TCGA-A7-A0D9,17baef7c-d97d-4b98-ab53-503ef856523d,TCGA-A7-A0D9,Primary Tumor,1,LightGBM,0.999996035634814,0.5,within-sample percentile rank,False
+e2566ada-c2bf-4c25-bcd0-9f49f2d0b4a2,TCGA-A7-A0DB,f130f376-5801-40f9-975d-a7e2f7b5670d,TCGA-A7-A0DB,Solid Tissue Normal,0,LightGBM,0.000514465933442112,0.5,within-sample percentile rank,False
+e8cb34ed-67cb-48b7-83cd-621a1224e781,TCGA-A7-A0DB,f130f376-5801-40f9-975d-a7e2f7b5670d,TCGA-A7-A0DB,Primary Tumor,1,LightGBM,0.9999990178965423,0.5,within-sample percentile rank,False
+5bfd69f5-406a-4b28-b4f4-a6655e03e4db,TCGA-A7-A0DC,cb9f5e50-f49d-4899-8895-9367afcc1015,TCGA-A7-A0DC,Solid Tissue Normal,0,LightGBM,0.00024867963784626763,0.5,within-sample percentile rank,False
+36cafcfc-cc5e-4203-b018-c2c949e24c12,TCGA-A7-A0DC,cb9f5e50-f49d-4899-8895-9367afcc1015,TCGA-A7-A0DC,Primary Tumor,1,LightGBM,0.8312644622153141,0.5,within-sample percentile rank,False
+238e4064-4aac-4c75-a506-b19bc7f3fc3c,TCGA-A7-A13E,8c7e74e0-71ef-49b8-9217-94b8ef740ef9,TCGA-A7-A13E,Solid Tissue Normal,0,LightGBM,0.0009059001629606134,0.5,within-sample percentile rank,False
+8a790c78-8ad4-4e0b-9728-0e24cadc1f98,TCGA-A7-A13E,8c7e74e0-71ef-49b8-9217-94b8ef740ef9,TCGA-A7-A13E,Primary Tumor,1,LightGBM,0.9999935998616899,0.5,within-sample percentile rank,False
+f4aaedfd-36df-4173-ae28-0a1065c39b6f,TCGA-A7-A13F,2cf68894-168b-458b-af4f-53cad72989a8,TCGA-A7-A13F,Solid Tissue Normal,0,LightGBM,6.324801323483158e-05,0.5,within-sample percentile rank,False
+b36c8878-bab6-4f61-9a4e-4dcfca21391e,TCGA-A7-A13F,2cf68894-168b-458b-af4f-53cad72989a8,TCGA-A7-A13F,Primary Tumor,1,LightGBM,0.9999987106740876,0.5,within-sample percentile rank,False
+2086f4ed-61fd-450c-b9de-aa7e049d154d,TCGA-A7-A13G,6cd9baf5-bbe0-4c1e-a87f-c53b3af22890,TCGA-A7-A13G,Solid Tissue Normal,0,LightGBM,6.802943995273416e-05,0.5,within-sample percentile rank,False
+6a1c2fdb-18ce-40ec-af79-191b489f39a7,TCGA-A7-A13G,6cd9baf5-bbe0-4c1e-a87f-c53b3af22890,TCGA-A7-A13G,Primary Tumor,1,LightGBM,0.6346733984221258,0.5,within-sample percentile rank,False
+7df59ca8-7e51-4581-9d7f-8bba0395ce17,TCGA-AC-A23H,7dcf550c-90ce-4f63-aecd-0e46897e2a3e,TCGA-AC-A23H,Solid Tissue Normal,0,LightGBM,0.01674796382625188,0.5,within-sample percentile rank,False
+d7e3b628-d5fd-4e79-9c4a-6409330fb8a7,TCGA-AC-A23H,7dcf550c-90ce-4f63-aecd-0e46897e2a3e,TCGA-AC-A23H,Primary Tumor,1,LightGBM,0.9999997188674239,0.5,within-sample percentile rank,False
+2c9b563c-6f22-4a54-a232-ce7974b30458,TCGA-AC-A2FB,02bbb632-0f7f-439d-b8f0-c86a06237424,TCGA-AC-A2FB,Solid Tissue Normal,0,LightGBM,0.003656342790937688,0.5,within-sample percentile rank,False
+7e2ed541-38ee-473f-ac5d-3cae6f5d9a56,TCGA-AC-A2FB,02bbb632-0f7f-439d-b8f0-c86a06237424,TCGA-AC-A2FB,Primary Tumor,1,LightGBM,0.9999902781398469,0.5,within-sample percentile rank,False
+25bb566a-15fd-4725-90dc-1c5f464796ac,TCGA-AC-A2FF,3ca67cd0-81da-4f68-a9fa-f1a8c013c28d,TCGA-AC-A2FF,Solid Tissue Normal,0,LightGBM,0.9767655239670934,0.5,within-sample percentile rank,False
+62d4d442-98a0-4540-b22a-4acf1fbfc40b,TCGA-AC-A2FF,3ca67cd0-81da-4f68-a9fa-f1a8c013c28d,TCGA-AC-A2FF,Primary Tumor,1,LightGBM,0.9996716816238617,0.5,within-sample percentile rank,False
+028490aa-d6f3-4366-821a-7cb2c604eff1,TCGA-AC-A2FM,b6b1dc9a-91f4-4b0a-afd5-62c9a90c0d5e,TCGA-AC-A2FM,Solid Tissue Normal,0,LightGBM,0.001191903686291768,0.5,within-sample percentile rank,False
+8e391bec-541c-49dc-a0a8-5ece5f268f1f,TCGA-AC-A2FM,b6b1dc9a-91f4-4b0a-afd5-62c9a90c0d5e,TCGA-AC-A2FM,Primary Tumor,1,LightGBM,0.9999991643066533,0.5,within-sample percentile rank,False
+86c64ef3-451c-471e-8ad3-58985d943190,TCGA-BH-A0AU,360d1d6d-cf3e-4c78-b36f-ef5e3160aa6b,TCGA-BH-A0AU,Solid Tissue Normal,0,LightGBM,2.0081810380988185e-05,0.5,within-sample percentile rank,False
+9df5fb66-44da-4d92-899a-99c07cd23fff,TCGA-BH-A0AU,360d1d6d-cf3e-4c78-b36f-ef5e3160aa6b,TCGA-BH-A0AU,Primary Tumor,1,LightGBM,0.9999994749113755,0.5,within-sample percentile rank,False
+7242979b-b467-47f4-b351-cdebbfff32e0,TCGA-BH-A0AY,93ed6066-b567-4e1c-ab81-23370f9d3452,TCGA-BH-A0AY,Solid Tissue Normal,0,LightGBM,0.0011184189392596058,0.5,within-sample percentile rank,False
+7f00169e-2572-4158-a453-ccec33cd2159,TCGA-BH-A0AY,93ed6066-b567-4e1c-ab81-23370f9d3452,TCGA-BH-A0AY,Primary Tumor,1,LightGBM,0.9999970233906674,0.5,within-sample percentile rank,False
+6731ddd7-054f-4faa-9cfb-d8ec938c5f7d,TCGA-BH-A0AZ,518f231c-f5f9-4a39-a97b-7fd5666d3e50,TCGA-BH-A0AZ,Solid Tissue Normal,0,LightGBM,0.06291756160576466,0.5,within-sample percentile rank,False
+aafc7bc4-1e57-4df9-9bad-a04a4d9edebd,TCGA-BH-A0AZ,518f231c-f5f9-4a39-a97b-7fd5666d3e50,TCGA-BH-A0AZ,Primary Tumor,1,LightGBM,0.999971138920891,0.5,within-sample percentile rank,False
+9a81af95-30f8-45b1-bbda-ca5c7a91c5c5,TCGA-BH-A0B3,18eb4dfc-556f-4bf3-a411-4780209ed1e0,TCGA-BH-A0B3,Solid Tissue Normal,0,LightGBM,4.780980292954483e-05,0.5,within-sample percentile rank,False
+fc1f0ad4-8412-4143-8ebf-fa6592f396e9,TCGA-BH-A0B3,18eb4dfc-556f-4bf3-a411-4780209ed1e0,TCGA-BH-A0B3,Primary Tumor,1,LightGBM,0.9999850874934223,0.5,within-sample percentile rank,False
+499a5bbb-9c48-4a4a-8472-d6fa35b6a308,TCGA-BH-A0B5,9da462b0-93c2-4305-89f6-7199a30399a7,TCGA-BH-A0B5,Solid Tissue Normal,0,LightGBM,7.74099224744713e-06,0.5,within-sample percentile rank,False
+a0de3018-8916-4e06-8ba1-beb1d218e30e,TCGA-BH-A0B5,9da462b0-93c2-4305-89f6-7199a30399a7,TCGA-BH-A0B5,Primary Tumor,1,LightGBM,0.9999996740269926,0.5,within-sample percentile rank,False
+ab96b212-ab38-4e27-8c61-5eef673a0798,TCGA-BH-A0B7,214a4507-d974-4b3e-8525-7408fccc6a0f,TCGA-BH-A0B7,Solid Tissue Normal,0,LightGBM,0.0001703986960867068,0.5,within-sample percentile rank,False
+45c79141-a125-4305-b1b7-c838de1af8a3,TCGA-BH-A0B7,214a4507-d974-4b3e-8525-7408fccc6a0f,TCGA-BH-A0B7,Primary Tumor,1,LightGBM,0.9999990256232771,0.5,within-sample percentile rank,False
+f62006a0-500c-46dc-ab01-27550680494e,TCGA-BH-A0B8,d3a75976-67d3-40fa-9f6f-cf2a3d7b773c,TCGA-BH-A0B8,Solid Tissue Normal,0,LightGBM,4.567288799770567e-05,0.5,within-sample percentile rank,False
+3f6f1066-37f9-464d-872a-f1390eb36f6e,TCGA-BH-A0B8,d3a75976-67d3-40fa-9f6f-cf2a3d7b773c,TCGA-BH-A0B8,Primary Tumor,1,LightGBM,0.9999989462813946,0.5,within-sample percentile rank,False
+866a5298-c51c-44a6-b2c0-511e63629829,TCGA-BH-A0BA,49dc3e68-6206-4f16-969f-a758cc7be8ed,TCGA-BH-A0BA,Solid Tissue Normal,0,LightGBM,0.0009490165472467931,0.5,within-sample percentile rank,False
+992d3519-cd51-4f48-880c-81fef52be1bf,TCGA-BH-A0BA,49dc3e68-6206-4f16-969f-a758cc7be8ed,TCGA-BH-A0BA,Primary Tumor,1,LightGBM,0.9999991961917454,0.5,within-sample percentile rank,False
+09733af3-d6fc-44a4-907e-16581fc48611,TCGA-BH-A0BC,327a2395-85c8-42e1-9638-8e037a1723ed,TCGA-BH-A0BC,Solid Tissue Normal,0,LightGBM,0.004847945406650426,0.5,within-sample percentile rank,False
+e586a2b3-1132-45db-9283-dc318653a09f,TCGA-BH-A0BC,327a2395-85c8-42e1-9638-8e037a1723ed,TCGA-BH-A0BC,Primary Tumor,1,LightGBM,0.9999997391087726,0.5,within-sample percentile rank,False
+c585bd29-35d3-4b6e-8142-f16479f89ab9,TCGA-BH-A0BJ,d6f911b5-e895-43f8-8f86-0ac2f1bc6fae,TCGA-BH-A0BJ,Solid Tissue Normal,0,LightGBM,0.11052280607772093,0.5,within-sample percentile rank,False
+d1991ebd-1cd1-4c2d-ac99-2a6ecd3f90f1,TCGA-BH-A0BJ,d6f911b5-e895-43f8-8f86-0ac2f1bc6fae,TCGA-BH-A0BJ,Primary Tumor,1,LightGBM,0.9999974676904042,0.5,within-sample percentile rank,False
+bca287af-e08b-4c8f-8076-e7e641b9d2fb,TCGA-BH-A0BM,c2aeee6c-ba10-4cf9-b560-c739580f7bf3,TCGA-BH-A0BM,Solid Tissue Normal,0,LightGBM,8.6724491452773e-06,0.5,within-sample percentile rank,False
+5423b7f8-d2bb-47c8-9af8-3d3e1276888c,TCGA-BH-A0BM,c2aeee6c-ba10-4cf9-b560-c739580f7bf3,TCGA-BH-A0BM,Primary Tumor,1,LightGBM,0.9498114715126196,0.5,within-sample percentile rank,False
+ced0af4b-e977-4399-b3bc-0a98b1c9817f,TCGA-BH-A0BQ,b3bb8fd6-ee54-4813-b042-2bbe70115382,TCGA-BH-A0BQ,Solid Tissue Normal,0,LightGBM,3.1051897300345535e-05,0.5,within-sample percentile rank,False
+18dddb4e-11d6-4fe7-b44a-48342374a5b1,TCGA-BH-A0BQ,b3bb8fd6-ee54-4813-b042-2bbe70115382,TCGA-BH-A0BQ,Primary Tumor,1,LightGBM,0.999994806062066,0.5,within-sample percentile rank,False
+a6ab4a8e-82f5-49a1-8264-36d415366424,TCGA-BH-A0BS,2b22db1d-54a1-4b9e-a86e-a174cf51d95c,TCGA-BH-A0BS,Solid Tissue Normal,0,LightGBM,4.652200114509273e-06,0.5,within-sample percentile rank,False
+2f125802-32af-40b6-b4c8-4018740ccee9,TCGA-BH-A0BS,2b22db1d-54a1-4b9e-a86e-a174cf51d95c,TCGA-BH-A0BS,Primary Tumor,1,LightGBM,0.999999783265125,0.5,within-sample percentile rank,False
+ac1e8a8e-b6e8-48f3-ba5b-1baa4272a6c7,TCGA-BH-A0BT,a32cb96a-78bf-456e-a6ab-2d47b2c67ad4,TCGA-BH-A0BT,Solid Tissue Normal,0,LightGBM,0.00024807946243001627,0.5,within-sample percentile rank,False
+7f7d8229-3daf-48be-bd16-ffe4314528b1,TCGA-BH-A0BT,a32cb96a-78bf-456e-a6ab-2d47b2c67ad4,TCGA-BH-A0BT,Primary Tumor,1,LightGBM,0.9999971227417007,0.5,within-sample percentile rank,False
+21b88cba-4c07-4a15-9794-a981d2875415,TCGA-BH-A0BV,87f03d04-e651-4a6e-aea6-1c946aa46202,TCGA-BH-A0BV,Solid Tissue Normal,0,LightGBM,0.22533500836911158,0.5,within-sample percentile rank,False
+ce3c01d9-e8c7-4bd6-84f9-741f38b07267,TCGA-BH-A0BV,87f03d04-e651-4a6e-aea6-1c946aa46202,TCGA-BH-A0BV,Primary Tumor,1,LightGBM,0.999998209091041,0.5,within-sample percentile rank,False
+d03b3d7b-3629-4fde-a47a-3184f67236eb,TCGA-BH-A0BW,5d1d00c6-fcae-479e-ae1e-de76efd41d98,TCGA-BH-A0BW,Solid Tissue Normal,0,LightGBM,0.9954034722307636,0.5,within-sample percentile rank,False
+dbeeddc1-d149-46f7-91ff-d057f8c6bffb,TCGA-BH-A0BW,5d1d00c6-fcae-479e-ae1e-de76efd41d98,TCGA-BH-A0BW,Primary Tumor,1,LightGBM,0.9999988665548463,0.5,within-sample percentile rank,False
+e995932f-9ba3-459d-ae09-1f2f0b04aad4,TCGA-BH-A0BZ,4a032bad-e726-48f2-8f39-e3acc109cc91,TCGA-BH-A0BZ,Solid Tissue Normal,0,LightGBM,0.0012357801086291416,0.5,within-sample percentile rank,False
+55906ee0-a385-4ec9-8515-90ab613eca35,TCGA-BH-A0BZ,4a032bad-e726-48f2-8f39-e3acc109cc91,TCGA-BH-A0BZ,Primary Tumor,1,LightGBM,0.9999996874471371,0.5,within-sample percentile rank,False
+d84a5349-7473-4f6f-afae-5d0062328491,TCGA-BH-A0C0,7875018b-91dc-4ab1-83b0-ee3883e2816e,TCGA-BH-A0C0,Solid Tissue Normal,0,LightGBM,0.00012039569209357615,0.5,within-sample percentile rank,False
+c1898b32-a9c5-410b-a197-572b2a6a2d7a,TCGA-BH-A0C0,7875018b-91dc-4ab1-83b0-ee3883e2816e,TCGA-BH-A0C0,Primary Tumor,1,LightGBM,0.9999996453860035,0.5,within-sample percentile rank,False
+82e6dc7b-fe63-4fc6-af9f-68dc76c2cb88,TCGA-BH-A0C3,7bcf6d42-eb8f-4aa2-825b-38671d4f9e3a,TCGA-BH-A0C3,Solid Tissue Normal,0,LightGBM,0.00027195458321483486,0.5,within-sample percentile rank,False
+21ba28ff-89f6-4f02-a135-821efc4f42f8,TCGA-BH-A0C3,7bcf6d42-eb8f-4aa2-825b-38671d4f9e3a,TCGA-BH-A0C3,Primary Tumor,1,LightGBM,0.9980431341909725,0.5,within-sample percentile rank,False
+bd6038ff-9634-45d5-80d8-97a3f1ea2d04,TCGA-BH-A0DD,dba9beec-5e51-48c0-9229-0ee286a02a1a,TCGA-BH-A0DD,Solid Tissue Normal,0,LightGBM,0.0007963375582687945,0.5,within-sample percentile rank,False
+b5d03f26-66ec-4861-9635-e0ee4a6e41c9,TCGA-BH-A0DD,dba9beec-5e51-48c0-9229-0ee286a02a1a,TCGA-BH-A0DD,Primary Tumor,1,LightGBM,0.9999992791829828,0.5,within-sample percentile rank,False
+a3d00f8e-39c2-4e35-bc2f-df9184b35670,TCGA-BH-A0DG,0bc5744c-5fa3-45bb-87d0-70a02068b392,TCGA-BH-A0DG,Solid Tissue Normal,0,LightGBM,0.0001121763160618728,0.5,within-sample percentile rank,False
+3f104cf7-8de8-4e77-8baa-bad1bbb493ac,TCGA-BH-A0DG,0bc5744c-5fa3-45bb-87d0-70a02068b392,TCGA-BH-A0DG,Primary Tumor,1,LightGBM,0.9999994645097879,0.5,within-sample percentile rank,False
+6d8a829d-2f0f-4cb7-ab88-9e99b98c4556,TCGA-BH-A0DH,491b6364-1223-474f-816f-e248c8c841e2,TCGA-BH-A0DH,Solid Tissue Normal,0,LightGBM,6.0222671713230835e-05,0.5,within-sample percentile rank,False
+700477dc-5eb4-4efb-a301-12172a7469f7,TCGA-BH-A0DH,491b6364-1223-474f-816f-e248c8c841e2,TCGA-BH-A0DH,Primary Tumor,1,LightGBM,0.9999994239827278,0.5,within-sample percentile rank,False
+834ee4b2-bd0c-47ab-9158-c10534e272ea,TCGA-BH-A0DK,f2bbfa9d-9a9d-4f46-9fde-378e4c44e2ad,TCGA-BH-A0DK,Solid Tissue Normal,0,LightGBM,0.008362470556009593,0.5,within-sample percentile rank,False
+1acae6e0-3100-4de8-a436-e15cdbe1322b,TCGA-BH-A0DK,f2bbfa9d-9a9d-4f46-9fde-378e4c44e2ad,TCGA-BH-A0DK,Primary Tumor,1,LightGBM,0.9999992459525805,0.5,within-sample percentile rank,False
+471df7ad-c811-4411-9ade-277233a1053f,TCGA-BH-A0DL,ba39bfbc-5cac-4f6c-b55c-4eee3466ee93,TCGA-BH-A0DL,Solid Tissue Normal,0,LightGBM,0.01189109643550091,0.5,within-sample percentile rank,False
+20308c88-18f2-4373-9e93-1f1d589d97e2,TCGA-BH-A0DL,ba39bfbc-5cac-4f6c-b55c-4eee3466ee93,TCGA-BH-A0DL,Primary Tumor,1,LightGBM,0.9999944924281086,0.5,within-sample percentile rank,False
+9db89883-6f94-48f8-aefb-b0aaf6344924,TCGA-BH-A0DO,d3d4d709-ab34-4617-aa8c-51a3d0a3efe6,TCGA-BH-A0DO,Solid Tissue Normal,0,LightGBM,2.22178745658668e-05,0.5,within-sample percentile rank,False
+8b5d38fb-e9ad-445c-b5d5-f054a5eafeb1,TCGA-BH-A0DO,d3d4d709-ab34-4617-aa8c-51a3d0a3efe6,TCGA-BH-A0DO,Primary Tumor,1,LightGBM,0.9972062000819342,0.5,within-sample percentile rank,False
+e3afa9dd-7494-4ced-adcc-267e91b971df,TCGA-BH-A0DP,14267783-5624-4fe5-ba81-9d67f1017474,TCGA-BH-A0DP,Solid Tissue Normal,0,LightGBM,5.53918418481112e-05,0.5,within-sample percentile rank,False
+ffb838b0-db61-4dc9-aadc-41562f677f54,TCGA-BH-A0DP,14267783-5624-4fe5-ba81-9d67f1017474,TCGA-BH-A0DP,Primary Tumor,1,LightGBM,0.999995934594795,0.5,within-sample percentile rank,False
+907ca5f2-0442-403f-9ac6-e158e371091e,TCGA-BH-A0DQ,a851ca14-7bbf-455b-a054-ec03979a4247,TCGA-BH-A0DQ,Solid Tissue Normal,0,LightGBM,0.025268454244612874,0.5,within-sample percentile rank,False
+10285a0d-d8cc-4c20-a8a2-8891d9807599,TCGA-BH-A0DQ,a851ca14-7bbf-455b-a054-ec03979a4247,TCGA-BH-A0DQ,Primary Tumor,1,LightGBM,0.9999560533946155,0.5,within-sample percentile rank,False
+a9ce148b-ad26-4257-8f5c-295fd2dcb1d7,TCGA-BH-A0DT,74f31744-0aed-4633-beec-4e203315f0b7,TCGA-BH-A0DT,Solid Tissue Normal,0,LightGBM,0.00030383060404634804,0.5,within-sample percentile rank,False
+eb11d414-2f0e-44a1-843c-ecacc7212e91,TCGA-BH-A0DT,74f31744-0aed-4633-beec-4e203315f0b7,TCGA-BH-A0DT,Primary Tumor,1,LightGBM,0.9999969815130142,0.5,within-sample percentile rank,False
+95792e53-593b-40ea-80e2-2fbb4e572513,TCGA-BH-A0DV,96b9c7db-1be1-4b60-b47c-26b654c3d64c,TCGA-BH-A0DV,Solid Tissue Normal,0,LightGBM,2.793237212382014e-05,0.5,within-sample percentile rank,False
+b4c19f4e-c5bf-4c4f-bad8-9c18128c112d,TCGA-BH-A0DV,96b9c7db-1be1-4b60-b47c-26b654c3d64c,TCGA-BH-A0DV,Primary Tumor,1,LightGBM,0.9925349556914398,0.5,within-sample percentile rank,False
+d306052f-67ae-4bee-a38a-3fc2e8bf3f41,TCGA-BH-A0DZ,478eb8aa-50b8-4ce5-98e4-d518ede4b174,TCGA-BH-A0DZ,Solid Tissue Normal,0,LightGBM,0.020968761468290006,0.5,within-sample percentile rank,False
+6093f268-1c3f-4fec-bde7-fc3721ecaf8e,TCGA-BH-A0DZ,478eb8aa-50b8-4ce5-98e4-d518ede4b174,TCGA-BH-A0DZ,Primary Tumor,1,LightGBM,0.9999991949492528,0.5,within-sample percentile rank,False
+90fb06a9-35be-44b0-9f5b-eb270898aabe,TCGA-BH-A0E0,20e8106b-1290-4735-abe4-7621e08e3dc8,TCGA-BH-A0E0,Solid Tissue Normal,0,LightGBM,0.004950074369305145,0.5,within-sample percentile rank,False
+662cc11c-da31-4e31-8e77-46011b38ea96,TCGA-BH-A0E0,20e8106b-1290-4735-abe4-7621e08e3dc8,TCGA-BH-A0E0,Primary Tumor,1,LightGBM,0.9998100306947209,0.5,within-sample percentile rank,False
+e4ee648d-3a2a-4ec7-a888-d6888ddf0171,TCGA-BH-A0E1,606fbc6a-b41b-441d-9401-51e54912bf5e,TCGA-BH-A0E1,Solid Tissue Normal,0,LightGBM,4.386790142509147e-06,0.5,within-sample percentile rank,False
+dcf7829e-abaa-435f-b41d-a2bcfde5d66a,TCGA-BH-A0E1,606fbc6a-b41b-441d-9401-51e54912bf5e,TCGA-BH-A0E1,Primary Tumor,1,LightGBM,0.9999995978745991,0.5,within-sample percentile rank,False
+dec6391b-6fe8-487e-a80e-aff0bc7bc136,TCGA-BH-A0H5,cab38ea8-4555-413c-b81e-4621aac4ef85,TCGA-BH-A0H5,Solid Tissue Normal,0,LightGBM,2.62618991532233e-05,0.5,within-sample percentile rank,False
+8cc4fd25-dd8b-4983-ac21-24f3cf3e51cd,TCGA-BH-A0H5,cab38ea8-4555-413c-b81e-4621aac4ef85,TCGA-BH-A0H5,Primary Tumor,1,LightGBM,0.9999989489143896,0.5,within-sample percentile rank,False
+876a2145-5b7b-466b-b13f-81fcf028c9fd,TCGA-BH-A0H7,2021ed1f-dc75-4701-b8b8-1386466e4802,TCGA-BH-A0H7,Solid Tissue Normal,0,LightGBM,0.006111660250911787,0.5,within-sample percentile rank,False
+69bfa6ce-ed46-4321-a107-347c49d68951,TCGA-BH-A0H7,2021ed1f-dc75-4701-b8b8-1386466e4802,TCGA-BH-A0H7,Primary Tumor,1,LightGBM,0.9999993748670453,0.5,within-sample percentile rank,False
+6fe74906-b3c0-49dc-95d8-ef19326b2b35,TCGA-BH-A0H9,0f64edec-0f1f-4025-8a53-75f9534f7828,TCGA-BH-A0H9,Solid Tissue Normal,0,LightGBM,4.639892238257797e-05,0.5,within-sample percentile rank,False
+4a7c76a9-c3a2-4b57-a57a-de055152dcf8,TCGA-BH-A0H9,0f64edec-0f1f-4025-8a53-75f9534f7828,TCGA-BH-A0H9,Primary Tumor,1,LightGBM,0.9999994327278425,0.5,within-sample percentile rank,False
+0cf5f314-5cc8-4c4c-853a-e4bcbc749acc,TCGA-BH-A0HA,e666081b-caaf-4e8b-9446-807be71201a5,TCGA-BH-A0HA,Solid Tissue Normal,0,LightGBM,1.196859837895426e-05,0.5,within-sample percentile rank,False
+63baef92-6733-4791-b897-0abe9131a5f5,TCGA-BH-A0HA,e666081b-caaf-4e8b-9446-807be71201a5,TCGA-BH-A0HA,Primary Tumor,1,LightGBM,0.9999969272807457,0.5,within-sample percentile rank,False
+aaeda2ea-cf26-445f-a367-85735fe80a27,TCGA-BH-A0HK,24334ac1-28a3-4b61-b590-3f51e375b247,TCGA-BH-A0HK,Solid Tissue Normal,0,LightGBM,0.014367217157367633,0.5,within-sample percentile rank,False
+8835b20e-9343-4266-a356-e0343c657130,TCGA-BH-A0HK,24334ac1-28a3-4b61-b590-3f51e375b247,TCGA-BH-A0HK,Primary Tumor,1,LightGBM,0.8250345771237747,0.5,within-sample percentile rank,False
+531e4ba7-04b1-4ec0-84e8-4b8de97ad3d7,TCGA-BH-A18J,cc074b7f-d3b2-4880-902e-bf10e667b665,TCGA-BH-A18J,Solid Tissue Normal,0,LightGBM,5.864531341245472e-05,0.5,within-sample percentile rank,False
+044f9b74-9a16-432e-acac-78c399c001bc,TCGA-BH-A18J,cc074b7f-d3b2-4880-902e-bf10e667b665,TCGA-BH-A18J,Primary Tumor,1,LightGBM,0.9999996578354188,0.5,within-sample percentile rank,False
+a456d499-cba4-49a6-a296-998ed018947a,TCGA-BH-A18K,50619f8c-10aa-464a-a227-90a7aa6ffd43,TCGA-BH-A18K,Solid Tissue Normal,0,LightGBM,4.144186517677261e-05,0.5,within-sample percentile rank,False
+db1c378a-1974-4b79-a027-928cba385e40,TCGA-BH-A18K,50619f8c-10aa-464a-a227-90a7aa6ffd43,TCGA-BH-A18K,Primary Tumor,1,LightGBM,0.9999985991261526,0.5,within-sample percentile rank,False
+67f32715-fea8-4b4e-9815-aa0c67253ad3,TCGA-BH-A18L,9ddc3e7b-8b54-4a83-8335-8053940f56c1,TCGA-BH-A18L,Solid Tissue Normal,0,LightGBM,0.0010899854977570002,0.5,within-sample percentile rank,False
+796e565c-3841-425a-bdfb-569776d7c9ac,TCGA-BH-A18L,9ddc3e7b-8b54-4a83-8335-8053940f56c1,TCGA-BH-A18L,Primary Tumor,1,LightGBM,0.9999992036590657,0.5,within-sample percentile rank,False
+9a793dbd-24a5-4e0c-aa00-efee41902a5d,TCGA-BH-A18M,f63722c1-a0bb-4bf9-8a10-1d76a8e1a0ba,TCGA-BH-A18M,Solid Tissue Normal,0,LightGBM,0.02085876290654087,0.5,within-sample percentile rank,False
+6a914b5f-5bc2-4152-b80e-fcc864a415b0,TCGA-BH-A18M,f63722c1-a0bb-4bf9-8a10-1d76a8e1a0ba,TCGA-BH-A18M,Primary Tumor,1,LightGBM,0.9999975678975758,0.5,within-sample percentile rank,False
+2ed1ed4a-12e1-4306-b290-6c31933d054e,TCGA-BH-A18N,665dd3d3-779c-4abd-b5d7-13342340451d,TCGA-BH-A18N,Solid Tissue Normal,0,LightGBM,0.00016274768245149346,0.5,within-sample percentile rank,False
+dba36215-670e-400f-864e-a46702d49240,TCGA-BH-A18N,665dd3d3-779c-4abd-b5d7-13342340451d,TCGA-BH-A18N,Primary Tumor,1,LightGBM,0.9999894332314907,0.5,within-sample percentile rank,False
+9563ff43-853c-4d6a-910c-de6fbc638d57,TCGA-BH-A18P,557cb0a3-6f1b-4faf-8296-0a15c24158f9,TCGA-BH-A18P,Solid Tissue Normal,0,LightGBM,3.315554876367238e-06,0.5,within-sample percentile rank,False
+0d0546ad-8a51-4802-a173-96fbe5ebb124,TCGA-BH-A18P,557cb0a3-6f1b-4faf-8296-0a15c24158f9,TCGA-BH-A18P,Primary Tumor,1,LightGBM,0.9999995864378245,0.5,within-sample percentile rank,False
+93eb97b3-918f-42b8-8d3d-34715d09e491,TCGA-BH-A18Q,db4bc6aa-2e7d-4bcb-8519-a455f624d33b,TCGA-BH-A18Q,Solid Tissue Normal,0,LightGBM,7.850733411796119e-05,0.5,within-sample percentile rank,False
+f225775e-e46f-4d1d-8b13-042e9776dd72,TCGA-BH-A18Q,db4bc6aa-2e7d-4bcb-8519-a455f624d33b,TCGA-BH-A18Q,Primary Tumor,1,LightGBM,0.9999996130356513,0.5,within-sample percentile rank,False
+3196c5f3-9227-4a9d-b87a-3e1f680a768c,TCGA-BH-A18R,f6e1ec78-5ad9-4879-9b7e-262d17b166ad,TCGA-BH-A18R,Solid Tissue Normal,0,LightGBM,5.635929714726205e-05,0.5,within-sample percentile rank,False
+518be2c7-fba5-47b1-8c8b-fef812fa74a4,TCGA-BH-A18R,f6e1ec78-5ad9-4879-9b7e-262d17b166ad,TCGA-BH-A18R,Primary Tumor,1,LightGBM,0.9999995004679154,0.5,within-sample percentile rank,False
+4e786a4a-cf47-41ea-a0b0-4349dcd500f5,TCGA-BH-A18S,433427a1-bacf-4381-91ba-5fec8a0953f9,TCGA-BH-A18S,Solid Tissue Normal,0,LightGBM,0.0004529337227316259,0.5,within-sample percentile rank,False
+ce3a4469-8d19-4661-9c48-1baf6e84f49c,TCGA-BH-A18S,433427a1-bacf-4381-91ba-5fec8a0953f9,TCGA-BH-A18S,Primary Tumor,1,LightGBM,0.999866517446037,0.5,within-sample percentile rank,False
+0b290880-d67c-42b4-aa57-afd3c3d09518,TCGA-BH-A18U,233b02f3-c4f0-4a67-9db5-e68d5cdaccb6,TCGA-BH-A18U,Solid Tissue Normal,0,LightGBM,0.002006678707846959,0.5,within-sample percentile rank,False
+79763193-268d-49e7-b94c-5cb95f7271b6,TCGA-BH-A18U,233b02f3-c4f0-4a67-9db5-e68d5cdaccb6,TCGA-BH-A18U,Primary Tumor,1,LightGBM,0.9999996083100378,0.5,within-sample percentile rank,False
+e85b2b0f-993f-4c37-8ed5-53d384ac18e1,TCGA-BH-A18V,6b960b58-28e1-41c6-bd6e-7e669c6aa4ef,TCGA-BH-A18V,Solid Tissue Normal,0,LightGBM,2.6098238349923037e-05,0.5,within-sample percentile rank,False
+2923c735-34a1-4db6-a248-1c5de2241dd4,TCGA-BH-A18V,6b960b58-28e1-41c6-bd6e-7e669c6aa4ef,TCGA-BH-A18V,Primary Tumor,1,LightGBM,0.9998126821647904,0.5,within-sample percentile rank,False
+ae5214a0-7fbe-410d-aedf-0a119c8b7f5a,TCGA-BH-A1EN,858652b8-c4c2-41d8-be32-fdc88e1a7bb0,TCGA-BH-A1EN,Solid Tissue Normal,0,LightGBM,0.0010289858137159011,0.5,within-sample percentile rank,False
+bea52276-596c-479e-981d-ca9132742098,TCGA-BH-A1EN,858652b8-c4c2-41d8-be32-fdc88e1a7bb0,TCGA-BH-A1EN,Primary Tumor,1,LightGBM,0.9999996747336021,0.5,within-sample percentile rank,False
+fff3e5a3-4b84-4afa-bdb5-1c6b2a6626bc,TCGA-BH-A1EO,4510295e-8aa7-4ef1-b2b7-91cc902f8200,TCGA-BH-A1EO,Solid Tissue Normal,0,LightGBM,0.0011177840842298468,0.5,within-sample percentile rank,False
+9d501ca9-f50d-45fc-bcc3-fee15f9771cd,TCGA-BH-A1EO,4510295e-8aa7-4ef1-b2b7-91cc902f8200,TCGA-BH-A1EO,Primary Tumor,1,LightGBM,0.9999948491845714,0.5,within-sample percentile rank,False
+6ca1ada8-2473-4d1a-ae02-b57aae168243,TCGA-BH-A1ET,8986a141-eae7-4157-b695-02cc6fc3b071,TCGA-BH-A1ET,Solid Tissue Normal,0,LightGBM,0.0007480269061048575,0.5,within-sample percentile rank,False
+2190d984-3941-41d4-b6de-d0aa76f3570d,TCGA-BH-A1ET,8986a141-eae7-4157-b695-02cc6fc3b071,TCGA-BH-A1ET,Primary Tumor,1,LightGBM,0.9998441196323616,0.5,within-sample percentile rank,False
+dadbd2f7-ea44-428c-bfcf-e27f2b978ff1,TCGA-BH-A1EU,a1093598-d3a8-4ffe-83fc-bc7d1faff7e5,TCGA-BH-A1EU,Solid Tissue Normal,0,LightGBM,0.004013738993306375,0.5,within-sample percentile rank,False
+73af0f78-cc37-43ff-8f46-524a9ba80eda,TCGA-BH-A1EU,a1093598-d3a8-4ffe-83fc-bc7d1faff7e5,TCGA-BH-A1EU,Primary Tumor,1,LightGBM,0.9959732044933608,0.5,within-sample percentile rank,False
+1b3867a3-80db-417d-8e5c-f6f602c14760,TCGA-BH-A1EV,417dea5f-f68e-4dab-940e-43ae8c67e5e6,TCGA-BH-A1EV,Solid Tissue Normal,0,LightGBM,0.10536645924273227,0.5,within-sample percentile rank,False
+29ac24fb-0065-47f8-b044-f4a66fad2394,TCGA-BH-A1EV,417dea5f-f68e-4dab-940e-43ae8c67e5e6,TCGA-BH-A1EV,Primary Tumor,1,LightGBM,0.9999961346922932,0.5,within-sample percentile rank,False
+b35ce058-b4ac-45b2-9103-a14b7d8a30f7,TCGA-BH-A1EW,9d166970-07c8-4ca3-9cfa-ed0049df9ecc,TCGA-BH-A1EW,Solid Tissue Normal,0,LightGBM,0.9799174648401464,0.5,within-sample percentile rank,False
+50463a25-4292-4bc7-926a-341493e68242,TCGA-BH-A1EW,9d166970-07c8-4ca3-9cfa-ed0049df9ecc,TCGA-BH-A1EW,Primary Tumor,1,LightGBM,0.9999996721667286,0.5,within-sample percentile rank,False
+6c6c1c35-5e1b-4e9f-ab19-550d1ba4cc43,TCGA-BH-A1F0,21ef1730-e5a7-47ce-b419-d000bb59ae15,TCGA-BH-A1F0,Solid Tissue Normal,0,LightGBM,2.777968751979606e-05,0.5,within-sample percentile rank,False
+f754aa5f-49c8-4e8b-a1fe-f370f807499a,TCGA-BH-A1F0,21ef1730-e5a7-47ce-b419-d000bb59ae15,TCGA-BH-A1F0,Primary Tumor,1,LightGBM,0.9998631711647725,0.5,within-sample percentile rank,False
+159c3664-3ab2-4f87-91a0-b6e25833fb27,TCGA-BH-A1F2,6a2972e3-cca9-47e5-aac0-b770f2399eeb,TCGA-BH-A1F2,Solid Tissue Normal,0,LightGBM,7.972404731111734e-06,0.5,within-sample percentile rank,False
+e5c171ac-f700-439c-9e44-6cfed2c9cea7,TCGA-BH-A1F2,6a2972e3-cca9-47e5-aac0-b770f2399eeb,TCGA-BH-A1F2,Primary Tumor,1,LightGBM,0.9984596713661147,0.5,within-sample percentile rank,False
+84f25e50-b0bb-4f2a-bb94-14019bc7fa95,TCGA-BH-A1F6,ad18820b-a804-49c0-ba8a-86c09fa6bce2,TCGA-BH-A1F6,Solid Tissue Normal,0,LightGBM,0.0012988714502393597,0.5,within-sample percentile rank,False
+e5a9fa79-2d0f-4cda-9fea-baab86f78b8e,TCGA-BH-A1F6,ad18820b-a804-49c0-ba8a-86c09fa6bce2,TCGA-BH-A1F6,Primary Tumor,1,LightGBM,0.9999996221906637,0.5,within-sample percentile rank,False
+f9e5d9cc-d80e-409d-9b6a-c4de9dc55611,TCGA-BH-A1F8,ee554215-bea2-4268-aaf9-784e68cdb969,TCGA-BH-A1F8,Solid Tissue Normal,0,LightGBM,0.0019204170601867963,0.5,within-sample percentile rank,False
+7e598a8a-9fb8-4c2d-94e7-ae1921addcd1,TCGA-BH-A1F8,ee554215-bea2-4268-aaf9-784e68cdb969,TCGA-BH-A1F8,Primary Tumor,1,LightGBM,0.9999997018486643,0.5,within-sample percentile rank,False
+97ae0904-411d-4406-9389-5a49bd939667,TCGA-BH-A1FB,ecab16bc-28d5-4c3a-8735-3c785bd047c4,TCGA-BH-A1FB,Solid Tissue Normal,0,LightGBM,3.893665317775858e-05,0.5,within-sample percentile rank,False
+1fc22273-7e02-4193-9fbb-476e0eab6afb,TCGA-BH-A1FB,ecab16bc-28d5-4c3a-8735-3c785bd047c4,TCGA-BH-A1FB,Primary Tumor,1,LightGBM,0.9579719828148402,0.5,within-sample percentile rank,False
+a6916373-70f1-434c-910a-407609815556,TCGA-BH-A1FC,b97bf89a-7a85-4eef-ae7e-f787aead1f0a,TCGA-BH-A1FC,Solid Tissue Normal,0,LightGBM,0.002471286710681285,0.5,within-sample percentile rank,False
+3ad0093a-e57a-450a-b0ef-942c9b67a586,TCGA-BH-A1FC,b97bf89a-7a85-4eef-ae7e-f787aead1f0a,TCGA-BH-A1FC,Primary Tumor,1,LightGBM,0.9999995855863623,0.5,within-sample percentile rank,False
+d6e315fd-c662-494c-98de-02c87b833473,TCGA-BH-A1FD,3c8b5af9-c34d-43c2-b8c9-39ea11e44fa6,TCGA-BH-A1FD,Solid Tissue Normal,0,LightGBM,3.894299721898999e-06,0.5,within-sample percentile rank,False
+a0e467f8-79c1-499e-b881-669b4bd55b8c,TCGA-BH-A1FD,3c8b5af9-c34d-43c2-b8c9-39ea11e44fa6,TCGA-BH-A1FD,Primary Tumor,1,LightGBM,0.999999686414546,0.5,within-sample percentile rank,False
+f6813172-e95b-4654-a1c7-06e1181fcd93,TCGA-BH-A1FE,4aa68586-6331-4795-b40c-859386640df6,TCGA-BH-A1FE,Solid Tissue Normal,0,LightGBM,0.00041072971339759103,0.5,within-sample percentile rank,False
+3de73049-e6e7-4ed7-be98-bf174fd37c89,TCGA-BH-A1FE,4aa68586-6331-4795-b40c-859386640df6,TCGA-BH-A1FE,Primary Tumor,1,LightGBM,0.9999996474575447,0.5,within-sample percentile rank,False
+86fa46b0-7118-49e9-a693-c44f46b86e55,TCGA-BH-A1FG,d4e7426c-9739-4585-9114-e564b13c7c02,TCGA-BH-A1FG,Solid Tissue Normal,0,LightGBM,0.0001945698041731062,0.5,within-sample percentile rank,False
+33f49b4e-924e-4590-8afa-e17403602137,TCGA-BH-A1FG,d4e7426c-9739-4585-9114-e564b13c7c02,TCGA-BH-A1FG,Primary Tumor,1,LightGBM,0.9999968815302815,0.5,within-sample percentile rank,False
+c75bc2c7-cf1f-482c-b615-f60b56983124,TCGA-BH-A1FH,1783cac1-253a-40af-a9ac-48dfb20e1ab8,TCGA-BH-A1FH,Solid Tissue Normal,0,LightGBM,0.004952432773549195,0.5,within-sample percentile rank,False
+f0785dc2-a43e-4b59-a21c-ab55c490d441,TCGA-BH-A1FH,1783cac1-253a-40af-a9ac-48dfb20e1ab8,TCGA-BH-A1FH,Primary Tumor,1,LightGBM,0.14512181656736112,0.5,within-sample percentile rank,False
+6921f528-54eb-429f-a9e9-ceb7e6b33ba9,TCGA-BH-A1FJ,f6581eee-61b9-43d4-ab0d-ce5ce3ba1c74,TCGA-BH-A1FJ,Solid Tissue Normal,0,LightGBM,0.00523935367500248,0.5,within-sample percentile rank,False
+72367269-4151-4e1f-8636-ff91396ba46c,TCGA-BH-A1FJ,f6581eee-61b9-43d4-ab0d-ce5ce3ba1c74,TCGA-BH-A1FJ,Primary Tumor,1,LightGBM,0.9999997119203712,0.5,within-sample percentile rank,False
+6e6a7a6c-4630-4506-8b57-a0df12ffff4c,TCGA-BH-A1FM,7eb18190-5a41-4637-9783-f81bbde499e4,TCGA-BH-A1FM,Solid Tissue Normal,0,LightGBM,0.00011843541167884168,0.5,within-sample percentile rank,False
+cf2b65de-c6a1-4ebc-a62a-c652ce17d2d0,TCGA-BH-A1FM,7eb18190-5a41-4637-9783-f81bbde499e4,TCGA-BH-A1FM,Primary Tumor,1,LightGBM,0.9999993250165697,0.5,within-sample percentile rank,False
+408b3378-5f8e-49df-8bd2-1e0a55288252,TCGA-BH-A1FN,6dd0dd7b-62ff-4fd1-a99a-b265f1a91dca,TCGA-BH-A1FN,Solid Tissue Normal,0,LightGBM,0.000313603764986798,0.5,within-sample percentile rank,False
+ae08dbd6-548a-469c-ba12-b6a87515bce7,TCGA-BH-A1FN,6dd0dd7b-62ff-4fd1-a99a-b265f1a91dca,TCGA-BH-A1FN,Primary Tumor,1,LightGBM,0.9999996215442664,0.5,within-sample percentile rank,False
+0729326e-9b85-44f5-8134-28cb10805bf4,TCGA-BH-A1FR,bf3b1481-ae31-4406-b084-b6cc1d7163e3,TCGA-BH-A1FR,Solid Tissue Normal,0,LightGBM,0.0723828184673453,0.5,within-sample percentile rank,False
+0fc347ae-7ad9-4987-887a-d37fe871d6c2,TCGA-BH-A1FR,bf3b1481-ae31-4406-b084-b6cc1d7163e3,TCGA-BH-A1FR,Primary Tumor,1,LightGBM,0.999998985746245,0.5,within-sample percentile rank,False
+08693317-d839-477c-b145-477a3521e03a,TCGA-BH-A1FU,c348a9b3-c901-4384-a222-144387bac0c5,TCGA-BH-A1FU,Solid Tissue Normal,0,LightGBM,0.00028511781918621456,0.5,within-sample percentile rank,False
+438152c8-2d26-4b35-9f68-a4b6c473916e,TCGA-BH-A1FU,c348a9b3-c901-4384-a222-144387bac0c5,TCGA-BH-A1FU,Primary Tumor,1,LightGBM,0.9999994532752166,0.5,within-sample percentile rank,False
+a16194b7-162f-4282-a552-1fa1915ea589,TCGA-BH-A203,b3264748-947a-43aa-b227-b294fbcc8447,TCGA-BH-A203,Solid Tissue Normal,0,LightGBM,3.176904650887908e-05,0.5,within-sample percentile rank,False
+002997ef-3b93-443a-80a3-bae63e129d99,TCGA-BH-A203,b3264748-947a-43aa-b227-b294fbcc8447,TCGA-BH-A203,Primary Tumor,1,LightGBM,0.9999995997808407,0.5,within-sample percentile rank,False
+8511971e-372e-4dc1-96a9-3fea2298393b,TCGA-BH-A204,05135396-df5c-49db-b34e-f4add5b65a2b,TCGA-BH-A204,Solid Tissue Normal,0,LightGBM,7.179062351248017e-05,0.5,within-sample percentile rank,False
+a28d9c46-4774-4167-8c1e-ee95436c7b2e,TCGA-BH-A204,05135396-df5c-49db-b34e-f4add5b65a2b,TCGA-BH-A204,Primary Tumor,1,LightGBM,0.999999639708597,0.5,within-sample percentile rank,False
+0b755cf4-785f-466e-a235-ea697b9a6423,TCGA-BH-A208,ddcbdac6-9e43-4146-a611-d033125eba14,TCGA-BH-A208,Solid Tissue Normal,0,LightGBM,2.3951365295170552e-05,0.5,within-sample percentile rank,False
+723e0934-327e-46f2-94f0-20a65da1ea0e,TCGA-BH-A208,ddcbdac6-9e43-4146-a611-d033125eba14,TCGA-BH-A208,Primary Tumor,1,LightGBM,0.9995631026621857,0.5,within-sample percentile rank,False
+cd390244-133c-4f09-a076-9dddd986df04,TCGA-BH-A209,5258294f-ef5b-4091-9183-6bcc545d54b2,TCGA-BH-A209,Solid Tissue Normal,0,LightGBM,0.01776783378933936,0.5,within-sample percentile rank,False
+fbf64fdd-6787-4647-b0cd-860acc8abce6,TCGA-BH-A209,5258294f-ef5b-4091-9183-6bcc545d54b2,TCGA-BH-A209,Primary Tumor,1,LightGBM,0.9999993687209036,0.5,within-sample percentile rank,False
+f6ad04eb-19cf-461c-b274-8cf0b640ad34,TCGA-E2-A153,be9bf36a-12e1-4386-addf-1686dc8b49de,TCGA-E2-A153,Solid Tissue Normal,0,LightGBM,0.15217468457191433,0.5,within-sample percentile rank,False
+6526e884-ca7a-4f10-9cb8-fe8fa90f1dbb,TCGA-E2-A153,be9bf36a-12e1-4386-addf-1686dc8b49de,TCGA-E2-A153,Primary Tumor,1,LightGBM,0.9999085062021124,0.5,within-sample percentile rank,False
+e94c165f-210d-47d7-b7e7-c5747ee7f451,TCGA-E2-A158,a6edb6ca-ae9f-4da7-8ebe-92d83d2987fb,TCGA-E2-A158,Solid Tissue Normal,0,LightGBM,0.0005591868295441678,0.5,within-sample percentile rank,False
+5ce91cce-a4ac-45e1-bc3e-737494a67769,TCGA-E2-A158,a6edb6ca-ae9f-4da7-8ebe-92d83d2987fb,TCGA-E2-A158,Primary Tumor,1,LightGBM,0.9999997209165994,0.5,within-sample percentile rank,False
+e3368a46-4101-4dd5-a447-255f59bfa9da,TCGA-E2-A15I,64089c20-939f-48b4-ae8b-904ad0597145,TCGA-E2-A15I,Solid Tissue Normal,0,LightGBM,1.18027665167846e-05,0.5,within-sample percentile rank,False
+c2f00c0c-9ad9-4c1d-912c-52eacedcba12,TCGA-E2-A15I,64089c20-939f-48b4-ae8b-904ad0597145,TCGA-E2-A15I,Primary Tumor,1,LightGBM,0.9999689083740871,0.5,within-sample percentile rank,False
+1eb11f10-2aca-4ca1-b6fc-bbc97cc485fd,TCGA-E2-A15K,17c1d42c-cb84-4655-a4cd-b54bae17ecaf,TCGA-E2-A15K,Solid Tissue Normal,0,LightGBM,0.00036436649898790305,0.5,within-sample percentile rank,False
+3a36b403-ea38-49f9-9c28-710c5d141164,TCGA-E2-A15K,17c1d42c-cb84-4655-a4cd-b54bae17ecaf,TCGA-E2-A15K,Primary Tumor,1,LightGBM,0.9999997072217739,0.5,within-sample percentile rank,False
+97269c0f-b638-473d-9d44-8ccc770a0039,TCGA-E2-A15M,59be60a3-e0f6-4d63-b98c-574ef92428c4,TCGA-E2-A15M,Solid Tissue Normal,0,LightGBM,0.014526989049252419,0.5,within-sample percentile rank,False
+0177791d-d02d-4433-81ae-458a93fdd60f,TCGA-E2-A15M,59be60a3-e0f6-4d63-b98c-574ef92428c4,TCGA-E2-A15M,Primary Tumor,1,LightGBM,0.9998255466043802,0.5,within-sample percentile rank,False
+d221f2c8-5852-4392-b166-92b709000e78,TCGA-E2-A1BC,d8492ebd-3d94-4a4b-8de7-386526691cc2,TCGA-E2-A1BC,Solid Tissue Normal,0,LightGBM,5.224069865353487e-06,0.5,within-sample percentile rank,False
+83ec5738-3a27-4100-83f2-8b30ae3b2fb7,TCGA-E2-A1BC,d8492ebd-3d94-4a4b-8de7-386526691cc2,TCGA-E2-A1BC,Primary Tumor,1,LightGBM,0.9887392227977744,0.5,within-sample percentile rank,False
+86e64e26-2be4-463d-8129-c0374cd4d5aa,TCGA-E2-A1IG,bc0bc70f-c6cf-4dbc-9dc3-8b7bc5f381a4,TCGA-E2-A1IG,Solid Tissue Normal,0,LightGBM,5.1851195133706215e-06,0.5,within-sample percentile rank,False
+5e429dd7-787c-4e7d-b672-b000b7b57929,TCGA-E2-A1IG,bc0bc70f-c6cf-4dbc-9dc3-8b7bc5f381a4,TCGA-E2-A1IG,Primary Tumor,1,LightGBM,0.9999959842100627,0.5,within-sample percentile rank,False
+3b56098e-35ec-4fd3-b14d-c3cc777a94c9,TCGA-E2-A1L7,791c5768-f0f5-4ab6-86eb-998e5c4b49e3,TCGA-E2-A1L7,Solid Tissue Normal,0,LightGBM,0.12528216771535808,0.5,within-sample percentile rank,False
+09b414c4-a314-43c5-823a-d91442b6b02b,TCGA-E2-A1L7,791c5768-f0f5-4ab6-86eb-998e5c4b49e3,TCGA-E2-A1L7,Primary Tumor,1,LightGBM,0.9999993923956817,0.5,within-sample percentile rank,False
+4a429750-5cdd-44bc-8b2f-9921c3d1102e,TCGA-E2-A1LB,fa176764-a76f-44c7-b97a-cd6d21e052be,TCGA-E2-A1LB,Solid Tissue Normal,0,LightGBM,0.00028420280528601664,0.5,within-sample percentile rank,False
+26f9a1ab-fa60-47f3-ac29-96acaa68fb4a,TCGA-E2-A1LB,fa176764-a76f-44c7-b97a-cd6d21e052be,TCGA-E2-A1LB,Primary Tumor,1,LightGBM,0.9999994798955,0.5,within-sample percentile rank,False
+d78f95cd-3823-42ba-9c08-b5a70e41fd63,TCGA-E2-A1LH,d8ecba6a-9fff-4993-a799-9a8d2aea524e,TCGA-E2-A1LH,Solid Tissue Normal,0,LightGBM,5.791050070783762e-05,0.5,within-sample percentile rank,False
+c236908e-4814-409b-9fcc-2bedf60aa168,TCGA-E2-A1LH,d8ecba6a-9fff-4993-a799-9a8d2aea524e,TCGA-E2-A1LH,Primary Tumor,1,LightGBM,0.9999998015013521,0.5,within-sample percentile rank,False
+072ae9bc-16a5-4c63-8ec6-7b0a4d3835a7,TCGA-E2-A1LS,91a2f2af-e4b1-4a0b-ab20-6a36ce63c533,TCGA-E2-A1LS,Solid Tissue Normal,0,LightGBM,3.1970137581260357e-05,0.5,within-sample percentile rank,False
+529056f9-7bdf-4675-bff7-a82abddf5734,TCGA-E2-A1LS,91a2f2af-e4b1-4a0b-ab20-6a36ce63c533,TCGA-E2-A1LS,Primary Tumor,1,LightGBM,0.9998691641322747,0.5,within-sample percentile rank,False
+d49b5007-2fc8-46e0-ae99-d65cd446e436,TCGA-E9-A1N4,69a68fbc-e43d-4652-85ee-693211bded47,TCGA-E9-A1N4,Solid Tissue Normal,0,LightGBM,9.62569813611842e-05,0.5,within-sample percentile rank,False
+8d122839-4167-48b2-9f3a-7ff7c3f134d8,TCGA-E9-A1N4,69a68fbc-e43d-4652-85ee-693211bded47,TCGA-E9-A1N4,Primary Tumor,1,LightGBM,0.9999994149846915,0.5,within-sample percentile rank,False
+ef5eaeb4-c3eb-43d2-b5a8-79f498e9e24a,TCGA-E9-A1N5,f954de05-1b44-4087-8933-6cc72d81028d,TCGA-E9-A1N5,Solid Tissue Normal,0,LightGBM,0.9964245261823259,0.5,within-sample percentile rank,False
+cc07e1f1-e1e7-4335-ab8b-b7bebef1669f,TCGA-E9-A1N5,f954de05-1b44-4087-8933-6cc72d81028d,TCGA-E9-A1N5,Primary Tumor,1,LightGBM,0.9999994882420239,0.5,within-sample percentile rank,False
+a82b9ff4-83b1-451d-be31-4e0626b03339,TCGA-E9-A1N6,955d4263-61f7-42e8-8a6e-772a0d6c209d,TCGA-E9-A1N6,Solid Tissue Normal,0,LightGBM,3.476221798078984e-05,0.5,within-sample percentile rank,False
+50a70e24-2ce8-43fd-87d7-eab2c1fa9a86,TCGA-E9-A1N6,955d4263-61f7-42e8-8a6e-772a0d6c209d,TCGA-E9-A1N6,Primary Tumor,1,LightGBM,0.9999996468313465,0.5,within-sample percentile rank,False
+2e532402-4279-4441-a7e5-0ed2b793a134,TCGA-E9-A1N9,994ca1f5-ad10-44ec-aa21-71fc2940653b,TCGA-E9-A1N9,Solid Tissue Normal,0,LightGBM,0.025482686780910528,0.5,within-sample percentile rank,False
+3c2bed9f-2ab5-4623-b631-99e394d7723d,TCGA-E9-A1N9,994ca1f5-ad10-44ec-aa21-71fc2940653b,TCGA-E9-A1N9,Primary Tumor,1,LightGBM,0.9999996114774659,0.5,within-sample percentile rank,False
+73c4bc21-7732-4562-af5a-1b229fbd5ea7,TCGA-E9-A1NA,af577366-0258-49e7-b6af-e70056c081a4,TCGA-E9-A1NA,Solid Tissue Normal,0,LightGBM,0.0010465392025911832,0.5,within-sample percentile rank,False
+e2ef6df2-c375-4c59-ae1b-c8cca22a8387,TCGA-E9-A1NA,af577366-0258-49e7-b6af-e70056c081a4,TCGA-E9-A1NA,Primary Tumor,1,LightGBM,0.9999995932987176,0.5,within-sample percentile rank,False
+41615c91-a592-40ed-8bc1-3dda5f2c8625,TCGA-E9-A1ND,f06f09f3-8133-4a92-ac86-fbe64295e0d8,TCGA-E9-A1ND,Solid Tissue Normal,0,LightGBM,0.006726407101945907,0.5,within-sample percentile rank,False
+b41b1f04-226e-466c-b5e1-f61e45ad3210,TCGA-E9-A1ND,f06f09f3-8133-4a92-ac86-fbe64295e0d8,TCGA-E9-A1ND,Primary Tumor,1,LightGBM,0.9999993591406918,0.5,within-sample percentile rank,False
+5b799218-c5f2-4213-86a3-d67ed776bb28,TCGA-E9-A1NF,a8b1f6e7-2bcf-460d-b1c6-1792a9801119,TCGA-E9-A1NF,Solid Tissue Normal,0,LightGBM,0.00013874917907528755,0.5,within-sample percentile rank,False
+0c30cd0e-a2d2-42b0-9ca9-8297de64e4a8,TCGA-E9-A1NF,a8b1f6e7-2bcf-460d-b1c6-1792a9801119,TCGA-E9-A1NF,Primary Tumor,1,LightGBM,0.9999859985392845,0.5,within-sample percentile rank,False
+ec92d7b1-ad80-4f3d-a8e8-3160941c24ac,TCGA-E9-A1NG,659b0170-e914-45ff-aa55-fcb8d3dc7b8a,TCGA-E9-A1NG,Solid Tissue Normal,0,LightGBM,0.0006833979545477286,0.5,within-sample percentile rank,False
+7adf414b-c3f7-4e2c-aa80-81d3edd9764e,TCGA-E9-A1NG,659b0170-e914-45ff-aa55-fcb8d3dc7b8a,TCGA-E9-A1NG,Primary Tumor,1,LightGBM,0.9999792157111783,0.5,within-sample percentile rank,False
+d8015844-0615-42f1-a81c-ae707dbe1693,TCGA-E9-A1R7,2680da86-c977-4611-b75f-df015283c023,TCGA-E9-A1R7,Solid Tissue Normal,0,LightGBM,0.0004915040854543994,0.5,within-sample percentile rank,False
+8d9f2037-1c1f-4c73-a993-dc4c2aa67d30,TCGA-E9-A1R7,2680da86-c977-4611-b75f-df015283c023,TCGA-E9-A1R7,Primary Tumor,1,LightGBM,0.9999995985091503,0.5,within-sample percentile rank,False
+8813ace1-aacf-4a54-b9e1-5379d52778da,TCGA-E9-A1RB,94b95984-b2fb-4e42-8887-45e7086c3179,TCGA-E9-A1RB,Solid Tissue Normal,0,LightGBM,0.00421276240834089,0.5,within-sample percentile rank,False
+43993e01-588a-40de-80ec-72c1a66fe70b,TCGA-E9-A1RB,94b95984-b2fb-4e42-8887-45e7086c3179,TCGA-E9-A1RB,Primary Tumor,1,LightGBM,0.9999993170883933,0.5,within-sample percentile rank,False
+5174c897-271a-4306-b0b6-48715cffc278,TCGA-E9-A1RC,5cdae21d-eee5-478f-932a-0f51fcf5f031,TCGA-E9-A1RC,Solid Tissue Normal,0,LightGBM,0.001483545278106519,0.5,within-sample percentile rank,False
+9eaa7f15-8a97-4a49-9e93-b5790a1fade0,TCGA-E9-A1RC,5cdae21d-eee5-478f-932a-0f51fcf5f031,TCGA-E9-A1RC,Primary Tumor,1,LightGBM,0.9999990604972939,0.5,within-sample percentile rank,False
+5f6e9271-967d-4f56-ac38-1d32f9aebd12,TCGA-E9-A1RD,5fe3c51f-65e2-4da6-8924-a6fae17c022d,TCGA-E9-A1RD,Solid Tissue Normal,0,LightGBM,0.00020398338889594155,0.5,within-sample percentile rank,False
+d19fe184-84a8-4a49-a4d4-75891670da4d,TCGA-E9-A1RD,5fe3c51f-65e2-4da6-8924-a6fae17c022d,TCGA-E9-A1RD,Primary Tumor,1,LightGBM,0.9999995360856564,0.5,within-sample percentile rank,False
+9b8be955-8c21-449d-a951-c715a6dd1cab,TCGA-E9-A1RF,c694615c-b1c6-499c-8058-995633ebf948,TCGA-E9-A1RF,Solid Tissue Normal,0,LightGBM,0.00015514924871280544,0.5,within-sample percentile rank,False
+ca0d78dc-c860-4835-ad07-052f176804a4,TCGA-E9-A1RF,c694615c-b1c6-499c-8058-995633ebf948,TCGA-E9-A1RF,Primary Tumor,1,LightGBM,0.9999995553598303,0.5,within-sample percentile rank,False
+a081f522-7603-4134-90c0-89e70fa43688,TCGA-E9-A1RH,408cb583-6dc3-4698-8bd2-e284042bd5ef,TCGA-E9-A1RH,Solid Tissue Normal,0,LightGBM,1.8370624441427923e-05,0.5,within-sample percentile rank,False
+6b1bb382-0103-4207-a0e8-871aa6aae81c,TCGA-E9-A1RH,408cb583-6dc3-4698-8bd2-e284042bd5ef,TCGA-E9-A1RH,Primary Tumor,1,LightGBM,0.999994177709412,0.5,within-sample percentile rank,False
+10fcee9d-db94-4fb9-a585-893c9d1bdc3d,TCGA-E9-A1RI,dd3bfb26-b534-4917-9c4d-9fe7b6477762,TCGA-E9-A1RI,Solid Tissue Normal,0,LightGBM,7.868813404709666e-06,0.5,within-sample percentile rank,False
+7423f6fa-4f31-46b1-a391-b5fc45833c2b,TCGA-E9-A1RI,dd3bfb26-b534-4917-9c4d-9fe7b6477762,TCGA-E9-A1RI,Primary Tumor,1,LightGBM,0.9999945917331121,0.5,within-sample percentile rank,False
+2a679581-38ad-4742-8d7b-89015df11e7d,TCGA-GI-A2C8,33fe5833-d7a0-43d7-a03d-56985ea448a6,TCGA-GI-A2C8,Solid Tissue Normal,0,LightGBM,0.03498641988299373,0.5,within-sample percentile rank,False
+4a21e922-a294-43f0-89cb-862dabed4f8c,TCGA-GI-A2C8,33fe5833-d7a0-43d7-a03d-56985ea448a6,TCGA-GI-A2C8,Primary Tumor,1,LightGBM,0.7212778978315645,0.5,within-sample percentile rank,False
+93b78420-ed0e-45d3-93f5-f60ce671a812,TCGA-GI-A2C9,9f6be944-83de-42ab-8738-f0022f475e61,TCGA-GI-A2C9,Solid Tissue Normal,0,LightGBM,0.003968122367903005,0.5,within-sample percentile rank,False
+143fc27d-e119-48ff-a5ea-bd6aafc0404e,TCGA-GI-A2C9,9f6be944-83de-42ab-8738-f0022f475e61,TCGA-GI-A2C9,Primary Tumor,1,LightGBM,0.9999962745030087,0.5,within-sample percentile rank,False

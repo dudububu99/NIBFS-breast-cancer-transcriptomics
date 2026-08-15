@@ -1,0 +1,13 @@
+GEO_ID,Platform,Role,Notes
+GSE61304,GPL570,Discovery,Breast tumor and normal breast epithelium
+GSE42568,GPL570,Discovery,Breast cancer and normal breast biopsies
+GSE29044,GPL570,Discovery,Breast tumor and adjacent disease-free tissues
+GSE3744,GPL570,Discovery,Breast tumor and normal breast samples
+GSE29431,GPL570,Discovery,Primary breast carcinomas and normal breast tissue
+GSE26910,GPL570,Discovery,Laser-microdissected breast samples; non-breast samples excluded by metadata rules
+GSE31138,GPL570,Discovery,Breast tumor and normal endothelial samples
+GSE71053,GPL570,Discovery,Normal and tumor breast tissue
+GSE10780,GPL570,Discovery,Normal breast tissue and breast carcinoma
+GSE30010,GPL570,Discovery-normal,Normal breast biopsies
+GSE111662,GPL570,Discovery-normal,Normal breast tissue
+GSE15852,GPL96,External-primary,Independent cross-platform validation

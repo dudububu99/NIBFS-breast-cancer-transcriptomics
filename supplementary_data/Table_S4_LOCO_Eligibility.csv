@@ -1,0 +1,12 @@
+Held_out_cohort,Normal,Cancer,Total,Primary_ROC_AUC_eligible,LOCO_status
+GSE10780,143,42,185,True,Primary ROC-AUC eligible
+GSE111662,27,0,27,False,Descriptive: normal-only cohort
+GSE26910,6,6,12,False,Descriptive: very small cohort
+GSE29044,36,73,109,True,Primary ROC-AUC eligible
+GSE29431,12,54,66,True,Primary ROC-AUC eligible
+GSE30010,107,0,107,False,Descriptive: normal-only cohort
+GSE31138,3,3,6,False,Descriptive: very small cohort
+GSE3744,7,40,47,True,Primary ROC-AUC eligible
+GSE42568,17,104,121,True,Primary ROC-AUC eligible
+GSE61304,4,58,62,True,Primary ROC-AUC eligible
+GSE71053,12,6,18,True,Primary ROC-AUC eligible

@@ -1,0 +1,9 @@
+Step,Scope,Fitted_using,Uses_class_labels
+Conditional log2,Outside folds,All 608 development,False
+Representative probe,Outside folds,All 608 development,False
+Common-gene intersection,Outside folds,11 discovery cohorts,False
+Quantile reference,Inside fold,Training fold only,False
+ComBat estimates,Inside fold,Training fold only,False
+Bottom-10% variance filter,Inside fold,Training fold only,False
+limma + NIBFS,Inside fold,Training fold only,True
+Classifier fitting,Inside fold,Training fold only,True
