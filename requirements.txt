@@ -1,0 +1,7 @@
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+scikit-learn>=1.4
+lightgbm>=4.0
+PyYAML>=6.0
+pytest>=8.0

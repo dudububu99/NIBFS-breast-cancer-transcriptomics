@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software/reproducibility archive, please cite the associated manuscript and this software release."
+title: "NIBFS: reproducibility code for stability-aware fixed-rank fusion in breast cancer transcriptomics"
+type: software
+version: 1.0.0
+date-released: 2026-08-14
+authors:
+  - family-names: "Yuliati"
+    given-names: "Dian"
+  - family-names: "Irawan"
+    given-names: "Mohammad Isa"
+  - family-names: "Mufid"
+    given-names: "Muhammad Syifa’ul"
+keywords:
+  - NIBFS
+  - breast cancer
+  - transcriptomics
+  - feature selection
+  - selection stability
+  - rank aggregation
+  - protein-protein interaction
