@@ -33,7 +33,7 @@ The archive-verification script checks that the expected panel, TCGA analysis, a
 
 ## Recommended environment
 
-Google Colab is the most direct environment because the original analyses used Colab, R/limma, and Python. For the core dependencies:
+Google Colab provides a convenient environment for reproducing the analyses because the workflow requires both Python and R/limma. For the core dependencies:
 
 ```bash
 python install_environment_colab.py
@@ -106,10 +106,7 @@ The archived analysis uses 1,000 permutations. `permuted_topology_control_100x_V
 ### Degree-preserving rewiring audit
 
 ```bash
-python scripts/run_degree_preserving_null.py \
-  --edge-file <STRING_gene_edges_eligible_genes.csv> \
-  --output-dir results/DEGREE_PRESERVING_NULL_100 \
-  --project-dir .
+python scripts/run_degree_preserving_null.py   --edge-file <STRING_gene_edges_eligible_genes.csv>   --output-dir results/DEGREE_PRESERVING_NULL_100   --project-dir .
 ```
 
 This audit is adjacency-sensitive but degree-preserving. Because NIBFS uses degree rank as its structural component, exact invariance of the topology rank and NIBFS panel under degree-preserving rewiring is expected by construction; the informative check is that adjacency changes while degree is preserved.
@@ -161,6 +158,6 @@ pytest -q
 
 The GEO accessions are listed in `data_accession_list.csv`. Independent microarray evaluation uses GSE15852 and GSE70947; cross-technology evaluation uses public TCGA-BRCA RNA-seq data. Protein-protein interaction information is obtained from STRING v12.0. Public raw data are intentionally not vendored into this repository.
 
-## License / reuse
+## License
 
-See `LICENSE` for terms of use and redistribution.
+Source code in this repository is released under the MIT License. Third-party datasets and resources remain subject to the terms and licenses of their respective providers. See `LICENSE` for details.
