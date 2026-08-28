@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """Verify SHA-256 hashes for every file recorded in FILE_MANIFEST_SHA256.csv."""
-
 from __future__ import annotations
 
 from hashlib import sha256
@@ -22,15 +21,22 @@ def digest(path: Path) -> str:
 
 def main() -> None:
     table = pd.read_csv(MANIFEST)
+    normalized = {str(c).strip().lower(): c for c in table.columns}
+    path_col = normalized.get("relative_path") or normalized.get("path")
+    hash_col = normalized.get("sha256")
+    if path_col is None or hash_col is None:
+        raise SystemExit(f"Unexpected manifest columns: {list(table.columns)}")
     failures = []
-    for row in table.itertuples(index=False):
-        path = ROOT / row.relative_path
+    for _, row in table.iterrows():
+        rel = str(row[path_col])
+        path = ROOT / rel
         if not path.is_file():
-            failures.append(f"missing: {row.relative_path}")
+            failures.append(f"missing: {rel}")
             continue
         observed = digest(path)
-        if observed != row.sha256:
-            failures.append(f"hash mismatch: {row.relative_path}")
+        expected = str(row[hash_col])
+        if observed != expected:
+            failures.append(f"hash mismatch: {rel}")
     if failures:
         print("FILE MANIFEST VERIFICATION FAILED")
         for item in failures:

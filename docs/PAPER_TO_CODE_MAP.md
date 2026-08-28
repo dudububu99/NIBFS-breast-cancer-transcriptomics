@@ -6,6 +6,10 @@
 | NIBFS / DEG-only / mRMR / LASSO | `src/feature_selection.py`, `src/modeling.py` | `supplementary_data/`, fold-fitted verification tables |
 | Primary 5-fold evaluation | `notebooks/01_main_NIBFS_core.ipynb` | `supplementary_data/Supplementary_Data_File_D1_Fold_Assignments_608.csv` |
 | Repeated 10×5 CV | `src/repeated_10x5_k20_lr_V2.py` | supplementary summaries |
+| Nogueira chance-corrected stability | `src/stability_estimators.py`, `scripts/postprocess_nogueira_stability.py` | `results/verification/stability/`, `supplementary_data/Table_S8_Nogueira_Stability.csv` |
+| Retrospective subject/source audit | archived GEO metadata + conservative mapping | `results/verification/subject_group_audit/`, `supplementary_data/Supplementary_Data_File_D3_Subject_Group_Audit_760.csv` |
+| Post-harmonization group-aware 5-fold sensitivity | `src/groupaware_primary_5fold_k20.py` | `results/verification/groupaware/`, `supplementary_data/Table_S9A_Subject_Group_Audit.csv`, `Table_S9B_GroupAware_Results.csv`, `Table_S9C_GroupAware_Fold_Isolation.csv`, D4 |
+| LASSO nonzero-coefficient audit | archived primary/repeated/group-aware LASSO outputs | `supplementary_data/Table_S10_LASSO_Nonzero_Audit.csv` |
 | Training-fold-fitted preprocessing | `notebooks/02_fold_fitted_all_comparators_1x5.ipynb` | `results/verification/fold_fitted/` |
 | Transfer-safe LOCO | `src/full_transfer_safe_loco_GENELEVEL_V2.py` | `supplementary_data/Table_S4_LOCO_Eligibility.csv` and manuscript tables |
 | RWR-DEG baseline | `src/rwr_deg_network_baseline_10x5_V1.py` | `supplementary_data/Table_S2A_RWR_Comparison.csv` |

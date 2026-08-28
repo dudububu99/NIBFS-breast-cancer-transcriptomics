@@ -1,0 +1,9 @@
+Analysis,Test,Proposed,Comparator,Alternative,N_repeats,Statistic,P_value,Mean_difference,Median_difference,BH_adjusted_p
+Repeated OOF ROC-AUC,Friedman,NIBFS,All methods,two-sided,10,25.079999999999984,1.4857084225231245e-05,,,
+Repeated OOF ROC-AUC,Paired Wilcoxon,NIBFS,DEG-only,greater,10,0.0,1.0,-0.0044322498944702,-0.0044430734595361,1.0
+Repeated OOF ROC-AUC,Paired Wilcoxon,NIBFS,mRMR,greater,10,0.0,1.0,-0.0037514476518275,-0.0037287181651892,1.0
+Repeated OOF ROC-AUC,Paired Wilcoxon,NIBFS,LASSO,greater,10,31.0,0.384765625,0.0001450357718825,0.0001840006061197,1.0
+Repeated panel stability,Friedman,NIBFS,All methods,two-sided,10,30.0,1.380057031293255e-06,,,
+Repeated panel stability,Paired Wilcoxon,NIBFS,DEG-only,greater,10,55.0,0.0009765625,0.053683418031244,0.0437229437229436,0.0009765625
+Repeated panel stability,Paired Wilcoxon,NIBFS,mRMR,greater,10,55.0,0.0009765625,0.2747681786812223,0.2732916841612494,0.0009765625
+Repeated panel stability,Paired Wilcoxon,NIBFS,LASSO,greater,10,55.0,0.0009765625,0.5756602727997743,0.5810090148799827,0.0009765625

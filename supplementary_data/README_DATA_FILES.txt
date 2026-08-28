@@ -12,9 +12,21 @@ Table-source CSV files:
 - Table_S5B_Gene_Direction_Concordance.csv -> Supplementary Table S5B
 - Table_S6_Selected_Enrichment.csv -> Supplementary Table S6
 - Table_S7_Gene_Wise_RFS.csv -> Supplementary Table S7
+- Table_S8_Nogueira_Stability.csv -> Supplementary Table S8A
+- Table_S8B_Repeated_Stability_Inference.csv -> Supplementary Table S8B
+- Table_S9A_Subject_Group_Audit.csv -> Supplementary Table S9A
+- Table_S9B_GroupAware_Results.csv -> Supplementary Table S9B
+- Table_S9C_GroupAware_Fold_Isolation.csv -> Supplementary Table S9C
+- Table_S10_LASSO_Nonzero_Audit.csv -> Supplementary Table S10
 
 Supplementary Data Files:
 - Supplementary_Data_File_D1_Fold_Assignments_608.csv -> D1
 - Supplementary_Data_File_D2_Enrichment_All_Terms.csv -> D2
+- Supplementary_Data_File_D3_Subject_Group_Audit_760.csv -> D3
+- Supplementary_Data_File_D4_GroupAware_Fold_Assignments_608.csv -> D4
 
-No duplicate or legacy CSV filenames are included in this final submission-ready data folder.
+The D3 grouping is conservative: repeated biological sources are linked only where
+a shared subject/source identifier could be reconstructed from archived metadata;
+absence of a reconstructed link is not proof of biological independence.
+
+No legacy duplicate filenames are included in this submission-ready data folder.

@@ -1,0 +1,12 @@
+GEO_ID,Samples,Known_subject_or_source_groups,Multi_sample_groups,Mixed_class_groups,Groups_spanning_development_heldout,Heldout_samples_with_known_group_in_development,Heldout_samples_total,Heldout_linked_percent,Development_multi_sample_groups,Development_groups_spanning_primary_folds,Audit_status
+GSE10780,185,90,49,11,18,18,30,60.0,45,38,confirmed grouping available
+GSE111662,27,9,9,0,6,7,7,100.0,8,8,confirmed grouping available
+GSE26910,12,6,6,6,2,2,2,100.0,4,3,confirmed grouping available
+GSE29044,109,78,30,30,9,9,19,47.37,22,19,confirmed grouping available
+GSE29431,66,,,,,,14,,,,no shared subject ID established from provided metadata
+GSE30010,107,,,,,,26,,,,no shared subject ID established from provided metadata
+GSE31138,6,,,,,,0,,,,no shared subject ID established from provided metadata
+GSE3744,47,,,,,,10,,,,no shared subject ID established from provided metadata
+GSE42568,121,,,,,,29,,,,no shared subject ID established from provided metadata
+GSE61304,62,,,,,,11,,,,no shared subject ID established from provided metadata
+GSE71053,18,3,3,3,2,4,4,100.0,3,3,confirmed grouping available

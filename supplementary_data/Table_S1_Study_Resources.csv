@@ -1,16 +1,16 @@
-GEO_ID,Platform,Role,Tumor,Normal,Total,Notes
-GSE61304,GPL570,Discovery,58,4,62,Breast tumor and normal breast epithelium
-GSE42568,GPL570,Discovery,104,17,121,Breast cancer and normal breast biopsies
-GSE29044,GPL570,Discovery,73,36,109,Breast tumor and adjacent disease-free tissues
-GSE3744,GPL570,Discovery,40,7,47,Human breast tumor and normal breast samples
-GSE29431,GPL570,Discovery,54,12,66,Primary breast carcinomas and normal breast tissue
+GEO_ID,Platform,Role,Normal,Cancer,Total,Notes
+GSE61304,GPL570,Discovery,4,58,62,Breast tumor and normal breast epithelium
+GSE42568,GPL570,Discovery,17,104,121,Breast cancer and normal breast biopsies
+GSE29044,GPL570,Discovery,36,73,109,Breast tumor and adjacent disease-free tissues
+GSE3744,GPL570,Discovery,7,40,47,Human breast tumor and normal breast samples
+GSE29431,GPL570,Discovery,12,54,66,Primary breast carcinomas and normal breast tissue
 GSE26910,GPL570,Discovery,6,6,12,Laser-microdissected breast samples
 GSE31138,GPL570,Discovery,3,3,6,Breast tumor and normal endothelial samples
-GSE71053,GPL570,Discovery,6,12,18,Normal and tumor breast tissue
-GSE10780,GPL570,Discovery,42,143,185,Normal breast tissue and breast carcinoma
-GSE30010,GPL570,Discovery,0,107,107,Normal breast biopsies
-GSE111662,GPL570,Discovery,0,27,27,Normal breast tissue
-Internal held-out,GPL570,Post-harmonization internal evaluation,77,75,152,Frozen panel; no feature reselection
+GSE71053,GPL570,Discovery,12,6,18,Normal and tumor breast tissue
+GSE10780,GPL570,Discovery,143,42,185,Normal breast tissue and breast carcinoma
+GSE30010,GPL570,Discovery,107,0,107,Normal breast biopsies
+GSE111662,GPL570,Discovery,27,0,27,Normal breast tissue
+Internal held-out,GPL570,Post-harmonization internal evaluation,75,77,152,Frozen panel; neither preprocessing- nor subject/group-isolated
 GSE15852,GPL96,Independent microarray evaluation,43,43,86,Frozen panel and discovery-trained models
 GSE70947,GPL13607,Independent paired microarray evaluation,148,148,296,148 matched cancer-normal pairs
 TCGA-BRCA,RNA-seq,Paired cross-technology evaluation,113,113,226,113 participant-matched pairs

@@ -2,7 +2,7 @@
 
 **Manuscript:** *Stability-aware feature selection with fixed-rank fusion for reproducible breast cancer gene prioritization*  
 **Authors:** Dian Yuliati, Mohammad Isa Irawan, Muhammad Syifa'ul Mufid  
-**Repository release:** 1.0.0 (2026-08-15)
+**Repository release:** 1.1.0 (2026-08-28)
 
 ## Purpose
 
@@ -16,8 +16,8 @@ The frozen top-20 panel is presented as a computationally prioritized candidate 
 - analysis notebooks in `notebooks/`;
 - locked analysis configuration in `config.yaml`;
 - discovery and external accession manifest in `data_accession_list.csv`;
-- exact 608-sample primary fold assignments and machine-readable supplementary tables in `supplementary_data/`;
-- compact verification outputs for fold-fitted preprocessing, degree-preserving rewiring, and TCGA-BRCA in `results/verification/`;
+- exact primary and group-aware fold assignments plus machine-readable Supplementary Tables S1--S10 and Data Files D1--D4 in `supplementary_data/`;
+- compact verification outputs for fold-fitted preprocessing, Nogueira stability, subject/group auditing, group-aware sensitivity, degree-preserving rewiring, and TCGA-BRCA in `results/verification/`;
 - the KM Plotter RFS input used for post-selection survival context in `manual_inputs/`;
 - environment helpers, tests, an archive-verification script, and a manuscript-to-code map.
 
@@ -76,6 +76,34 @@ REPEATED_FORCE_RERUN = False
 %run -i str(PACKAGE_DIR / "src" / "repeated_10x5_k20_lr_V2.py")
 ```
 
+### Chance-corrected Nogueira stability
+
+The manuscript also reports the Nogueira chance-corrected stability estimator for the primary, repeated, and training-fold-fitted settings. The estimator is recomputed from compact archived selected-panel tables without rerunning preprocessing, feature selection, or classifiers:
+
+```bash
+python scripts/postprocess_nogueira_stability.py
+```
+
+The implementation is in `src/stability_estimators.py`; source panels and the reported/recomputed tables are in `results/verification/stability/`.
+
+### Retrospective subject/group audit and group-aware sensitivity
+
+Supplementary Data File D3 contains the conservative subject/source mapping used for the retrospective audit; D4 contains the exact 608-sample group-aware five-fold assignment. Repeated biological sources are linked only where a shared subject/source identifier could be reconstructed from archived GEO metadata; other samples remain distinct groups.
+
+The group-aware sensitivity retains the original 608-sample development set and the archived 17,220-gene post-harmonization matrix, but forces all samples from a reconstructed subject/source group into the same validation fold. It is therefore a **post-harmonization group-aware sensitivity analysis**, not a replacement for the primary analysis and not a fold-fitted preprocessing experiment.
+
+After a completed core run has generated the harmonized matrix and split tables, run:
+
+```python
+GROUPAWARE_PROJECT_DIR = str(PACKAGE_DIR)
+GROUPAWARE_DRY_RUN = False
+GROUPAWARE_MAX_NEW_FOLDS = None
+GROUPAWARE_FORCE_RERUN = False
+%run -i str(PACKAGE_DIR / "src" / "groupaware_primary_5fold_k20.py")
+```
+
+Executed compact outputs are archived in `results/verification/groupaware/`, and the underlying audit tables are in `results/verification/subject_group_audit/`. The executed five-fold assignment has zero reconstructed subject/group overlap between training and validation.
+
 ### Training-fold-fitted preprocessing
 
 Run `notebooks/02_fold_fitted_all_comparators_1x5.ipynb`. It uses the latest completed core run and compares NIBFS, DEG-only, mRMR, and LASSO under fold-fitted quantile normalization, label-free ComBat transfer, variance filtering, feature selection, and model fitting.
@@ -133,11 +161,11 @@ Run:
 python scripts/verify_paper_archive.py
 ```
 
-The script checks frozen-panel identity, exact primary fold-assignment dimensions, fold-fitted stability values, the 100-replicate degree-preserving audit, the B=1000 topology-permutation summary, RWR-DEG reference values, external-dataset coverage, TCGA pair counts and panel coverage, and the KM Plotter panel input.
+The script checks frozen-panel identity, exact primary and group-aware fold assignments, Nogueira stability, repeated stability inference, group-aware sensitivity values, LASSO nonzero-coefficient auditing, fold-fitted stability, the 100-replicate degree-preserving audit, the B=1000 topology-permutation summary, RWR-DEG reference values, external-dataset coverage, TCGA pair counts and panel coverage, and the KM Plotter panel input.
 
 ## Key archived values
 
-The compact verification archive includes the manuscript-reported fold-fitted mean Jaccard values: NIBFS 0.8883, DEG-only 0.7120, mRMR 0.2225, and LASSO 0.1879. It also records the 100-replicate degree-preserving audit and the paired TCGA-BRCA analysis (113 pairs / 226 samples, with all 20 frozen genes available and direction-concordant).
+The compact verification archive includes the manuscript-reported fold-fitted mean Jaccard values (NIBFS 0.8883, DEG-only 0.7120, mRMR 0.2225, LASSO 0.1879), the Nogueira stability estimates, repeat-level stability inference, and the group-aware five-fold sensitivity (NIBFS mean Jaccard 0.9143; Nogueira 0.9549; zero reconstructed subject/group overlap). It also records the 100-replicate degree-preserving audit and the paired TCGA-BRCA analysis (113 pairs / 226 samples, with all 20 frozen genes available and direction-concordant).
 
 Machine-readable values are provided in `results/verification/`.
 

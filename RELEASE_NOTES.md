@@ -1,3 +1,23 @@
+# Release notes — v1.1.0
+
+Date: 2026-08-28
+
+This manuscript-synchronization release adds the robustness and audit outputs incorporated into the final CBC revision without changing the locked primary NIBFS configuration.
+
+Additions:
+
+- Nogueira chance-corrected stability implementation and compact archived source panels for primary 5-fold, repeated 10×5, and training-fold-fitted 5-fold analyses;
+- repeat-level Friedman and paired Wilcoxon/BH stability inference;
+- conservative 760-sample retrospective subject/source audit and exact 608-sample group-aware fold assignment;
+- executed post-harmonization group-aware five-fold sensitivity outputs, including zero reconstructed train-validation group overlap;
+- machine-readable Supplementary Tables S8--S10 and Supplementary Data Files D3--D4;
+- LASSO nonzero-coefficient audit supporting the deterministic top-20 comparator implementation;
+- repository verification checks updated to cover the added manuscript-facing results.
+
+The group-aware sensitivity is explicitly post-harmonization and does not replace the primary analysis or the training-fold-fitted preprocessing sensitivity.
+
+---
+
 # Release notes — v1.0.0
 
 Date: 2026-08-15

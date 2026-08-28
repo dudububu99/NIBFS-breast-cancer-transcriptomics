@@ -9,4 +9,9 @@ This repository contains the analysis paths and compact verification materials s
 - backup ZIP archives and temporary checkpoint folders;
 - obsolete environment-specific paths that are not required by the current analysis workflow.
 
-The repository notebooks use repository-relative package discovery and the latest completed core run where required. Scientific parameters in `config.yaml` are preserved, and the repository version is `1.0.0`.
+The repository notebooks use repository-relative package discovery and the latest completed core run where required. Scientific parameters in `config.yaml` are preserved, and the repository version is `1.1.0`.
+
+
+## v1.1.0 manuscript-synchronization additions
+
+Version 1.1.0 adds only manuscript-facing verification and sensitivity materials; it does not alter the locked primary scientific configuration. Added materials include compact selected-panel tables and code for Nogueira stability post-processing, the retrospective subject/source audit, the executed post-harmonization group-aware five-fold sensitivity, repeat-level stability inference, the LASSO nonzero-coefficient audit, and Supplementary Tables/Data Files S8--S10 and D3--D4. Large generated harmonized matrices remain excluded from GitHub and are reconstructed by the core workflow.

@@ -9,8 +9,8 @@ authors:
     given-names: Mohammad Isa
   - family-names: Mufid
     given-names: "Muhammad Syifa'ul"
-version: 1.0.0
-date-released: 2026-08-15
+version: 1.1.0
+date-released: 2026-08-28
 abstract: "Reference implementation and verification archive for stability-aware feature selection with fixed-rank fusion for reproducible breast cancer gene prioritization."
 keywords:
   - NIBFS

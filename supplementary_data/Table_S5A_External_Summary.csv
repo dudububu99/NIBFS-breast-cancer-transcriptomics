@@ -1,4 +1,4 @@
 Dataset,Platform,Cancer/Normal,Available_genes,Direction_concordance,ROC_AUC,Evaluation_note
-GSE15852,GPL96,43/43,20,19/20,LR 0.8697; RF 0.9283; LGBM 0.9281,Discovery models; OOF thresholds transferred
-GSE70947,GPL13607,148/148,20,20/20,LR 0.8844; RF 0.9109; LGBM 0.8403,148 matched pairs; paired t and Wilcoxon: 20/20 FDR-significant
+GSE15852,GPL96,43/43,20,19/20,LR 0.8697 (0.7847-0.9432); RF 0.9283 (0.8645-0.9778); LGBM 0.9281 (0.8643-0.9767),Class-stratified bootstrap 95% CI; discovery models; OOF thresholds transferred
+GSE70947,GPL13607,148/148,20,20/20,LR 0.8844 (0.8451-0.9212); RF 0.9109 (0.8795-0.9412); LGBM 0.8403 (0.7945-0.8820),"2,000-iteration pair-cluster bootstrap 95% CI; 148 matched pairs; 20/20 genes FDR-significant in paired tests"
 TCGA-BRCA,RNA-seq,113/113,20,20/20,Signed 0.9919; LR 0.9987; RF 0.9981; LGBM 0.9973,Frozen-panel rank-space transfer; 20/20 paired Wilcoxon FDR-significant
