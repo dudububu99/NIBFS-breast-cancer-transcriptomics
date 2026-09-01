@@ -1,0 +1,5 @@
+Analysis,Test,Proposed,Comparator,Alternative,N_repeats,Statistic,P_value,Mean_difference,Median_difference,BH_adjusted_p
+Repeated strict fold-fitted panel stability,Friedman,NIBFS,All methods,two-sided,5,15.0,0.0018166489665723214,,,
+Repeated strict fold-fitted panel stability,Paired Wilcoxon,NIBFS,DEG-only,greater,5,15.0,0.03125,0.14508117968987538,0.14436954349997821,0.03125
+Repeated strict fold-fitted panel stability,Paired Wilcoxon,NIBFS,mRMR,greater,5,15.0,0.03125,0.607599731209582,0.5849822282604231,0.03125
+Repeated strict fold-fitted panel stability,Paired Wilcoxon,NIBFS,LASSO,greater,5,15.0,0.03125,0.6401034154296383,0.6264263130546073,0.03125

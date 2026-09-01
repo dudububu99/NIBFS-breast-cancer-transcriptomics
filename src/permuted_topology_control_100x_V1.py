@@ -19,7 +19,7 @@
 #
 # This script:
 # - uses only the 608-sample development set;
-# - excludes the locked 152-sample internal test set;
+# - excludes the designated 152-sample internal assessment set;
 # - does not modify the frozen top-20 panel;
 # - does not alter repeated, LOCO, held-out, external, or Paper-2 results;
 # - supports checkpoint resume by fold;

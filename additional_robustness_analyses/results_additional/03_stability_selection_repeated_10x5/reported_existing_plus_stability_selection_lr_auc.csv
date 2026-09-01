@@ -1,0 +1,6 @@
+Method,LR_OOF_ROC_AUC_mean,Source
+NIBFS,0.98982,archived reference repeated result
+DEG-only,0.9942522498944703,archived reference repeated result
+mRMR,0.9935714476518276,archived reference repeated result
+LASSO,0.9896749642281175,archived reference repeated result
+Stability-selection,0.993522096308082,additional analysis; 10x5 OOF predictions

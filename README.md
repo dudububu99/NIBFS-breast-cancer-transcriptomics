@@ -2,7 +2,7 @@
 
 **Manuscript:** *Stability-aware feature selection with fixed-rank fusion for reproducible breast cancer gene prioritization*  
 **Authors:** Dian Yuliati, Mohammad Isa Irawan, Muhammad Syifa'ul Mufid  
-**Repository release:** 1.1.0 (2026-08-28)
+**Repository release:** 1.2.4 (2026-08-30)
 
 ## Purpose
 
@@ -14,14 +14,20 @@ The frozen top-20 panel is presented as a computationally prioritized candidate 
 
 - modular core implementation in `src/`;
 - analysis notebooks in `notebooks/`;
-- locked analysis configuration in `config.yaml`;
+- analysis configuration in `config.yaml`;
 - discovery and external accession manifest in `data_accession_list.csv`;
-- exact primary and group-aware fold assignments plus machine-readable Supplementary Tables S1--S10 and Data Files D1--D4 in `supplementary_data/`;
-- compact verification outputs for fold-fitted preprocessing, Nogueira stability, subject/group auditing, group-aware sensitivity, degree-preserving rewiring, and TCGA-BRCA in `results/verification/`;
+- exact primary fold assignments plus machine-readable Supplementary Tables S1--S13 and Data Files D1--D4 in `supplementary_data/`;
+- compact verification outputs for fold-fitted preprocessing, Nogueira stability, repeated-resampling inference, degree-preserving rewiring, and TCGA-BRCA in `results/verification/`;
 - the KM Plotter RFS input used for post-selection survival context in `manual_inputs/`;
 - environment helpers, tests, an archive-verification script, and a manuscript-to-code map.
 
 Raw GEO, STRING, HGNC, and GDC files are not committed. The supplied code downloads public resources or reconstructs them from public identifiers.
+
+## Additional robustness analyses
+
+The directory `additional_robustness_analyses/` contains the pair-aware GSE15852 uncertainty analysis, repeated strict training-fold-fitted evaluation, fixed-k stability-selection comparison, sample-identity checks, and publication-figure source data reported in the manuscript. The accompanying run-all notebook and source modules reproduce these analyses from the supplied reference inputs.
+
+The stability-selection comparator uses a fold-local 1,000-gene screen based on absolute Welch-style standardized mean differences computed from the outer-training samples, followed by 50 stratified half-sample L1-logistic resamples. The fixed top-20 panel is used only to match panel size for overlap comparison; the `pi >= 0.90` set is descriptive, does not define the reported top-20 panel, and is not interpreted as a formal error-control guarantee. GSE15852 pair-aware uncertainty is computed from fixed prediction probabilities without rerunning feature selection or fitting models during the bootstrap calculation.
 
 ## Frozen top-20 panel
 
@@ -78,7 +84,7 @@ REPEATED_FORCE_RERUN = False
 
 ### Chance-corrected Nogueira stability
 
-The manuscript also reports the Nogueira chance-corrected stability estimator for the primary, repeated, and training-fold-fitted settings. The estimator is recomputed from compact archived selected-panel tables without rerunning preprocessing, feature selection, or classifiers:
+The manuscript also reports the Nogueira chance-corrected stability estimator for the primary, repeated, and training-fold-fitted settings. The estimator is recomputed from compact selected-panel tables without rerunning preprocessing, feature selection, or classifiers:
 
 ```bash
 python scripts/postprocess_nogueira_stability.py
@@ -86,31 +92,13 @@ python scripts/postprocess_nogueira_stability.py
 
 The implementation is in `src/stability_estimators.py`; source panels and the reported/recomputed tables are in `results/verification/stability/`.
 
-### Retrospective subject/group audit and group-aware sensitivity
-
-Supplementary Data File D3 contains the conservative subject/source mapping used for the retrospective audit; D4 contains the exact 608-sample group-aware five-fold assignment. Repeated biological sources are linked only where a shared subject/source identifier could be reconstructed from archived GEO metadata; other samples remain distinct groups.
-
-The group-aware sensitivity retains the original 608-sample development set and the archived 17,220-gene post-harmonization matrix, but forces all samples from a reconstructed subject/source group into the same validation fold. It is therefore a **post-harmonization group-aware sensitivity analysis**, not a replacement for the primary analysis and not a fold-fitted preprocessing experiment.
-
-After a completed core run has generated the harmonized matrix and split tables, run:
-
-```python
-GROUPAWARE_PROJECT_DIR = str(PACKAGE_DIR)
-GROUPAWARE_DRY_RUN = False
-GROUPAWARE_MAX_NEW_FOLDS = None
-GROUPAWARE_FORCE_RERUN = False
-%run -i str(PACKAGE_DIR / "src" / "groupaware_primary_5fold_k20.py")
-```
-
-Executed compact outputs are archived in `results/verification/groupaware/`, and the underlying audit tables are in `results/verification/subject_group_audit/`. The executed five-fold assignment has zero reconstructed subject/group overlap between training and validation.
-
 ### Training-fold-fitted preprocessing
 
 Run `notebooks/02_fold_fitted_all_comparators_1x5.ipynb`. It uses the latest completed core run and compares NIBFS, DEG-only, mRMR, and LASSO under fold-fitted quantile normalization, label-free ComBat transfer, variance filtering, feature selection, and model fitting.
 
 ### Transfer-safe LOCO
 
-The LOCO script requires the active raw cohort objects created by notebook 01 (`all_expression`, `all_metadata`, `probe_map`, `string_edges`). It excludes the held-out cohort from representative-probe selection and all training-fitted steps and does not apply ordinary ComBat to the unseen cohort.
+The LOCO script requires the active raw cohort objects created by notebook 01 (`all_expression`, `all_metadata`, `probe_map`, `string_edges`). It excludes the held-out cohort from representative-probe selection and all training-fitted steps and does not apply ordinary ComBat to the unseen cohort. Primary ROC-AUC summaries use cohorts containing both classes and at least 15 held-out samples (`PRIMARY_MIN_TOTAL = 15`).
 
 ```python
 %run -i str(PACKAGE_DIR / "src" / "full_transfer_safe_loco_GENELEVEL_V2.py")
@@ -129,7 +117,7 @@ RWR_FORCE_RERUN = False
 
 ### Gene-label/topology permutation control
 
-The archived analysis uses 1,000 permutations. `permuted_topology_control_100x_V1.py` creates the initial 100-permutation run, and `permuted_topology_control_extend_100_to_1000_V3.py` extends or reuses it to 1,000.
+The reported analysis uses 1,000 permutations. `permuted_topology_control_100x_V1.py` creates the initial 100-permutation run, and `permuted_topology_control_extend_100_to_1000_V3.py` extends or reuses it to 1,000.
 
 ### Degree-preserving rewiring audit
 
@@ -151,7 +139,7 @@ The script evaluates the frozen panel and models without feature reselection, mo
 
 ### TCGA-BRCA RNA-seq
 
-Run `notebooks/03_TCGA_BRCA_RNAseq_external_validation.ipynb`. The reusable analysis engine is `src/tcga_brca_rnaseq_external_validation.py`. The analysis uses participant-matched primary-tumor/solid-tissue-normal STAR-Counts, converts both development microarray and TCGA RNA-seq expression to within-sample percentile ranks over the shared gene universe, and evaluates the frozen panel in cross-technology rank space. External labels are not used for feature selection or model fitting.
+Run `notebooks/03_TCGA_BRCA_RNAseq_external_validation.ipynb`. The reusable analysis engine is `src/tcga_brca_rnaseq_external_validation.py`. The analysis uses participant-matched primary-tumor/solid-tissue-normal STAR-Counts, takes gene symbols from the STAR-Counts `gene_name` field, converts both development microarray and TCGA RNA-seq expression to within-sample percentile ranks over the shared gene universe, and evaluates the frozen panel in cross-technology rank space. Rank-space LR uses L2/lbfgs with `C=1` and `max_iter=5000`; RF uses 500 trees, square-root feature sampling, and balanced class weights; LightGBM uses 300 estimators, learning rate 0.05, 31 leaves, unit subsampling/column sampling, and `is_unbalance=True`. External labels are not used for feature selection, model fitting, or tuning.
 
 ## Verification
 
@@ -161,17 +149,17 @@ Run:
 python scripts/verify_paper_archive.py
 ```
 
-The script checks frozen-panel identity, exact primary and group-aware fold assignments, Nogueira stability, repeated stability inference, group-aware sensitivity values, LASSO nonzero-coefficient auditing, fold-fitted stability, the 100-replicate degree-preserving audit, the B=1000 topology-permutation summary, RWR-DEG reference values, external-dataset coverage, TCGA pair counts and panel coverage, and the KM Plotter panel input.
+The script checks frozen-panel identity, the exact primary fold assignment, Nogueira stability, repeated stability inference, LASSO nonzero-coefficient auditing, fold-fitted stability, the 100-replicate degree-preserving control, the B=1000 topology-permutation summary, RWR-DEG reference values, external-dataset coverage, TCGA pair counts and panel coverage, and the KM Plotter panel input.
 
-## Key archived values
+## Key verification values
 
-The compact verification archive includes the manuscript-reported fold-fitted mean Jaccard values (NIBFS 0.8883, DEG-only 0.7120, mRMR 0.2225, LASSO 0.1879), the Nogueira stability estimates, repeat-level stability inference, and the group-aware five-fold sensitivity (NIBFS mean Jaccard 0.9143; Nogueira 0.9549; zero reconstructed subject/group overlap). It also records the 100-replicate degree-preserving audit and the paired TCGA-BRCA analysis (113 pairs / 226 samples, with all 20 frozen genes available and direction-concordant).
+The compact verification materials include the single strict five-fold mean Jaccard values (NIBFS 0.8883, DEG-only 0.7120, mRMR 0.2225, LASSO 0.1879). The repeated strict 5x5 analysis reports mean repeat-level Jaccard values of NIBFS 0.8442, DEG-only 0.6992, mRMR 0.2366, and LASSO 0.2041, with the same stability ordering. The archive also contains the Nogueira stability estimates and repeat-level stability inference. It also records the 100-replicate degree-preserving control and the paired TCGA-BRCA analysis (113 pairs / 226 samples, with all 20 frozen genes available and direction-concordant).
 
 Machine-readable values are provided in `results/verification/`.
 
 ## Repository map
 
-See `docs/PAPER_TO_CODE_MAP.md` for a manuscript-analysis-to-source mapping and `docs/REPOSITORY_AUDIT.md` for the curation decisions used to assemble this reproducibility archive.
+See `docs/PAPER_TO_CODE_MAP.md` for a manuscript-analysis-to-source mapping and `docs/REPOSITORY_QA.md` for repository verification information.
 
 ## Tests
 

@@ -14,7 +14,7 @@
 #       -> top-20 genes
 #       -> logistic-regression validation on the held-out fold
 #
-# Locked design
+# Prespecified design
 # -------------
 # - development set only: 608 samples x 17,220 eligible genes
 # - exact 10 x 5 partitions reused from REPEATED_10X5_K20_LR

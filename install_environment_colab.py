@@ -23,7 +23,7 @@ required = {
     "yaml": "pyyaml>=6",
     "neuroCombat": "neuroCombat==0.2.12",
     "gprofiler": "gprofiler-official>=1.0.0",
-    "rpy2": "rpy2>=3.6,<3.7",
+    "rpy2": "rpy2[numpy]==3.6.6",
 }
 missing = []
 for module, package in required.items():
@@ -46,5 +46,11 @@ run(["R", "--vanilla", "-q", "-e", r_code])
 for module in ["numpy", "pandas", "scipy", "sklearn", "matplotlib", *required.keys()]:
     importlib.import_module(module)
 import rpy2.robjects as ro
+from rpy2.robjects import numpy2ri
+from rpy2.robjects.conversion import localconverter
+import numpy as np
+with localconverter(ro.default_converter + numpy2ri.converter):
+    ro.globalenv["nibfs_env_test_x"] = np.asarray([1.0, 2.0, 3.0], dtype=float)
+assert float(ro.r("sum(nibfs_env_test_x)")[0]) == 6.0
 ro.r("suppressPackageStartupMessages(library(limma))")
-print("ENVIRONMENT CHECK: PASS")
+print("ENVIRONMENT CHECK: PASS (rpy2 numpy2ri + limma)")

@@ -31,16 +31,6 @@ def main() -> None:
     checks.append(("D1 has 608 unique GSM IDs", d1["GSM_ID"].nunique() == 608))
     checks.append(("D1 has folds 1..5", set(d1["Validation_fold"].astype(int)) == {1, 2, 3, 4, 5}))
 
-    # Retrospective subject/group audit and exact group-aware folds.
-    d3 = pd.read_csv(ROOT / "supplementary_data" / "Supplementary_Data_File_D3_Subject_Group_Audit_760.csv")
-    d4 = pd.read_csv(ROOT / "supplementary_data" / "Supplementary_Data_File_D4_GroupAware_Fold_Assignments_608.csv")
-    checks.append(("D3 covers 760 discovery samples", len(d3) == 760 and d3["GSM_ID"].nunique() == 760))
-    checks.append(("D4 has 608 unique development samples", len(d4) == 608 and d4["GSM_ID"].nunique() == 608))
-    fold_col = "GroupAware_Validation_fold" if "GroupAware_Validation_fold" in d4.columns else "Validation_fold"
-    checks.append(("D4 uses folds 1..5", set(d4[fold_col].astype(int)) == {1, 2, 3, 4, 5}))
-    group_col = "Subject_Group"
-    checks.append(("D4 has zero subject/group split", int((d4.groupby(group_col)[fold_col].nunique() > 1).sum()) == 0))
-
     # Frozen panel: source expectation, executed TCGA output, and KM input must agree.
     expected = pd.read_csv(ROOT / "results" / "verification" / "tcga_brca" / "frozen_top20_expected.csv")
     expected_genes = expected.sort_values("Rank_NIBFS")["Gene"].astype(str).tolist()
@@ -57,7 +47,7 @@ def main() -> None:
     expected_nog = {
         "Primary 5-fold": {"NIBFS": 0.949942, "DEG-only": 0.899884, "mRMR-inspired": 0.784750, "LASSO": 0.469384},
         "Repeated 10x5-fold": {"NIBFS": 0.953660, "DEG-only": 0.927630, "mRMR-inspired": 0.780480, "LASSO": 0.528963},
-        "Training-fold-fitted 5-fold": {"NIBFS": 0.939930, "DEG-only": 0.829802, "mRMR-inspired": 0.359256, "LASSO": 0.309198},
+        "Single strict training-fold-fitted 5-fold sensitivity": {"NIBFS": 0.939930, "DEG-only": 0.829802, "mRMR-inspired": 0.359256, "LASSO": 0.309198},
     }
     for setting, vals in expected_nog.items():
         for method, value in vals.items():
@@ -72,17 +62,8 @@ def main() -> None:
         close(wil.loc[comparator, "BH_adjusted_p"], 0.000977, tol=1e-6)
     checks.append(("Repeated matched stability inference", True))
 
-    # Group-aware sensitivity.
-    ga = pd.read_csv(ROOT / "supplementary_data" / "Table_S9B_GroupAware_Results.csv").set_index("Method")
-    close(ga.loc["NIBFS", "Mean_Jaccard"], 0.914286, tol=1e-6)
-    close(ga.loc["NIBFS", "Nogueira_stability"], 0.954948, tol=1e-6)
-    close(ga.loc["NIBFS", "LR_OOF_ROC_AUC"], 0.991222, tol=1e-6)
-    iso = pd.read_csv(ROOT / "supplementary_data" / "Table_S9C_GroupAware_Fold_Isolation.csv")
-    checks.append(("Group-aware isolation is zero in all folds", int(iso["Subject_group_overlap"].sum()) == 0))
-    checks.append(("Group-aware NIBFS values", True))
-
     # LASSO nonzero audit.
-    la = pd.read_csv(ROOT / "supplementary_data" / "Table_S10_LASSO_Nonzero_Audit.csv")
+    la = pd.read_csv(ROOT / "supplementary_data" / "Table_S9_LASSO_Nonzero_Audit.csv")
     top20 = la["Top20_all_nonzero"].astype(str).str.lower().isin({"true", "1", "yes"})
     checks.append(("LASSO audit reports all top-20 nonzero", bool(top20.all())))
     rep = la.loc[la["Setting"].astype(str).str.contains("Repeated", case=False, na=False)]

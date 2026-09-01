@@ -1,0 +1,4 @@
+Dataset,Platform,Cancer/Normal,Available_genes,Direction_concordance,ROC_AUC,Evaluation_note
+GSE15852,GPL96,43/43,20,19/20,LR 0.8697 (0.8031-0.9324); RF 0.9283 (0.8729-0.9757); LGBM 0.9281 (0.8680-0.9740),"2,000-iteration patient-pair cluster bootstrap 95% CI; 43 matched tumor-normal pairs; saved discovery-model predictions reused; no feature selection or model fitting was rerun for CI calculation"
+GSE70947,GPL13607,148/148,20,20/20,LR 0.8844 (0.8451-0.9212); RF 0.9109 (0.8795-0.9412); LGBM 0.8403 (0.7945-0.8820),"2,000-iteration pair-cluster bootstrap 95% CI; 148 matched pairs; 20/20 genes FDR-significant in paired tests"
+TCGA-BRCA,RNA-seq,113/113,20,20/20,Signed 0.9919 (0.9839-0.9977); LR 0.9987 (0.9964-0.9999); RF 0.9981 (0.9951-0.9999); LGBM 0.9973 (0.9934-0.9996),"Frozen-panel rank-space transfer; 2,000-iteration participant-pair bootstrap 95% CI; 20/20 paired Wilcoxon FDR-significant"

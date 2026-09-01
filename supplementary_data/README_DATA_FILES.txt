@@ -1,32 +1,10 @@
-Machine-readable files synchronized with the supplementary material
+Machine-readable Supplementary files for the CBC submission
 
-Table-source CSV files:
-- Table_S1_Study_Resources.csv -> Supplementary Table S1
-- Table_S2A_RWR_Comparison.csv -> Supplementary Table S2A
-- Table_S2B_Topology_Permutation.csv -> Supplementary Table S2B
-- Table_S2C_Degree_Preserving_Rewiring.csv -> Supplementary Table S2C
-- Table_S3A_Panel_Size_Sensitivity.csv -> Supplementary Table S3A
-- Table_S3B_Rank_Weight_Sensitivity.csv -> Supplementary Table S3B
-- Table_S4_LOCO_Eligibility.csv -> Supplementary Table S4
-- Table_S5A_External_Summary.csv -> Supplementary Table S5A
-- Table_S5B_Gene_Direction_Concordance.csv -> Supplementary Table S5B
-- Table_S6_Selected_Enrichment.csv -> Supplementary Table S6
-- Table_S7_Gene_Wise_RFS.csv -> Supplementary Table S7
-- Table_S8_Nogueira_Stability.csv -> Supplementary Table S8A
-- Table_S8B_Repeated_Stability_Inference.csv -> Supplementary Table S8B
-- Table_S9A_Subject_Group_Audit.csv -> Supplementary Table S9A
-- Table_S9B_GroupAware_Results.csv -> Supplementary Table S9B
-- Table_S9C_GroupAware_Fold_Isolation.csv -> Supplementary Table S9C
-- Table_S10_LASSO_Nonzero_Audit.csv -> Supplementary Table S10
+Tables S1-S13 are provided as CSV files where applicable.
+Data File D1: exact primary fold assignments for 608 development samples.
+Data File D2: complete enrichment output.
+Data File D3A-D3C: sample-identity check outputs (duplicate GSM rows, metadata flags, and JSON summary).
+Data File D4: official GSE15852 matched-pair mapping used for patient-pair bootstrap.
+Figure-source CSV files are included for Supplementary Figures S5-S8, covering repeated strict fold-fitted stability, the stability-selection comparator, paired GSE15852 bootstrap summaries, and the stability-discrimination scatter.
 
-Supplementary Data Files:
-- Supplementary_Data_File_D1_Fold_Assignments_608.csv -> D1
-- Supplementary_Data_File_D2_Enrichment_All_Terms.csv -> D2
-- Supplementary_Data_File_D3_Subject_Group_Audit_760.csv -> D3
-- Supplementary_Data_File_D4_GroupAware_Fold_Assignments_608.csv -> D4
-
-The D3 grouping is conservative: repeated biological sources are linked only where
-a shared subject/source identifier could be reconstructed from archived metadata;
-absence of a reconstructed link is not proof of biological independence.
-
-No legacy duplicate filenames are included in this submission-ready data folder.
+The repeated strict fold-fitted analysis uses five repeated five-fold allocations under the same protocol. The stability-selection comparator uses the same repeated evaluation partitions as the other selectors; within each outer-training fold, it applies a 1,000-gene screen based on absolute Welch-style standardized mean differences, followed by 50 stratified half-sample L1-logistic resamples. The pi >= 0.90 set is descriptive and does not define the reported fixed-k top-20 panel. GSE15852 confidence intervals are computed from fixed prediction probabilities using patient-pair cluster bootstrap. Figure-source files are plotting-only and do not alter any scientific result.

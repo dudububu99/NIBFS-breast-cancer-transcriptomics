@@ -1,0 +1,4 @@
+Resource,Representation,LR_AUC_95CI,RF_AUC_95CI,LightGBM_AUC_95CI,Direction_concordance,Evaluation_note
+GSE15852,GPL96 expression,0.8697 (0.8031-0.9324),0.9283 (0.8729-0.9757),0.9281 (0.8680-0.9740),19/20,"43 matched pairs; 2,000 patient-pair cluster bootstrap; fixed prediction probabilities reused"
+GSE70947,GPL13607 expression,0.8844 (0.8451-0.9212),0.9109 (0.8795-0.9412),0.8403 (0.7945-0.8820),20/20,148-pair cluster-bootstrap result; values carried forward unchanged
+TCGA-BRCA,Within-sample rank space,0.9987 (0.9964-0.9999),0.9981 (0.9951-0.9999),0.9973 (0.9934-0.9996),20/20,113-participant-pair bootstrap confidence interval; values carried forward unchanged

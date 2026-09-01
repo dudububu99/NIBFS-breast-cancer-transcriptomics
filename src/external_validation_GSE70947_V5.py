@@ -243,7 +243,7 @@ def _candidate_main_runs() -> list[Path]:
             if (run_dir / "results" / "main" / "tables").is_dir():
                 candidates.append(run_dir)
 
-    # A legacy alternative name is accepted only if the locked k=20 file is
+    # A legacy alternative name is accepted only if the fixed k=20 file is
     # unavailable in that run.
     for panel_file in PROJECT_DIR.rglob("final_top20_NIBFS_gene_panel.csv"):
         if len(panel_file.parents) >= 4:

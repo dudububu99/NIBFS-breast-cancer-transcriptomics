@@ -10,7 +10,7 @@ External cohort:
 Independence:
     No TCGA labels are used for feature selection, hyperparameter tuning,
     preprocessing fitting, or classifier fitting. External labels are used only
-    after predictions are locked, for evaluation and paired biological
+    after predictions are fixed, for evaluation and paired biological
     replication.
 
 Frozen components:
@@ -137,11 +137,11 @@ class RNASeqValidationConfig:
 
     def validate(self) -> None:
         if self.project_id != "TCGA-BRCA":
-            raise ValueError("This package is locked to TCGA-BRCA.")
+            raise ValueError("This analysis is configured for TCGA-BRCA.")
         if self.expected_development_samples != 608:
-            raise ValueError("This package is locked to 608 development samples.")
+            raise ValueError("This analysis is configured for the 608-sample development subset.")
         if self.expected_panel_size != 20:
-            raise ValueError("This package is locked to the frozen top-20 panel.")
+            raise ValueError("This analysis uses the frozen top-20 panel.")
         if self.bootstrap_replicates < 200:
             raise ValueError("Use at least 200 bootstrap replicates.")
         if self.minimum_pairs < 10:
@@ -520,7 +520,7 @@ def _resolve_panel(
 
         if genes != EXPECTED_TOP20:
             raise RuntimeError(
-                "The detected frozen top-20 differs from the locked manuscript panel.\n"
+                "The detected frozen top-20 differs from the manuscript frozen panel.\n"
                 f"Detected: {genes}\nExpected: {EXPECTED_TOP20}\nSource: {source}"
             )
 

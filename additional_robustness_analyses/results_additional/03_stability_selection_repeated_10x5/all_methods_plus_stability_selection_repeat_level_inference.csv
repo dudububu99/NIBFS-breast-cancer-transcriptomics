@@ -1,0 +1,6 @@
+Analysis,Test,Proposed,Comparator,Alternative,N_repeats,Statistic,P_value,Mean_difference,Median_difference,BH_adjusted_p
+Repeated panel stability with stability-selection comparator,Friedman,NIBFS,All methods,two-sided,10,38.0,1.1205592875074531e-07,,,
+Repeated panel stability with stability-selection comparator,Paired Wilcoxon,NIBFS,DEG-only,greater,10,55.0,0.0009765625,0.05368341803124408,0.043722943722943663,0.0009765625
+Repeated panel stability with stability-selection comparator,Paired Wilcoxon,NIBFS,mRMR,greater,10,55.0,0.0009765625,0.2747681786812223,0.2732916841612494,0.0009765625
+Repeated panel stability with stability-selection comparator,Paired Wilcoxon,NIBFS,LASSO,greater,10,55.0,0.0009765625,0.5756602727997743,0.5810090148799827,0.0009765625
+Repeated panel stability with stability-selection comparator,Paired Wilcoxon,NIBFS,Stability-selection,greater,10,55.0,0.0009765625,0.570046652868023,0.5658869450747681,0.0009765625

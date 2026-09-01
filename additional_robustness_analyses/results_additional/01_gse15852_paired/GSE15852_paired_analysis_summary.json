@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "dataset": "GSE15852",
+  "official_pairs": 43,
+  "samples": 86,
+  "point_predictions_reused": true,
+  "models_refit": false,
+  "feature_selection_rerun": false,
+  "bootstrap_unit": "patient pair",
+  "bootstrap_iterations": 2000,
+  "raw_series_matrix_hash_audit": {
+    "relative_path": "data/raw/geo/GSE15852_series_matrix.txt.gz",
+    "expected_sha256": "bdc0536b99a25c99917fc082288545431ac4917dd8d6b2fe15d5e6ae0fab2788",
+    "observed_sha256": "bdc0536b99a25c99917fc082288545431ac4917dd8d6b2fe15d5e6ae0fab2788",
+    "match": true,
+    "acquisition_mode": "copied hash-matching existing raw file from /content/drive/MyDrive/NIBFS_REVIEWER_STYLE_FINAL_K20_NOGUEIRA_REVISION/NIBFS_REVIEWER_STYLE_FINAL_K20_COMPLETE/runs/NIBFS_RAW_RUN_20260728_022010/data/raw/geo/GSE15852_series_matrix.txt.gz"
+  },
+  "results": [
+    {
+      "Dataset": "GSE15852",
+      "Pairs": 43,
+      "Samples": 86,
+      "Classifier": "LR",
+      "ROC_AUC": 0.8696592752839373,
+      "Pair_cluster_bootstrap_iterations": 2000,
+      "AUC_CI_low": 0.8031368307193076,
+      "AUC_CI_high": 0.932395889670092
+    },
+    {
+      "Dataset": "GSE15852",
+      "Pairs": 43,
+      "Samples": 86,
+      "Classifier": "LightGBM",
+      "ROC_AUC": 0.9280692266089778,
+      "Pair_cluster_bootstrap_iterations": 2000,
+      "AUC_CI_low": 0.8680367766360195,
+      "AUC_CI_high": 0.9740400216333153
+    },
+    {
+      "Dataset": "GSE15852",
+      "Pairs": 43,
+      "Samples": 86,
+      "Classifier": "RF",
+      "ROC_AUC": 0.9283396430502975,
+      "Pair_cluster_bootstrap_iterations": 2000,
+      "AUC_CI_low": 0.8729042725797729,
+      "AUC_CI_high": 0.9756625202812331
+    }
+  ]
+}

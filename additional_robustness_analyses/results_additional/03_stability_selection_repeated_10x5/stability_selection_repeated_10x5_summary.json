@@ -1,0 +1,129 @@
+{
+  "status": "PASS",
+  "design": "Empirical screened L1-logistic stability-selection comparator under the same 10 repeated five-fold evaluation partitions",
+  "existing_methods_rerun": false,
+  "new_outer_folds": 50,
+  "subsamples_per_outer_fold": 50,
+  "screen_k": 1000,
+  "C": 1.0,
+  "pi_threshold": 0.9,
+  "stability_summary": [
+    {
+      "Method": "NIBFS",
+      "Mean_Jaccard": 0.9056277056277058,
+      "SD_between_repeats": 0.014624945984784895,
+      "Median_Jaccard": 0.9056277056277057,
+      "Minimum_repeat_mean": 0.8874458874458876,
+      "Maximum_repeat_mean": 0.9333333333333333,
+      "Nogueira_stability": 0.9536604651162791
+    },
+    {
+      "Method": "DEG-only",
+      "Mean_Jaccard": 0.8519442875964616,
+      "SD_between_repeats": 0.026893595232236882,
+      "Median_Jaccard": 0.8528138528138529,
+      "Minimum_repeat_mean": 0.8117824204780728,
+      "Maximum_repeat_mean": 0.9056277056277058,
+      "Nogueira_stability": 0.9276302325581395
+    },
+    {
+      "Method": "mRMR",
+      "Mean_Jaccard": 0.6308595269464835,
+      "SD_between_repeats": 0.030189739337516484,
+      "Median_Jaccard": 0.6292741236219497,
+      "Minimum_repeat_mean": 0.5816885208189555,
+      "Maximum_repeat_mean": 0.6828316610925307,
+      "Nogueira_stability": 0.7804797342192692
+    },
+    {
+      "Method": "Stability-selection",
+      "Mean_Jaccard": 0.33558105275968264,
+      "SD_between_repeats": 0.019836413819831002,
+      "Median_Jaccard": 0.3416204327926503,
+      "Minimum_repeat_mean": 0.2845581047668334,
+      "Maximum_repeat_mean": 0.3553238651877662,
+      "Nogueira_stability": 0.5323548172757473
+    },
+    {
+      "Method": "LASSO",
+      "Mean_Jaccard": 0.32996743282793145,
+      "SD_between_repeats": 0.032289028281923156,
+      "Median_Jaccard": 0.3179409300377042,
+      "Minimum_repeat_mean": 0.2816322949444719,
+      "Maximum_repeat_mean": 0.38353402663747493,
+      "Nogueira_stability": 0.528963122923588
+    }
+  ],
+  "repeat_level_inference": [
+    {
+      "Analysis": "Repeated panel stability with stability-selection comparator",
+      "Test": "Friedman",
+      "Proposed": "NIBFS",
+      "Comparator": "All methods",
+      "Alternative": "two-sided",
+      "N_repeats": 10,
+      "Statistic": 38.0,
+      "P_value": 1.1205592875074531e-07,
+      "Mean_difference": NaN,
+      "Median_difference": NaN,
+      "BH_adjusted_p": NaN
+    },
+    {
+      "Analysis": "Repeated panel stability with stability-selection comparator",
+      "Test": "Paired Wilcoxon",
+      "Proposed": "NIBFS",
+      "Comparator": "DEG-only",
+      "Alternative": "greater",
+      "N_repeats": 10,
+      "Statistic": 55.0,
+      "P_value": 0.0009765625,
+      "Mean_difference": 0.05368341803124408,
+      "Median_difference": 0.043722943722943663,
+      "BH_adjusted_p": 0.0009765625
+    },
+    {
+      "Analysis": "Repeated panel stability with stability-selection comparator",
+      "Test": "Paired Wilcoxon",
+      "Proposed": "NIBFS",
+      "Comparator": "mRMR",
+      "Alternative": "greater",
+      "N_repeats": 10,
+      "Statistic": 55.0,
+      "P_value": 0.0009765625,
+      "Mean_difference": 0.2747681786812223,
+      "Median_difference": 0.2732916841612494,
+      "BH_adjusted_p": 0.0009765625
+    },
+    {
+      "Analysis": "Repeated panel stability with stability-selection comparator",
+      "Test": "Paired Wilcoxon",
+      "Proposed": "NIBFS",
+      "Comparator": "LASSO",
+      "Alternative": "greater",
+      "N_repeats": 10,
+      "Statistic": 55.0,
+      "P_value": 0.0009765625,
+      "Mean_difference": 0.5756602727997743,
+      "Median_difference": 0.5810090148799827,
+      "BH_adjusted_p": 0.0009765625
+    },
+    {
+      "Analysis": "Repeated panel stability with stability-selection comparator",
+      "Test": "Paired Wilcoxon",
+      "Proposed": "NIBFS",
+      "Comparator": "Stability-selection",
+      "Alternative": "greater",
+      "N_repeats": 10,
+      "Statistic": 55.0,
+      "P_value": 0.0009765625,
+      "Mean_difference": 0.570046652868023,
+      "Median_difference": 0.5658869450747681,
+      "BH_adjusted_p": 0.0009765625
+    }
+  ],
+  "new_comparator_lr_oof_auc_mean": 0.993522096308082,
+  "new_comparator_lr_oof_auc_sd": 0.0012832836527492753,
+  "archived_nibfs_lr_oof_auc_mean": 0.98982,
+  "archived_nibfs_lr_oof_auc_sd": 0.001003,
+  "method_label_note": "For manuscript wording, describe this transparently as a screened L1-logistic stability-selection comparator with fixed-k top-20 reporting; do not imply formal family-wise error control from the pi-threshold audit."
+}

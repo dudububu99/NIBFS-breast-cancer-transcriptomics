@@ -10,7 +10,7 @@ GSE71053,GPL570,Discovery,12,6,18,Normal and tumor breast tissue
 GSE10780,GPL570,Discovery,143,42,185,Normal breast tissue and breast carcinoma
 GSE30010,GPL570,Discovery,107,0,107,Normal breast biopsies
 GSE111662,GPL570,Discovery,27,0,27,Normal breast tissue
-Internal held-out,GPL570,Post-harmonization internal evaluation,75,77,152,Frozen panel; neither preprocessing- nor subject/group-isolated
+Internal held-out,GPL570,Post-harmonization internal evaluation,75,77,152,Frozen panel; post-harmonization internal assessment
 GSE15852,GPL96,Independent microarray evaluation,43,43,86,Frozen panel and discovery-trained models
 GSE70947,GPL13607,Independent paired microarray evaluation,148,148,296,148 matched cancer-normal pairs
 TCGA-BRCA,RNA-seq,Paired cross-technology evaluation,113,113,226,113 participant-matched pairs

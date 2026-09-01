@@ -1,0 +1,5 @@
+Audit_quantity,Result,Interpretation
+Discovery rows,760,All pooled discovery samples evaluated
+Unique GSM accessions,760,No repeated GEO sample accession IDs
+Exact duplicate GSM rows,0,No exact accession duplication detected
+Cross-cohort metadata-fingerprint flags,0,No conservative metadata-based flags requiring manual review

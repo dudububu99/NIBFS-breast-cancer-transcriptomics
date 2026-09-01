@@ -1,0 +1,407 @@
+{
+  "status": "PASS",
+  "old_results_modified": false,
+  "gse15852": {
+    "status": "PASS",
+    "dataset": "GSE15852",
+    "official_pairs": 43,
+    "samples": 86,
+    "point_predictions_reused": true,
+    "models_refit": false,
+    "feature_selection_rerun": false,
+    "bootstrap_unit": "patient pair",
+    "bootstrap_iterations": 2000,
+    "raw_series_matrix_hash_audit": {
+      "relative_path": "data/raw/geo/GSE15852_series_matrix.txt.gz",
+      "expected_sha256": "bdc0536b99a25c99917fc082288545431ac4917dd8d6b2fe15d5e6ae0fab2788",
+      "observed_sha256": "bdc0536b99a25c99917fc082288545431ac4917dd8d6b2fe15d5e6ae0fab2788",
+      "match": true,
+      "acquisition_mode": "copied hash-matching existing raw file from /content/drive/MyDrive/NIBFS_REVIEWER_STYLE_FINAL_K20_NOGUEIRA_REVISION/NIBFS_REVIEWER_STYLE_FINAL_K20_COMPLETE/runs/NIBFS_RAW_RUN_20260728_022010/data/raw/geo/GSE15852_series_matrix.txt.gz"
+    },
+    "results": [
+      {
+        "Dataset": "GSE15852",
+        "Pairs": 43,
+        "Samples": 86,
+        "Classifier": "LR",
+        "ROC_AUC": 0.8696592752839373,
+        "Pair_cluster_bootstrap_iterations": 2000,
+        "AUC_CI_low": 0.8031368307193076,
+        "AUC_CI_high": 0.932395889670092
+      },
+      {
+        "Dataset": "GSE15852",
+        "Pairs": 43,
+        "Samples": 86,
+        "Classifier": "LightGBM",
+        "ROC_AUC": 0.9280692266089778,
+        "Pair_cluster_bootstrap_iterations": 2000,
+        "AUC_CI_low": 0.8680367766360195,
+        "AUC_CI_high": 0.9740400216333153
+      },
+      {
+        "Dataset": "GSE15852",
+        "Pairs": 43,
+        "Samples": 86,
+        "Classifier": "RF",
+        "ROC_AUC": 0.9283396430502975,
+        "Pair_cluster_bootstrap_iterations": 2000,
+        "AUC_CI_low": 0.8729042725797729,
+        "AUC_CI_high": 0.9756625202812331
+      }
+    ]
+  },
+  "repeated_fold_fitted_5x5": {
+    "status": "PASS",
+    "design": "5 repeats x 5 folds strict training-fold-fitted preprocessing",
+    "repeat_1_source": "archived reference 1x5 outputs; not reselected",
+    "new_feature_selection_runs": 20,
+    "new_repeats": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "methods": [
+      "NIBFS",
+      "DEG-only",
+      "mRMR",
+      "LASSO"
+    ],
+    "stability_summary": [
+      {
+        "Method": "NIBFS",
+        "Mean_Jaccard": 0.8442348955392435,
+        "SD_between_repeats": 0.038484227638903114,
+        "Median_Jaccard": 0.844908714473932,
+        "Minimum_repeat_mean": 0.7887257669866365,
+        "Maximum_repeat_mean": 0.8883116883116884,
+        "Nogueira_stability": 0.9189058139534884
+      },
+      {
+        "Method": "DEG-only",
+        "Mean_Jaccard": 0.699153715849368,
+        "SD_between_repeats": 0.02670731507562168,
+        "Median_Jaccard": 0.7119631093544136,
+        "Minimum_repeat_mean": 0.6598407389711738,
+        "Maximum_repeat_mean": 0.7266139657444006,
+        "Nogueira_stability": 0.8323052325581395
+      },
+      {
+        "Method": "mRMR",
+        "Mean_Jaccard": 0.23663516432966145,
+        "SD_between_repeats": 0.016902050942253704,
+        "Median_Jaccard": 0.22885646927392655,
+        "Minimum_repeat_mean": 0.22248392025431868,
+        "Maximum_repeat_mean": 0.2628543499511241,
+        "Nogueira_stability": 0.39246104651162794
+      },
+      {
+        "Method": "LASSO",
+        "Mean_Jaccard": 0.20413148010960508,
+        "SD_between_repeats": 0.025257526213842564,
+        "Median_Jaccard": 0.2097636420114612,
+        "Minimum_repeat_mean": 0.1703117938412056,
+        "Maximum_repeat_mean": 0.23422955040602095,
+        "Nogueira_stability": 0.3645953488372091
+      }
+    ],
+    "performance_summary": [
+      {
+        "Method": "DEG-only",
+        "Classifier": "LR",
+        "ROC_AUC_mean": 0.8930581732679628,
+        "ROC_AUC_std": 0.03711935638136413,
+        "Brier_score_mean": 0.13010956399632734,
+        "Brier_score_std": 0.023563173172541085
+      },
+      {
+        "Method": "DEG-only",
+        "Classifier": "LightGBM",
+        "ROC_AUC_mean": 0.9555448944898075,
+        "ROC_AUC_std": 0.02067809598364223,
+        "Brier_score_mean": 0.08661690960667816,
+        "Brier_score_std": 0.023408788031389308
+      },
+      {
+        "Method": "DEG-only",
+        "Classifier": "RF",
+        "ROC_AUC_mean": 0.9549122396603597,
+        "ROC_AUC_std": 0.02179129041640182,
+        "Brier_score_mean": 0.08541663369191166,
+        "Brier_score_std": 0.01666348351116953
+      },
+      {
+        "Method": "LASSO",
+        "Classifier": "LR",
+        "ROC_AUC_mean": 0.8548294209562394,
+        "ROC_AUC_std": 0.03314537287083177,
+        "Brier_score_mean": 0.15715755853382107,
+        "Brier_score_std": 0.022466190428648856
+      },
+      {
+        "Method": "LASSO",
+        "Classifier": "LightGBM",
+        "ROC_AUC_mean": 0.9365606874071949,
+        "ROC_AUC_std": 0.022082415438046236,
+        "Brier_score_mean": 0.11176245656122007,
+        "Brier_score_std": 0.02203967573078378
+      },
+      {
+        "Method": "LASSO",
+        "Classifier": "RF",
+        "ROC_AUC_mean": 0.9344415055556055,
+        "ROC_AUC_std": 0.02019474263125021,
+        "Brier_score_mean": 0.11393126287494919,
+        "Brier_score_std": 0.013185813022604333
+      },
+      {
+        "Method": "NIBFS",
+        "Classifier": "LR",
+        "ROC_AUC_mean": 0.8647040426402794,
+        "ROC_AUC_std": 0.04139727041460157,
+        "Brier_score_mean": 0.1498117639231123,
+        "Brier_score_std": 0.025271978355948535
+      },
+      {
+        "Method": "NIBFS",
+        "Classifier": "LightGBM",
+        "ROC_AUC_mean": 0.9381175595371474,
+        "ROC_AUC_std": 0.020196400164936987,
+        "Brier_score_mean": 0.10372089506004167,
+        "Brier_score_std": 0.02398272110937148
+      },
+      {
+        "Method": "NIBFS",
+        "Classifier": "RF",
+        "ROC_AUC_mean": 0.9320594758998169,
+        "ROC_AUC_std": 0.025663779040762506,
+        "Brier_score_mean": 0.10809321472971142,
+        "Brier_score_std": 0.01694080878976557
+      },
+      {
+        "Method": "mRMR",
+        "Classifier": "LR",
+        "ROC_AUC_mean": 0.8654919168108226,
+        "ROC_AUC_std": 0.03923582038819494,
+        "Brier_score_mean": 0.1464545276301262,
+        "Brier_score_std": 0.02374937049361885
+      },
+      {
+        "Method": "mRMR",
+        "Classifier": "LightGBM",
+        "ROC_AUC_mean": 0.9691032036975623,
+        "ROC_AUC_std": 0.020807997637579078,
+        "Brier_score_mean": 0.0691720367455064,
+        "Brier_score_std": 0.0261341317070769
+      },
+      {
+        "Method": "mRMR",
+        "Classifier": "RF",
+        "ROC_AUC_mean": 0.968025773288279,
+        "ROC_AUC_std": 0.02139749455616501,
+        "Brier_score_mean": 0.08023021280585285,
+        "Brier_score_std": 0.015477946279948864
+      }
+    ],
+    "inference": [
+      {
+        "Analysis": "Repeated strict fold-fitted panel stability",
+        "Test": "Friedman",
+        "Proposed": "NIBFS",
+        "Comparator": "All methods",
+        "Alternative": "two-sided",
+        "N_repeats": 5,
+        "Statistic": 15.0,
+        "P_value": 0.0018166489665723214,
+        "Mean_difference": NaN,
+        "Median_difference": NaN,
+        "BH_adjusted_p": NaN
+      },
+      {
+        "Analysis": "Repeated strict fold-fitted panel stability",
+        "Test": "Paired Wilcoxon",
+        "Proposed": "NIBFS",
+        "Comparator": "DEG-only",
+        "Alternative": "greater",
+        "N_repeats": 5,
+        "Statistic": 15.0,
+        "P_value": 0.03125,
+        "Mean_difference": 0.14508117968987538,
+        "Median_difference": 0.14436954349997821,
+        "BH_adjusted_p": 0.03125
+      },
+      {
+        "Analysis": "Repeated strict fold-fitted panel stability",
+        "Test": "Paired Wilcoxon",
+        "Proposed": "NIBFS",
+        "Comparator": "mRMR",
+        "Alternative": "greater",
+        "N_repeats": 5,
+        "Statistic": 15.0,
+        "P_value": 0.03125,
+        "Mean_difference": 0.607599731209582,
+        "Median_difference": 0.5849822282604231,
+        "BH_adjusted_p": 0.03125
+      },
+      {
+        "Analysis": "Repeated strict fold-fitted panel stability",
+        "Test": "Paired Wilcoxon",
+        "Proposed": "NIBFS",
+        "Comparator": "LASSO",
+        "Alternative": "greater",
+        "N_repeats": 5,
+        "Statistic": 15.0,
+        "P_value": 0.03125,
+        "Mean_difference": 0.6401034154296383,
+        "Median_difference": 0.6264263130546073,
+        "BH_adjusted_p": 0.03125
+      }
+    ]
+  },
+  "stability_selection": {
+    "status": "PASS",
+    "design": "Empirical screened L1-logistic stability-selection comparator under the same 10 repeated five-fold evaluation partitions",
+    "existing_methods_rerun": false,
+    "new_outer_folds": 50,
+    "subsamples_per_outer_fold": 50,
+    "screen_k": 1000,
+    "C": 1.0,
+    "pi_threshold": 0.9,
+    "stability_summary": [
+      {
+        "Method": "NIBFS",
+        "Mean_Jaccard": 0.9056277056277058,
+        "SD_between_repeats": 0.014624945984784895,
+        "Median_Jaccard": 0.9056277056277057,
+        "Minimum_repeat_mean": 0.8874458874458876,
+        "Maximum_repeat_mean": 0.9333333333333333,
+        "Nogueira_stability": 0.9536604651162791
+      },
+      {
+        "Method": "DEG-only",
+        "Mean_Jaccard": 0.8519442875964616,
+        "SD_between_repeats": 0.026893595232236882,
+        "Median_Jaccard": 0.8528138528138529,
+        "Minimum_repeat_mean": 0.8117824204780728,
+        "Maximum_repeat_mean": 0.9056277056277058,
+        "Nogueira_stability": 0.9276302325581395
+      },
+      {
+        "Method": "mRMR",
+        "Mean_Jaccard": 0.6308595269464835,
+        "SD_between_repeats": 0.030189739337516484,
+        "Median_Jaccard": 0.6292741236219497,
+        "Minimum_repeat_mean": 0.5816885208189555,
+        "Maximum_repeat_mean": 0.6828316610925307,
+        "Nogueira_stability": 0.7804797342192692
+      },
+      {
+        "Method": "Stability-selection",
+        "Mean_Jaccard": 0.33558105275968264,
+        "SD_between_repeats": 0.019836413819831002,
+        "Median_Jaccard": 0.3416204327926503,
+        "Minimum_repeat_mean": 0.2845581047668334,
+        "Maximum_repeat_mean": 0.3553238651877662,
+        "Nogueira_stability": 0.5323548172757473
+      },
+      {
+        "Method": "LASSO",
+        "Mean_Jaccard": 0.32996743282793145,
+        "SD_between_repeats": 0.032289028281923156,
+        "Median_Jaccard": 0.3179409300377042,
+        "Minimum_repeat_mean": 0.2816322949444719,
+        "Maximum_repeat_mean": 0.38353402663747493,
+        "Nogueira_stability": 0.528963122923588
+      }
+    ],
+    "repeat_level_inference": [
+      {
+        "Analysis": "Repeated panel stability with stability-selection comparator",
+        "Test": "Friedman",
+        "Proposed": "NIBFS",
+        "Comparator": "All methods",
+        "Alternative": "two-sided",
+        "N_repeats": 10,
+        "Statistic": 38.0,
+        "P_value": 1.1205592875074531e-07,
+        "Mean_difference": NaN,
+        "Median_difference": NaN,
+        "BH_adjusted_p": NaN
+      },
+      {
+        "Analysis": "Repeated panel stability with stability-selection comparator",
+        "Test": "Paired Wilcoxon",
+        "Proposed": "NIBFS",
+        "Comparator": "DEG-only",
+        "Alternative": "greater",
+        "N_repeats": 10,
+        "Statistic": 55.0,
+        "P_value": 0.0009765625,
+        "Mean_difference": 0.05368341803124408,
+        "Median_difference": 0.043722943722943663,
+        "BH_adjusted_p": 0.0009765625
+      },
+      {
+        "Analysis": "Repeated panel stability with stability-selection comparator",
+        "Test": "Paired Wilcoxon",
+        "Proposed": "NIBFS",
+        "Comparator": "mRMR",
+        "Alternative": "greater",
+        "N_repeats": 10,
+        "Statistic": 55.0,
+        "P_value": 0.0009765625,
+        "Mean_difference": 0.2747681786812223,
+        "Median_difference": 0.2732916841612494,
+        "BH_adjusted_p": 0.0009765625
+      },
+      {
+        "Analysis": "Repeated panel stability with stability-selection comparator",
+        "Test": "Paired Wilcoxon",
+        "Proposed": "NIBFS",
+        "Comparator": "LASSO",
+        "Alternative": "greater",
+        "N_repeats": 10,
+        "Statistic": 55.0,
+        "P_value": 0.0009765625,
+        "Mean_difference": 0.5756602727997743,
+        "Median_difference": 0.5810090148799827,
+        "BH_adjusted_p": 0.0009765625
+      },
+      {
+        "Analysis": "Repeated panel stability with stability-selection comparator",
+        "Test": "Paired Wilcoxon",
+        "Proposed": "NIBFS",
+        "Comparator": "Stability-selection",
+        "Alternative": "greater",
+        "N_repeats": 10,
+        "Statistic": 55.0,
+        "P_value": 0.0009765625,
+        "Mean_difference": 0.570046652868023,
+        "Median_difference": 0.5658869450747681,
+        "BH_adjusted_p": 0.0009765625
+      }
+    ],
+    "new_comparator_lr_oof_auc_mean": 0.993522096308082,
+    "new_comparator_lr_oof_auc_sd": 0.0012832836527492753,
+    "archived_nibfs_lr_oof_auc_mean": 0.98982,
+    "archived_nibfs_lr_oof_auc_sd": 0.001003,
+    "method_label_note": "For manuscript wording, describe this transparently as a screened L1-logistic stability-selection comparator with fixed-k top-20 reporting; do not imply formal family-wise error control from the pi-threshold audit."
+  },
+  "sample_identity_audit": {
+    "total_discovery_samples": 760,
+    "unique_GSM_IDs": 760,
+    "exact_duplicate_GSM_rows": 0,
+    "cross_cohort_metadata_fingerprint_flag_rows": 0,
+    "interpretation": "Exact GSM duplicate screening is definitive for repeated GEO accessions. Metadata-fingerprint flags are a conservative review list only and cannot, by themselves, establish or exclude shared biological specimens across independent studies."
+  },
+  "updated_external_table": "/content/drive/MyDrive/CBC_ADDITIONAL_ANALYSIS_RESULTS/results_additional/99_submission_ready_summary/UPDATED_Table_S5A_External_Summary.csv",
+  "manuscript_update_guide": "/content/drive/MyDrive/CBC_ADDITIONAL_ANALYSIS_RESULTS/results_additional/99_submission_ready_summary/MANUSCRIPT_UPDATE_GUIDE.md"
+}

@@ -12,7 +12,7 @@
 #
 # Primary design:
 #   - 10 repeats x stratified 5-fold CV = 50 validation folds
-#   - development set only (the locked 152-sample test set is excluded)
+#   - development set only (the designated 152-sample internal assessment set is excluded)
 #   - k = 20
 #   - selectors: NIBFS, DEG-only, mRMR, LASSO
 #   - classifier: logistic regression only
@@ -30,7 +30,7 @@
 # Scientific role:
 #   This is a robustness/sensitivity analysis. It does not replace the
 #   original five-fold CV, does not redefine the frozen top-20 panel, and
-#   does not alter the locked internal or external validation results.
+#   does not alter the reported internal or external evaluation results.
 # ============================================================
 
 from __future__ import annotations

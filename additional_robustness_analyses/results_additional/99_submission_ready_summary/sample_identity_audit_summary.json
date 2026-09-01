@@ -1,0 +1,7 @@
+{
+  "total_discovery_samples": 760,
+  "unique_GSM_IDs": 760,
+  "exact_duplicate_GSM_rows": 0,
+  "cross_cohort_metadata_fingerprint_flag_rows": 0,
+  "interpretation": "Exact GSM duplicate screening is definitive for repeated GEO accessions. Metadata-fingerprint flags are a conservative review list only and cannot, by themselves, establish or exclude shared biological specimens across independent studies."
+}

@@ -211,9 +211,9 @@ def write_json(data: dict, path: str | Path) -> None:
 def create_legacy_figure_aliases(figures_dir: str | Path) -> pd.DataFrame:
     figures_dir = Path(figures_dir)
     rows = []
-    for canonical, aliases in LEGACY_FIGURE_ALIASES.items():
-        source = figures_dir / canonical
+    for primary_name, aliases in LEGACY_FIGURE_ALIASES.items():
+        source = figures_dir / primary_name
         copy_figure_family(source, [figures_dir / alias for alias in aliases])
         for alias in aliases:
-            rows.append({"Canonical": canonical, "Compatibility_alias": alias, "Created": (figures_dir / alias).exists()})
+            rows.append({"Primary_name": primary_name, "Compatibility_alias": alias, "Created": (figures_dir / alias).exists()})
     return pd.DataFrame(rows)
