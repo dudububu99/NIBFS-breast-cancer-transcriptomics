@@ -2,7 +2,7 @@
 
 **Manuscript:** *Stability-aware feature selection with fixed-rank fusion for reproducible breast cancer gene prioritization*  
 **Authors:** Dian Yuliati, Mohammad Isa Irawan, Muhammad Syifa'ul Mufid  
-**Repository release:** 1.2.4 (2026-08-30)
+**Repository release:** 1.2.5 (2026-08-31)
 
 ## Purpose
 

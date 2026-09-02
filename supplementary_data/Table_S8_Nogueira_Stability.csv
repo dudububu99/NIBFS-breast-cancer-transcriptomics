@@ -2,3 +2,4 @@ Evaluation_setting,NIBFS,DEG-only,mRMR-inspired,LASSO
 Primary 5-fold,0.949942,0.899884,0.784750,0.469384
 Repeated 10x5-fold,0.953660,0.927630,0.780480,0.528963
 Single strict training-fold-fitted 5-fold sensitivity,0.939930,0.829802,0.359256,0.309198
+Repeated strict 5x5-fold,0.918906,0.832305,0.392461,0.364595

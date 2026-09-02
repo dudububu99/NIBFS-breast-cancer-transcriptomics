@@ -1,6 +1,6 @@
 project:
   analysis_scope: raw_nibfs_plus_frozen_kan_bridge
-  package_version: 1.0.0
+  package_version: 1.2.5
   random_state: 42
   final_k: 20
   sensitivity_k:

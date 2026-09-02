@@ -12,3 +12,8 @@ Documentation was synchronized to the executed code by clarifying that:
 - TCGA-BRCA uses STAR-Counts `gene_name`, within-sample ranks over the shared gene universe, and the explicitly documented rank-space classifier configurations.
 
 The release also retains the exact p-value granularity, post-harmonization internal-assessment caveat, fixed-random-anchor interpretation, and public-secondary-data ethics wording used in the manuscript.
+
+
+## Submission-sync patch (2026-09-02)
+
+A non-scientific synchronization patch repaired the additional-analysis Run-All notebook import typo, aligned version metadata, and completed machine-readable Supplementary Table S8/S10 source coverage. No scientific output or manuscript value changed. See `SUBMISSION_SYNC_PATCH_20260902.md`.
