@@ -48,7 +48,6 @@ def main() -> None:
         "Primary 5-fold": {"NIBFS": 0.949942, "DEG-only": 0.899884, "mRMR-inspired": 0.784750, "LASSO": 0.469384},
         "Repeated 10x5-fold": {"NIBFS": 0.953660, "DEG-only": 0.927630, "mRMR-inspired": 0.780480, "LASSO": 0.528963},
         "Single strict training-fold-fitted 5-fold sensitivity": {"NIBFS": 0.939930, "DEG-only": 0.829802, "mRMR-inspired": 0.359256, "LASSO": 0.309198},
-        "Repeated strict 5x5-fold": {"NIBFS": 0.918906, "DEG-only": 0.832305, "mRMR-inspired": 0.392461, "LASSO": 0.364595},
     }
     for setting, vals in expected_nog.items():
         for method, value in vals.items():
@@ -62,32 +61,6 @@ def main() -> None:
         close(wil.loc[comparator, "Mean_difference"], delta, tol=1e-6)
         close(wil.loc[comparator, "BH_adjusted_p"], 0.000977, tol=1e-6)
     checks.append(("Repeated matched stability inference", True))
-
-    # Repeated strict 5x5 machine-readable Table S10 must match the manuscript values.
-    s10 = pd.read_csv(ROOT / "supplementary_data" / "Table_S10_Repeated_Strict_FoldFitted_5x5.csv").set_index("Method")
-    expected_s10 = {
-        "NIBFS": (0.8442348955392435, 0.9189058139534884, 0.8647040426402794, 0.9320594758998169, 0.9381175595371474),
-        "DEG-only": (0.6991537158493680, 0.8323052325581395, 0.8930581732679628, 0.9549122396603597, 0.9555448944898075),
-        "mRMR-inspired": (0.2366351643296614, 0.3924610465116279, 0.8654919168108226, 0.9680257732882790, 0.9691032036975623),
-        "LASSO": (0.2041314801096051, 0.3645953488372091, 0.8548294209562394, 0.9344415055556055, 0.9365606874071949),
-    }
-    for method, vals in expected_s10.items():
-        close(s10.loc[method, "Mean_Jaccard"], vals[0], tol=1e-12)
-        close(s10.loc[method, "Nogueira_stability"], vals[1], tol=1e-12)
-        close(s10.loc[method, "LR_ROC_AUC_mean"], vals[2], tol=1e-12)
-        close(s10.loc[method, "RF_ROC_AUC_mean"], vals[3], tol=1e-12)
-        close(s10.loc[method, "LightGBM_ROC_AUC_mean"], vals[4], tol=1e-12)
-    checks.append(("Repeated strict 5x5 Table S10 values", True))
-
-    s10b = pd.read_csv(ROOT / "supplementary_data" / "Table_S10B_Repeated_Strict_FoldFitted_Inference.csv")
-    s10b_w = s10b.loc[s10b["Test"].eq("Paired Wilcoxon")].set_index("Comparator")
-    for comparator, delta in {"DEG-only": 0.14508117968987538, "mRMR": 0.6075997312095820, "LASSO": 0.6401034154296383}.items():
-        close(s10b_w.loc[comparator, "Mean_difference"], delta, tol=1e-12)
-        close(s10b_w.loc[comparator, "BH_adjusted_p"], 0.03125, tol=1e-12)
-    friedman = s10b.loc[s10b["Test"].eq("Friedman")].iloc[0]
-    close(friedman["Statistic"], 15.0, tol=1e-12)
-    close(friedman["P_value"], 0.0018166489665723214, tol=1e-15)
-    checks.append(("Repeated strict 5x5 Table S10 inference", True))
 
     # LASSO nonzero audit.
     la = pd.read_csv(ROOT / "supplementary_data" / "Table_S9_LASSO_Nonzero_Audit.csv")

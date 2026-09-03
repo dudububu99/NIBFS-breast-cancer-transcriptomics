@@ -19,7 +19,7 @@ The frozen top-20 panel is presented as a computationally prioritized candidate 
 - exact primary fold assignments plus machine-readable Supplementary Tables S1--S13 and Data Files D1--D4 in `supplementary_data/`;
 - compact verification outputs for fold-fitted preprocessing, Nogueira stability, repeated-resampling inference, degree-preserving rewiring, and TCGA-BRCA in `results/verification/`;
 - the KM Plotter RFS input used for post-selection survival context in `manual_inputs/`;
-- environment helpers, tests, an archive-verification script, and a manuscript-to-code map.
+- environment helpers, core unit/smoke tests, release/manifest verification scripts, an archive-verification script, and a manuscript-to-code map.
 
 Raw GEO, STRING, HGNC, and GDC files are not committed. The supplied code downloads public resources or reconstructs them from public identifiers.
 
@@ -36,6 +36,17 @@ The frozen top-20 NIBFS panel used in the manuscript is, in rank order:
 `CDK1, EGFR, CCNB1, BUB1B, FN1, CDC20, EZH2, STAT1, TOP2A, CAV1, RRM2, GNAI1, KIT, PPARG, CCNA2, UBE2C, FGF2, CCNB2, MAD2L1, FOXO1`.
 
 The archive-verification script checks that the expected panel, TCGA analysis, and KM Plotter input agree exactly.
+
+## Reviewer-first verification (no full rerun required)
+
+For reviewers, editors, or supervisors who want to audit the released evidence **without downloading public datasets or rerunning the manuscript experiments**, start with [`START_HERE_REVIEWERS.md`](START_HERE_REVIEWERS.md). After installing the lightweight verification/test dependencies, one command runs the complete release QA:
+
+```bash
+python -m pip install -r requirements-verify.txt
+python scripts/verify_repository.py --with-tests
+```
+
+The verifier checks release-version synchronization, SHA-256/file-size integrity, machine-readable manuscript evidence, and the deterministic unit/smoke tests. Windows users may instead double-click `VERIFY_REPOSITORY_WINDOWS.bat`; macOS/Linux users may run `bash verify_repository_unix.sh`. A full scientific rerun remains available as a separate optional path below.
 
 ## Recommended environment
 
@@ -143,13 +154,25 @@ Run `notebooks/03_TCGA_BRCA_RNAseq_external_validation.ipynb`. The reusable anal
 
 ## Verification
 
-Run:
+For a clean clone or extracted release, run the repository QA checks in this order:
 
 ```bash
+python scripts/verify_release_metadata.py
+python scripts/verify_file_manifest.py
 python scripts/verify_paper_archive.py
+python -m pip install -r requirements-verify.txt
+pytest -q
 ```
 
-The script checks frozen-panel identity, the exact primary fold assignment, Nogueira stability, repeated stability inference, LASSO nonzero-coefficient auditing, fold-fitted stability, the 100-replicate degree-preserving control, the B=1000 topology-permutation summary, RWR-DEG reference values, external-dataset coverage, TCGA pair counts and panel coverage, and the KM Plotter panel input.
+`verify_release_metadata.py` checks release-version consistency across the README, `CITATION.cff`, configuration, package marker, Python package metadata, and release notes. `verify_file_manifest.py` verifies SHA-256 hashes, file sizes, and exact non-transient file coverage while intentionally ignoring runtime caches such as `__pycache__/` and `.pytest_cache/`. `verify_paper_archive.py` checks frozen-panel identity, the exact primary fold assignment, Nogueira stability, repeated stability inference, LASSO nonzero-coefficient auditing, fold-fitted stability, the 100-replicate degree-preserving control, the B=1000 topology-permutation summary, RWR-DEG reference values, external-dataset coverage, TCGA pair counts and panel coverage, and the KM Plotter panel input.
+
+The manifest can be regenerated deterministically, if the release contents are intentionally changed, with:
+
+```bash
+python scripts/build_file_manifest.py
+```
+
+Do not regenerate the manifest after an unintended modification; a manifest mismatch is intended to expose such changes.
 
 ## Key verification values
 
@@ -163,10 +186,10 @@ See `docs/PAPER_TO_CODE_MAP.md` for a manuscript-analysis-to-source mapping and 
 
 ## Tests
 
-TCGA helper smoke tests are included under `tests/`:
+The test suite includes TCGA helper smoke tests plus small deterministic tests for core Borda ranking, pairwise Jaccard summaries, the Nogueira stability estimator, and classification metrics. These tests do not rerun the manuscript experiments or alter archived scientific outputs.
 
 ```bash
-python -m pip install -r requirements-dev.txt
+python -m pip install -r requirements-verify.txt
 pytest -q
 ```
 

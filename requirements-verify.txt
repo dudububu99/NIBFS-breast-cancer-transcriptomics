@@ -1,0 +1,13 @@
+# Lightweight reviewer/supervisor verification environment.
+# This is intentionally smaller than requirements.txt and does not require R/rpy2.
+numpy>=1.26,<3
+pandas>=2.0,<3
+scipy>=1.11,<2
+scikit-learn>=1.4,<2
+matplotlib>=3.8,<4
+lightgbm>=4.0,<5
+networkx>=3.0
+pyyaml>=6
+requests>=2.31
+statsmodels>=0.14
+pytest>=8,<9

@@ -41,3 +41,6 @@ results/archives/
 # Temporary extracted archives
 *_UNPACK/
 *_EXTRACTED/
+
+# Reviewer verification virtual environment
+.venv_review/
