@@ -1,4 +1,4 @@
-# Lightweight reviewer/supervisor verification environment.
+# Lightweight dependencies for release verification.
 # This is intentionally smaller than requirements.txt and does not require R/rpy2.
 numpy>=1.26,<3
 pandas>=2.0,<3

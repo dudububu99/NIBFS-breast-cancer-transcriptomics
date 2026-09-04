@@ -28,7 +28,7 @@ def main(
         "tables_zip": str(Path(tables_zip).resolve()),
         "tables_zip_sha256": sha256_file(tables_zip),
         "workspace": str(paths.workspace),
-        "old_inputs_modified": False,
+        "source_inputs_modified": False,
         "policy": "All new outputs are written only under the additional-analysis workspace.",
     }
     write_json(input_manifest, paths.workspace / "INPUT_LOCK.json")
@@ -50,10 +50,10 @@ def main(
     ]
     missing = [str(p) for p in required if not p.is_file()]
     if missing:
-        raise FileNotFoundError("CBC additional analysis preflight failed; missing required reference inputs:\n" + "\n".join(missing))
+        raise FileNotFoundError("Additional-analysis preflight failed; missing required reference inputs:\n" + "\n".join(missing))
 
     print("=" * 92)
-    print("CBC ADDITIONAL ANALYSIS RUN-ALL")
+    print("NIBFS ADDITIONAL ROBUSTNESS ANALYSES")
     print("Reference results are used as fixed inputs for the matched additional analyses.")
     print("Workspace:", paths.workspace)
     print("=" * 92)
@@ -73,21 +73,21 @@ def main(
         pi_threshold=0.90,
     )
 
-    print("\n[4/4] Consolidating submission-ready tables, audit, and manuscript update guide")
+    print("\n[4/4] Consolidating reproducibility summaries")
     master = run_consolidate(paths, gse_summary, strict_summary, ss_summary)
 
-    # Create a compact ZIP containing the additional-analysis results (excluding raw GEO cache/checkpoints).
-    review_zip_base = paths.workspace / "CBC_ADDITIONAL ANALYSIS_RESULTS_FOR_REVIEW"
-    review_zip = Path(shutil.make_archive(str(review_zip_base), "zip", root_dir=paths.results_dir))
-    master["review_zip"] = str(review_zip)
-    write_json(master, paths.results_dir / "99_submission_ready_summary" / "CBC_ADDITIONAL ANALYSIS_MASTER_SUMMARY.json")
+    # Create an optional compact archive of the additional-analysis results.
+    archive_base = paths.workspace / "NIBFS_ADDITIONAL_ROBUSTNESS_RESULTS"
+    archive_path = Path(shutil.make_archive(str(archive_base), "zip", root_dir=paths.results_dir))
+    master["results_archive"] = str(archive_path)
+    summary_dir = paths.results_dir / "99_summary"
+    write_json(master, summary_dir / "ANALYSIS_SUMMARY.json")
 
     print("\n" + "=" * 92)
-    print("ALL ADDITIONAL ANALYSIS ANALYSES COMPLETE")
+    print("ADDITIONAL ROBUSTNESS ANALYSES COMPLETE")
     print("Results:", paths.results_dir)
-    print("Review ZIP:", review_zip)
-    print("Master summary:", paths.results_dir / "99_submission_ready_summary" / "CBC_ADDITIONAL ANALYSIS_MASTER_SUMMARY.json")
-    print("Manuscript guide:", paths.results_dir / "99_submission_ready_summary" / "MANUSCRIPT_UPDATE_GUIDE.md")
+    print("Archive:", archive_path)
+    print("Summary:", summary_dir / "ANALYSIS_SUMMARY.json")
     print("=" * 92)
     return master
 

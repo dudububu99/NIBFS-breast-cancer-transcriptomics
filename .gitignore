@@ -42,5 +42,6 @@ results/archives/
 *_UNPACK/
 *_EXTRACTED/
 
-# Reviewer verification virtual environment
+# Verification virtual environments
+.venv_verify/
 .venv_review/

@@ -1,25 +1,18 @@
 # Release notes - v1.2.5
 
-**Date:** 2026-08-31
+**Date:** 2026-09-04
 
-This is a documentation-synchronization release accompanying the final manuscript and Supplementary Material. Scientific outputs, predictions, selected panels, fold assignments, bootstrap distributions, and analysis code are unchanged from v1.2.4.
+Public reproducibility release accompanying the manuscript *Stability-aware feature selection with fixed-rank fusion for reproducible breast cancer gene prioritization*.
 
-Documentation was synchronized to the executed code by clarifying that:
+This release provides:
 
-- the empirical stability-selection comparator uses an outer-training 1,000-gene screen based on absolute Welch-style standardized mean differences, followed by 50 stratified half-sample L1-logistic resamples;
-- the `pi >= 0.90` set is descriptive and does not define the reported fixed-k top-20 panel or imply a formal error-control guarantee;
-- primary LOCO ROC-AUC eligibility requires both classes and at least 15 held-out samples; and
-- TCGA-BRCA uses STAR-Counts `gene_name`, within-sample ranks over the shared gene universe, and the explicitly documented rank-space classifier configurations.
+- the NIBFS implementation and analysis configuration;
+- notebooks and scripts for the reported computational workflow;
+- machine-readable Supplementary Data and compact verification outputs;
+- additional robustness-analysis code and archived results;
+- deterministic release-integrity and manuscript-evidence verification; and
+- unit/smoke tests for selected core utilities.
 
-The release also retains the exact p-value granularity, post-harmonization internal-assessment caveat, fixed-random-anchor interpretation, and public-secondary-data ethics wording used in the manuscript.
+The release documents the executed stability-selection comparator, LOCO eligibility rule, TCGA-BRCA rank-space configuration, fixed-random-anchor interpretation, and the distinction between post-harmonization internal assessment and independent external evaluation.
 
-## Pre-publication GitHub packaging QA (2026-09-03)
-
-Before the first public GitHub commit, repository packaging was cleaned without changing any scientific result, prediction, selected panel, fold assignment, analysis algorithm, or archived manuscript evidence. The README/config/package version metadata were harmonized to v1.2.5; Python/pytest cache artifacts were removed; deterministic manifest-build and stricter manifest/release verification were added; and small unit tests were added for existing core utility functions.
-
-
-### Reviewer-facing verification convenience layer (2026-09-03)
-
-The same v1.2.5 scientific release now includes a reviewer-first verification entry point (`scripts/verify_repository.py`), `START_HERE_REVIEWERS.md`, and isolated Windows/macOS/Linux launchers. These additions only orchestrate existing integrity/archive/unit checks; they do not rerun or alter manuscript experiments or scientific outputs.
-
-A separate `requirements-verify.txt` is provided for reviewer/supervisor QA so that integrity checks and deterministic tests can be run without installing the full R/rpy2-enabled reproduction environment.
+Scientific outputs, selected panels, fold assignments, archived predictions, and reported manuscript values are preserved.

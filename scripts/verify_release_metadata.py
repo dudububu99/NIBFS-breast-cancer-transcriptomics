@@ -11,8 +11,8 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 VERSION = "1.2.5"
-RELEASE_DATE = "2026-08-31"
-DISPLAY_DATE = "2026-08-31"
+RELEASE_DATE = "2026-09-04"
+DISPLAY_DATE = "2026-09-04"
 
 
 def check(name: str, condition: bool, failures: list[str]) -> None:
@@ -26,7 +26,7 @@ def main() -> None:
 
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
     check(
-        "README release is v1.2.5 dated 2026-08-31",
+        "README release is v1.2.5 dated 2026-09-04",
         f"**Repository release:** {VERSION} ({DISPLAY_DATE})" in readme,
         failures,
     )
@@ -49,12 +49,14 @@ def main() -> None:
     check("release-notes version", f"# Release notes - v{VERSION}" in notes, failures)
     check("release-notes date", f"**Date:** {RELEASE_DATE}" in notes, failures)
 
-    summary = (ROOT / "RELEASE_SUMMARY.txt").read_text(encoding="utf-8")
-    check("release summary version/date", f"release {VERSION} - {RELEASE_DATE}" in summary, failures)
 
     gitignore = (ROOT / ".gitignore").read_text(encoding="utf-8")
     for pattern in ("__pycache__/", "*.py[cod]", ".pytest_cache/"):
         check(f".gitignore contains {pattern}", pattern in gitignore, failures)
+
+    attributes = (ROOT / ".gitattributes").read_text(encoding="utf-8")
+    check(".gitattributes enforces LF text endings", "* text=auto eol=lf" in attributes, failures)
+
 
     manifest_path = ROOT / "FILE_MANIFEST_SHA256.csv"
     if manifest_path.exists():

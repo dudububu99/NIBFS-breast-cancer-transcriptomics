@@ -1,0 +1,13 @@
+# Keep text files byte-stable across platforms so release hashes remain reproducible.
+* text=auto eol=lf
+
+# Binary artifacts
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.tif binary
+*.tiff binary
+*.pdf binary
+*.gz binary
+*.zip binary
+*.joblib binary

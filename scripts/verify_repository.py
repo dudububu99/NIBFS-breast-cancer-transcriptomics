@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reviewer-friendly repository verification without rerunning manuscript experiments.
+"""Repository verification without rerunning manuscript experiments.
 
 Default checks validate release metadata, cryptographic file integrity, and the
 machine-readable manuscript evidence archive. Use --with-tests to also run the

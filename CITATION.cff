@@ -10,7 +10,8 @@ authors:
   - family-names: Mufid
     given-names: "Muhammad Syifa'ul"
 version: 1.2.5
-date-released: 2026-08-31
+date-released: 2026-09-04
+repository-code: "https://github.com/dudububu99/NIBFS-breast-cancer-transcriptomics"
 abstract: "Reference implementation and verification archive for stability-aware feature selection with fixed-rank fusion for reproducible breast cancer gene prioritization."
 keywords:
   - NIBFS

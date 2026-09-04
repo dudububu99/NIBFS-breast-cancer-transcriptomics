@@ -3,7 +3,7 @@ setlocal
 cd /d "%~dp0"
 
 echo ================================================================
-echo NIBFS v1.2.5 - reviewer verification (no manuscript rerun)
+echo NIBFS v1.2.5 - release verification (no manuscript rerun)
 echo ================================================================
 
 where python >nul 2>nul
@@ -14,13 +14,13 @@ if errorlevel 1 (
   exit /b 1
 )
 
-if not exist ".venv_review\Scripts\python.exe" (
-  echo Creating isolated verification environment .venv_review ...
-  python -m venv .venv_review
+if not exist ".venv_verify\Scripts\python.exe" (
+  echo Creating isolated verification environment .venv_verify ...
+  python -m venv .venv_verify
   if errorlevel 1 goto :fail
 )
 
-call ".venv_review\Scripts\activate.bat"
+call ".venv_verify\Scripts\activate.bat"
 python -m pip install --upgrade pip
 if errorlevel 1 goto :fail
 python -m pip install -r requirements-verify.txt

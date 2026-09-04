@@ -16,6 +16,7 @@ IGNORED_DIRS = {
     ".ipynb_checkpoints",
     ".venv",
     ".venv_review",
+    ".venv_verify",
     "venv",
     ".idea",
     ".vscode",
@@ -60,7 +61,7 @@ def main() -> None:
             }
         )
     with MANIFEST.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=["relative_path", "size_bytes", "sha256"])
+        writer = csv.DictWriter(handle, fieldnames=["relative_path", "size_bytes", "sha256"], lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
     print(f"FILE MANIFEST BUILT ({len(rows)} non-transient files)")

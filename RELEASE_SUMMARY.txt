@@ -1,7 +1,0 @@
-NIBFS repository release 1.2.5 - 2026-08-31
-
-This documentation-synchronized release accompanies the final manuscript and Supplementary Material.
-It preserves all scientific outputs from v1.2.4 and clarifies the executed stability-selection screen, LOCO eligibility rule, TCGA rank-space configuration, and manuscript-to-code reporting.
-
-Pre-publication GitHub QA removed transient cache files, harmonized release metadata to v1.2.5, strengthened release/manifest verification, and added deterministic core utility tests. Scientific outputs and analysis logic remain unchanged.
-

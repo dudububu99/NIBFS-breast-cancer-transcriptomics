@@ -2,7 +2,7 @@
 
 **Manuscript:** *Stability-aware feature selection with fixed-rank fusion for reproducible breast cancer gene prioritization*  
 **Authors:** Dian Yuliati, Mohammad Isa Irawan, Muhammad Syifa'ul Mufid  
-**Repository release:** 1.2.5 (2026-08-31)
+**Repository release:** 1.2.5 (2026-09-04)
 
 ## Purpose
 
@@ -37,16 +37,16 @@ The frozen top-20 NIBFS panel used in the manuscript is, in rank order:
 
 The archive-verification script checks that the expected panel, TCGA analysis, and KM Plotter input agree exactly.
 
-## Reviewer-first verification (no full rerun required)
+## Quick verification (no full rerun required)
 
-For reviewers, editors, or supervisors who want to audit the released evidence **without downloading public datasets or rerunning the manuscript experiments**, start with [`START_HERE_REVIEWERS.md`](START_HERE_REVIEWERS.md). After installing the lightweight verification/test dependencies, one command runs the complete release QA:
+To verify the released repository **without downloading public datasets or rerunning the manuscript experiments**, install the lightweight verification dependencies and run:
 
 ```bash
 python -m pip install -r requirements-verify.txt
 python scripts/verify_repository.py --with-tests
 ```
 
-The verifier checks release-version synchronization, SHA-256/file-size integrity, machine-readable manuscript evidence, and the deterministic unit/smoke tests. Windows users may instead double-click `VERIFY_REPOSITORY_WINDOWS.bat`; macOS/Linux users may run `bash verify_repository_unix.sh`. A full scientific rerun remains available as a separate optional path below.
+The verifier checks release-version synchronization, SHA-256/file-size integrity, machine-readable manuscript evidence, and deterministic unit/smoke tests. Windows users may instead double-click `VERIFY_REPOSITORY_WINDOWS.bat`; macOS/Linux users may run `bash verify_repository_unix.sh`. See [`REPRODUCIBILITY.md`](REPRODUCIBILITY.md) for the distinction between verification of archived evidence and optional end-to-end reproduction.
 
 ## Recommended environment
 
@@ -154,7 +154,7 @@ Run `notebooks/03_TCGA_BRCA_RNAseq_external_validation.ipynb`. The reusable anal
 
 ## Verification
 
-For a clean clone or extracted release, run the repository QA checks in this order:
+For a clean clone or extracted release, run the repository verification checks in this order:
 
 ```bash
 python scripts/verify_release_metadata.py
@@ -182,7 +182,7 @@ Machine-readable values are provided in `results/verification/`.
 
 ## Repository map
 
-See `docs/PAPER_TO_CODE_MAP.md` for a manuscript-analysis-to-source mapping and `docs/REPOSITORY_QA.md` for repository verification information.
+See `docs/PAPER_TO_CODE_MAP.md` for a manuscript-analysis-to-source mapping and `REPRODUCIBILITY.md` for verification and reproduction guidance.
 
 ## Tests
 
